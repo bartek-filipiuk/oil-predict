@@ -52,7 +52,7 @@ header .brand span{color:var(--amber)}
 .method ul,.method ol{padding-left:22px;margin:14px 0 0;display:grid;gap:8px}
 .method .card{margin-top:18px}
 .method code,.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px}
-.formula{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-top:16px;overflow-x:auto;white-space:pre;line-height:1.7}
+.formula{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-top:16px;overflow-x:auto;white-space:pre;line-height:1.7;font-size:13px}
 .method table td:first-child{font-weight:600}
 .hero{padding:40px 0 16px}
 .hero h1{font-size:clamp(40px,6.5vw,84px);line-height:.95;text-transform:uppercase;max-width:16ch}
@@ -238,20 +238,24 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.miss td:first-child{b
 
   <h2>2. Co dokładnie przewidujemy</h2>
   <p>Cena hurtowa Orlenu składa się z części rynkowej i stałych podatków. Podatki znamy z góry, więc odejmujemy je i modelujemy tylko część rynkową w ujęciu procentowym:</p>
-  <div class="formula">net(t)   = hurt(t) − akcyza − opłata paliwowa − opłata emisyjna      [PLN/m³]
-cel      = ln net(t+1) − ln net(t)                                    [zmiana procentowa na jutro]</div>
+  <div class="formula">net(t) = hurt(t) − akcyza − opłata paliwowa − opłata emisyjna   [PLN/m³]
+cel    = ln net(t+1) − ln net(t)                                 [zmiana % na jutro]</div>
   <p>Dzięki temu dzień zmiany stawki akcyzy (np. 28 marca i 16 czerwca 2026) nie „uczy” modelu, że rynek zrobił skok. Jutrzejsze podatki dodajemy z powrotem po prognozie.</p>
 
   <h2>3. Czynniki i wzór</h2>
   <p>Model to regresja liniowa z 13 czynnikami. Wszystkie zmiany są logarytmiczne (w praktyce: procentowe). Dane rynkowe z dnia t to zamknięcie z poprzedniej sesji, bo Orlen ustala cennik rano, zanim ruszy handel.</p>
-  <div class="formula">cel = Σ(k=0..4) β_rb,k · r_brent,PLN(t−k)     zmiany Brent w złotych, dziś i 4 dni wstecz
-    + Σ(k=0..4) β_ru,k · r_ulsd,PLN(t−k)      zmiany diesla w złotych, dziś i 4 dni wstecz
-    + β_dw1 · Δln net(t) + β_dw2 · Δln net(t−1)   dwie ostatnie zmiany samego hurtu (Orlen wygładza)
-    + β_gap · [ln net(t) − ln ref(t)]         odchylenie od parytetu importowego (ref = Brent dla benzyn, diesel dla ON)
+  <div class="formula">cel = Σ(k=0..4) β_rb,k · r_brent,PLN(t−k)
+        zmiany Brent w złotych: dziś i 4 dni wstecz
+    + Σ(k=0..4) β_ru,k · r_ulsd,PLN(t−k)
+        zmiany diesla w złotych: dziś i 4 dni wstecz
+    + β_dw1 · Δln net(t) + β_dw2 · Δln net(t−1)
+        dwie ostatnie zmiany samego hurtu (Orlen wygładza ruchy)
+    + β_gap · [ln net(t) − ln ref(t)]
+        odchylenie od parytetu importowego (ref: Brent dla benzyn, diesel dla ON)
     + c</div>
   <p>Współczynniki dopasowane metodą najmniejszych kwadratów na danych od stycznia 2023 do dziś (na potrzeby sprawdzianu w sekcji 6: tylko do końca 2025). Aktualne wartości:</p>
   <div class="card tblwrap" style="padding:6px 0"><table id="beta-table"><thead><tr><th>Czynnik</th><th class="num">Pb95</th><th class="num">Pb98</th><th class="num">ON</th></tr></thead><tbody></tbody></table></div>
-  <p class="muted" style="font-size:14px">Jak czytać: dla Pb95 wzrost Brent w złotych o 1% wczoraj podnosi dziś prognozę hurtu o ok. <span id="beta-example"></span>. Sumy współczynników są dużo mniejsze od 1, bo Orlen rozkłada ruch rynku na wiele dni; pełne przeniesienie widać dopiero w sekcji 5.</p>
+  <p class="muted" style="font-size:14px">Jak czytać: dla Pb95 wzrost Brent w złotych o 1% na ostatniej sesji podnosi prognozę hurtu na jutro o ok. <span id="beta-example"></span>. Sumy współczynników są dużo mniejsze od 1, bo Orlen rozkłada ruch rynku na wiele dni; pełne przeniesienie widać dopiero w sekcji 5.</p>
 
   <h2>4. Z hurtu na pylon</h2>
   <ol>
@@ -515,7 +519,7 @@ function method(){
   const NAMEK = k => k.startsWith("rb") ? "Brent PLN, opóźnienie "+k[2]+" d" : k.startsWith("ru") ? "Diesel PLN, opóźnienie "+k[2]+" d" : k==="dw1" ? "Hurt, ostatnia zmiana" : k==="dw2" ? "Hurt, przedostatnia zmiana" : k==="gap" ? "Odchylenie od parytetu" : "Stała";
   for (const k of keys){ const tr=document.createElement("tr"); const td=document.createElement("td"); td.textContent=NAMEK(k); tr.append(td);
     for (const f of FUELS){ const c=document.createElement("td"); c.className="num"; c.textContent=D.fuels[f].beta[k].toFixed(3); tr.append(c); } bt.append(tr); }
-  $("#beta-example").textContent = fmt(D.fuels.pb95.beta.rb1*100,2)+"%";
+  $("#beta-example").textContent = fmt(D.fuels.pb95.beta.rb0,2).replace(".",",")+"%";
   $("#margin-now").textContent = "Pb95 "+fmt(D.margins.pb95.current*100,0)+" gr/l, ON "+fmt(D.margins.on.current*100,0)+" gr/l (odczyt z "+plDate(D.margins.pb95.current_date)+")";
   const pt = $("#pt-table tbody");
   for (let h=0;h<7;h++){ const tr=document.createElement("tr"); const td=document.createElement("td"); td.textContent=(h+1)+(h===0?" dzień":" dni"); tr.append(td);
