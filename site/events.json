@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09 21:14 UTC",
+ "generated": "2026-09-09 21:17 UTC",
  "headlines": [
   {
    "title": "U.S. Crude Stocks Edge Lower as Oil Tops $100",
@@ -52,47 +52,69 @@
    "published": "2026-09-07 22:59"
   }
  ],
- "source": "static",
- "model": null,
+ "source": "ai",
+ "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz",
-   "label": "Eskalacja w Ormuz, ataki na tankowce",
-   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
-   "brent": 0.12,
-   "crack": 0.08
+   "id": "atak_port_czarnomorski",
+   "label": "Atak Ukrainy na rosyjski port naftowy",
+   "note": "Uderzenie w kluczowy port Morza Czarnego zagraża eksportowi ropy i paliw z Rosji.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Targets-Russias-Key-Black-Sea-Oil-Port.html",
+   "brent": 0.035,
+   "crack": 0.02
   },
   {
-   "id": "truce",
-   "label": "Zawieszenie broni USA–Iran",
-   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
-   "brent": -0.12,
-   "crack": -0.06
+   "id": "skok_diesla_tankowce",
+   "label": "Skok diesla ARA po ataku na tankowce",
+   "note": "Ataki na tankowce windowały marże diesla ARA, co przełoży się na polski hurt.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNajctYjhmekhjOVVWTFM5YlhNVFZfRWhjZE80cEtlX2pERGtiVHFseUlrUXFzQWhuandYSHJMWnc2d3hPUDlYd09fOUxnM1NrcklXaU9ZWmFhQm9KbktPUEpLSGV3SWN4NkRZdjhwTFZ5V1BhVURTY0M4bzFlQjljUnJnVTNiYmVTbWU2Y1dUZ2IwS2U0cDZIWVVISmxIcVFtU0wybUczOW00ZHprelU3Y05BWVJVZXF4bnZhLWIxam1",
+   "brent": 0.02,
+   "crack": 0.045,
+   "pl": 0.015
   },
   {
-   "id": "opec",
-   "label": "OPEC+ podnosi wydobycie",
-   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
+   "id": "sinopec_spadek_popytu",
+   "label": "Sinopec prognozuje spadek popytu w Chinach",
+   "note": "Spadek zapotrzebowania o 8,9% w 2026 r. to silny impuls niedźwiedzi dla ropy naftowej.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Sinopec-Sees-China-Oil-Demand-Falling-89-in-2026.html",
    "brent": -0.03
   },
   {
-   "id": "ru",
-   "label": "Drony na rosyjskie rafinerie",
-   "note": "Ropa bez zmian, drożeje europejski diesel",
-   "brent": 0.01,
-   "crack": 0.06
+   "id": "spadek_zapasow_usa_100us",
+   "label": "Spadek zapasów w USA przy cenie 100 USD",
+   "note": "Kolejny spadek zapasów w USA podtrzymuje presję popytową na drożejącą ropę.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Stocks-Edge-Lower-as-Oil-Tops-100.html",
+   "brent": 0.02,
+   "fx": 0.005
   },
   {
-   "id": "plock",
-   "label": "Awaria lub remont w Płocku",
-   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
-   "pl": 0.02
+   "id": "orlen_korekta_hurtu",
+   "label": "Korekta marż w hurcie Orlenu",
+   "note": "Mimo drogiej ropy Orlen skorygował ceny hurtowe, łagodząc presję kosztową na stacjach.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
+   "pl": -0.01
   },
   {
-   "id": "pln",
-   "label": "Złoty umacnia się o 3%",
-   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
-   "fx": -0.03
+   "id": "ryzyko_wojny_iran",
+   "label": "Ostrzeżenia BoE przed wojną z Iranem",
+   "note": "Eskalacja wokół Iranu grozi szokiem inflacyjnym i umocnieniem dolara wobec złotego.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Bank-of-England-Warns-Iran-War-Could-Push-UK-Inflation-Above-4.html",
+   "brent": 0.03,
+   "fx": 0.015
+  },
+  {
+   "id": "kryzys_paliwowy_rosja",
+   "label": "Kryzys paliwowy w Rosji napędza marże",
+   "note": "Niedobory paliw w Rosji windują marże rafineryjne i ograniczają podaż w regionie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Belarus-Refineries-Post-Decade-High-Profits-Amid-Russias-Fuel-Crisis.html",
+   "crack": 0.02
   }
  ]
 }
