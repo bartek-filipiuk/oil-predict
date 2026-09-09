@@ -3,6 +3,7 @@ import base64, hashlib, re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+UMAMI = "https://stats.67projects.app"   # self-hosted analytics; the only host the page is allowed to talk to
 page = (ROOT / "site" / "page.html").read_text()
 import json
 blob = json.loads((ROOT / "site" / "data.json").read_text())
@@ -15,9 +16,9 @@ def sha(s): return "sha256-" + base64.b64encode(hashlib.sha256(s.encode()).diges
 inline_scripts = re.findall(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>", body, flags=re.S)
 hashes = " ".join(f"'{sha(s)}'" for s in inline_scripts)
 csp = ("default-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; "
-       f"script-src https://cdnjs.cloudflare.com {hashes}; "
+       f"script-src https://cdnjs.cloudflare.com {UMAMI} {hashes}; "
        "style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; "
-       "img-src data:; connect-src 'none'")
+       f"img-src data:; connect-src {UMAMI}")
 title = re.search(r"<title>(.*?)</title>", body).group(1)
 head = f'''<!doctype html>
 <html lang="pl">
