@@ -1,0 +1,98 @@
+{
+ "generated": "2026-09-09 09:04 UTC",
+ "headlines": [
+  {
+   "title": "Brent Breaks $100 for the First Time in Nearly Two Months",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Breaks-100-for-the-First-Time-in-Nearly-Two-Months.html",
+   "published": "2026-09-09 02:42"
+  },
+  {
+   "title": "Rising Oil Prices Threaten China’s Independent Refiners",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Oil-Prices-Threaten-Chinas-Independent-Refiners.html",
+   "published": "2026-09-09 02:05"
+  },
+  {
+   "title": "Pakistan’s Energy Crisis Set to Ease as Qatari LNG Breaks Through Hormuz",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Energy-Crisis-Set-to-Ease-as-Qatari-LNG-Breaks-Through-Hormuz.html",
+   "published": "2026-09-09 00:55"
+  },
+  {
+   "title": "Oil Prices Hit $100 as U.S. Destroys Five Iranian Tankers",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Nears-100-as-US-Destroys-Five-Iranian-Tankers.html",
+   "published": "2026-09-08 22:50"
+  },
+  {
+   "title": "Ceny Paliw 9 Września: Hurt Orlen w Dół Mimo Szczytu Cen Ropy! - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
+   "published": "2026-09-08 22:41"
+  },
+  {
+   "title": "Iran’s Oil Exports Collapse as Hormuz Standoff Drags On",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Irans-Oil-Exports-Collapse-as-Hormuz-Standoff-Drags-On.html",
+   "published": "2026-09-08 19:00"
+  },
+  {
+   "title": "Labor Day Gasoline Just Hit a Record. Here’s What Comes Next",
+   "url": "https://oilprice.com/Energy/Energy-General/Labor-Day-Gasoline-Just-Hit-a-Record-Heres-What-Comes-Next.html",
+   "published": "2026-09-08 15:00"
+  },
+  {
+   "title": "How the U.S. Is Targeting Iran's Oil Money",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/How-the-US-Is-Targeting-Irans-Oil-Money.html",
+   "published": "2026-09-08 13:00"
+  },
+  {
+   "title": "Chevron to Double Venezuela Rig Count in $7 Billion Oil Push",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-to-Double-Venezuela-Rig-Count-in-7-Billion-Oil-Push.html",
+   "published": "2026-09-08 12:59"
+  },
+  {
+   "title": "Ceny paliw 8 września 2026: Skok diesla ARA po ataku na tankowce. W środę droższy hurt dla rolników? - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNajctYjhmekhjOVVWTFM5YlhNVFZfRWhjZE80cEtlX2pERGtiVHFseUlrUXFzQWhuandYSHJMWnc2d3hPUDlYd09fOUxnM1NrcklXaU9ZWmFhQm9KbktPUEpLSGV3SWN4NkRZdjhwTFZ5V1BhVURTY0M4bzFlQjljUnJnVTNiYmVTbWU2Y1dUZ2IwS2U0cDZIWVVISmxIcVFtU0wybUczOW00ZHprelU3Y05BWVJVZXF4bnZhLWIxam1",
+   "published": "2026-09-07 22:59"
+  }
+ ],
+ "source": "static",
+ "model": null,
+ "events": [
+  {
+   "id": "hormuz",
+   "label": "Eskalacja w Ormuz, ataki na tankowce",
+   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
+   "brent": 0.12,
+   "crack": 0.08
+  },
+  {
+   "id": "truce",
+   "label": "Zawieszenie broni USA–Iran",
+   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
+   "brent": -0.12,
+   "crack": -0.06
+  },
+  {
+   "id": "opec",
+   "label": "OPEC+ podnosi wydobycie",
+   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
+   "brent": -0.03
+  },
+  {
+   "id": "ru",
+   "label": "Drony na rosyjskie rafinerie",
+   "note": "Ropa bez zmian, drożeje europejski diesel",
+   "brent": 0.01,
+   "crack": 0.06
+  },
+  {
+   "id": "plock",
+   "label": "Awaria lub remont w Płocku",
+   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
+   "pl": 0.02
+  },
+  {
+   "id": "pln",
+   "label": "Złoty umacnia się o 3%",
+   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
+   "fx": -0.03
+  }
+ ]
+}
