@@ -101,6 +101,8 @@ td.num,th.num{text-align:right}
 .how li{max-width:60ch}
 footer{padding:48px 0 64px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:48px}
 footer p{max-width:80ch}
+footer .build{margin-top:26px;color:var(--ink)}
+footer .build a{color:var(--amber);font-weight:600}
 .srcs{display:grid;gap:6px;margin:10px 0 0;padding:0;list-style:none;font-size:13px}
 .verdicts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:20px}
 .verdict{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:grid;gap:8px;border-top:3px solid var(--line)}
@@ -131,7 +133,7 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.miss td:first-child{b
 <div class="wrap">
 <header>
   <div class="brand">Jutro na <span>pylonie</span></div>
-  <nav class="nav" aria-label="Sekcje"><a href="#" data-view="main" class="on">Prognoza</a><a href="#metodologia" data-view="method">Jak liczymy</a></nav>
+  <nav class="nav" aria-label="Sekcje"><a href="#" data-view="main" class="on">Prognoza</a><a href="#metodologia" data-view="method">Jak liczymy</a><a href="https://bartek-filipiuk.github.io/" rel="noopener noreferrer" target="_blank">Autor</a></nav>
   <div class="muted" style="font-size:13px">Dane z <span id="gen-date" class="num"></span> · hurt Orlen, Brent, USD/PLN, Oil Bulletin KE</div>
 </header>
 <main id="view-main">
@@ -271,13 +273,14 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
 </main>
 
 <footer>
-  <p><b>To projekt hobbystyczny, nie porada inwestycyjna ani gwarancja ceny.</b> Cena „dziś” na stacji to szacunek z hurtu i średniej marży, nie odczyt z konkretnego dystrybutora. Dane odświeżane raz dziennie, rano, po publikacji cennika Orlenu.</p>
+  <p><b>To projekt hobbystyczny, nie porada inwestycyjna ani gwarancja ceny.</b> Cena „dziś” na stacji to szacunek z hurtu i średniej marży, nie odczyt z konkretnego dystrybutora. Dane odświeżane dwa razy dziennie: rano po publikacji cennika Orlenu i wieczorem po zamknięciu rynków.</p>
   <ul class="srcs">
     <li>Hurt: <a href="https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw" rel="noopener noreferrer" target="_blank">ORLEN, hurtowe ceny paliw</a> (PLN/m³ netto, codziennie)</li>
     <li>Detal: <a href="https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en" rel="noopener noreferrer" target="_blank">Weekly Oil Bulletin, Komisja Europejska</a> (tygodniowo, poniedziałki)</li>
     <li>Brent, diesel ULSD: notowania kontraktów front-month; kurs USD/PLN: notowania rynkowe, kontrola z <a href="https://api.nbp.pl" rel="noopener noreferrer" target="_blank">API NBP</a></li>
     <li>Stawki podatkowe 2026: akcyza, opłata paliwowa, opłata emisyjna wg obwieszczeń MF i MI; pakiet CPN 31.03–30.06.2026</li>
   </ul>
+  <p class="build">Ta strona sama pobiera dane, przelicza model i odświeża się bez niczyjego udziału. Budujemy takie rzeczy na zamówienie: <a href="https://devince.dev" rel="noopener noreferrer" target="_blank">devince.dev</a>.</p>
 </footer>
 </div>
 
