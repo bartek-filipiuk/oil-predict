@@ -11,6 +11,10 @@ uv run python test_model.py  # fits model.py, writes site/data.json, asserts it 
 uv run python build.py       # -> dist/index.html (standalone, CSP) and dist/artifact.html
 ```
 
+`https://paliwometr.pl/api` (same file as `/api.json`) serves the numbers the page shows: today, tomorrow and the
+seven-day path per fuel in PLN/l, plus the wholesale net price, the station margin and the 30-day error. Static file,
+no API.
+
 `.github/workflows/daily.yml` runs the same three steps every morning, commits refreshed CSVs (our own archive in case the
 undocumented Orlen API disappears) and triggers a Coolify deploy. Coolify rebuilds the image from the `Dockerfile`
 (`build.py` -> nginx on port 80) and serves it. `DEPLOY.md` has the full setup.

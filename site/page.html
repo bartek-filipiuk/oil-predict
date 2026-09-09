@@ -4,22 +4,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=IBM+Plex+Sans:wght@400;600&display=swap">
 <style>
 :root{
-  color-scheme:light;
-  --bg:#eef0f2;--surface:#ffffff;--ink:#14181c;--muted:#5b6570;--line:#d5dae0;--soft:#e4e8ec;
-  --amber:#d98e04;--board:#0f1215;--board-ink:#f7b733;--board-muted:#9aa3ad;
-  --pb95:#2a78d6;--pb98:#4a3aa7;--on:#eb6834;--band:rgba(20,24,28,.08);
-  --up:#c2410c;--down:#047857;
-}
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --bg:#14181c;--surface:#1c2127;--ink:#f2f4f6;--muted:#a3acb6;--line:#2e353d;--soft:#252b32;
-    --amber:#f5b53a;--board:#0a0c0e;--board-ink:#f7b733;--board-muted:#8a939d;
-    --pb95:#3987e5;--pb98:#9085e9;--on:#d95926;--band:rgba(242,244,246,.1);
-    --up:#fb923c;--down:#34d399;
-  }
-}
-:root[data-theme="dark"]{
+  /* dark only, on purpose: the price board is dark in every context, the page matches it */
   color-scheme:dark;
   --bg:#14181c;--surface:#1c2127;--ink:#f2f4f6;--muted:#a3acb6;--line:#2e353d;--soft:#252b32;
   --amber:#f5b53a;--board:#0a0c0e;--board-ink:#f7b733;--board-muted:#8a939d;
