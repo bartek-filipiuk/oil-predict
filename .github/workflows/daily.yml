@@ -1,8 +1,8 @@
 name: refresh
 on:
   schedule:
-    - cron: "40 5 * * *"    # 07:40 CEST morning: Orlen list is out -> score yesterday, new forecast, AI events
-    - cron: "45 18 * * 1-5" # 20:45 CEST evening: markets closed -> refresh forecast with today's Brent/FX
+    - cron: "0 4 * * *"     # 05:00 CET / 06:00 CEST morning: Orlen list is out -> score yesterday, new forecast, AI events
+    - cron: "45 18 * * 1-5" # 19:45 CET / 20:45 CEST evening: markets closed -> refresh forecast with today's Brent/FX
   workflow_dispatch:
 permissions:
   contents: write

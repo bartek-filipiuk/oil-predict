@@ -117,10 +117,13 @@ Nothing in the code references the host, so no rebuild-and-fix pass is needed â€
 
 ## 6. What runs when
 
-| Cron (UTC) | Local (CEST) | Purpose |
-|---|---|---|
-| `40 5 * * *` | 07:40 daily | Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
-| `45 18 * * 1-5` | 20:45 Mon-Fri | Markets closed: refresh forecast with today's Brent/FX, publish |
+| Cron (UTC) | Winter (CET) | Summer (CEST) | Purpose |
+|---|---|---|---|
+| `0 4 * * *` | 05:00 daily | 06:00 daily | Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
+| `45 18 * * 1-5` | 19:45 Mon-Fri | 20:45 Mon-Fri | Markets closed: refresh forecast with today's Brent/FX, publish |
+
+Cron runs on UTC and does not follow daylight saving, hence the two local columns. `ledger.py` tags a run `morning`
+when the UTC hour is below 12, so both crons keep their labels regardless of the season.
 
 Each run: `fetch.py` -> `govmax.py` -> `test_model.py` -> `ledger.py` -> `events.py` -> `build.py` -> commit data -> trigger Coolify.
 If `test_model.py` fails (model stops beating the naive forecast, data broken) the run stops and the previous page stays live.
