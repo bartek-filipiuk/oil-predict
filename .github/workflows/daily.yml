@@ -6,9 +6,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  pages: write
-  id-token: write
-concurrency: { group: pages, cancel-in-progress: false }
+concurrency: { group: refresh, cancel-in-progress: false }
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +22,8 @@ jobs:
       - name: AI events
         env: { OPENROUTER_API_KEY: "${{ secrets.OPENROUTER_API_KEY }}", OPENROUTER_MODEL: google/gemini-3.8-flash }
         run: uv run python events.py
-      - run: uv run python build.py
+      - name: Build (pre-flight, Coolify rebuilds the same thing in Docker)
+        run: uv run python build.py
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
@@ -32,12 +31,11 @@ jobs:
           git add data site/data.json site/events.json
           git diff --cached --quiet || git commit -m "data: refresh $(date -u '+%F %H:%M')"
           git push
-      - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment: { name: github-pages, url: ${{ steps.deployment.outputs.page_url }} }
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to Coolify
+        env:
+          COOLIFY_URL: ${{ secrets.COOLIFY_URL }}
+          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
+          COOLIFY_APP_UUID: ${{ secrets.COOLIFY_APP_UUID }}
+        run: |
+          [ -n "$COOLIFY_APP_UUID" ] || { echo "Coolify secrets not set, skipping deploy"; exit 0; }
+          curl -fsS -H "Authorization: Bearer $COOLIFY_TOKEN" "$COOLIFY_URL/api/v1/deploy?uuid=$COOLIFY_APP_UUID"

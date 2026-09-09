@@ -1,6 +1,7 @@
 # Deploy guide
 
-The site is static. GitHub Actions rebuilds it twice a day and publishes `dist/` to GitHub Pages. Nothing else to host.
+The site is static. GitHub Actions refreshes the data twice a day and commits it; Coolify builds the Docker image
+(`build.py` -> nginx) and serves it. No database, no runtime secrets.
 
 ## 1. Local run (any machine)
 
@@ -25,52 +26,109 @@ To test the AI events locally:
 OPENROUTER_API_KEY=sk-or-... uv run python events.py
 ```
 
+To test exactly what production serves:
+
+```bash
+docker build -t oil-predict . && docker run --rm -p 8080:80 oil-predict   # http://localhost:8080
+```
+
 ## 2. Push to GitHub
 
 Repository: `https://github.com/bartek-filipiuk/oil-predict` (create it empty on GitHub first, no README).
+Public is easiest — Coolify then clones it without a deploy key.
 
 ```bash
 git remote add origin git@github.com:bartek-filipiuk/oil-predict.git
 git push -u origin main
 ```
 
-`data/` and `site/data.json` are committed on purpose: they are the archive the bot keeps growing, and the fallback if the
-undocumented Orlen API ever disappears. `dist/` is ignored, CI builds it.
+`data/`, `site/data.json` and `site/events.json` are committed on purpose: they are the archive the bot keeps growing, the
+fallback if the undocumented Orlen API ever disappears, and the input the Docker build reads. `dist/` is ignored, it is
+rebuilt on every deploy.
 
-## 3. GitHub settings (once)
+## 3. Coolify app (once)
 
-1. **Pages**: Settings -> Pages -> Build and deployment -> Source: **GitHub Actions**. Nothing else to pick.
-2. **Secret**: Settings -> Secrets and variables -> Actions -> New repository secret.
-   Name `OPENROUTER_API_KEY`, value: your key from https://openrouter.ai/settings/keys.
-   Optional: repository variable or edit `.github/workflows/daily.yml` to change `OPENROUTER_MODEL` (default `google/gemini-3.8-flash`).
-3. **Workflow permissions**: Settings -> Actions -> General -> Workflow permissions -> "Read and write permissions"
-   (the bot commits refreshed CSVs back to `main`).
-4. **First run**: Actions -> "refresh" -> Run workflow -> Run. After ~2 minutes the page is at
-   `https://bartek-filipiuk.github.io/oil-predict/`. The deploy job prints the URL.
+Instance: `https://cool.qaci.pl`. Build pack **Dockerfile**, port **80**, no env vars, no database.
 
-## 4. What runs when
+Either click it in the UI (New resource -> Public repository -> paste the repo URL) or use the API:
+
+```bash
+source ~/.config/coolify/config
+curl -s -X POST -H "Authorization: Bearer $COOLIFY_TOKEN" -H "Content-Type: application/json" \
+  "$COOLIFY_URL/api/v1/applications/public" -d '{
+    "project_uuid": "<project uuid>", "server_uuid": "'"$COOLIFY_SERVER_UUID"'",
+    "environment_name": "production", "git_repository": "https://github.com/bartek-filipiuk/oil-predict",
+    "git_branch": "main", "build_pack": "dockerfile", "ports_exposes": "80",
+    "name": "oil-predict", "instant_deploy": false }'
+```
+
+Save the returned UUID in `.coolify.env` (gitignored):
+
+```
+COOLIFY_PROJECT_UUID=...
+COOLIFY_APP_UUID=...
+COOLIFY_DOMAIN=https://...
+```
+
+## 4. GitHub settings (once)
+
+Settings -> Secrets and variables -> Actions -> New repository secret:
+
+| Secret | Value | Needed for |
+|---|---|---|
+| `OPENROUTER_API_KEY` | key from https://openrouter.ai/settings/keys | AI event list; without it the page shows the static scenarios |
+| `COOLIFY_URL` | `https://cool.qaci.pl` | deploy trigger at the end of each refresh |
+| `COOLIFY_TOKEN` | Coolify -> Keys & Tokens -> API tokens | deploy trigger |
+| `COOLIFY_APP_UUID` | UUID from step 3 | deploy trigger |
+
+Without the three `COOLIFY_*` secrets the workflow still runs and commits data, it just prints
+`Coolify secrets not set, skipping deploy`.
+
+Also: Settings -> Actions -> General -> Workflow permissions -> **Read and write permissions** (the bot commits refreshed
+CSVs back to `main`).
+
+Leave Coolify's own git webhook / auto-deploy **off** — the workflow triggers the deploy itself, after the data commit.
+A code push without a data refresh deploys on the next scheduled run, or immediately from the Deploy button in Coolify.
+
+## 5. Domain
+
+Until a domain is bought, use the generated sslip.io address (no DNS needed, HTTP only) — Coolify only routes traffic to
+an app that has an FQDN set, so set it right after creating the app:
+
+```bash
+curl -s -X PATCH -H "Authorization: Bearer $COOLIFY_TOKEN" -H "Content-Type: application/json" \
+  "$COOLIFY_URL/api/v1/applications/$COOLIFY_APP_UUID" \
+  -d '{"fqdn":"http://'"$COOLIFY_APP_UUID"'.65.109.60.26.sslip.io"}'
+```
+
+When the domain is ready:
+
+1. DNS: A record `@` (and `www` if wanted) -> `65.109.60.26`, Cloudflare proxy **off** (needed for the Let's Encrypt check).
+2. Coolify -> application -> Configuration -> Domains -> `https://example.com`, save, redeploy. Certificate is automatic.
+   Same thing via API: `curl -X PATCH ... "$COOLIFY_URL/api/v1/applications/$COOLIFY_APP_UUID" -d '{"fqdn":"https://example.com"}'`
+3. Update `COOLIFY_DOMAIN` in `.coolify.env`.
+
+Nothing in the code references the host, so no rebuild-and-fix pass is needed — only the two steps above.
+
+## 6. What runs when
 
 | Cron (UTC) | Local (CEST) | Purpose |
 |---|---|---|
 | `40 5 * * *` | 07:40 daily | Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
 | `45 18 * * 1-5` | 20:45 Mon-Fri | Markets closed: refresh forecast with today's Brent/FX, publish |
 
-Each run: `fetch.py` -> `govmax.py` -> `test_model.py` -> `ledger.py` -> `events.py` -> `build.py` -> commit data -> deploy.
+Each run: `fetch.py` -> `govmax.py` -> `test_model.py` -> `ledger.py` -> `events.py` -> `build.py` -> commit data -> trigger Coolify.
 If `test_model.py` fails (model stops beating the naive forecast, data broken) the run stops and the previous page stays live.
 
-## 5. Checking a run
+## 7. Checking a run
 
 Actions -> latest "refresh" run -> job "build":
 - step "AI events" should log `events: source=ai n=...`. `source=static` means no key or OpenRouter failed (error is in the log).
 - step "Ledger" logs `ledger: N rows, M scored`.
 - step "Run fetch.py" logs one line per source; `orlen (MIRROR cenypaliw.fyi)` means the Orlen API was down and the fallback kicked in.
+- step "Deploy to Coolify" returns the deployment UUID; the build itself is in Coolify -> application -> Deployments.
 
-## 6. Custom domain (optional)
+## 8. Rollback
 
-Settings -> Pages -> Custom domain, add a CNAME at your DNS pointing to `bartek-filipiuk.github.io`, then commit a `CNAME`
-file into `site/` and copy it in `build.py` (one line: `shutil.copy(ROOT/"site"/"CNAME", dist)`).
-
-## 7. Rollback
-
-Every run is a commit on `main`. `git revert <sha>` of a data commit and re-run the workflow, or re-run an older successful
-workflow from the Actions tab ("Re-run all jobs") to redeploy that state.
+Every run is a commit on `main`. `git revert <sha>` of a data commit and push, then redeploy — or in Coolify open an older
+successful deployment and use "Redeploy" to bring that image back.

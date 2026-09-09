@@ -1,0 +1,9 @@
+.git
+.github
+.venv
+dist
+data
+docs
+__pycache__
+uv.lock
+*.md

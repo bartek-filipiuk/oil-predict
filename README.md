@@ -12,7 +12,8 @@ uv run python build.py       # -> dist/index.html (standalone, CSP) and dist/art
 ```
 
 `.github/workflows/daily.yml` runs the same three steps every morning, commits refreshed CSVs (our own archive in case the
-undocumented Orlen API disappears) and deploys `dist/` to GitHub Pages. Enable Pages with source "GitHub Actions" once.
+undocumented Orlen API disappears) and triggers a Coolify deploy. Coolify rebuilds the image from the `Dockerfile`
+(`build.py` -> nginx on port 80) and serves it. `DEPLOY.md` has the full setup.
 
 ## Model
 
@@ -32,8 +33,10 @@ Sources and 2026 event timeline: `docs/research-2026-09-09.md`.
   `OPENROUTER_API_KEY` it keeps the static scenario list.
 - `govmax.py` scrapes the Ministry of Energy daily maximum retail prices (CPN periods) into `data/govmax.csv`.
 
-## Setup on GitHub
+## Setup
 
-1. Push the repo, Settings -> Pages -> Source: GitHub Actions.
-2. Settings -> Secrets and variables -> Actions -> New repository secret `OPENROUTER_API_KEY`.
-3. Actions -> refresh -> Run workflow (first run publishes the page).
+1. Push the repo to GitHub, create the Coolify app from it (Dockerfile build pack, port 80).
+2. Repository secrets: `OPENROUTER_API_KEY` (AI events) plus `COOLIFY_URL`, `COOLIFY_TOKEN`, `COOLIFY_APP_UUID` (deploy trigger).
+3. Actions -> refresh -> Run workflow (first run refreshes data and publishes the page).
+
+Steps, the domain switch and rollback: `DEPLOY.md`.
