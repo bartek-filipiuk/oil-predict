@@ -119,11 +119,20 @@ Nothing in the code references the host, so no rebuild-and-fix pass is needed â€
 
 | Cron (UTC) | Winter (CET) | Summer (CEST) | Purpose |
 |---|---|---|---|
-| `0 4 * * *` | 05:00 daily | 06:00 daily | Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
-| `45 18 * * 1-5` | 19:45 Mon-Fri | 20:45 Mon-Fri | Markets closed: refresh forecast with today's Brent/FX, publish |
+| `0 7 * * *` | 08:00 daily | 09:00 daily | Today's Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
+| `0 20 * * 1-5` | 21:00 Mon-Fri | 22:00 Mon-Fri | US products settled: refresh forecast with today's Brent/FX, publish |
 
-Cron runs on UTC and does not follow daylight saving, hence the two local columns. `ledger.py` tags a run `morning`
-when the UTC hour is below 12, so both crons keep their labels regardless of the season.
+Cron runs on UTC and never follows daylight saving, so both hours were picked to satisfy their constraint in either
+season rather than to hit a fixed local time:
+
+- The morning run needs the Orlen price list for the current day. The list is effective from 00:00 but is not in the API
+  the evening before (checked 2026-09-09 at 23:00: only the 9th was published, not the 10th), so the run is deliberately
+  late; 08:00/09:00 local is well past any morning publication.
+- The evening run needs the settled US products price. NYMEX ULSD settles at 14:30 America/New_York, which is 19:30 UTC
+  in winter and 18:30 UTC in summer, so 20:00 UTC clears it all year. The previous 18:45 UTC would have fired 45 minutes
+  *before* settlement every winter.
+
+`ledger.py` tags a run `morning` when the UTC hour is below 12, so both crons keep their labels in either season.
 
 Each run: `fetch.py` -> `govmax.py` -> `test_model.py` -> `ledger.py` -> `events.py` -> `build.py` -> commit data -> trigger Coolify.
 If `test_model.py` fails (model stops beating the naive forecast, data broken) the run stops and the previous page stays live.

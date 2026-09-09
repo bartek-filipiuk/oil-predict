@@ -1,8 +1,8 @@
 name: refresh
 on:
   schedule:
-    - cron: "0 4 * * *"     # 05:00 CET / 06:00 CEST morning: Orlen list is out -> score yesterday, new forecast, AI events
-    - cron: "45 18 * * 1-5" # 19:45 CET / 20:45 CEST evening: markets closed -> refresh forecast with today's Brent/FX
+    - cron: "0 7 * * *"     # 08:00 CET / 09:00 CEST: late enough that today's Orlen list is published in either season
+    - cron: "0 20 * * 1-5"  # always >= 15:00 New York, i.e. after the 14:30 ET ULSD settlement, in either season
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,11 +31,3 @@ jobs:
           git add data site/data.json site/events.json
           git diff --cached --quiet || git commit -m "data: refresh $(date -u '+%F %H:%M')"
           git push
-      - name: Deploy to Coolify
-        env:
-          COOLIFY_URL: ${{ secrets.COOLIFY_URL }}
-          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
-          COOLIFY_APP_UUID: ${{ secrets.COOLIFY_APP_UUID }}
-        run: |
-          [ -n "$COOLIFY_APP_UUID" ] || { echo "Coolify secrets not set, skipping deploy"; exit 0; }
-          curl -fsS -H "Authorization: Bearer $COOLIFY_TOKEN" "$COOLIFY_URL/api/v1/deploy?uuid=$COOLIFY_APP_UUID"
