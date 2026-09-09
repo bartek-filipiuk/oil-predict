@@ -49,6 +49,9 @@ rebuilt on every deploy.
 ## 3. Coolify app (once)
 
 Instance: `https://cool.qaci.pl`. Build pack **Dockerfile**, port **80**, no env vars, no database.
+Already created: project `oil-predict` (`s0kw8wco4gkcoc08o8gsksw8`), application `oil-predict`
+(`l0w0sks00c484w8g4o4kcw40`), server `localhost` (65.109.60.26). The identifiers are in `.coolify.env`.
+To recreate it from scratch:
 
 Either click it in the UI (New resource -> Public repository -> paste the repo URL) or use the API:
 
@@ -91,6 +94,8 @@ Leave Coolify's own git webhook / auto-deploy **off** — the workflow triggers 
 A code push without a data refresh deploys on the next scheduled run, or immediately from the Deploy button in Coolify.
 
 ## 5. Domain
+
+Currently live at `http://l0w0sks00c484w8g4o4kcw40.65.109.60.26.sslip.io`.
 
 Until a domain is bought, use the generated sslip.io address (no DNS needed, HTTP only) — Coolify only routes traffic to
 an app that has an FQDN set, so set it right after creating the app:
