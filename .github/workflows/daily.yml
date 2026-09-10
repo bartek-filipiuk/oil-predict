@@ -1,7 +1,7 @@
 name: refresh
 on:
   schedule:
-    - cron: "0 7 * * *"     # 08:00 CET / 09:00 CEST: late enough that today's Orlen list is published in either season
+    - cron: "0 6 * * *"     # 07:00 CET / 08:00 CEST: today's Orlen list was already in the API at 04:57 UTC (checked 2026-09-10)
     - cron: "0 20 * * 1-5"  # always >= 15:00 New York, i.e. after the 14:30 ET ULSD settlement, in either season
   workflow_dispatch:
 permissions:

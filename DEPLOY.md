@@ -119,15 +119,16 @@ Nothing in the code references the host, so no rebuild-and-fix pass is needed â€
 
 | Cron (UTC) | Winter (CET) | Summer (CEST) | Purpose |
 |---|---|---|---|
-| `0 7 * * *` | 08:00 daily | 09:00 daily | Today's Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
+| `0 6 * * *` | 07:00 daily | 08:00 daily | Today's Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
 | `0 20 * * 1-5` | 21:00 Mon-Fri | 22:00 Mon-Fri | US products settled: refresh forecast with today's Brent/FX, publish |
 
 Cron runs on UTC and never follows daylight saving, so both hours were picked to satisfy their constraint in either
 season rather than to hit a fixed local time:
 
 - The morning run needs the Orlen price list for the current day. The list is effective from 00:00 but is not in the API
-  the evening before (checked 2026-09-09 at 23:00: only the 9th was published, not the 10th), so the run is deliberately
-  late; 08:00/09:00 local is well past any morning publication.
+  the evening before (checked 2026-09-09 at 23:00: only the 9th was published, not the 10th). It is there early the next
+  morning though: on 2026-09-10 the list was already in the API at 04:57 UTC, so 06:00 UTC keeps at least an hour of
+  margin over the earliest publication actually observed. Move it earlier only with fresh evidence.
 - The evening run needs the settled US products price. NYMEX ULSD settles at 14:30 America/New_York, which is 19:30 UTC
   in winter and 18:30 UTC in summer, so 20:00 UTC clears it all year. The previous 18:45 UTC would have fired 45 minutes
   *before* settlement every winter.
