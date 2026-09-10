@@ -1,6 +1,26 @@
 {
- "generated": "2026-09-10 04:58 UTC",
+ "generated": "2026-09-10 10:13 UTC",
  "headlines": [
+  {
+   "title": "10 wrześnie: ceny paliw. Ropa Brent powyżej 100 dol. - MotoGuru.pl",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJVdzN2bmJPZDV4YXFJSGZ5ZFhGdVdKQnR1Q1NKcUFvTkllczI4SkV5MzVVbWgtRVpGTnFFVm9rMHFKLW95RlgyaWdfUk5UUnc5Q3BmbDlqTVlDZ3dDalR4X0dDVm5GelkzVmNmMmYyTmhjV3VHMzRjTE1hcjZseFBpQS1WVHM?oc=5",
+   "published": "2026-09-10 05:28"
+  },
+  {
+   "title": "India Calls for Bigger Biofuel Push as Oil Prices Soar",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Calls-for-Bigger-Biofuel-Push-as-Oil-Prices-Soar.html",
+   "published": "2026-09-10 04:30"
+  },
+  {
+   "title": "Australia Softens Gas Reservation Rule for LNG Exporters",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Softens-Gas-Reservation-Rule-for-LNG-Exporters.html",
+   "published": "2026-09-10 02:00"
+  },
+  {
+   "title": "Oil Holds Above $100 as U.S.-Iran Tanker War Escalates",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Holds-Above-100-as-US-Iran-Tanker-War-Escalates.html",
+   "published": "2026-09-10 00:35"
+  },
   {
    "title": "Explosions Rock Southern Iran and Hormuz Area... Oil Prices Top $100 Amid Escalation Threat (Comprehensive) - 아시아경제",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04c25weGU4bkpXdEtIdVBKR2gxZnNjV2pjbHlEN25NRi1NRk1zQ2JDbmdOSEhPdU4tcHVkb3JJY3ZRUUliVG5NOXYyaVJLejVQaTNkeUtQYk5sR0RnUWhYZXRaMW8?oc=5",
@@ -40,68 +60,62 @@
    "title": "Uganda Launches New Crude Grade as First Oil Exports Near",
    "url": "https://oilprice.com/Energy/Crude-Oil/Uganda-Launches-New-Crude-Grade-as-First-Oil-Exports-Near.html",
    "published": "2026-09-09 12:00"
-  },
-  {
-   "title": "Bank of England Warns Iran War Could Push UK Inflation Above 4%",
-   "url": "https://oilprice.com/Energy/Energy-General/Bank-of-England-Warns-Iran-War-Could-Push-UK-Inflation-Above-4.html",
-   "published": "2026-09-09 11:00"
-  },
-  {
-   "title": "Ukraine Targets Russia's Key Black Sea Oil Port",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Targets-Russias-Key-Black-Sea-Oil-Port.html",
-   "published": "2026-09-09 09:30"
-  },
-  {
-   "title": "Ceny Paliw 9 Września: Hurt Orlen w Dół Mimo Szczytu Cen Ropy! - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
-   "published": "2026-09-08 22:41"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iranhormuzeksplozje",
-   "label": "Wybuchy w Iranie i Cieśninie Ormuz",
-   "note": "Zagrożenie szlaków morskich i eskalacja wojenna windują ryzyko podażowe na Bliskim Wschodzie.",
+   "id": "ormuztankerwar",
+   "label": "Eskalacja w cieśninie Ormuz",
+   "note": "Eksplozje i ataki na tankowce w rejonie Ormuz podbijają premię wojenną i grożą odcięciem dostaw.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04c25weGU4bkpXdEtIdVBKR2gxZnNjV2pjbHlEN25NRi1NRk1zQ2JDbmdOSEhPdU4tcHVkb3JJY3ZRUUliVG5NOXYyaVJLejVQaTNkeUtQYk5sR0RnUWhYZXRaMW8?oc=5",
-   "brent": 0.08,
-   "crack": 0.03,
+   "brent": 0.065,
+   "crack": 0.02,
    "fx": 0.015
   },
   {
-   "id": "atakukrainyportczarnomor",
-   "label": "Ukraiński atak na port naftowy Rosji",
-   "note": "Uderzenie w terminal nad Morzem Czarnym ogranicza eksport rosyjskiej ropy i produktów paliwowych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Targets-Russias-Key-Black-Sea-Oil-Port.html",
-   "brent": 0.025,
-   "crack": 0.035
-  },
-  {
-   "id": "orlenobnizkahurtu",
-   "label": "Obniżki hurtowe Orlenu wbrew rynkowi",
-   "note": "Orlen redukuje marże hurtowe, łagodząc w kraju presję wywołaną skokiem cen ropy na świecie.",
-   "confidence": "medium",
+   "id": "orlenhurtspadek",
+   "label": "Spadek cen w hurcie Orlenu",
+   "note": "Orlen obniża hurtowe ceny paliw wbrew globalnym wzrostom ropy, wygaszając presję kosztową w kraju.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
-   "pl": -0.02
+   "pl": -0.025
   },
   {
-   "id": "spadekzapasowropyusa",
-   "label": "Kolejny spadek zapasów ropy w USA",
-   "note": "Spadek rezerw przy cenie 100 USD/bbl wzmacnia presję popytowo-podażową na globalny rynek.",
+   "id": "brentabove100",
+   "label": "Wybicie ropy Brent ponad 100 USD",
+   "note": "Trwałe przełamanie poziomu 100 USD napędza zakupy funduszy i podbija presję na ceny diesla w Europie.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Breaks-100and-This-Rally-Has-Legs.html",
+   "brent": 0.03,
+   "crack": 0.015,
+   "fx": 0.01
+  },
+  {
+   "id": "russiafuelcrisis",
+   "label": "Kryzys paliwowy w Rosji",
+   "note": "Deficyt paliw w Rosji winduje marże rafinerii na wschodzie i ogranicza podaż diesla w regionie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Belarus-Refineries-Post-Decade-High-Profits-Amid-Russias-Fuel-Crisis.html",
+   "crack": 0.025
+  },
+  {
+   "id": "uscrudestocksfall",
+   "label": "Spadek zapasów ropy w USA",
+   "note": "Kolejny spadek komercyjnych zapasów ropy w USA potwierdza ciasny bilans surowcowy na świecie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Stocks-Edge-Lower-as-Oil-Tops-100.html",
    "brent": 0.015
   },
   {
-   "id": "kryzyspaliwowywrosji",
-   "label": "Kryzys paliwowy w Rosji",
-   "note": "Niedobory paliw na wschodzie ograniczają bilans podażowy diesla w Europie, podbijając crack spread.",
+   "id": "canadianoilexpansion",
+   "label": "Większa podaż kanadyjskiej ropy",
+   "note": "Napływ ciężkiej ropy z Kanady do rafinerii w Zatoce Meksykańskiej lekko łagodzi globalny deficyt surowca.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Belarus-Refineries-Post-Decade-High-Profits-Amid-Russias-Fuel-Crisis.html",
-   "crack": 0.025
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Canadian-Oil-Pushes-Deeper-Into-US-Gulf-Coast-Market.html",
+   "brent": -0.01
   }
  ]
 }
