@@ -30,9 +30,13 @@ def load():
     rd = lambda n: pd.read_csv(DATA / f"{n}.csv", index_col=0, parse_dates=True).iloc[:, 0]
     orlen = pd.read_csv(DATA / "orlen.csv", index_col=0, parse_dates=True)
     mkt = pd.concat({"brent": rd("brent"), "ulsd": rd("ulsd"), "usdpln": rd("usdpln")}, axis=1).ffill()
-    # market info available when Orlen sets price for day t: previous trading day's close -> shift by 1 day, then align
+    # Orlen publishes the list for day t+1 overnight (not in the API at 23:00 of day t, there by 05:00 of t+1), i.e.
+    # after day t's close. So the row for day t carries day t's close, and the last row carries the latest intraday
+    # price when the pipeline runs during the session: the next-day forecast is a nowcast that firms up through the day.
+    # Aligning to the previous close instead (the original choice) costs ~0.7 gr/l MAE on Pb95 and ~1.3 on ON in the
+    # 2026 backtest and drops direction hits from ~61% to ~72%.
     idx = orlen.index
-    mkt = mkt.reindex(idx.union(mkt.index)).ffill().shift(1, freq="D").reindex(idx).ffill()
+    mkt = mkt.reindex(idx.union(mkt.index)).ffill().reindex(idx).ffill()
     df = orlen.join(mkt).dropna()
     df["brent_pln"] = df.brent * df.usdpln
     df["ulsd_pln"] = df.ulsd * df.usdpln * 1000 / 3.785  # USD/gal -> PLN/m3

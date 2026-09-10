@@ -44,12 +44,15 @@ def day(iso, n):
 
 api = {"source": "https://paliwometr.pl", "unit": "PLN/l",
        "generated": (blob.get("events") or {}).get("generated") or blob["meta"]["generated"],
-       "data_date": blob["fuels"]["pb95"]["last_date"], "fuels": {}}
+       "data_date": blob["fuels"]["pb95"]["last_date"], "issued_at": blob["ledger"]["fuels"]["pb95"].get("issued_at"),
+       "verdict_thresholds_gr": blob["ledger"].get("thresholds_gr"), "fuels": {}}
 for f, F in blob["fuels"].items():
     L = blob["ledger"]["fuels"][f]
     api["fuels"][f] = {
         "today": price(f, F["last_net"]),
         "tomorrow": price(f, F["base_net"][0]),
+        "scored": {"date": L["target"], "predicted": round(L["pred"] + blob["margins"][f]["current"], 3),
+                   "actual": round(L["actual"] + blob["margins"][f]["current"], 3), "error_gr": L["err_gr"], "verdict": L["verdict"]},
         "forecast": [{"date": day(F["last_date"], i + 1), "price": price(f, n)} for i, n in enumerate(F["base_net"])],
         "wholesale_net": F["last_net"], "station_margin": blob["margins"][f]["current"],
         "mae_30d_gr": L["mae30"], "mae_30d_naive_gr": L["mae30_naive"], "hit_rate_30d": L["hit30"],

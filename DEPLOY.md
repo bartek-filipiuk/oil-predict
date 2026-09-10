@@ -1,6 +1,6 @@
 # Deploy guide
 
-The site is static. GitHub Actions refreshes the data twice a day and commits it; Coolify builds the Docker image
+The site is static. GitHub Actions refreshes the data six times a day and commits it; Coolify builds the Docker image
 (`build.py` -> nginx) and serves it. No database, no runtime secrets.
 
 ## 1. Local run (any machine)
@@ -14,7 +14,7 @@ uv sync                       # creates .venv with pandas, numpy, openpyxl, requ
 uv run python fetch.py        # Orlen wholesale, Brent, ULSD, USD/PLN, EU Weekly Oil Bulletin -> data/*.csv
 uv run python govmax.py       # Ministry of Energy max prices (CPN periods) -> data/govmax.csv
 uv run python test_model.py   # fits model.py, writes site/data.json, asserts it beats the naive forecast
-uv run python ledger.py --run morning
+uv run python ledger.py
 uv run python events.py       # static list without OPENROUTER_API_KEY, AI list with it
 uv run python build.py        # -> dist/index.html
 open dist/index.html
@@ -117,32 +117,28 @@ Nothing in the code references the host, so no rebuild-and-fix pass is needed â€
 
 ## 6. What runs when
 
-| Cron (UTC) | Winter (CET) | Summer (CEST) | Purpose |
-|---|---|---|---|
-| `0 6 * * *` | 07:00 daily | 08:00 daily | Today's Orlen list is out: score yesterday's forecast, new forecast, AI events, publish |
-| `0 20 * * 1-5` | 21:00 Mon-Fri | 22:00 Mon-Fri | US products settled: refresh forecast with today's Brent/FX, publish |
+Six runs a day, all UTC (cron never follows daylight saving):
 
-Cron runs on UTC and never follows daylight saving, so both hours were picked to satisfy their constraint in either
-season rather than to hit a fixed local time:
+| Cron (UTC) | Days | Why then |
+|---|---|---|
+| `15 5 * * *` | daily | Orlen's list for today is in the API by ~05:00 (observed 04:57 on 2026-09-10; not there at 23:00 the day before). Scores yesterday, first forecast for tomorrow. |
+| `30 8 * * 1-5` | Mon-Fri | Europe open. |
+| `30 11 * * 1-5` | Mon-Fri | NBP mid rate (11:15) published. |
+| `30 14 * * 1-5` | Mon-Fri | US open, EIA stocks on Wednesdays. |
+| `30 17 * * 1-5` | Mon-Fri | Last look before the settlements. |
+| `0 20 * * *` | daily | After the 14:30 New York ULSD settlement in both seasons (19:30 UTC winter, 18:30 summer). |
 
-- The morning run needs the Orlen price list for the current day. The list is effective from 00:00 but is not in the API
-  the evening before (checked 2026-09-09 at 23:00: only the 9th was published, not the 10th). It is there early the next
-  morning though: on 2026-09-10 the list was already in the API at 04:57 UTC, so 06:00 UTC keeps at least an hour of
-  margin over the earliest publication actually observed. Move it earlier only with fresh evidence.
-- The evening run needs the settled US products price. NYMEX ULSD settles at 14:30 America/New_York, which is 19:30 UTC
-  in winter and 18:30 UTC in summer, so 20:00 UTC clears it all year. The previous 18:45 UTC would have fired 45 minutes
-  *before* settlement every winter.
-
-`ledger.py` tags a run `morning` when the UTC hour is below 12, so both crons keep their labels in either season.
-
-Each run: `fetch.py` -> `govmax.py` -> `test_model.py` -> `ledger.py` -> `events.py` -> `build.py` -> commit data -> trigger Coolify.
-If `test_model.py` fails (model stops beating the naive forecast, data broken) the run stops and the previous page stays live.
+Each run: `fetch.py` -> `govmax.py` -> `test_model.py` -> `ledger.py` -> `events.py` -> `build.py` -> commit data -> push ->
+Coolify webhook -> redeploy. The model reads the same-day market close (or the latest intraday price), so the forecast
+for tomorrow firms up through the day; the ledger keeps one row per day and fuel, overwritten by every run, and the
+20:00 row is the one scored next morning. If `test_model.py` fails (model stops beating the naive forecast, data broken)
+the run stops and the previous page stays live.
 
 ## 7. Checking a run
 
 Actions -> latest "refresh" run -> job "build":
 - step "AI events" should log `events: source=ai n=...`. `source=static` means no key or OpenRouter failed (error is in the log).
-- step "Ledger" logs `ledger: N rows, M scored`.
+- step "Ledger" logs `ledger: N rows, M scored` and asserts there is one live row per day and fuel.
 - step "Run fetch.py" logs one line per source; `orlen (MIRROR cenypaliw.fyi)` means the Orlen API was down and the fallback kicked in.
 - step "Deploy to Coolify" returns the deployment UUID; the build itself is in Coolify -> application -> Deployments.
 

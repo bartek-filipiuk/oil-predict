@@ -1,8 +1,13 @@
 name: refresh
 on:
   schedule:
-    - cron: "0 6 * * *"     # 07:00 CET / 08:00 CEST: today's Orlen list was already in the API at 04:57 UTC (checked 2026-09-10)
-    - cron: "0 20 * * 1-5"  # always >= 15:00 New York, i.e. after the 14:30 ET ULSD settlement, in either season
+    # UTC. Cron ignores daylight saving, so each slot sits behind the thing that moves the numbers in either season.
+    - cron: "15 5 * * *"    # Orlen list is in the API by ~05:00: score yesterday, first forecast for tomorrow
+    - cron: "30 8 * * 1-5"  # Europe open
+    - cron: "30 11 * * 1-5" # NBP mid rate (11:15) published
+    - cron: "30 14 * * 1-5" # US open, EIA stocks on Wednesdays
+    - cron: "30 17 * * 1-5" # last look before the settlements
+    - cron: "0 20 * * *"    # after the 14:30 New York ULSD settlement all year; this forecast gets scored tomorrow
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,7 +23,7 @@ jobs:
       - run: uv run python govmax.py
       - run: uv run python test_model.py
       - name: Ledger
-        run: uv run python ledger.py --run $([ "$(date -u +%H)" -lt 12 ] && echo morning || echo evening)
+        run: uv run python ledger.py
       - name: AI events
         env: { OPENROUTER_API_KEY: "${{ secrets.OPENROUTER_API_KEY }}", OPENROUTER_MODEL: google/gemini-3.8-flash }
         run: uv run python events.py

@@ -9,7 +9,7 @@
   --bg:#14181c;--surface:#1c2127;--ink:#f2f4f6;--muted:#a3acb6;--line:#2e353d;--soft:#252b32;
   --amber:#f5b53a;--board:#0a0c0e;--board-ink:#f7b733;--board-muted:#8a939d;
   --pb95:#3987e5;--pb98:#9085e9;--on:#d95926;--band:rgba(242,244,246,.1);
-  --up:#fb923c;--down:#34d399;
+  --up:#fb923c;--down:#34d399;--near:#7fb3ff;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}
@@ -53,6 +53,15 @@ header .brand span{color:var(--amber)}
 .tile .big{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:clamp(40px,4.6vw,64px);line-height:.95;color:var(--board-ink);letter-spacing:-.01em}
 .tile .big small{display:block;font-size:.3em;color:var(--board-muted);font-weight:500;margin-top:6px;letter-spacing:.06em;text-transform:uppercase}
 .tile .row{display:flex;justify-content:space-between;gap:8px;font-size:13px;flex-wrap:wrap}
+.tile .strip{display:grid;grid-template-columns:1fr 1fr;border:1px solid #22282e;border-radius:8px;overflow:hidden;margin-top:2px}
+.tile .strip>div{padding:9px 12px;display:grid;gap:3px;min-width:0}
+.tile .strip>div+div{border-left:1px solid #22282e}
+.tile .strip .lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--board-muted)}
+.tile .strip .val{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:26px;line-height:1;color:#fff}
+.tile .strip .val.v-hit{color:var(--down)}.tile .strip .val.v-near{color:var(--near)}.tile .strip .val.v-miss{color:var(--up)}
+.verdict-tag{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px}
+.verdict-tag::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor}
+.v-hit{color:var(--down)}.v-near{color:var(--near)}.v-miss{color:var(--up)}
 .chip{display:inline-block;padding:1px 8px;border-radius:999px;font-weight:600;font-size:13px;background:#1c2127;color:#fff}
 .chip.up{color:#ffb38a}.chip.down{color:#7be2b8}
 .board .foot{grid-column:1/-1;font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid #22282e;padding-top:12px}
@@ -106,7 +115,10 @@ footer .build a{color:var(--amber);font-weight:600}
 .srcs{display:grid;gap:6px;margin:10px 0 0;padding:0;list-style:none;font-size:13px}
 .verdicts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:20px}
 .verdict{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:grid;gap:8px;border-top:3px solid var(--line)}
-.verdict.ok{border-top-color:var(--down)}.verdict.miss{border-top-color:var(--up)}
+.verdict.hit{border-top-color:var(--down)}.verdict.near{border-top-color:var(--near)}.verdict.miss{border-top-color:var(--up)}
+.verdict .bar{height:8px;border-radius:4px;background:var(--soft);position:relative;margin-top:2px}
+.verdict .bar i{position:absolute;left:0;top:0;height:100%;border-radius:4px}
+.verdict .bar .naive{background:var(--line)}.verdict .bar .model{background:var(--amber)}
 .verdict .fuel{font-family:"Barlow Condensed",sans-serif;font-size:20px;font-weight:700;letter-spacing:.04em}
 .verdict .line{display:flex;justify-content:space-between;gap:10px;font-size:14px}
 .verdict .line b{font-weight:600}
@@ -119,7 +131,7 @@ footer .build a{color:var(--amber);font-weight:600}
 .headlines > div{display:grid;grid-template-columns:auto 1fr;gap:10px}
 .headlines a{color:var(--ink);text-decoration:none}.headlines a:hover{text-decoration:underline}
 .headlines time{color:var(--muted);margin-right:8px;font-variant-numeric:tabular-nums}
-tr.hit td:first-child{border-left:3px solid var(--down)}tr.miss td:first-child{border-left:3px solid var(--up)}
+tr.hit td:first-child{border-left:3px solid var(--down)}tr.near td:first-child{border-left:3px solid var(--near)}tr.miss td:first-child{border-left:3px solid var(--up)}
 @media (max-width:860px){
   .verdicts{grid-template-columns:1fr}
   .board{grid-template-columns:1fr}
@@ -134,28 +146,27 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.miss td:first-child{b
 <header>
   <div class="brand">Jutro na <span>pylonie</span></div>
   <nav class="nav" aria-label="Sekcje"><a href="#" data-view="main" class="on">Prognoza</a><a href="#metodologia" data-view="method">Jak liczymy</a><a href="https://bartek-filipiuk.github.io/" rel="noopener noreferrer" target="_blank">Autor</a></nav>
-  <div class="muted" style="font-size:13px">Dane z <span id="gen-date" class="num"></span> · hurt Orlen, Brent, USD/PLN, Oil Bulletin KE</div>
+  <div class="muted" style="font-size:13px">Odświeżone <span id="gen-date" class="num"></span> · hurt Orlen, Brent, USD/PLN, Oil Bulletin KE</div>
 </header>
 <main id="view-main">
 
 <div class="hero">
-  <div class="eyebrow">Prognoza cen paliw w Polsce · Pb95 · Pb98 · ON</div>
+  <div class="eyebrow">Prognoza cen paliw w Polsce</div>
   <h1 style="margin-top:8px">Ile zapłacisz na stacji jutro</h1>
-  <p class="muted">Model liczy jutrzejszą cenę hurtową Orlenu z ostatnich ruchów ropy Brent, amerykańskiego diesla i kursu dolara, a potem dokłada podatki i średnią marżę stacji. Włącz wydarzenia obok i zobacz, jak przesuwają prognozę na cały tydzień.</p>
+  <p class="muted">Model liczy jutrzejszy hurt Orlenu z ruchów ropy Brent, amerykańskiego diesla i kursu dolara, dokłada podatki i średnią marżę stacji. Obok: wydarzenia, które przesuwają prognozę na cały tydzień.</p>
 
   <div class="top">
     <div class="left">
   <div class="board" id="board" aria-live="polite">
-    <div class="tile" data-fuel="pb95"><div class="fuel"><i style="background:var(--pb95)"></i>Pb95</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
-    <div class="tile" data-fuel="pb98"><div class="fuel"><i style="background:var(--pb98)"></i>Pb98</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
-    <div class="tile" data-fuel="on"><div class="fuel"><i style="background:var(--on)"></i>ON</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
+    <div class="tile" data-fuel="pb95"><div class="fuel"><i style="background:var(--pb95)"></i>Pb95</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="strip"><div><span class="lbl pred-lbl">prognoza na dziś</span><span class="val num pred">–</span></div><div><span class="lbl">jest</span><span class="val num act">–</span></div></div><div class="row"><span class="verdict-tag">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
+    <div class="tile" data-fuel="pb98"><div class="fuel"><i style="background:var(--pb98)"></i>Pb98</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="strip"><div><span class="lbl pred-lbl">prognoza na dziś</span><span class="val num pred">–</span></div><div><span class="lbl">jest</span><span class="val num act">–</span></div></div><div class="row"><span class="verdict-tag">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
+    <div class="tile" data-fuel="on"><div class="fuel"><i style="background:var(--on)"></i>ON</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="strip"><div><span class="lbl pred-lbl">prognoza na dziś</span><span class="val num pred">–</span></div><div><span class="lbl">jest</span><span class="val num act">–</span></div></div><div class="row"><span class="verdict-tag">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
     <div class="foot"><span>„Dziś” = hurt Orlen brutto z <span id="last-date" class="num"></span> + mediana marży stacji z 8 tygodni Oil Bulletin. Przedział = błąd modelu z 2026 × √dni. <span id="regime-note"></span></span><span id="scenario-note">Scenariusz bazowy: bez wydarzeń</span></div>
   </div>
     <div class="fc">
       <div class="eyebrow">Prognoza na 7 dni · cena na stacji, zł/l</div>
       <div class="smalls" style="margin-top:12px" id="forecast-cards"></div>
       <div class="legend"><span style="color:var(--ink)"><i style="border-color:var(--ink)"></i>stacja (prognoza)</span><span style="color:var(--muted)"><i class="dash" style="border-color:var(--muted)"></i>hurt Orlen brutto</span><span class="muted"><i style="border-top:10px solid var(--band)"></i>przedział</span><span style="color:var(--amber)" id="base-legend" hidden><i class="dash" style="border-color:var(--amber)"></i>bez wydarzeń</span></div>
-      <div class="headlines" id="headlines"></div>
     </div>
     </div>
     <div class="panel">
@@ -164,6 +175,7 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.miss td:first-child{b
       <p class="muted" style="font-size:14px;margin-top:6px" id="events-intro"></p>
       <div style="margin-top:10px"><span class="badge" id="events-badge"></span></div>
       <div class="events" id="events"></div>
+      <div class="headlines" id="headlines"></div>
       <div class="slider">
         <label for="brent-slider"><span>Własny ruch Brent</span><span class="num" id="brent-slider-val">0%</span></label>
         <input type="range" id="brent-slider" min="-30" max="30" step="1" value="0">
@@ -177,12 +189,12 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.miss td:first-child{b
 <section>
   <div class="eyebrow">Rozliczenie</div>
   <h2 style="margin-top:6px">Czy wczoraj trafiliśmy?</h2>
-  <p class="muted" style="margin-top:10px">Każdą prognozę zapisujemy, a rano porównujemy z realnym cennikiem Orlenu. Wynik poniżej to hurt brutto, bo tylko on jest znany codziennie. Detal sprawdzamy raz w tygodniu z Oil Bulletin. Historia od stycznia 2026 to backtest na współczynnikach z lat 2023–2025, od <span id="live-from" class="num"></span> liczą się prognozy na żywo.</p>
+  <p class="muted" style="margin-top:10px">Prognoza jest zapisywana przy każdym z sześciu dziennych odświeżeń, rozliczana jest ostatnia z danego dnia, po publikacji kolejnego cennika Orlenu. Wynik to hurt brutto, bo tylko on jest znany codziennie. Trafione = do 3 gr, blisko = do 6 gr, pudło = więcej. Historia od stycznia 2026 to backtest na współczynnikach z lat 2023–2025, od <span id="live-from" class="num"></span> liczą się prognozy na żywo.</p>
   <div class="verdicts" id="verdicts"></div>
-  <div class="smalls" style="margin-top:20px" id="rolling-cards"></div>
-  <div class="legend"><span style="color:var(--ink)"><i style="border-color:var(--ink)"></i>błąd modelu, średnia 30 dni</span><span style="color:var(--muted)"><i class="dash" style="border-color:var(--muted)"></i>błąd „jutro = dziś”</span></div>
+  <div class="card" style="margin-top:20px"><div class="head"><b>Średni błąd modelu, 30 dni</b><span>gr/l, hurt brutto</span></div><div class="chartbox" style="height:200px"><canvas id="rolling" role="img" aria-label="Kroczący błąd prognozy z 30 dni, per paliwo"></canvas></div></div>
+  <div class="legend" id="rolling-legend"></div>
   <div class="card tblwrap" style="margin-top:20px;padding:6px 0">
-    <table id="recent"><thead><tr><th>Na dzień</th><th>Paliwo</th><th class="num">Prognoza</th><th class="num">Orlen</th><th class="num">Błąd</th><th>Kierunek</th><th>Tryb</th></tr></thead><tbody></tbody></table>
+    <table id="recent"><thead><tr><th>Na dzień</th><th>Paliwo</th><th class="num">Prognoza</th><th class="num">Orlen</th><th class="num">Błąd</th><th>Wynik</th><th>Prognoza z</th></tr></thead><tbody></tbody></table>
   </div>
 </section>
 
@@ -230,7 +242,7 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
   <p>Dzięki temu dzień zmiany stawki akcyzy (np. 28 marca i 16 czerwca 2026) nie „uczy” modelu, że rynek zrobił skok. Jutrzejsze podatki dodajemy z powrotem po prognozie.</p>
 
   <h2>3. Czynniki i wzór</h2>
-  <p>Model to regresja liniowa z 13 czynnikami. Wszystkie zmiany są logarytmiczne (w praktyce: procentowe). Dane rynkowe z dnia t to zamknięcie z poprzedniej sesji, bo Orlen ustala cennik rano, zanim ruszy handel.</p>
+  <p>Model to regresja liniowa z 13 czynnikami. Wszystkie zmiany są logarytmiczne (w praktyce: procentowe). Dane rynkowe z dnia t to zamknięcie tego samego dnia: Orlen publikuje cennik na t+1 w nocy, po zamknięciu sesji. W ciągu dnia model czyta bieżącą cenę, więc prognoza na jutro doprecyzowuje się z każdym odświeżeniem.</p>
   <div class="formula">cel = Σ(k=0..4) β_rb,k · r_brent,PLN(t−k)
         zmiany Brent w złotych: dziś i 4 dni wstecz
     + Σ(k=0..4) β_ru,k · r_ulsd,PLN(t−k)
@@ -256,12 +268,12 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
   <p>Dni 2–7 to ta sama regresja uruchamiana rekurencyjnie: prognozowana zmiana z dnia h staje się „ostatnią zmianą hurtu” dla dnia h+1, a przyszłe ruchy rynku zakładamy zerowe. Prognoza dokańcza więc ruch, który już się zaczął, i wygasa. Pas niepewności to średni błąd modelu z 2026 pomnożony przez √h i 1,3.</p>
   <p>Wydarzenia to szoki procentowe: na Brent, na europejskiego diesla ponad Brent („crack”), na kurs USD/PLN albo bezpośrednio na hurt krajowy. Szok nakładamy na prognozę bazową przez empiryczną szybkość przenoszenia: współczynnik regresji zmiany hurtu w oknie h dni na zmianę produktu referencyjnego w tym samym oknie, z danych 2023–2026.</p>
   <div class="card tblwrap" style="padding:6px 0"><table id="pt-table"><thead><tr><th>Horyzont</th><th class="num">Pb95 (Brent)</th><th class="num">Pb98 (Brent)</th><th class="num">ON (diesel)</th></tr></thead><tbody></tbody></table></div>
-  <p class="muted" style="font-size:14px">Lista wydarzeń: raz dziennie nagłówki z ostatnich 48 godzin ocenia model językowy (Gemini Flash przez OpenRouter), który zwraca do 7 zdarzeń z szacunkiem szoku. Wielkości są przycinane do zakresu, jaki rynek realnie robił w 2026 (Brent i diesel ±15%, kurs i hurt krajowy ±5%). Gdy usługa jest niedostępna, pokazujemy listę statyczną. Przełącznik pakietu CPN nie jest szokiem rynkowym, zmienia wprost VAT i akcyzę.</p>
+  <p class="muted" style="font-size:14px">Lista wydarzeń: przy każdym odświeżeniu nagłówki z ostatnich 48 godzin ocenia model językowy (Gemini Flash przez OpenRouter), który zwraca do 7 zdarzeń z szacunkiem szoku. Wielkości są przycinane do zakresu, jaki rynek realnie robił w 2026 (Brent i diesel ±15%, kurs i hurt krajowy ±5%). Gdy usługa jest niedostępna, pokazujemy listę statyczną. Przełącznik pakietu CPN nie jest szokiem rynkowym, zmienia wprost VAT i akcyzę.</p>
 
   <h2>6. Sprawdzian i rozliczenie</h2>
   <p>Współczynniki dopasowane na 2023–2025 zostały sprawdzone na całym 2026, czyli na roku z wojną o Ormuz i pakietem CPN, którego model nigdy nie widział. Miarą jest średni błąd bezwzględny jutrzejszej ceny hurtowej brutto i porównanie z prognozą naiwną „jutro = dziś”.</p>
   <div class="card tblwrap" style="padding:6px 0"><table id="eval"><thead><tr><th>Paliwo</th><th class="num">Błąd modelu</th><th class="num">Błąd „jutro = dziś”</th><th class="num">Trafiony kierunek</th><th class="num">Dni testu</th></tr></thead><tbody></tbody></table></div>
-  <p>Od uruchomienia strony każda prognoza jest zapisywana rano i wieczorem, a następnego dnia porównywana z realnym cennikiem. Wyniki, w tym kroczący błąd z 30 dni i lista chybień, są w sekcji „Czy wczoraj trafiliśmy?” na stronie głównej. Cena detaliczna jest rozliczana raz w tygodniu, gdy ukaże się Oil Bulletin.</p>
+  <p>Od uruchomienia strony prognoza jest zapisywana przy każdym z sześciu odświeżeń dziennie (rozliczana jest ostatnia z danego dnia), a po publikacji kolejnego cennika porównywana z rzeczywistością. Wyniki, w tym kroczący błąd z 30 dni i lista chybień, są w sekcji „Czy wczoraj trafiliśmy?” na stronie głównej. Cena detaliczna jest rozliczana raz w tygodniu, gdy ukaże się Oil Bulletin.</p>
 
   <h2>7. Czego ten model nie potrafi</h2>
   <ul>
@@ -273,7 +285,7 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
 </main>
 
 <footer>
-  <p><b>To projekt hobbystyczny, nie porada inwestycyjna ani gwarancja ceny.</b> Cena „dziś” na stacji to szacunek z hurtu i średniej marży, nie odczyt z konkretnego dystrybutora. Dane odświeżane dwa razy dziennie: rano po publikacji cennika Orlenu i wieczorem po zamknięciu rynków.</p>
+  <p><b>To projekt hobbystyczny, nie porada inwestycyjna ani gwarancja ceny.</b> Cena „dziś” na stacji to szacunek z hurtu i średniej marży, nie odczyt z konkretnego dystrybutora. Dane odświeżane sześć razy dziennie, od publikacji cennika Orlenu rano do rozliczenia rynków wieczorem.</p>
   <ul class="srcs">
     <li>Hurt: <a href="https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw" rel="noopener noreferrer" target="_blank">ORLEN, hurtowe ceny paliw</a> (PLN/m³ netto, codziennie)</li>
     <li>Detal: <a href="https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en" rel="noopener noreferrer" target="_blank">Weekly Oil Bulletin, Komisja Europejska</a> (tygodniowo, poniedziałki)</li>
@@ -292,6 +304,10 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
 "use strict";
 const D = JSON.parse(document.getElementById("data").textContent);
 const FUELS = ["pb95","pb98","on"], NAMES = {pb95:"Pb95",pb98:"Pb98",on:"ON"};
+const VLABEL = {hit:"trafione", near:"blisko", miss:"pudło"};
+const VTEXT = {hit:e=>"trafione, "+fmt(e,1)+" gr", near:e=>"blisko, "+fmt(e,1)+" gr", miss:e=>"pudło o "+fmt(e,1)+" gr"};
+// ledger stamps runs in UTC ("2026-09-10 20:00"); show them in the viewer's clock
+const fmtIssued = s => { const d=new Date(s.replace(" ","T")+":00Z"); return d.toLocaleDateString("pl-PL",{day:"numeric",month:"short"})+", "+d.toLocaleTimeString("pl-PL",{hour:"2-digit",minute:"2-digit"}); };
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt = (x,d=2) => x.toLocaleString("pl-PL",{minimumFractionDigits:d,maximumFractionDigits:d});
 const plDate = s => new Date(s+"T00:00:00").toLocaleDateString("pl-PL",{day:"numeric",month:"short"});
@@ -353,11 +369,11 @@ function forecast(f, noShock){
 
 // --- DOM ------------------------------------------------------------------------------------------
 const $ = s => document.querySelector(s);
-$("#gen-date").textContent = plDate(D.meta.generated);
+const ISSUED = D.ledger && D.ledger.issued_at; $("#gen-date").textContent = ISSUED ? fmtIssued(ISSUED) : plDate(D.meta.generated);
 $("#last-date").textContent = plDate(D.fuels.pb95.last_date);
 
 $("#regime-note").textContent = (REG.vat<1.2||REG.excise_cut) ? "Dziś obowiązuje pakiet CPN (VAT "+Math.round((REG.vat-1)*100)+"%"+(REG.excise_cut?", obniżona akcyza":"")+")." : "Dziś: VAT 23%, pełna akcyza.";
-$("#events-intro").textContent = EVSRC ? "Lista odświeżana codziennie: nagłówki z ostatnich 48 godzin ocenia model językowy i szacuje szok na Brent, diesla, kurs i krajowy hurt. Efekt na hurt liczony empiryczną szybkością przenoszenia (po 7 dniach ok. 47% ruchu Brent dla benzyn i 62% ruchu diesla dla ON)."
+$("#events-intro").textContent = EVSRC ? "Lista odświeżana z każdym przebiegiem: nagłówki z ostatnich 48 godzin ocenia model językowy i szacuje szok na Brent, diesla, kurs i krajowy hurt. Efekt na hurt liczony empiryczną szybkością przenoszenia (po 7 dniach ok. 47% ruchu Brent dla benzyn i 62% ruchu diesla dla ON)."
   : "Lista scenariuszy na podstawie realnych ruchów rynku w 2026 r. Efekt na hurt liczony empiryczną szybkością przenoszenia (po 7 dniach ok. 47% ruchu Brent dla benzyn i 62% ruchu diesla dla ON).";
 const badge = $("#events-badge"); badge.textContent = EVSRC ? "wg AI · "+(EVSRC.model||"").replace("google/","")+" · "+EVSRC.generated : "lista statyczna"; if (EVSRC) badge.classList.add("ai");
 const evBox = $("#events");
@@ -413,6 +429,13 @@ function renderForecast(){
     chip.textContent = (d>=0?"+":"−")+fmt(Math.abs(d)*100,0)+" gr"; chip.className="chip num delta "+(d>0.0005?"up":d<-0.0005?"down":"");
     tile.querySelector(".week").textContent = fmt(t7.retail);
     tile.querySelector(".band").textContent = fmt(t7.lo)+" – "+fmt(t7.hi);
+    const L = D.ledger && D.ledger.fuels[f];
+    if (L){ const m = D.margins[f].current;   // ledger scores wholesale gross; add today's margin to speak in pump prices
+      const same = L.target===D.fuels[f].last_date;
+      tile.querySelector(".pred-lbl").textContent = same ? "prognoza na dziś" : "prognoza na "+plDate(L.target);
+      const pv = tile.querySelector(".pred"); pv.textContent = fmt(L.pred+m); pv.className = "val num pred v-"+L.verdict;
+      tile.querySelector(".act").textContent = fmt(same ? t0.retail : L.actual+m);   // same number as the "dziś" row, no rounding drift
+      const vt = tile.querySelector(".verdict-tag"); vt.textContent = VTEXT[L.verdict](L.err_gr); vt.className = "verdict-tag v-"+L.verdict; }
     cards[f].val.textContent = fmt(t7.retail); const sm=document.createElement("small");
     const dd = (t7.retail-base[7].retail)*100;
     sm.textContent = "za 7 dni · dziś "+fmt(t0.retail) + (scen ? " · scenariusz "+(dd>=0?"+":"−")+fmt(Math.abs(dd),0)+" gr vs baza" : "");
@@ -477,30 +500,30 @@ function spark(id, data, color, valId, fmtV, unit){
 }
 function ledger(){
   const L = D.ledger; if (!L) return;
-  const vb = $("#verdicts"); let liveFrom = null;
+  const vb = $("#verdicts");
   for (const f of FUELS){
-    const v = L.fuels[f]; const el = document.createElement("div"); el.className = "verdict "+(v.flat ? "" : v.hit ? "ok" : "miss");
+    const v = L.fuels[f]; const el = document.createElement("div"); el.className = "verdict "+v.verdict;
     const fuel = document.createElement("div"); fuel.className="fuel"; fuel.style.color=css("--"+f); fuel.textContent=NAMES[f]+" · cennik z "+plDate(v.target);
-    const err = document.createElement("div"); err.className="err num"; err.textContent=fmt(v.err_gr,1)+" gr"; const sm=document.createElement("small"); sm.textContent=v.flat?"Orlen nie zmienił ceny":v.hit?"kierunek trafiony":"kierunek chybiony"; err.append(sm);
+    const err = document.createElement("div"); err.className="err num"; err.textContent=fmt(v.err_gr,1)+" gr"; const sm=document.createElement("small"); sm.textContent=VLABEL[v.verdict]; sm.className="v-"+v.verdict; err.append(sm);
     const mk = (a,b)=>{ const d=document.createElement("div"); d.className="line num"; const s1=document.createElement("span"); s1.textContent=a; const s2=document.createElement("b"); s2.textContent=b; d.append(s1,s2); return d; };
-    el.append(fuel, err, mk("prognoza", fmt(v.pred)+" zł/l"), mk("Orlen", fmt(v.actual)+" zł/l"), mk("„jutro = dziś”", fmt(v.naive)+" zł/l"),
+    const dir = v.flat ? "Orlen nie zmienił ceny" : !v.hit ? "chybiony" : v.verdict==="hit" ? "zgodny" : "zgodny, skala nie";
+    const bar = document.createElement("div"); bar.className="bar"; const bn=document.createElement("i"); bn.className="naive"; bn.style.width="100%"; const bm=document.createElement("i"); bm.className="model";
+    bm.style.width = Math.min(100, v.err_naive_gr>0 ? v.err_gr/v.err_naive_gr*100 : 100)+"%"; bar.append(bn,bm);
+    el.append(fuel, err, mk("nasza prognoza", fmt(v.pred)+" zł/l"), mk("Orlen", fmt(v.actual)+" zł/l"), mk("gdyby nic nie robić", fmt(v.naive)+" zł/l · "+fmt(v.err_naive_gr,1)+" gr"), mk("kierunek", dir), bar,
       mk("30 dni: model / naiwna", fmt(v.mae30,1)+" / "+fmt(v.mae30_naive,1)+" gr"), mk("kierunek, 30 dni", v.hit30==null?"–":Math.round(v.hit30*100)+"%"));
     vb.append(el);
-    if (v.n_live>0 && !liveFrom) liveFrom = true;
   }
-  $("#live-from").textContent = plDate(D.meta.generated);
-  const rc = $("#rolling-cards");
-  for (const f of FUELS){
-    const c=document.createElement("div"); c.className="card"; const head=document.createElement("div"); head.className="head"; const b=document.createElement("b"); b.textContent=NAMES[f]; b.style.color=css("--"+f); const sp=document.createElement("span"); sp.textContent="gr/l · średni błąd 30 dni"; head.append(b,sp);
-    const box=document.createElement("div"); box.className="chartbox"; box.style.height="160px"; const cv=document.createElement("canvas"); cv.setAttribute("role","img"); cv.setAttribute("aria-label","Błąd prognozy "+NAMES[f]); box.append(cv); c.append(head,box); rc.append(c);
-    const r = L.rolling[f]; const tt=tooltipOpts(); tt.callbacks.title=i=>plDate(i[0].label); tt.callbacks.label=c=>c.dataset.label+": "+fmt(c.parsed.y,1)+" gr";
-    new Chart(cv,{type:"line",data:{labels:r.map(p=>p[0]),datasets:[{label:"model",data:r.map(p=>p[1]),borderColor:css("--ink"),borderWidth:2,pointRadius:0,tension:.2},{label:"jutro = dziś",data:r.map(p=>p[2]),borderColor:css("--muted"),borderWidth:1.5,borderDash:[4,4],pointRadius:0,tension:.2}]},
-      options:{responsive:true,maintainAspectRatio:false,animation:false,interaction:{mode:"index",intersect:false},plugins:{legend:{display:false},tooltip:tt},
-        scales:{x:{grid:{display:false},border:{color:gridColor()},ticks:{color:tickColor(),maxTicksLimit:4,maxRotation:0,font:{size:10},callback:(v,i)=>i%Math.ceil(r.length/4)===0?plDate(r[i][0]):null}},y:{beginAtZero:true,grid:{color:gridColor()},border:{display:false},ticks:{color:tickColor(),font:{size:10},maxTicksLimit:4}}}}});
-  }
+  $("#live-from").textContent = L.live_from ? plDate(L.live_from) : "–";
+  // one chart, three fuels: is the model getting better or worse over time
+  const dates = L.rolling.pb95.map(p=>p[0]); const ser = f => { const m=new Map(L.rolling[f].map(p=>[p[0],p[1]])); return dates.map(d=>m.get(d)??null); };
+  const tt=tooltipOpts(); tt.callbacks.title=i=>plDate(i[0].label); tt.callbacks.label=c=>c.dataset.label+": "+fmt(c.parsed.y,1)+" gr";
+  new Chart($("#rolling"),{type:"line",data:{labels:dates,datasets:FUELS.map(f=>({label:NAMES[f],data:ser(f),borderColor:css("--"+f),borderWidth:2,pointRadius:0,tension:.2}))},
+    options:{responsive:true,maintainAspectRatio:false,animation:false,interaction:{mode:"index",intersect:false},plugins:{legend:{display:false},tooltip:tt},
+      scales:{x:{grid:{display:false},border:{color:gridColor()},ticks:{color:tickColor(),maxTicksLimit:6,maxRotation:0,font:{size:11},callback:(v,i)=>i%Math.ceil(dates.length/6)===0?plDate(dates[i]):null}},y:{beginAtZero:true,grid:{color:gridColor()},border:{display:false},ticks:{color:tickColor(),font:{size:11},maxTicksLimit:5}}}}});
+  const lg = $("#rolling-legend"); for (const f of FUELS){ const s=document.createElement("span"); s.style.color=css("--"+f); const i=document.createElement("i"); i.style.borderColor=css("--"+f); s.append(i, document.createTextNode(NAMES[f]+", błąd modelu")); lg.append(s); }
   const tb = $("#recent tbody");
-  for (const r of L.recent.slice(0,12)){ const tr=document.createElement("tr"); tr.className=r.flat?"":r.hit?"hit":"miss";
-    for (const [v,cls] of [[plDate(r.target),"num"],[NAMES[r.fuel],""],[fmt(r.pred),"num"],[fmt(r.actual),"num"],[fmt(r.err_gr,1)+" gr","num"],[r.flat?"bez zmiany":r.hit?"trafiony":"chybiony",""],[r.run==="backtest"?"backtest":r.run==="morning"?"rano":"wieczór",""]]){ const td=document.createElement("td"); td.textContent=v; td.className=cls; tr.append(td); }
+  for (const r of L.recent.slice(0,12)){ const tr=document.createElement("tr"); tr.className=r.verdict;
+    for (const [v,cls] of [[plDate(r.target),"num"],[NAMES[r.fuel],""],[fmt(r.pred),"num"],[fmt(r.actual),"num"],[fmt(r.err_gr,1)+" gr","num"],[VLABEL[r.verdict],""],[r.run==="backtest"?"backtest":r.issued_at?fmtIssued(r.issued_at):"na żywo",""]]){ const td=document.createElement("td"); td.textContent=v; td.className=cls; tr.append(td); }
     tb.append(tr); }
 }
 function method(){
