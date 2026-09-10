@@ -229,7 +229,7 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.near td:first-child{b
     <tr><td>Hurt Orlen Pb95, Pb98, ON</td><td>orlen.pl, cennik hurtowy (PLN/m³ netto)</td><td>codziennie, wt–sob</td><td>cel prognozy i historia</td></tr>
     <tr><td>Brent</td><td>kontrakt front-month, notowania rynkowe</td><td>codziennie</td><td>główny czynnik dla benzyn</td></tr>
     <tr><td>Diesel ULSD (NY Harbor)</td><td>kontrakt front-month, notowania rynkowe</td><td>codziennie</td><td>proxy europejskiego diesla, główny czynnik dla ON</td></tr>
-    <tr><td>USD/PLN</td><td>notowania rynkowe, kontrola z API NBP</td><td>codziennie</td><td>przeliczenie ropy i diesla na złote</td></tr>
+    <tr><td>USD/PLN</td><td>notowania rynkowe</td><td>codziennie</td><td>przeliczenie ropy i diesla na złote</td></tr>
     <tr><td>Ceny na stacjach</td><td>Weekly Oil Bulletin Komisji Europejskiej</td><td>tygodniowo, poniedziałki</td><td>kalibracja marży stacji, kropki na wykresie</td></tr>
     <tr><td>Ceny maksymalne</td><td>Ministerstwo Energii, gov.pl</td><td>codziennie w okresach CPN</td><td>kontekst na wykresie historii</td></tr>
     <tr><td>Podatki</td><td>obwieszczenia MF i MI, Dz.U.</td><td>przy zmianach</td><td>stałe składniki ceny</td></tr>
@@ -259,7 +259,7 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
 
   <h2>4. Z hurtu na pylon</h2>
   <ol>
-    <li><b>Podatki jutra.</b> Do prognozy części rynkowej dodajemy akcyzę, opłatę paliwową i emisyjną obowiązujące jutro, potem mnożymy przez VAT (23%, lub 8% w okresach pakietu CPN).</li>
+    <li><b>Podatki.</b> Do prognozy części rynkowej dodajemy akcyzę, opłatę paliwową i emisyjną według dzisiejszych stawek, potem mnożymy przez VAT (23%, lub 8% w okresach pakietu CPN). Ogłoszona zmiana stawki wchodzi do prognozy dopiero w dniu, w którym zaczyna obowiązywać.</li>
     <li><b>Marża stacji.</b> Mediana różnicy między ceną na stacjach z Oil Bulletin i hurtem brutto z tego samego dnia, z ostatnich 8 tygodni. Mediana, bo pojedyncze tygodnie po gwałtownych ruchach hurtu dają marże skrajne. Dziś: <span id="margin-now"></span>.</li>
     <li><b>Rakiety i piórka.</b> Gdy hurt rośnie, stacje podnoszą od razu, więc cena detaliczna idzie za hurtem w całości. Gdy hurt spada, stacje sprzedają zapas kupiony drożej, więc zakładamy zamykanie połowy różnicy dziennie.</li>
   </ol>
@@ -274,14 +274,14 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
   <h2>6. Sprawdzian i rozliczenie</h2>
   <p>Współczynniki dopasowane na 2023–2025 zostały sprawdzone na całym 2026, czyli na roku z wojną o Ormuz i pakietem CPN, którego model nigdy nie widział. Miarą jest średni błąd bezwzględny jutrzejszej ceny hurtowej brutto i porównanie z prognozą naiwną „jutro = dziś”.</p>
   <div class="card tblwrap" style="padding:6px 0"><table id="eval"><thead><tr><th>Paliwo</th><th class="num">Błąd modelu</th><th class="num">Błąd „jutro = dziś”</th><th class="num">Trafiony kierunek</th><th class="num">Dni testu</th></tr></thead><tbody></tbody></table></div>
-  <p>Od uruchomienia strony prognoza jest zapisywana przy każdym z sześciu odświeżeń dziennie (rozliczana jest ostatnia z danego dnia), a po publikacji kolejnego cennika porównywana z rzeczywistością. Wyniki, w tym kroczący błąd z 30 dni i lista chybień, są w sekcji „Czy wczoraj trafiliśmy?” na stronie głównej. Cena detaliczna jest rozliczana raz w tygodniu, gdy ukaże się Oil Bulletin.</p>
+  <p>Od uruchomienia strony prognoza jest zapisywana przy każdym z sześciu odświeżeń dziennie (rozliczana jest ostatnia z danego dnia), a po publikacji kolejnego cennika porównywana z rzeczywistością. Wyniki, w tym kroczący błąd z 30 dni i lista chybień, są w sekcji „Czy wczoraj trafiliśmy?” na stronie głównej. Werdykt zależy od błędu w groszach na litrze: do 3 gr trafione, do 6 gr blisko, powyżej pudło; zgodność kierunku z ruchem względem „jutro = dziś” pokazujemy osobno. Rozliczamy wyłącznie hurt. Ceny na stacji nie rozliczamy, Oil Bulletin służy tylko do kalibracji marży.</p>
 
   <h2>7. Czego ten model nie potrafi</h2>
   <ul>
     <li>Nie przewiduje samych szoków. Dzień po ataku na tankowce model zobaczy ruch Brent i dopiero wtedy zareaguje; wydarzenia w panelu służą do zadawania pytań „co jeśli”, nie do wróżenia.</li>
     <li>Nie widzi decyzji Orlenu: cięć marży, promocji, zamrożeń cennika w okresach politycznych.</li>
     <li>Cena „dziś” na stacji to szacunek ze średniej krajowej, nie odczyt z Twojej stacji. Różnice między stacjami sięgają 30–40 gr.</li>
-    <li>Przewaga nad prognozą naiwną to kilka procent błędu. To realna, ale skromna wartość, zgodna z tym, jak mało przewidywalne są dzienne ceny ropy.</li>
+    <li>Przewaga nad prognozą naiwną to kilkanaście do dwudziestu kilku procent błędu (dokładne liczby w tabeli wyżej). To realna, ale skromna wartość, zgodna z tym, jak mało przewidywalne są dzienne ceny ropy.</li>
   </ul>
 </main>
 
@@ -290,7 +290,7 @@ cel    = ln net(t+1) − ln net(t)                                 [zmiana % na 
   <ul class="srcs">
     <li>Hurt: <a href="https://www.orlen.pl/pl/dla-biznesu/hurtowe-ceny-paliw" rel="noopener noreferrer" target="_blank">ORLEN, hurtowe ceny paliw</a> (PLN/m³ netto, codziennie)</li>
     <li>Detal: <a href="https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en" rel="noopener noreferrer" target="_blank">Weekly Oil Bulletin, Komisja Europejska</a> (tygodniowo, poniedziałki)</li>
-    <li>Brent, diesel ULSD: notowania kontraktów front-month; kurs USD/PLN: notowania rynkowe, kontrola z <a href="https://api.nbp.pl" rel="noopener noreferrer" target="_blank">API NBP</a></li>
+    <li>Brent, diesel ULSD: notowania kontraktów front-month; kurs USD/PLN: notowania rynkowe; kurs średni z <a href="https://api.nbp.pl" rel="noopener noreferrer" target="_blank">API NBP</a> tylko archiwizujemy, w modelu go nie ma</li>
     <li>Stawki podatkowe 2026: akcyza, opłata paliwowa, opłata emisyjna wg obwieszczeń MF i MI; pakiet CPN 31.03–30.06.2026</li>
   </ul>
   <p class="build">Ta strona sama pobiera dane, przelicza model i odświeża się bez niczyjego udziału. Budujemy takie rzeczy na zamówienie: <a href="https://devince.dev" rel="noopener noreferrer" target="_blank">devince.dev</a>.</p>
