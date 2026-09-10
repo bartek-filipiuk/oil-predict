@@ -44,7 +44,7 @@ def day(iso, n):
 
 api = {"source": "https://paliwometr.pl", "unit": "PLN/l",
        "generated": (blob.get("events") or {}).get("generated") or blob["meta"]["generated"],
-       "data_date": blob["fuels"]["pb95"]["last_date"], "issued_at": blob["ledger"]["fuels"]["pb95"].get("issued_at"),
+       "data_date": blob["fuels"]["pb95"]["last_date"], "issued_at": blob["ledger"].get("issued_at"),
        "verdict_thresholds_gr": blob["ledger"].get("thresholds_gr"), "fuels": {}}
 for f, F in blob["fuels"].items():
     L = blob["ledger"]["fuels"][f]
