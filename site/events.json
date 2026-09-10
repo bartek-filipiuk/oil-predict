@@ -1,6 +1,26 @@
 {
- "generated": "2026-09-09 21:17 UTC",
+ "generated": "2026-09-10 04:58 UTC",
  "headlines": [
+  {
+   "title": "Explosions Rock Southern Iran and Hormuz Area... Oil Prices Top $100 Amid Escalation Threat (Comprehensive) - 아시아경제",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04c25weGU4bkpXdEtIdVBKR2gxZnNjV2pjbHlEN25NRi1NRk1zQ2JDbmdOSEhPdU4tcHVkb3JJY3ZRUUliVG5NOXYyaVJLejVQaTNkeUtQYk5sR0RnUWhYZXRaMW8?oc=5",
+   "published": "2026-09-09 23:07"
+  },
+  {
+   "title": "Ceny paliw 10.09: Ropa powyżej 100 USD. Czy grozi nam 10 zł/l za diesel? - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMWlzTWp3NEs5Q3J2bWtud0Y2cjdfZ0FGb1otWmlOYkcyYnJ0dVU3cmVFV0VGaTFZOXFhVlYtbDdBMkN3UzlwSUxIdF9NWnBmUjZiYjI0TzBkdHRoVXF6dXpQUUs2TC1KMmw0VkJzRUhCZl9zVEl2bzhlU1dDVjdHTU1kazhFVXZuWThPNXh3bzFqV0NKQ0E?oc=5",
+   "published": "2026-09-09 22:50"
+  },
+  {
+   "title": "Oil Breaks $100—and This Rally Has Legs",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Breaks-100and-This-Rally-Has-Legs.html",
+   "published": "2026-09-09 19:00"
+  },
+  {
+   "title": "Canadian Oil Pushes Deeper Into U.S. Gulf Coast Market",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Canadian-Oil-Pushes-Deeper-Into-US-Gulf-Coast-Market.html",
+   "published": "2026-09-09 18:00"
+  },
   {
    "title": "U.S. Crude Stocks Edge Lower as Oil Tops $100",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Stocks-Edge-Lower-as-Oil-Tops-100.html",
@@ -32,89 +52,56 @@
    "published": "2026-09-09 09:30"
   },
   {
-   "title": "Sinopec Sees China Oil Demand Falling 8.9% in 2026",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Sinopec-Sees-China-Oil-Demand-Falling-89-in-2026.html",
-   "published": "2026-09-09 08:30"
-  },
-  {
-   "title": "Morgan Stanley: Oil Traders Are ‘More Precise’ With Risk as Wars Drag On",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Morgan-Stanley-Oil-Traders-Are-More-Precise-With-Risk-as-Wars-Drag-On.html",
-   "published": "2026-09-09 07:30"
-  },
-  {
-   "title": "Ceny paliw 9 września: Hurt Orlenu – lekka korekta mimo 3-miesięcznego szczytu na ropie - Agro Profil",
+   "title": "Ceny Paliw 9 Września: Hurt Orlen w Dół Mimo Szczytu Cen Ropy! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
    "published": "2026-09-08 22:41"
-  },
-  {
-   "title": "Ceny paliw 8 września 2026: Skok diesla ARA po ataku na tankowce. W środę droższy hurt dla rolników? - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNajctYjhmekhjOVVWTFM5YlhNVFZfRWhjZE80cEtlX2pERGtiVHFseUlrUXFzQWhuandYSHJMWnc2d3hPUDlYd09fOUxnM1NrcklXaU9ZWmFhQm9KbktPUEpLSGV3SWN4NkRZdjhwTFZ5V1BhVURTY0M4bzFlQjljUnJnVTNiYmVTbWU2Y1dUZ2IwS2U0cDZIWVVISmxIcVFtU0wybUczOW00ZHprelU3Y05BWVJVZXF4bnZhLWIxam1",
-   "published": "2026-09-07 22:59"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_port_czarnomorski",
-   "label": "Atak Ukrainy na rosyjski port naftowy",
-   "note": "Uderzenie w kluczowy port Morza Czarnego zagraża eksportowi ropy i paliw z Rosji.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Targets-Russias-Key-Black-Sea-Oil-Port.html",
-   "brent": 0.035,
-   "crack": 0.02
-  },
-  {
-   "id": "skok_diesla_tankowce",
-   "label": "Skok diesla ARA po ataku na tankowce",
-   "note": "Ataki na tankowce windowały marże diesla ARA, co przełoży się na polski hurt.",
+   "id": "iranhormuzeksplozje",
+   "label": "Wybuchy w Iranie i Cieśninie Ormuz",
+   "note": "Zagrożenie szlaków morskich i eskalacja wojenna windują ryzyko podażowe na Bliskim Wschodzie.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNajctYjhmekhjOVVWTFM5YlhNVFZfRWhjZE80cEtlX2pERGtiVHFseUlrUXFzQWhuandYSHJMWnc2d3hPUDlYd09fOUxnM1NrcklXaU9ZWmFhQm9KbktPUEpLSGV3SWN4NkRZdjhwTFZ5V1BhVURTY0M4bzFlQjljUnJnVTNiYmVTbWU2Y1dUZ2IwS2U0cDZIWVVISmxIcVFtU0wybUczOW00ZHprelU3Y05BWVJVZXF4bnZhLWIxam1",
-   "brent": 0.02,
-   "crack": 0.045,
-   "pl": 0.015
-  },
-  {
-   "id": "sinopec_spadek_popytu",
-   "label": "Sinopec prognozuje spadek popytu w Chinach",
-   "note": "Spadek zapotrzebowania o 8,9% w 2026 r. to silny impuls niedźwiedzi dla ropy naftowej.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Sinopec-Sees-China-Oil-Demand-Falling-89-in-2026.html",
-   "brent": -0.03
-  },
-  {
-   "id": "spadek_zapasow_usa_100us",
-   "label": "Spadek zapasów w USA przy cenie 100 USD",
-   "note": "Kolejny spadek zapasów w USA podtrzymuje presję popytową na drożejącą ropę.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Stocks-Edge-Lower-as-Oil-Tops-100.html",
-   "brent": 0.02,
-   "fx": 0.005
-  },
-  {
-   "id": "orlen_korekta_hurtu",
-   "label": "Korekta marż w hurcie Orlenu",
-   "note": "Mimo drogiej ropy Orlen skorygował ceny hurtowe, łagodząc presję kosztową na stacjach.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
-   "pl": -0.01
-  },
-  {
-   "id": "ryzyko_wojny_iran",
-   "label": "Ostrzeżenia BoE przed wojną z Iranem",
-   "note": "Eskalacja wokół Iranu grozi szokiem inflacyjnym i umocnieniem dolara wobec złotego.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Bank-of-England-Warns-Iran-War-Could-Push-UK-Inflation-Above-4.html",
-   "brent": 0.03,
+   "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04c25weGU4bkpXdEtIdVBKR2gxZnNjV2pjbHlEN25NRi1NRk1zQ2JDbmdOSEhPdU4tcHVkb3JJY3ZRUUliVG5NOXYyaVJLejVQaTNkeUtQYk5sR0RnUWhYZXRaMW8?oc=5",
+   "brent": 0.08,
+   "crack": 0.03,
    "fx": 0.015
   },
   {
-   "id": "kryzys_paliwowy_rosja",
-   "label": "Kryzys paliwowy w Rosji napędza marże",
-   "note": "Niedobory paliw w Rosji windują marże rafineryjne i ograniczają podaż w regionie.",
+   "id": "atakukrainyportczarnomor",
+   "label": "Ukraiński atak na port naftowy Rosji",
+   "note": "Uderzenie w terminal nad Morzem Czarnym ogranicza eksport rosyjskiej ropy i produktów paliwowych.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Targets-Russias-Key-Black-Sea-Oil-Port.html",
+   "brent": 0.025,
+   "crack": 0.035
+  },
+  {
+   "id": "orlenobnizkahurtu",
+   "label": "Obniżki hurtowe Orlenu wbrew rynkowi",
+   "note": "Orlen redukuje marże hurtowe, łagodząc w kraju presję wywołaną skokiem cen ropy na świecie.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkxPRV9fWGxWcFp4dHdMZW9NcjZQQXZjeFhPV2duSTJJR0hhX3lJR3pnYWxnVFcwNjBVTFRuRlI4cC1GTkZ5UGF2S00yYThJa3BQMERWV2ZuUGxyLXk0THU3azl5dGxsQTIybmg5N0FRWFIxT1VpWGxJVVV2TmUwMnlvOEUtMGhkZnJDcUl4VVZQQ3JqVkw1ZTBhN0dZMUZvYVFEOWVRdm9YU1ZhTWwtUnRoMEJUaUFMcGc?oc=5",
+   "pl": -0.02
+  },
+  {
+   "id": "spadekzapasowropyusa",
+   "label": "Kolejny spadek zapasów ropy w USA",
+   "note": "Spadek rezerw przy cenie 100 USD/bbl wzmacnia presję popytowo-podażową na globalny rynek.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Stocks-Edge-Lower-as-Oil-Tops-100.html",
+   "brent": 0.015
+  },
+  {
+   "id": "kryzyspaliwowywrosji",
+   "label": "Kryzys paliwowy w Rosji",
+   "note": "Niedobory paliw na wschodzie ograniczają bilans podażowy diesla w Europie, podbijając crack spread.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Belarus-Refineries-Post-Decade-High-Profits-Amid-Russias-Fuel-Crisis.html",
-   "crack": 0.02
+   "crack": 0.025
   }
  ]
 }
