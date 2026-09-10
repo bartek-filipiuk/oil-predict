@@ -42,10 +42,10 @@ header .brand span{color:var(--amber)}
 .hero{padding:40px 0 16px}
 .hero h1{font-size:clamp(40px,6.5vw,84px);line-height:.95;text-transform:uppercase;max-width:16ch}
 .hero p{margin-top:16px;font-size:18px}
-.top{display:grid;grid-template-columns:minmax(0,2fr) minmax(300px,1fr);gap:28px;margin-top:40px;align-items:start}
+.top{display:grid;grid-template-columns:minmax(0,2fr) minmax(300px,1fr);gap:28px;margin-top:28px;align-items:start}
 .top .left{display:grid;gap:28px;min-width:0}
 .top .fc .smalls{margin-top:12px}
-.board{margin:0;background:var(--board);border-radius:10px;padding:clamp(16px,2.4vw,28px);display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(12px,2vw,28px);color:var(--board-muted);box-shadow:0 20px 50px -30px rgba(0,0,0,.6)}
+.board{margin:32px 0 0;background:var(--board);border-radius:10px;padding:clamp(16px,2.4vw,28px);display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(12px,2vw,28px);color:var(--board-muted);box-shadow:0 20px 50px -30px rgba(0,0,0,.6)}
 .tile{display:grid;gap:6px;border-left:2px solid #22282e;padding-left:clamp(10px,1.6vw,20px)}
 .tile:first-child{border-left:0;padding-left:0}
 .tile .fuel{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:22px;letter-spacing:.06em;color:#fff;display:flex;align-items:center;gap:10px}
@@ -155,18 +155,20 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.near td:first-child{b
   <h1 style="margin-top:8px">Ile zapłacisz na stacji jutro</h1>
   <p class="muted">Model liczy jutrzejszy hurt Orlenu z ruchów ropy Brent, amerykańskiego diesla i kursu dolara, dokłada podatki i średnią marżę stacji. Obok: wydarzenia, które przesuwają prognozę na cały tydzień.</p>
 
-  <div class="top">
-    <div class="left">
   <div class="board" id="board" aria-live="polite">
     <div class="tile" data-fuel="pb95"><div class="fuel"><i style="background:var(--pb95)"></i>Pb95</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="strip"><div><span class="lbl pred-lbl">prognoza na dziś</span><span class="val num pred">–</span></div><div><span class="lbl">jest</span><span class="val num act">–</span></div></div><div class="row"><span class="verdict-tag">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
     <div class="tile" data-fuel="pb98"><div class="fuel"><i style="background:var(--pb98)"></i>Pb98</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="strip"><div><span class="lbl pred-lbl">prognoza na dziś</span><span class="val num pred">–</span></div><div><span class="lbl">jest</span><span class="val num act">–</span></div></div><div class="row"><span class="verdict-tag">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
     <div class="tile" data-fuel="on"><div class="fuel"><i style="background:var(--on)"></i>ON</div><div class="big num"><span class="v">–</span><small>zł/l jutro</small></div><div class="row"><span>dziś <span class="today num">–</span> zł/l</span><span class="chip num delta">–</span></div><div class="strip"><div><span class="lbl pred-lbl">prognoza na dziś</span><span class="val num pred">–</span></div><div><span class="lbl">jest</span><span class="val num act">–</span></div></div><div class="row"><span class="verdict-tag">–</span></div><div class="row"><span>za tydzień <span class="week num">–</span> zł/l</span><span class="band num muted">–</span></div></div>
     <div class="foot"><span>„Dziś” = hurt Orlen brutto z <span id="last-date" class="num"></span> + mediana marży stacji z 8 tygodni Oil Bulletin. Przedział = błąd modelu z 2026 × √dni. <span id="regime-note"></span></span><span id="scenario-note">Scenariusz bazowy: bez wydarzeń</span></div>
   </div>
+
+  <div class="top">
+    <div class="left">
     <div class="fc">
       <div class="eyebrow">Prognoza na 7 dni · cena na stacji, zł/l</div>
       <div class="smalls" style="margin-top:12px" id="forecast-cards"></div>
       <div class="legend"><span style="color:var(--ink)"><i style="border-color:var(--ink)"></i>stacja (prognoza)</span><span style="color:var(--muted)"><i class="dash" style="border-color:var(--muted)"></i>hurt Orlen brutto</span><span class="muted"><i style="border-top:10px solid var(--band)"></i>przedział</span><span style="color:var(--amber)" id="base-legend" hidden><i class="dash" style="border-color:var(--amber)"></i>bez wydarzeń</span></div>
+      <div class="headlines" id="headlines"></div>
     </div>
     </div>
     <div class="panel">
@@ -175,7 +177,6 @@ tr.hit td:first-child{border-left:3px solid var(--down)}tr.near td:first-child{b
       <p class="muted" style="font-size:14px;margin-top:6px" id="events-intro"></p>
       <div style="margin-top:10px"><span class="badge" id="events-badge"></span></div>
       <div class="events" id="events"></div>
-      <div class="headlines" id="headlines"></div>
       <div class="slider">
         <label for="brent-slider"><span>Własny ruch Brent</span><span class="num" id="brent-slider-val">0%</span></label>
         <input type="range" id="brent-slider" min="-30" max="30" step="1" value="0">
