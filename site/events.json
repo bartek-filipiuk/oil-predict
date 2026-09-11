@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-11 15:06 UTC",
+ "generated": "2026-09-11 17:48 UTC",
  "headlines": [
+  {
+   "title": "U.S. Oil Rig Count Rises as Oil Tops $100",
+   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rig-Count-Rises-as-Oil-Tops-100.html",
+   "published": "2026-09-11 12:19"
+  },
+  {
+   "title": "Drone Strikes Hit Saudi Arabia’s Vital East-West Oil Pipeline",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
+   "published": "2026-09-11 12:04"
+  },
+  {
+   "title": "Saudi Arabia’s Critical Oil Bypass Comes Under Threat",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-Critical-Oil-Bypass-Comes-Under-Threat.html",
+   "published": "2026-09-11 11:05"
+  },
+  {
+   "title": "Supertanker Rates Hit $800,000 a Day as Gulf Tensions Escalate",
+   "url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
+   "published": "2026-09-11 11:00"
+  },
+  {
+   "title": "IEA Sees 5.7 Million Bpd Oil Supply Plunge as Gulf Recovery Slips to 2027",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
+   "published": "2026-09-11 10:30"
+  },
   {
    "title": "UAE Rethinks 5-Gigawatt AI Campus After Iran Targets US Assets in Gulf",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Rethinks-5-Gigawatt-AI-Campus-After-Iran-Targets-US-Assets-in-Gulf.html",
@@ -35,87 +60,72 @@
    "title": "China's Crude Imports Set to Hold at 7.2 Million Bpd in September",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Crude-Imports-Set-to-Hold-at-72-Million-Bpd-in-September.html",
    "published": "2026-09-11 06:30"
-  },
-  {
-   "title": "Ceny paliw od 11.09: Diesel pędzi w stronę 9 zł/l, benzyna tanieje – dramat w szczycie jesiennych prac polowych - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0dXMUJ2Y2gzRmU2eEFCVW40TzYzanNfcVVlYnZUbWppcmkwNFdhSjRnaUhpckFMQ0Z4by0zdGJIX0REQXpIQmpuUjNITjltLWg4ckpzTTJhX2xFZ1dqMXRIa3dkQ2VQdG56U1QzVWlUNHJpblRDMWZvanhZY1YzamxvbDg4MTBuSFRaSXEyMnppVk8zZEtXcTJVTUs?oc=5",
-   "published": "2026-09-11 05:46"
-  },
-  {
-   "title": "Hormuz Shipping Traffic Plunges as Middle East War Escalates",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Plunges-as-Middle-East-War-Escalates.html",
-   "published": "2026-09-11 05:30"
-  },
-  {
-   "title": "China’s 70% EV Target Deals Another Blow to Oil Demand",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-70-EV-Target-Deals-Another-Blow-to-Oil-Demand.html",
-   "published": "2026-09-11 04:30"
-  },
-  {
-   "title": "Oil Prices Could Top $120 as Middle East Conflict Escalates",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Could-Top-120-as-Middle-East-Conflict-Escalates.html",
-   "published": "2026-09-11 03:00"
-  },
-  {
-   "title": "U.S. Diesel Prices Top $6 a Gallon for First Time Ever",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Top-6-a-Gallon-for-First-Time-Ever.html",
-   "published": "2026-09-11 01:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "paraliz_ormuz",
-   "label": "Paraliż żeglugi w cieśninie Ormuz",
-   "note": "Gwałtowny spadek ruchu tankowców w Zatoce Perskiej winduje premie za ryzyko dostaw ropy.",
+   "id": "atak_rurociag_saudi",
+   "label": "Atak na rurociąg Wschód-Zachód w Arabii",
+   "note": "Uderzenie w kluczowy rurociąg omijający Ormuz ogranicza zdolności eksportowe saudyjskiej ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
+   "brent": 0.06,
+   "fx": 0.01
+  },
+  {
+   "id": "zalamanie_ruchu_ormuz",
+   "label": "Załamanie żeglugi w Cieśninie Ormuz",
+   "note": "Wstrzymanie tranzytu tankowców przez kluczowy punkt zapalny drastycznie odcina globalne dostawy.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Plunges-as-Middle-East-War-Escalates.html",
    "brent": 0.07,
+   "crack": 0.03,
    "fx": 0.02
   },
   {
-   "id": "zagrozenie_bab_al_mandeb",
-   "label": "Ofensywa Huti przy Bab al-Mandab",
-   "note": "Zagrożenie saudyjskich tras eksportowych ropy wymusza opływanie Afryki i podbija koszty transportu.",
+   "id": "rekordowe_stawki_superta",
+   "label": "Rekordowe stawki frachtu supertankowców",
+   "note": "Koszty czarteru 800 tys. USD/dzień windowują koszty logistyki surowca i gotowych paliw do Europy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
+   "brent": 0.03,
+   "crack": 0.04
+  },
+  {
+   "id": "mae_spadek_podazy",
+   "label": "Raport MAE: spadek podaży o 5,7 mln bpd",
+   "note": "MAE ostrzega przed potężną wyrwą w podaży z Zatoki Perskiej, oddalając odbudowę na 2027 rok.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
+   "brent": 0.05
+  },
+  {
+   "id": "rekordowy_crack_diesel",
+   "label": "Rekordowe marże crack na diesla w Europie",
+   "note": "Marże diesla ULSD biją rekordy na zachód od Suezu, pogłębiając dysparytet cenowy oleju napędowego.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
+   "brent": 0.03,
+   "crack": 0.05
+  },
+  {
+   "id": "huti_bab_al_mandab",
+   "label": "Ofensywa Huti w rejonie Bab al-Mandab",
+   "note": "Zagrożenie południowego szlaku eksportowego dodatkowo blokuje trasy omijające Cieśninę Ormuz.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
    "brent": 0.04,
    "crack": 0.02
   },
   {
-   "id": "rekordowe_cracki_ulsd",
-   "label": "Rekordowe marże na dieslu w Europie",
-   "note": "Skok notowań ULSD powyżej ropy zwiększa presję marżową na europejskim rynku paliw gotowych.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
-   "brent": 0.03,
-   "crack": 0.06
-  },
-  {
-   "id": "rekord_cen_diesla_usa",
-   "label": "Ceny diesla w USA powyżej 6 USD/gal",
-   "note": "Globalny niedobór średnich destylatów napędza marże rafineryjne i drenuje zapasy paliw.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Top-6-a-Gallon-for-First-Time-Ever.html",
-   "crack": 0.04
-  },
-  {
-   "id": "wzrost_cen_diesla_polska",
-   "label": "Wzrost cen diesla w polskim hurcie",
-   "note": "Szczyt prac polowych i drogi import diesla windują marże i ceny hurtowe na rynku krajowym.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0dXMUJ2Y2gzRmU2eEFCVW40TzYzanNfcVVlYnZUbWppcmkwNFdhSjRnaUhpckFMQ0Z4by0zdGJIX0REQXpIQmpuUjNITjltLWg4ckpzTTJhX2xFZ1dqMXRIa3dkQ2VQdG56U1QzVWlUNHJpblRDMWZvanhZY1YzamxvbDg4MTBuSFRaSXEyMnppVk8zZEtXcTJVTUs?oc=5",
-   "crack": 0.03,
-   "pl": 0.04
-  },
-  {
-   "id": "chiny_cel_ev",
-   "label": "Cel 70% aut EV w Chinach",
-   "note": "Ambitne plany elektryfikacji floty w Chinach osłabiają długoterminowy popyt na ropę.",
+   "id": "wzrost_wiez_usa",
+   "label": "Wzrost liczby wież wiertniczych w USA",
+   "note": "Wzrost aktywności wydobywczej w USA po przekroczeniu 100 USD za baryłkę lekko hamuje panikę.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-70-EV-Target-Deals-Another-Blow-to-Oil-Demand.html",
-   "brent": -0.02
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rig-Count-Rises-as-Oil-Tops-100.html",
+   "brent": -0.015
   }
  ]
 }
