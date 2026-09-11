@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11 17:48 UTC",
+ "generated": "2026-09-11 19:55 UTC",
  "headlines": [
   {
    "title": "U.S. Oil Rig Count Rises as Oil Tops $100",
@@ -66,66 +66,67 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_rurociag_saudi",
-   "label": "Atak na rurociąg Wschód-Zachód w Arabii",
-   "note": "Uderzenie w kluczowy rurociąg omijający Ormuz ogranicza zdolności eksportowe saudyjskiej ropy.",
+   "id": "atakrurociagsaudi",
+   "label": "Atak dronów na rurociąg East-West w SA",
+   "note": "Uderzenie w kluczowy rurociąg omijający Ormuz winduje premię za ryzyko podaży ropy.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
    "brent": 0.06,
-   "fx": 0.01
+   "fx": 0.015
   },
   {
-   "id": "zalamanie_ruchu_ormuz",
-   "label": "Załamanie żeglugi w Cieśninie Ormuz",
-   "note": "Wstrzymanie tranzytu tankowców przez kluczowy punkt zapalny drastycznie odcina globalne dostawy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Plunges-as-Middle-East-War-Escalates.html",
-   "brent": 0.07,
-   "crack": 0.03,
-   "fx": 0.02
-  },
-  {
-   "id": "rekordowe_stawki_superta",
-   "label": "Rekordowe stawki frachtu supertankowców",
-   "note": "Koszty czarteru 800 tys. USD/dzień windowują koszty logistyki surowca i gotowych paliw do Europy.",
+   "id": "rekordowestawkisupertank",
+   "label": "Skok stawek supertankowców do 800 tys. USD",
+   "note": "Drastyczny wzrost kosztów frachtu z Zatoki Perskiej podbija ceny surowca i marże diesla.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
    "brent": 0.03,
    "crack": 0.04
   },
   {
-   "id": "mae_spadek_podazy",
-   "label": "Raport MAE: spadek podaży o 5,7 mln bpd",
-   "note": "MAE ostrzega przed potężną wyrwą w podaży z Zatoki Perskiej, oddalając odbudowę na 2027 rok.",
+   "id": "raportieaspadekpodazy",
+   "label": "IEA: spadek podaży ropy o 5,7 mln bpd",
+   "note": "Prognoza przedłużającego się deficytu surowca z Zatoki napędza długoterminowe wzrosty cen.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
-   "brent": 0.05
+   "brent": 0.05,
+   "fx": 0.01
   },
   {
-   "id": "rekordowy_crack_diesel",
-   "label": "Rekordowe marże crack na diesla w Europie",
-   "note": "Marże diesla ULSD biją rekordy na zachód od Suezu, pogłębiając dysparytet cenowy oleju napędowego.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
-   "brent": 0.03,
-   "crack": 0.05
-  },
-  {
-   "id": "huti_bab_al_mandab",
-   "label": "Ofensywa Huti w rejonie Bab al-Mandab",
-   "note": "Zagrożenie południowego szlaku eksportowego dodatkowo blokuje trasy omijające Cieśninę Ormuz.",
+   "id": "zagrozenieciesninybabalm",
+   "label": "Postępy Huti w rejonie Bab al-Mandab",
+   "note": "Zagrożenie szlaku przez Morze Czerwone dodatkowo paraliżuje transport ropy i produktów.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
    "brent": 0.04,
-   "crack": 0.02
+   "crack": 0.03
   },
   {
-   "id": "wzrost_wiez_usa",
-   "label": "Wzrost liczby wież wiertniczych w USA",
-   "note": "Wzrost aktywności wydobywczej w USA po przekroczeniu 100 USD za baryłkę lekko hamuje panikę.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rig-Count-Rises-as-Oil-Tops-100.html",
-   "brent": -0.015
+   "id": "rekordowemarzedieslaulsd",
+   "label": "Rekordowe marże diesla ULSD w Europie",
+   "note": "Wzrost cen ropy powyżej 105 USD i kryzys podaży windują marże krakowe na europejskim ON.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
+   "brent": 0.03,
+   "crack": 0.06
+  },
+  {
+   "id": "dieselpresjapopyturolnic",
+   "label": "Jesienny szok cenowy diesla w Polsce",
+   "note": "Szczyt prac polowych i drogi import diesla zmuszają do podwyżek marż i cen hurtowych w kraju.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0dXMUJ2Y2gzRmU2eEFCVW40TzYzanNfcVVlYnZUbWppcmkwNFdhSjRnaUhpckFMQ0Z4by0zdGJIX0REQXpIQmpuUjNITjltLWg4ckpzTTJhX2xFZ1dqMXRIa3dkQ2VQdG56U1QzVWlUNHJpblRDMWZvanhZY1YzamxvbDg4MTBuSFRaSXEyMnppVk8zZEtXcTJVTUs?oc=5",
+   "crack": 0.03,
+   "pl": 0.02
+  },
+  {
+   "id": "eksplozjeiranhormuz",
+   "label": "Eksplozje w cieśninie Ormuz i Iranie",
+   "note": "Eskalacja militarna wokół cieśniny Ormuz wywołuje panikę podażową na globalnym rynku ropy.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04c25weGU4bkpXdEtIdVBKR2gxZnNjV2pjbHlEN25NRi1NRk1zQ2JDbmdOSEhPdU4tcHVkb3JJY3ZRUUliVG5NOXYyaVJLejVQaTNkeUtQYk5sR0RnUWhYZXRaMW8?oc=5",
+   "brent": 0.07,
+   "fx": 0.02
   }
  ]
 }
