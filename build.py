@@ -9,7 +9,7 @@ import json
 blob = json.loads((ROOT / "site" / "data.json").read_text())
 ev = ROOT / "site" / "events.json"
 blob["events"] = json.loads(ev.read_text()) if ev.exists() else None
-data = json.dumps(blob, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")   # never let data close the script tag
+data = json.dumps(blob, ensure_ascii=False, separators=(",", ":"), allow_nan=False).replace("</", "<\\/")   # NaN would break JSON.parse in the browser   # never let data close the script tag
 body = page.replace("__DATA__", data)
 
 def sha(s): return "sha256-" + base64.b64encode(hashlib.sha256(s.encode()).digest()).decode()
@@ -59,7 +59,7 @@ for f, F in blob["fuels"].items():
     }
 
 dist = ROOT / "dist"; dist.mkdir(exist_ok=True)
-(dist / "api.json").write_text(json.dumps(api, ensure_ascii=False, indent=1))
+(dist / "api.json").write_text(json.dumps(api, ensure_ascii=False, indent=1, allow_nan=False))
 head_bits = re.findall(r"<(?:title|link)\b[^>]*>(?:.*?</title>)?", body, flags=re.S)
 standalone_body = body
 for h in head_bits: standalone_body = standalone_body.replace(h, "", 1)

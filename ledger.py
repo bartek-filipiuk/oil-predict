@@ -54,6 +54,7 @@ for _, r in led.iterrows():
 sc = pd.DataFrame(scored)
 sc["err"] = (sc.pred - sc.actual).abs() * 100; sc["err_naive"] = (sc.naive - sc.actual).abs() * 100
 sc["verdict"] = sc.err.map(verdict)
+sc["issued_at"] = sc.issued_at.map(lambda v: v if isinstance(v, str) else None)   # pandas 3 str dtype stores None as NaN
 sc["hit"] = np.sign(sc.pred - sc.naive) == np.sign(sc.actual - sc.naive)
 sc["flat"] = (sc.actual - sc.naive).abs() < 1e-9
 
@@ -64,13 +65,13 @@ for f in FUELS:
     last = d.iloc[-1]; w30 = d.tail(30)
     out["fuels"][f] = {"target": last.target, "pred": round(last.pred, 3), "actual": round(last.actual, 3), "naive": round(last.naive, 3),
                        "err_gr": round(last.err, 1), "err_naive_gr": round(last.err_naive, 1), "verdict": last.verdict,
-                       "hit": bool(last.hit), "flat": bool(last.flat), "run": last.run, "issued_at": last.issued_at,
+                       "hit": bool(last.hit), "flat": bool(last.flat), "run": last.run, "issued_at": last.issued_at if isinstance(last.issued_at, str) else None,
                        "mae30": round(float(w30.err.mean()), 1), "mae30_naive": round(float(w30.err_naive.mean()), 1),
                        "hit30": round(float(w30[~w30.flat].hit.mean()), 2) if (~w30.flat).any() else None, "n30": int(len(w30)),
                        "n_total": int(len(d)), "n_live": int((d.run != "backtest").sum())}
     out["recent"] += [{"target": r.target, "fuel": f, "pred": round(r.pred, 2), "actual": round(r.actual, 2), "naive": round(r.naive, 2),
                        "err_gr": round(r.err, 1), "verdict": r.verdict, "hit": bool(r.hit), "flat": bool(r.flat), "run": r.run,
-                       "issued_at": r.issued_at} for _, r in d.tail(10).iterrows()]
+                       "issued_at": r.issued_at if isinstance(r.issued_at, str) else None} for _, r in d.tail(10).iterrows()]
     # rolling 30-day MAE series for the chart
     roll = d.set_index("target")[["err", "err_naive"]].rolling(30, min_periods=10).mean().dropna()
     out["rolling"][f] = [[i, round(a, 1), round(b, 1)] for i, (a, b) in zip(roll.index, roll.values)]
@@ -79,7 +80,8 @@ out["thresholds_gr"] = {"hit": HIT, "near": NEAR}
 out["issued_at"] = ISSUED_AT   # this run, for the "refreshed at" stamp on the page
 out["live_from"] = str(led[led.run == "live"].issued.min()) if (led.run == "live").any() else None
 site["ledger"] = out
-(ROOT / "site" / "data.json").write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":")))
+# allow_nan=False: a NaN anywhere would be invalid JSON and blank the whole page; better to fail the run here
+(ROOT / "site" / "data.json").write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":"), allow_nan=False))
 live = led[led.run == "live"]
 assert not live.duplicated(["issued", "fuel"]).any(), "ledger: more than one live row for a day"
 print(f"ledger: {len(led)} rows, {len(sc)} scored;", {f: (out['fuels'][f]['mae30'], out['fuels'][f]['mae30_naive'], out['fuels'][f]['hit30']) for f in FUELS})
