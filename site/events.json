@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-11 12:56 UTC",
+ "generated": "2026-09-11 15:06 UTC",
  "headlines": [
+  {
+   "title": "UAE Rethinks 5-Gigawatt AI Campus After Iran Targets US Assets in Gulf",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Rethinks-5-Gigawatt-AI-Campus-After-Iran-Targets-US-Assets-in-Gulf.html",
+   "published": "2026-09-11 09:30"
+  },
+  {
+   "title": "Debunking the Viral Claim That America Has Only 14 Days of Oil Left",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Debunking-the-Viral-Claim-That-America-Has-Only-14-Days-of-Oil-Left.html",
+   "published": "2026-09-11 09:00"
+  },
+  {
+   "title": "Jeff Currie Sees $5 Gasoline Before Midterms",
+   "url": "https://oilprice.com/Energy/Energy-General/Jeff-Currie-Sees-5-Gasoline-Before-Midterms.html",
+   "published": "2026-09-11 08:16"
+  },
   {
    "title": "Houthis Advance on Bab al-Mandeb as Saudi Oil Route Comes Under Threat",
    "url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
@@ -45,21 +60,6 @@
    "title": "U.S. Diesel Prices Top $6 a Gallon for First Time Ever",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Top-6-a-Gallon-for-First-Time-Ever.html",
    "published": "2026-09-11 01:30"
-  },
-  {
-   "title": "Oil Prices Surge to Four-Month Highs as War Risks Mount",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-to-Four-Month-Highs-as-War-Risks-Mount.html",
-   "published": "2026-09-11 00:30"
-  },
-  {
-   "title": "West of Suez: Brent tops $105/b, ULSD spot cracks at record high - Quantum Commodity Intelligence",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
-   "published": "2026-09-10 20:33"
-  },
-  {
-   "title": "Higher Oil Prices Let Mexico Pull Back Billions in Pemex Support",
-   "url": "https://oilprice.com/Energy/Energy-General/Higher-Oil-Prices-Let-Mexico-Pull-Back-Billions-in-Pemex-Support.html",
-   "published": "2026-09-10 17:00"
   }
  ],
  "source": "ai",
@@ -68,51 +68,51 @@
   {
    "id": "paraliz_ormuz",
    "label": "Paraliż żeglugi w cieśninie Ormuz",
-   "note": "Zaostrzenie konfliktu i spadek ruchu tankowców windują premię za ryzyko podażowe ropy.",
+   "note": "Gwałtowny spadek ruchu tankowców w Zatoce Perskiej winduje premie za ryzyko dostaw ropy.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Plunges-as-Middle-East-War-Escalates.html",
-   "brent": 0.06,
-   "fx": 0.015
+   "brent": 0.07,
+   "fx": 0.02
   },
   {
-   "id": "huti_bab_al_mandeb",
-   "label": "Zagrożenie cieśniny Bab al-Mandab",
-   "note": "Postępy Huti zagrażają saudyjskiemu eksportowi ropy, wydłużając trasy i koszty frachtu.",
+   "id": "zagrozenie_bab_al_mandeb",
+   "label": "Ofensywa Huti przy Bab al-Mandab",
+   "note": "Zagrożenie saudyjskich tras eksportowych ropy wymusza opływanie Afryki i podbija koszty transportu.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
    "brent": 0.04,
    "crack": 0.02
   },
   {
-   "id": "rekordowe_marze_ulsd",
-   "label": "Rekordowe marże diesla (ULSD)",
-   "note": "Skokowy wzrost marż rafineryjnych na olej napędowy w Europie wywołany deficytem podaży.",
+   "id": "rekordowe_cracki_ulsd",
+   "label": "Rekordowe marże na dieslu w Europie",
+   "note": "Skok notowań ULSD powyżej ropy zwiększa presję marżową na europejskim rynku paliw gotowych.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
    "brent": 0.03,
-   "crack": 0.07
+   "crack": 0.06
   },
   {
-   "id": "rekord_diesel_usa",
-   "label": "Rekordowe ceny diesla w USA",
-   "note": "Globalny deficyt średnich destylatów podbija marże crack i presję na europejski rynek paliw.",
+   "id": "rekord_cen_diesla_usa",
+   "label": "Ceny diesla w USA powyżej 6 USD/gal",
+   "note": "Globalny niedobór średnich destylatów napędza marże rafineryjne i drenuje zapasy paliw.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Prices-Top-6-a-Gallon-for-First-Time-Ever.html",
    "crack": 0.04
   },
   {
-   "id": "popyt_diesel_polska",
-   "label": "Presja popytowa na diesel w Polsce",
-   "note": "Szczyt jesiennych prac polowych zderza się z drogim importem, podbijając marże i ceny hurtowe.",
+   "id": "wzrost_cen_diesla_polska",
+   "label": "Wzrost cen diesla w polskim hurcie",
+   "note": "Szczyt prac polowych i drogi import diesla windują marże i ceny hurtowe na rynku krajowym.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0dXMUJ2Y2gzRmU2eEFCVW40TzYzanNfcVVlYnZUbWppcmkwNFdhSjRnaUhpckFMQ0Z4by0zdGJIX0REQXpIQmpuUjNITjltLWg4ckpzTTJhX2xFZ1dqMXRIa3dkQ2VQdG56U1QzVWlUNHJpblRDMWZvanhZY1YzamxvbDg4MTBuSFRaSXEyMnppVk8zZEtXcTJVTUs?oc=5",
    "crack": 0.03,
-   "pl": 0.03
+   "pl": 0.04
   },
   {
    "id": "chiny_cel_ev",
-   "label": "Cel Chin 70% EV osłabia popyt",
-   "note": "Ambitny cel elektryfikacji transportu w Chinach stanowi średnioterminową barierę wzrostu ropy.",
+   "label": "Cel 70% aut EV w Chinach",
+   "note": "Ambitne plany elektryfikacji floty w Chinach osłabiają długoterminowy popyt na ropę.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-70-EV-Target-Deals-Another-Blow-to-Oil-Demand.html",
    "brent": -0.02
