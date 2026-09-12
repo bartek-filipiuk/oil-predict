@@ -1,10 +1,20 @@
 {
- "generated": "2026-09-12 09:22 UTC",
+ "generated": "2026-09-12 21:43 UTC",
  "headlines": [
+  {
+   "title": "Iran’s Security Crackdown Runs Into Resistance From Within",
+   "url": "https://oilprice.com/Energy/Energy-General/Irans-Security-Crackdown-Runs-Into-Resistance-From-Within.html",
+   "published": "2026-09-12 12:00"
+  },
   {
    "title": "Nagły zwrot w cenach paliw. Orlen mocno obniżył cenę benzyny - Gazeta Prawna",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd3JVaW5PbTVRRjNzSkNQZW16cXU5R055S0JsTkZxOG0yNEJxZDgyTGRrelVfUlNhby1ZTFV2NVpSdk5zVGZpRW5Bb0JDNzBGQzdtRF9IVFB1MlR2MnZFOUJBcUgwbUtycjdKVVhpQnc4V1pscmQ3S0lKZWdHcldWbFRDalNQb1hWRkJJaGFOMWY0aDRkd3Nfd1ZGbmJaTTR5c2t2SHNXNG9OOWxJZndrS3NUVmgzMXdrRmNnbUZnNTF",
    "published": "2026-09-12 07:30"
+  },
+  {
+   "title": "Ceny paliw od 12.09.2026: Diesel w hurcie Orlenu po 8,95 zł/l z VAT – najwyżej w tym roku! - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2VySnk3R0RJMTJGTVU5b092ZG9Wamc2U25GN0V4TmZQcVk3OEJuVVY1SWhmMEJPSFRSRC1vTHppN3Vzcnc2eG05aWVzdVc1dUJNcG1BeTRZdEJqRjBLclkyVWtScVJPbUpoNXVPczdxa2xYMHpDVHhxc0o4bVY2bUtXa2wzREhEbUtLYjZvSlV2bVpva25LZkFNVThaZW1xUzdTa3lWdlhESzhrMUlnRGVTMWZFQTdPdVpz?oc=5",
+   "published": "2026-09-11 23:23"
   },
   {
    "title": "White House Weighs Defense Production Act as U.S. Refineries Maxed Out",
@@ -47,83 +57,65 @@
    "published": "2026-09-11 09:00"
   },
   {
-   "title": "Jeff Currie Sees $5 Gasoline Before Midterms",
-   "url": "https://oilprice.com/Energy/Energy-General/Jeff-Currie-Sees-5-Gasoline-Before-Midterms.html",
-   "published": "2026-09-11 08:16"
-  },
-  {
-   "title": "Houthis Advance on Bab al-Mandeb as Saudi Oil Route Comes Under Threat",
-   "url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
-   "published": "2026-09-11 07:30"
-  },
-  {
-   "title": "Vostok Oil: One Tanker, Four Trillion Rubles",
-   "url": "https://oilprice.com/Energy/Energy-General/Vostok-Oil-One-Tanker-Four-Trillion-Rubles.html",
-   "published": "2026-09-11 07:30"
+   "title": "Ceny paliw od 11.09: Diesel pędzi w stronę 9 zł/l, benzyna tanieje – dramat w szczycie jesiennych prac polowych - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0dXMUJ2Y2gzRmU2eEFCVW40TzYzanNfcVVlYnZUbWppcmkwNFdhSjRnaUhpckFMQ0Z4by0zdGJIX0REQXpIQmpuUjNITjltLWg4ckpzTTJhX2xFZ1dqMXRIa3dkQ2VQdG56U1QzVWlUNHJpblRDMWZvanhZY1YzamxvbDg4MTBuSFRaSXEyMnppVk8zZEtXcTJVTUs?oc=5",
+   "published": "2026-09-11 05:46"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "orlen_obnizka_benzyny",
-   "label": "Obniżka cen benzyny przez Orlen",
-   "note": "Orlen gwałtownie ściął hurtowe ceny benzyny, rozszerzając dysparytet względem diesla.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd3JVaW5PbTVRRjNzSkNQZW16cXU5R055S0JsTkZxOG0yNEJxZDgyTGRrelVfUlNhby1ZTFV2NVpSdk5zVGZpRW5Bb0JDNzBGQzdtRF9IVFB1MlR2MnZFOUJBcUgwbUtycjdKVVhpQnc4V1pscmQ3S0lKZWdHcldWbFRDalNQb1hWRkJJaGFOMWY0aDRkd3Nfd1ZGbmJaTTR5c2t2SHNXNG9OOWxJZndrS3NUVmgzMXdrRmNnbUZnNTF",
-   "pl": -0.04
-  },
-  {
    "id": "atak_rurociag_arabia",
-   "label": "Atak dronów na saudyjski rurociąg",
-   "note": "Uderzenie w rurociąg East-West paraliżuje kluczowy szlak omijający Cieśninę Ormuz.",
+   "label": "Atak na rurociąg East-West w Arabii",
+   "note": "Uderzenie dronów w kluczowy rurociąg omijający Ormuz gwałtownie podbija premię geopolityczną na ropie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
-   "brent": 0.065,
+   "brent": 0.06,
    "fx": 0.015
   },
   {
-   "id": "rekordowe_stawki_vlcc",
-   "label": "Skok stawek supertankowców do 800k USD",
-   "note": "Paraliż frachtu w Zatoce drastycznie podbija koszty dostaw ropy i marże gotowych paliw.",
+   "id": "prognoza_mae_deficyt",
+   "label": "Prognoza MAE: deficyt 5,7 mln bpd w Zatoce",
+   "note": "MAE ostrzega przed załamaniem podaży ropy z Zatoki aż do 2027 r., potęgując obawy o globalny deficyt.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
+   "brent": 0.05,
+   "crack": 0.02
+  },
+  {
+   "id": "skok_stawek_tankowcow",
+   "label": "Fracht tankowców bije rekordy w Zatoce",
+   "note": "Stawki 800 tys. USD dziennie windują koszty logistyki surowca i marże diesla w Europie.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
-   "brent": 0.025,
+   "brent": 0.02,
    "crack": 0.04
   },
   {
-   "id": "iea_spadek_podazy_ropa",
-   "label": "Raport MAE: spadek podaży o 5,7 mln b/d",
-   "note": "MAE ostrzega przed przedłużającym się kryzysem wydobycia w Zatoce Perskiej do 2027 r.",
+   "id": "przeciazenie_rafinerii_u",
+   "label": "Biały Dom rozważa Defense Production Act",
+   "note": "Wyczerpane moce przerobowe rafinerii w USA grożą pogłębieniem globalnego deficytu destylatów.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
-   "brent": 0.05
-  },
-  {
-   "id": "rekordowe_marze_diesla",
-   "label": "Rekordowe marże pęknięcia diesla ULSD",
-   "note": "Cena Brent powyżej 105 USD i rekordowe marże diesla napędzają skok cen oleju napędowego.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
-   "brent": 0.03,
-   "crack": 0.055
-  },
-  {
-   "id": "huti_bab_al_mandab",
-   "label": "Ofensywa Huti wokół Bab al-Mandab",
-   "note": "Dalsze zagrożenie żeglugi na Morzu Czerwonym winduje premię za ryzyko geopolityczne.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "us_defense_production_ac",
-   "label": "USA rozważa Defense Production Act",
-   "note": "Maksymalne obciążenie rafinerii w USA pogłębia globalny deficyt średnich destylatów.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/White-House-Weighs-Defense-Production-Act-as-US-Refineries-Maxed-Out.html",
-   "crack": 0.035
+   "crack": 0.03
+  },
+  {
+   "id": "orlen_obnizka_benzyny",
+   "label": "Orlen mocno obniża ceny benzyny w hurcie",
+   "note": "Nieoczekiwana redukcja hurtowej ceny benzyny przez Orlen obniża marże rafineryjne w kraju.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd3JVaW5PbTVRRjNzSkNQZW16cXU5R055S0JsTkZxOG0yNEJxZDgyTGRrelVfUlNhby1ZTFV2NVpSdk5zVGZpRW5Bb0JDNzBGQzdtRF9IVFB1MlR2MnZFOUJBcUgwbUtycjdKVVhpQnc4V1pscmQ3S0lKZWdHcldWbFRDalNQb1hWRkJJaGFOMWY0aDRkd3Nfd1ZGbmJaTTR5c2t2SHNXNG9OOWxJZndrS3NUVmgzMXdrRmNnbUZnNTF",
+   "pl": -0.03
+  },
+  {
+   "id": "orlen_rekord_diesla",
+   "label": "Rekordowe ceny diesla w hurcie Orlenu",
+   "note": "Cena diesla sięgająca 8,95 zł/l odzwierciedla potężną presję podażową na krajowym rynku.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2VySnk3R0RJMTJGTVU5b092ZG9Wamc2U25GN0V4TmZQcVk3OEJuVVY1SWhmMEJPSFRSRC1vTHppN3Vzcnc2eG05aWVzdVc1dUJNcG1BeTRZdEJqRjBLclkyVWtScVJPbUpoNXVPczdxa2xYMHpDVHhxc0o4bVY2bUtXa2wzREhEbUtLYjZvSlV2bVpva25LZkFNVThaZW1xUzdTa3lWdlhESzhrMUlnRGVTMWZFQTdPdVpz?oc=5",
+   "crack": 0.02,
+   "pl": 0.04
   }
  ]
 }
