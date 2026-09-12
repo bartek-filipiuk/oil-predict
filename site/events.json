@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-11 22:02 UTC",
+ "generated": "2026-09-12 09:22 UTC",
  "headlines": [
   {
-   "title": "West of Suez: Crude drifts lower, LSGO cracks rebound - Quantum Commodity Intelligence",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWnBfZ3B2cy1NWVlqWnZNZlZqNm1tUXlDVktXWG02Q0JEZUdyeS1iNTZaelF0amRrZHBLOG9Ba2wtb1JlNjZ6TlBxVkVuaG9POXBWMnVvaTJUUjlialhDckFSSF9pcWNJaHc5YmNRbTVpVUZGUThQR0FTcGpGVmRNalYzOEdsNnAxZUQxWFNZdEZySGduWENGRWh3?oc=5",
-   "published": "2026-09-11 17:03"
+   "title": "Nagły zwrot w cenach paliw. Orlen mocno obniżył cenę benzyny - Gazeta Prawna",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd3JVaW5PbTVRRjNzSkNQZW16cXU5R055S0JsTkZxOG0yNEJxZDgyTGRrelVfUlNhby1ZTFV2NVpSdk5zVGZpRW5Bb0JDNzBGQzdtRF9IVFB1MlR2MnZFOUJBcUgwbUtycjdKVVhpQnc4V1pscmQ3S0lKZWdHcldWbFRDalNQb1hWRkJJaGFOMWY0aDRkd3Nfd1ZGbmJaTTR5c2t2SHNXNG9OOWxJZndrS3NUVmgzMXdrRmNnbUZnNTF",
+   "published": "2026-09-12 07:30"
   },
   {
    "title": "White House Weighs Defense Production Act as U.S. Refineries Maxed Out",
@@ -66,67 +66,64 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_rurociag_saudi",
-   "label": "Atak dronów na saudyjski rurociąg East-West",
-   "note": "Uderzenie w kluczowy rurociąg omijający Ormuz grozi odcięciem alternatywnego eksportu saudyjskiej ropy.",
+   "id": "orlen_obnizka_benzyny",
+   "label": "Obniżka cen benzyny przez Orlen",
+   "note": "Orlen gwałtownie ściął hurtowe ceny benzyny, rozszerzając dysparytet względem diesla.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd3JVaW5PbTVRRjNzSkNQZW16cXU5R055S0JsTkZxOG0yNEJxZDgyTGRrelVfUlNhby1ZTFV2NVpSdk5zVGZpRW5Bb0JDNzBGQzdtRF9IVFB1MlR2MnZFOUJBcUgwbUtycjdKVVhpQnc4V1pscmQ3S0lKZWdHcldWbFRDalNQb1hWRkJJaGFOMWY0aDRkd3Nfd1ZGbmJaTTR5c2t2SHNXNG9OOWxJZndrS3NUVmgzMXdrRmNnbUZnNTF",
+   "pl": -0.04
+  },
+  {
+   "id": "atak_rurociag_arabia",
+   "label": "Atak dronów na saudyjski rurociąg",
+   "note": "Uderzenie w rurociąg East-West paraliżuje kluczowy szlak omijający Cieśninę Ormuz.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
-   "brent": 0.06,
-   "crack": 0.02,
-   "fx": 0.01
+   "brent": 0.065,
+   "fx": 0.015
   },
   {
-   "id": "iea_spadek_podazy",
-   "label": "Prognoza MAE: deficyt 5,7 mln b/d w Zatoce",
-   "note": "MAE ostrzega przed przedłużającym się brakiem surowca z Zatoki aż do 2027 r., podsycając obawy rynków.",
+   "id": "rekordowe_stawki_vlcc",
+   "label": "Skok stawek supertankowców do 800k USD",
+   "note": "Paraliż frachtu w Zatoce drastycznie podbija koszty dostaw ropy i marże gotowych paliw.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
-   "brent": 0.04
-  },
-  {
-   "id": "stawki_supertankowcow",
-   "label": "Rekordowe stawki frachtu supertankowców",
-   "note": "Fracht rzędu 800 tys. USD dziennie drastycznie zwiększa koszt dostaw ropy i winduje marże paliw.",
-   "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
-   "brent": 0.03,
+   "brent": 0.025,
    "crack": 0.04
   },
   {
-   "id": "usa_defense_production_a",
-   "label": "USA: ustawa DPA przez brak mocy rafinerii",
-   "note": "Maksymalne obciążenie rafinerii w USA grozi dalszym brakiem diesla i wzrostem marż rafineryjnych.",
+   "id": "iea_spadek_podazy_ropa",
+   "label": "Raport MAE: spadek podaży o 5,7 mln b/d",
+   "note": "MAE ostrzega przed przedłużającym się kryzysem wydobycia w Zatoce Perskiej do 2027 r.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/White-House-Weighs-Defense-Production-Act-as-US-Refineries-Maxed-Out.html",
-   "crack": 0.05
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
+   "brent": 0.05
   },
   {
-   "id": "zagrozenie_bab_al_mandeb",
-   "label": "Huti zagrażają cieśninie Bab al-Mandab",
-   "note": "Postępy rebeliantów blokują szlaki tankowców, podbijając premię za ryzyko na ropie i osłabiając PLN.",
+   "id": "rekordowe_marze_diesla",
+   "label": "Rekordowe marże pęknięcia diesla ULSD",
+   "note": "Cena Brent powyżej 105 USD i rekordowe marże diesla napędzają skok cen oleju napędowego.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
+   "brent": 0.03,
+   "crack": 0.055
+  },
+  {
+   "id": "huti_bab_al_mandab",
+   "label": "Ofensywa Huti wokół Bab al-Mandab",
+   "note": "Dalsze zagrożenie żeglugi na Morzu Czerwonym winduje premię za ryzyko geopolityczne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Houthis-Advance-on-Bab-al-Mandeb-as-Saudi-Oil-Route-Comes-Under-Threat.html",
    "brent": 0.03,
    "fx": 0.01
   },
   {
-   "id": "rekordowe_marze_ulsd",
-   "label": "Rekordowe marże diesla i Brent pow. 105 USD",
-   "note": "Napięcia podażowe wywindowały marże diesla w Europie do rekordów, wywierając presję na hurt w Polsce.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhmUzBMQjRxdTNmUW5aMUpiUzF0a2FvRWcydWN5ay1tQlZPQTc0aXkzLV9Rd0lmLVV1S0xWVW1nWkphLXIxRDNmSzFmSUxYQlFsWVBTUE9XSkNQNnhNNlZnSnREeGs3OWREYXpMbkRIWlhXVW55Y3ZXOWNIWkNaMkFrUkF4ZkNXdG5uSWNaeXMwSmRmN1NIQ19pc2Zva2RHamR4bnpTZw?oc=5",
-   "brent": 0.04,
-   "crack": 0.05,
-   "pl": 0.02
-  },
-  {
-   "id": "presja_na_krajowy_diesel",
-   "label": "Skokowy wzrost cen diesla w Polsce do 9 zł",
-   "note": "Globalny deficyt i szczyt prac polowych w kraju wywierają silną presję na podwyżki cen hurtowych ON.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0dXMUJ2Y2gzRmU2eEFCVW40TzYzanNfcVVlYnZUbWppcmkwNFdhSjRnaUhpckFMQ0Z4by0zdGJIX0REQXpIQmpuUjNITjltLWg4ckpzTTJhX2xFZ1dqMXRIa3dkQ2VQdG56U1QzVWlUNHJpblRDMWZvanhZY1YzamxvbDg4MTBuSFRaSXEyMnppVk8zZEtXcTJVTUs?oc=5",
-   "crack": 0.03,
-   "pl": 0.03
+   "id": "us_defense_production_ac",
+   "label": "USA rozważa Defense Production Act",
+   "note": "Maksymalne obciążenie rafinerii w USA pogłębia globalny deficyt średnich destylatów.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/White-House-Weighs-Defense-Production-Act-as-US-Refineries-Maxed-Out.html",
+   "crack": 0.035
   }
  ]
 }
