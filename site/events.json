@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-13 10:18 UTC",
+ "generated": "2026-09-13 21:50 UTC",
  "headlines": [
+  {
+   "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Further-Oil-Price-Spikes-Could-Rekindle-Recession-Fears.html",
+   "published": "2026-09-13 16:00"
+  },
   {
    "title": "Oil Industry Braces for Years-Long Iran War",
    "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Industry-Braces-for-Years-Long-Iran-War.html",
@@ -20,102 +25,52 @@
    "title": "Ceny paliw od 12.09.2026: Diesel w hurcie Orlenu po 8,95 zł/l z VAT – najwyżej w tym roku! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2VySnk3R0RJMTJGTVU5b092ZG9Wamc2U25GN0V4TmZQcVk3OEJuVVY1SWhmMEJPSFRSRC1vTHppN3Vzcnc2eG05aWVzdVc1dUJNcG1BeTRZdEJqRjBLclkyVWtScVJPbUpoNXVPczdxa2xYMHpDVHhxc0o4bVY2bUtXa2wzREhEbUtLYjZvSlV2bVpva25LZkFNVThaZW1xUzdTa3lWdlhESzhrMUlnRGVTMWZFQTdPdVpz?oc=5",
    "published": "2026-09-11 23:23"
-  },
-  {
-   "title": "White House Weighs Defense Production Act as U.S. Refineries Maxed Out",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/White-House-Weighs-Defense-Production-Act-as-US-Refineries-Maxed-Out.html",
-   "published": "2026-09-11 15:21"
-  },
-  {
-   "title": "U.S. Oil Rig Count Rises as Oil Tops $100",
-   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Rig-Count-Rises-as-Oil-Tops-100.html",
-   "published": "2026-09-11 12:19"
-  },
-  {
-   "title": "Drone Strikes Hit Saudi Arabia’s Vital East-West Oil Pipeline",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
-   "published": "2026-09-11 12:04"
-  },
-  {
-   "title": "Saudi Arabia’s Critical Oil Bypass Comes Under Threat",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-Critical-Oil-Bypass-Comes-Under-Threat.html",
-   "published": "2026-09-11 11:05"
-  },
-  {
-   "title": "Supertanker Rates Hit $800,000 a Day as Gulf Tensions Escalate",
-   "url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
-   "published": "2026-09-11 11:00"
-  },
-  {
-   "title": "IEA Sees 5.7 Million Bpd Oil Supply Plunge as Gulf Recovery Slips to 2027",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
-   "published": "2026-09-11 10:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_rurociag_saudi",
-   "label": "Atak na rurociąg East-West w Arabii",
-   "note": "Uderzenie dronów w kluczowy rurociąg odcina alternatywny szlak eksportu omijający Ormuz.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Hit-Saudi-Arabias-Vital-East-West-Oil-Pipeline.html",
-   "brent": 0.06,
-   "crack": 0.02,
-   "fx": 0.015
-  },
-  {
-   "id": "iea_deficyt_podazy",
-   "label": "MAE ostrzega przed spadkiem podaży ropy",
-   "note": "Prognoza ubytku 5,7 mln b/d i powolnej odbudowy z Zatoki Perskiej podbija rynkowy deficyt surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Sees-57-Million-Bpd-Oil-Supply-Plunge-as-Gulf-Recovery-Slips-to-2027.html",
-   "brent": 0.05,
-   "fx": 0.01
-  },
-  {
-   "id": "rekordowy_koszt_frachtu",
-   "label": "Rekordowe stawki frachtu supertankowców",
-   "note": "Stawki 800 tys. USD/dzień utrudniają logistykę i windować będą premie lądowe na dieslu w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Supertanker-Rates-Hit-800000-a-Day-as-Gulf-Tensions-Escalate.html",
-   "brent": 0.03,
-   "crack": 0.04
-  },
-  {
-   "id": "wojna_iran_ryzyko",
-   "label": "Wycena długiej wojny z Iranem",
-   "note": "Rynek obawia się wieloletniego konfliktu w Zatoce, co napędza ucieczkę do dolara i winduje Brent.",
+   "id": "iran_war_escalation",
+   "label": "Ryzyko wieloletniej wojny z Iranem",
+   "note": "Widmo przedłużającego się konfliktu z Iranem podnosi premię za ryzyko podaży ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Industry-Braces-for-Years-Long-Iran-War.html",
    "brent": 0.04,
-   "fx": 0.02
+   "fx": 0.01
+  },
+  {
+   "id": "oil_recession_fears",
+   "label": "Obawy o recesję po skokach cen ropy",
+   "note": "Wysokie ceny ropy budzą lęki recesyjne, co może osłabić globalny popyt na surowiec.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Further-Oil-Price-Spikes-Could-Rekindle-Recession-Fears.html",
+   "brent": -0.02
+  },
+  {
+   "id": "iran_internal_unrest",
+   "label": "Napięcia wewnętrzne w Iranie",
+   "note": "Wewnętrzny opór wobec reżimu w Teheranie zwiększa ryzyko niestabilności w regionie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Irans-Security-Crackdown-Runs-Into-Resistance-From-Within.html",
+   "brent": 0.015
   },
   {
    "id": "orlen_obnizka_benzyny",
-   "label": "Orlen obniża hurtową cenę benzyny",
-   "note": "Niespodziewana redukcja cen benzyny przez Orlen obniża krajową presję cenową niezależnie od ropy.",
+   "label": "Nagła obniżka cen benzyny w Orlenie",
+   "note": "Ruch Orlenu koryguje w dół hurtowe ceny benzyny, wpływając bezpośrednio na rynek PL.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd3JVaW5PbTVRRjNzSkNQZW16cXU5R055S0JsTkZxOG0yNEJxZDgyTGRrelVfUlNhby1ZTFV2NVpSdk5zVGZpRW5Bb0JDNzBGQzdtRF9IVFB1MlR2MnZFOUJBcUgwbUtycjdKVVhpQnc4V1pscmQ3S0lKZWdHcldWbFRDalNQb1hWRkJJaGFOMWY0aDRkd3Nfd1ZGbmJaTTR5c2t2SHNXNG9OOWxJZndrS3NUVmgzMXdrRmNnbUZnNTF",
-   "pl": -0.04
+   "pl": -0.03
   },
   {
-   "id": "rekord_diesla_orlen",
-   "label": "Rekordowy hurt diesla w Orlenie",
-   "note": "Cena 8,95 zł/l odzwierciedla głęboki deficyt oleju napędowego w Europie i presję na polski rynek.",
+   "id": "rekord_cen_diesla_orlen",
+   "label": "Rekordowe ceny diesla w hurcie Orlenu",
+   "note": "Rekordowa cena diesla w hurcie odzwierciedla napiętą sytuację i drogie destylaty.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2VySnk3R0RJMTJGTVU5b092ZG9Wamc2U25GN0V4TmZQcVk3OEJuVVY1SWhmMEJPSFRSRC1vTHppN3Vzcnc2eG05aWVzdVc1dUJNcG1BeTRZdEJqRjBLclkyVWtScVJPbUpoNXVPczdxa2xYMHpDVHhxc0o4bVY2bUtXa2wzREhEbUtLYjZvSlV2bVpva25LZkFNVThaZW1xUzdTa3lWdlhESzhrMUlnRGVTMWZFQTdPdVpz?oc=5",
    "crack": 0.03,
-   "pl": 0.03
-  },
-  {
-   "id": "usa_defense_production_a",
-   "label": "Kryzys mocy rafineryjnych w USA",
-   "note": "Maksymalne obciążenie rafinerii w USA grozi deficytem produktów gotowych i wzrostem crack spreadów.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/White-House-Weighs-Defense-Production-Act-as-US-Refineries-Maxed-Out.html",
-   "crack": 0.03
+   "pl": 0.02
   }
  ]
 }
