@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-14 16:59 UTC",
+ "generated": "2026-09-14 19:30 UTC",
  "headlines": [
+  {
+   "title": "The Next Oil Shock Is Never the Last",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Next-Oil-Shock-Is-Never-the-Last.html",
+   "published": "2026-09-14 14:00"
+  },
+  {
+   "title": "China’s Growing Iran Trade Is Moving Overland Through Central Asia",
+   "url": "https://oilprice.com/Energy/Energy-General/Chinas-Growing-Iran-Trade-Is-Moving-Overland-Through-Central-Asia.html",
+   "published": "2026-09-14 13:00"
+  },
   {
    "title": "Record Freight Costs Squeeze Russia's Black Sea Crude Exports",
    "url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
@@ -35,78 +45,63 @@
    "title": "Middle East Oil Routes Under Pressure as Hormuz Traffic Tumbles",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles.html",
    "published": "2026-09-14 04:15"
-  },
-  {
-   "title": "Soaring Oil Prices Put Fed on Track for September Rate Hike",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
-   "published": "2026-09-14 03:00"
-  },
-  {
-   "title": "Brent Hits $108 as Saudi Pipeline Shutdown Deepens Supply Fears",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-108-as-Saudi-Pipeline-Shutdown-Deepens-Supply-Fears.html",
-   "published": "2026-09-14 00:37"
-  },
-  {
-   "title": "Oil Prices Surge as Middle East Attacks Continue and Diplomacy Stumbles",
-   "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Surge-as-Middle-East-Attacks-Continue-and-Diplomacy-Stumbles.html",
-   "published": "2026-09-13 21:39"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_saudi_ormuz",
-   "label": "Ataki na Arabię i cieśninę Ormuz",
-   "note": "Eskalacja ataków na infrastrukturę naftową w Zatoce winduje premie za ryzyko dostaw.",
+   "id": "atakisaudiormuz",
+   "label": "Ataki na Arabię i Cieśninę Ormuz",
+   "note": "Nowe uderzenia zbrojne paraliżują szlak ormuzki i windują ceny ropy powyżej 107 USD.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
-   "brent": 0.05,
+   "brent": 0.07,
+   "fx": 0.02
+  },
+  {
+   "id": "zerwanierozmowormuz",
+   "label": "Zerwanie rozmów o Cieśninie Ormuz",
+   "note": "Kraje Zatoki wstrzymują negocjacje po ataku Huti, rośnie premia za ryzyko geopolityczne.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
+   "brent": 0.06,
    "fx": 0.015
   },
   {
-   "id": "zamkniecie_rurociagow_sa",
-   "label": "Wstrzymanie saudyjskich rurociągów",
-   "note": "Zamknięcie rurociągów w Arabii Saudyjskiej pogłębia obawy o globalną podaż ropy i paliw.",
+   "id": "zamkniecierurociagusaudi",
+   "label": "Zamknięcie saudyjskiego rurociągu",
+   "note": "Wstrzymanie przesyłu saudyjską magistralą ogranicza dostawy ropy do rafinerii w Azji.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Seek-Answers-After-Saudi-Pipeline-Shutdown.html",
    "brent": 0.04,
+   "crack": 0.03
+  },
+  {
+   "id": "zalamanieruchuormuz",
+   "label": "Spadek ruchu tankowców w Ormuz",
+   "note": "Gwałtowny spadek żeglugi w newralgicznej cieśninie winduje koszty i ogranicza podaż ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles",
+   "brent": 0.05,
    "crack": 0.02
   },
   {
-   "id": "spadek_ruchu_ormuz",
-   "label": "Załamanie żeglugi w cieśninie Ormuz",
-   "note": "Gwałtowny spadek ruchu tankowców przez Ormuz bezpośrednio ogranicza fizyczny eksport ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles.html",
-   "brent": 0.06,
-   "crack": 0.03,
-   "fx": 0.02
-  },
-  {
-   "id": "zerwanie_rozmow_zatoka",
-   "label": "Zerwanie rozmów dyplomatycznych w Zatoce",
-   "note": "Wstrzymanie negocjacji po atakach Huti oddala szanse na deeskalację konfliktu wokół Ormuz.",
+   "id": "rekordowyfrachtczarnomor",
+   "label": "Drogi fracht ropy z Morza Czarnego",
+   "note": "Rekordowe stawki frachtu dławią eksport rosyjskiej ropy, napinając podaż w Europie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
-   "brent": 0.03
-  },
-  {
-   "id": "fed_podwyzka_stop",
-   "label": "Perspektywa podwyżki stóp przez Fed",
-   "note": "Drożejąca ropa napędza inflację w USA, co sprzyja umocnieniu dolara i osłabieniu złotego.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
-   "fx": 0.02
-  },
-  {
-   "id": "rekordowy_fracht_czarnom",
-   "label": "Rekordowy fracht na Morzu Czarnym",
-   "note": "Wysokie koszty frachtu dławią eksport rosyjskiej ropy, ograniczając podaż w Europie.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
    "brent": 0.02,
    "crack": 0.02
+  },
+  {
+   "id": "barieryrurociagowormuz",
+   "label": "Ograniczenia objazdów Cieśniny Ormuz",
+   "note": "Rurociągi omijające cieśninę nie zastąpią tankowców, podtrzymując presję cenową na ropę.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
+   "brent": 0.02
   }
  ]
 }
