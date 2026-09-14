@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-14 21:01 UTC",
+ "generated": "2026-09-14 22:47 UTC",
  "headlines": [
+  {
+   "title": "Global Fuel Squeeze Triggers U.S. Refiners Stocks Rally",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
+   "published": "2026-09-14 17:00"
+  },
   {
    "title": "The Next Oil Shock Is Never the Last",
    "url": "https://oilprice.com/Energy/Energy-General/The-Next-Oil-Shock-Is-Never-the-Last.html",
@@ -22,7 +27,7 @@
    "published": "2026-09-14 09:30"
   },
   {
-   "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - dawn.com",
+   "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "published": "2026-09-14 09:05"
   },
@@ -42,46 +47,38 @@
  "events": [
   {
    "id": "ataki_saudi_ormuz",
-   "label": "Ataki na Arabię Saudyjską i Cieśninę Ormuz",
-   "note": "Eskalacja ataków na infrastrukturę naftową w Zatoce winduje ceny ropy powyżej 107 USD.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
-   "brent": 0.06,
-   "fx": 0.02
-  },
-  {
-   "id": "zerwanie_rozmow_ormuz",
-   "label": "Zerwanie rozmów ws. Cieśniny Ormuz",
-   "note": "Wstrzymanie negocjacji po ataku Huti zwiększa premię geopolityczną na rynku surowca.",
+   "label": "Ataki na Arabię i zerwanie rozmów w Ormuz",
+   "note": "Eskalacja w Ormuz i ataki Huti windują ceny ropy oraz osłabiają złotego przez awersję do ryzyka.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
-   "brent": 0.04,
-   "fx": 0.01
+   "brent": 0.06,
+   "fx": 0.015
   },
   {
-   "id": "rekordowy_fracht_czarnom",
-   "label": "Rekordowe koszty frachtu z Morza Czarnego",
-   "note": "Drogi transport morski ogranicza eksport rosyjskiej ropy i podbija presję na marże diesla.",
+   "id": "globalny_scisk_paliw",
+   "label": "Globalny deficyt paliw gotowych",
+   "note": "Światowy deficyt paliw winduje marże rafineryjne i podbija europejski crack spread na dieslu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
+   "brent": 0.02,
+   "crack": 0.04
+  },
+  {
+   "id": "rosyjski_eksport_morze_c",
+   "label": "Rekordowy fracht ropy na Morzu Czarnym",
+   "note": "Skok kosztów transportu dławi rosyjski eksport z Morza Czarnego, zaostrzając bilans w regionie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
    "brent": 0.02,
-   "crack": 0.03
+   "crack": 0.015
   },
   {
-   "id": "problemy_rurociagow_ormu",
-   "label": "Trudności z ominięciem Cieśniny Ormuz",
-   "note": "Brak alternatywnych rurociągów zwiększa wrażliwość rynku na blokadę szlaku transportowego.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
-   "brent": 0.02
-  },
-  {
-   "id": "zamieszki_paliwowe_syria",
-   "label": "Skok cen diesla i zamieszki w Syrii",
-   "note": "Gwałtowny wzrost cen oleju napędowego w regionie sygnalizuje lokalne napięcia podażowe.",
+   "id": "waskie_gardla_ormuz",
+   "label": "Wąskie gardła rurociągów wokół Ormuz",
+   "note": "Problemy z ominięciem cieśniny lądowymi rurociągami utrwalają wysoką premię geopolityczną za ropę.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Syria-Diesel-Prices-Jump-40-Triggering-Widespread-Unrest.html",
-   "crack": 0.01
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
+   "brent": 0.025
   }
  ]
 }
