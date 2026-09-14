@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 19:30 UTC",
+ "generated": "2026-09-14 21:01 UTC",
  "headlines": [
   {
    "title": "The Next Oil Shock Is Never the Last",
@@ -22,7 +22,7 @@
    "published": "2026-09-14 09:30"
   },
   {
-   "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
+   "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - dawn.com",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "published": "2026-09-14 09:05"
   },
@@ -35,73 +35,53 @@
    "title": "Brent at $108: Gulf States Halt Hormuz Talks as Houthis Strike Saudi Airbase",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
    "published": "2026-09-14 07:43"
-  },
-  {
-   "title": "Asian Refiners Seek Answers After Saudi Pipeline Shutdown",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Seek-Answers-After-Saudi-Pipeline-Shutdown.html",
-   "published": "2026-09-14 05:30"
-  },
-  {
-   "title": "Middle East Oil Routes Under Pressure as Hormuz Traffic Tumbles",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles.html",
-   "published": "2026-09-14 04:15"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atakisaudiormuz",
-   "label": "Ataki na Arabię i Cieśninę Ormuz",
-   "note": "Nowe uderzenia zbrojne paraliżują szlak ormuzki i windują ceny ropy powyżej 107 USD.",
+   "id": "ataki_saudi_ormuz",
+   "label": "Ataki na Arabię Saudyjską i Cieśninę Ormuz",
+   "note": "Eskalacja ataków na infrastrukturę naftową w Zatoce winduje ceny ropy powyżej 107 USD.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
-   "brent": 0.07,
+   "brent": 0.06,
    "fx": 0.02
   },
   {
-   "id": "zerwanierozmowormuz",
-   "label": "Zerwanie rozmów o Cieśninie Ormuz",
-   "note": "Kraje Zatoki wstrzymują negocjacje po ataku Huti, rośnie premia za ryzyko geopolityczne.",
+   "id": "zerwanie_rozmow_ormuz",
+   "label": "Zerwanie rozmów ws. Cieśniny Ormuz",
+   "note": "Wstrzymanie negocjacji po ataku Huti zwiększa premię geopolityczną na rynku surowca.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
-   "brent": 0.06,
-   "fx": 0.015
-  },
-  {
-   "id": "zamkniecierurociagusaudi",
-   "label": "Zamknięcie saudyjskiego rurociągu",
-   "note": "Wstrzymanie przesyłu saudyjską magistralą ogranicza dostawy ropy do rafinerii w Azji.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Seek-Answers-After-Saudi-Pipeline-Shutdown.html",
    "brent": 0.04,
-   "crack": 0.03
+   "fx": 0.01
   },
   {
-   "id": "zalamanieruchuormuz",
-   "label": "Spadek ruchu tankowców w Ormuz",
-   "note": "Gwałtowny spadek żeglugi w newralgicznej cieśninie winduje koszty i ogranicza podaż ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles",
-   "brent": 0.05,
-   "crack": 0.02
-  },
-  {
-   "id": "rekordowyfrachtczarnomor",
-   "label": "Drogi fracht ropy z Morza Czarnego",
-   "note": "Rekordowe stawki frachtu dławią eksport rosyjskiej ropy, napinając podaż w Europie.",
+   "id": "rekordowy_fracht_czarnom",
+   "label": "Rekordowe koszty frachtu z Morza Czarnego",
+   "note": "Drogi transport morski ogranicza eksport rosyjskiej ropy i podbija presję na marże diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
    "brent": 0.02,
-   "crack": 0.02
+   "crack": 0.03
   },
   {
-   "id": "barieryrurociagowormuz",
-   "label": "Ograniczenia objazdów Cieśniny Ormuz",
-   "note": "Rurociągi omijające cieśninę nie zastąpią tankowców, podtrzymując presję cenową na ropę.",
-   "confidence": "low",
+   "id": "problemy_rurociagow_ormu",
+   "label": "Trudności z ominięciem Cieśniny Ormuz",
+   "note": "Brak alternatywnych rurociągów zwiększa wrażliwość rynku na blokadę szlaku transportowego.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
    "brent": 0.02
+  },
+  {
+   "id": "zamieszki_paliwowe_syria",
+   "label": "Skok cen diesla i zamieszki w Syrii",
+   "note": "Gwałtowny wzrost cen oleju napędowego w regionie sygnalizuje lokalne napięcia podażowe.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Syria-Diesel-Prices-Jump-40-Triggering-Widespread-Unrest.html",
+   "crack": 0.01
   }
  ]
 }
