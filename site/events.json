@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-14 10:38 UTC",
+ "generated": "2026-09-14 15:10 UTC",
  "headlines": [
+  {
+   "title": "Record Freight Costs Squeeze Russia's Black Sea Crude Exports",
+   "url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
+   "published": "2026-09-14 10:00"
+  },
+  {
+   "title": "Syria Diesel Prices Jump 40% Triggering Widespread Unrest",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Syria-Diesel-Prices-Jump-40-Triggering-Widespread-Unrest.html",
+   "published": "2026-09-14 09:30"
+  },
+  {
+   "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
+   "published": "2026-09-14 09:05"
+  },
+  {
+   "title": "The Problem With Trying to Bypass Hormuz Using Pipelines",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
+   "published": "2026-09-14 09:00"
+  },
+  {
+   "title": "Brent at $108: Gulf States Halt Hormuz Talks as Houthis Strike Saudi Airbase",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
+   "published": "2026-09-14 07:43"
+  },
   {
    "title": "Asian Refiners Seek Answers After Saudi Pipeline Shutdown",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Seek-Answers-After-Saudi-Pipeline-Shutdown.html",
@@ -35,71 +60,49 @@
    "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
    "url": "https://oilprice.com/Energy/Oil-Prices/Further-Oil-Price-Spikes-Could-Rekindle-Recession-Fears.html",
    "published": "2026-09-13 16:00"
-  },
-  {
-   "title": "Oil Industry Braces for Years-Long Iran War",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Industry-Braces-for-Years-Long-Iran-War.html",
-   "published": "2026-09-12 18:00"
   }
  ],
- "source": "ai",
- "model": "google/gemini-3.8-flash",
+ "source": "static",
+ "model": null,
  "events": [
   {
-   "id": "saudi_pipeline_shutdown",
-   "label": "Wstrzymanie saudyjskiego rurociągu",
-   "note": "Zamknięcie rurociągu odcina alternatywny szlak eksportowy, pogłębiając obawy o fizyczną podaż surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-108-as-Saudi-Pipeline-Shutdown-Deepens-Supply-Fears.html",
-   "brent": 0.06,
-   "crack": 0.03,
-   "fx": 0.01
+   "id": "hormuz",
+   "label": "Eskalacja w Ormuz, ataki na tankowce",
+   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
+   "brent": 0.12,
+   "crack": 0.08
   },
   {
-   "id": "hormuz_traffic_drop",
-   "label": "Spadek żeglugi w Cieśninie Ormuz",
-   "note": "Gwałtowny spadek ruchu tankowców winduje stawki frachtu i marże rafineryjne w Europie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles.html",
-   "brent": 0.05,
-   "crack": 0.04,
-   "fx": 0.015
+   "id": "truce",
+   "label": "Zawieszenie broni USA–Iran",
+   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
+   "brent": -0.12,
+   "crack": -0.06
   },
   {
-   "id": "mideast_escalation",
-   "label": "Eskalacja ataków na Bliskim Wschodzie",
-   "note": "Nasilenie walk i brak postępów w dyplomacji zwiększają premię za ryzyko geopolityczne w cenach ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Surge-as-Middle-East-Attacks-Continue-and-Diplomacy-Stumbles.html",
-   "brent": 0.04,
-   "fx": 0.01
+   "id": "opec",
+   "label": "OPEC+ podnosi wydobycie",
+   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
+   "brent": -0.03
   },
   {
-   "id": "fed_rate_hike_risk",
-   "label": "Ryzyko wrześniowej podwyżki stóp Fed",
-   "note": "Drożejąca ropa odradza presję inflacyjną w USA, co umacnia dolara i ciąży wycenie złotego.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
-   "brent": -0.01,
-   "fx": 0.02
+   "id": "ru",
+   "label": "Drony na rosyjskie rafinerie",
+   "note": "Ropa bez zmian, drożeje europejski diesel",
+   "brent": 0.01,
+   "crack": 0.06
   },
   {
-   "id": "asia_refinery_squeeze",
-   "label": "Presja surowcowa na azjatyckie rafinerie",
-   "note": "Niedobory saudyjskiej ropy zmuszają przetwórców do poszukiwania alternatyw, windując marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Seek-Answers-After-Saudi-Pipeline-Shutdown.html",
-   "brent": 0.02,
-   "crack": 0.03
+   "id": "plock",
+   "label": "Awaria lub remont w Płocku",
+   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
+   "pl": 0.02
   },
   {
-   "id": "iran_war_repricing",
-   "label": "Perspektywa wieloletniej wojny z Iranem",
-   "note": "Branża przygotowuje się na trwały konflikt, co utrwali wysoką premię geopolityczną na rynku paliw.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Industry-Braces-for-Years-Long-Iran-War.html",
-   "brent": 0.03,
-   "fx": 0.01
+   "id": "pln",
+   "label": "Złoty umacnia się o 3%",
+   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
+   "fx": -0.03
   }
  ]
 }
