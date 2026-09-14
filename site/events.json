@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 15:10 UTC",
+ "generated": "2026-09-14 16:59 UTC",
  "headlines": [
   {
    "title": "Record Freight Costs Squeeze Russia's Black Sea Crude Exports",
@@ -50,59 +50,63 @@
    "title": "Oil Prices Surge as Middle East Attacks Continue and Diplomacy Stumbles",
    "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Surge-as-Middle-East-Attacks-Continue-and-Diplomacy-Stumbles.html",
    "published": "2026-09-13 21:39"
-  },
-  {
-   "title": "StanChart Warns Oil Is Now Built for Sharper, More Frequent Spikes",
-   "url": "https://oilprice.com/Energy/Oil-Prices/StanChart-Warns-Oil-Is-Now-Built-for-Sharper-More-Frequent-Spikes.html",
-   "published": "2026-09-13 18:00"
-  },
-  {
-   "title": "Further Oil Price Spikes Could Rekindle Recession Fears",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Further-Oil-Price-Spikes-Could-Rekindle-Recession-Fears.html",
-   "published": "2026-09-13 16:00"
   }
  ],
- "source": "static",
- "model": null,
+ "source": "ai",
+ "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz",
-   "label": "Eskalacja w Ormuz, ataki na tankowce",
-   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
-   "brent": 0.12,
-   "crack": 0.08
+   "id": "ataki_saudi_ormuz",
+   "label": "Ataki na Arabię i cieśninę Ormuz",
+   "note": "Eskalacja ataków na infrastrukturę naftową w Zatoce winduje premie za ryzyko dostaw.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
+   "brent": 0.05,
+   "fx": 0.015
   },
   {
-   "id": "truce",
-   "label": "Zawieszenie broni USA–Iran",
-   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
-   "brent": -0.12,
-   "crack": -0.06
+   "id": "zamkniecie_rurociagow_sa",
+   "label": "Wstrzymanie saudyjskich rurociągów",
+   "note": "Zamknięcie rurociągów w Arabii Saudyjskiej pogłębia obawy o globalną podaż ropy i paliw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Seek-Answers-After-Saudi-Pipeline-Shutdown.html",
+   "brent": 0.04,
+   "crack": 0.02
   },
   {
-   "id": "opec",
-   "label": "OPEC+ podnosi wydobycie",
-   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
-   "brent": -0.03
+   "id": "spadek_ruchu_ormuz",
+   "label": "Załamanie żeglugi w cieśninie Ormuz",
+   "note": "Gwałtowny spadek ruchu tankowców przez Ormuz bezpośrednio ogranicza fizyczny eksport ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Routes-Under-Pressure-as-Hormuz-Traffic-Tumbles.html",
+   "brent": 0.06,
+   "crack": 0.03,
+   "fx": 0.02
   },
   {
-   "id": "ru",
-   "label": "Drony na rosyjskie rafinerie",
-   "note": "Ropa bez zmian, drożeje europejski diesel",
-   "brent": 0.01,
-   "crack": 0.06
+   "id": "zerwanie_rozmow_zatoka",
+   "label": "Zerwanie rozmów dyplomatycznych w Zatoce",
+   "note": "Wstrzymanie negocjacji po atakach Huti oddala szanse na deeskalację konfliktu wokół Ormuz.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
+   "brent": 0.03
   },
   {
-   "id": "plock",
-   "label": "Awaria lub remont w Płocku",
-   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
-   "pl": 0.02
+   "id": "fed_podwyzka_stop",
+   "label": "Perspektywa podwyżki stóp przez Fed",
+   "note": "Drożejąca ropa napędza inflację w USA, co sprzyja umocnieniu dolara i osłabieniu złotego.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-Prices-Put-Fed-on-Track-for-September-Rate-Hike.html",
+   "fx": 0.02
   },
   {
-   "id": "pln",
-   "label": "Złoty umacnia się o 3%",
-   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
-   "fx": -0.03
+   "id": "rekordowy_fracht_czarnom",
+   "label": "Rekordowy fracht na Morzu Czarnym",
+   "note": "Wysokie koszty frachtu dławią eksport rosyjskiej ropy, ograniczając podaż w Europie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
+   "brent": 0.02,
+   "crack": 0.02
   }
  ]
 }
