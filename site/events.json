@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-15 13:45 UTC",
+ "generated": "2026-09-15 15:37 UTC",
  "headlines": [
+  {
+   "title": "Saudi Aramco Cancels European Crude Cargoes as Key Pipeline Stays Shut",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
+   "published": "2026-09-15 10:34"
+  },
   {
    "title": "China’s Yuan Crude Oil Futures Jump to Record High",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Yuan-Crude-Oil-Futures-Jump-to-Record-High.html",
@@ -52,11 +57,6 @@
    "published": "2026-09-14 17:00"
   },
   {
-   "title": "The Next Oil Shock Is Never the Last",
-   "url": "https://oilprice.com/Energy/Energy-General/The-Next-Oil-Shock-Is-Never-the-Last.html",
-   "published": "2026-09-14 14:00"
-  },
-  {
    "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "published": "2026-09-14 09:05"
@@ -66,64 +66,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_rosyjskie_rafinerie",
+   "id": "aramco_odwoluje_dostawy_",
+   "label": "Aramco odwołuje dostawy ropy do Europy",
+   "note": "Wstrzymanie dostaw z Arabii Saudyjskiej do Europy ogranicza podaż surowca w regionie.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
+   "brent": 0.04,
+   "crack": 0.03
+  },
+  {
+   "id": "ataki_dronow_rafinerie_r",
    "label": "Ataki na rosyjskie rafinerie diesla",
-   "note": "Poważne uszkodzenia rafinerii w Rosji drastycznie ograniczają podaż i windują europejski crack spread.",
+   "note": "Uszkodzenie połowy kluczowych rafinerii w Rosji gwałtownie ograniczy globalną podaż diesla.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
    "brent": 0.03,
    "crack": 0.08
   },
   {
-   "id": "awaria_saudyjskiego_ruro",
-   "label": "Tygodnie napraw rurociągu w Saudach",
-   "note": "Wstrzymanie przesyłu saudyjskiej ropy po ataku ogranicza eksport i podbija ceny surowca na świecie.",
+   "id": "naprawa_rurociagu_saudi",
+   "label": "Tygodnie napraw rurociągu w Arabii",
+   "note": "Długotrwałe wyłączenie rurociągu przedłuża ograniczenia eksportu saudyjskiej ropy.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Pipeline-Repairs-Could-Take-Weeks-After-Drone-Attack.html",
-   "brent": 0.04,
-   "fx": 0.01
+   "brent": 0.05
   },
   {
    "id": "eskalacja_ciesnina_hormu",
    "label": "Ataki na Arabię i Cieśninę Ormuz",
-   "note": "Ryzyko blokady szlaków w Zatoce Perskiej wywołuje silną premię geopolityczną na ropie Brent.",
+   "note": "Zagrożenie dla żeglugi w cieśninie Ormuz podbija premię geopolityczną na rynku ropy.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "brent": 0.06,
-   "fx": 0.015
+   "fx": 0.02
   },
   {
-   "id": "rekord_hurtu_orlen",
-   "label": "Rekord cen diesla w hurcie Płocka",
-   "note": "Hurtowa cena diesla przekroczyła 9 zł/l brutto, napędzając dalszy skok cen paliw w Polsce.",
+   "id": "rekordowe_ceny_plock_hur",
+   "label": "Rekordowe ceny hurtowe paliw w Płocku",
+   "note": "Przebicie 9 zł/l diesla w hurcie Orlenu przenosi presję podażową na polski rynek detaliczny.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
+   "crack": 0.02,
    "pl": 0.04
   },
   {
-   "id": "ryzyka_morze_czerwone",
-   "label": "Wzrost ryzyka na Morzu Czerwonym",
-   "note": "Zagrożenia żeglugi na Morzu Czerwonym wydłużają trasy tankowców i podnoszą koszty dostaw surowca.",
+   "id": "inflacja_banki_centralne",
+   "label": "Powrót obaw inflacyjnych przez ropę",
+   "note": "Presja inflacyjna i umocnienie dolara osłabiają waluty rynków wschodzących, w tym PLN.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-on-Saudi-Pipeline-Outage-and-Rising-Red-Sea-Risks.html",
-   "brent": 0.02,
-   "crack": 0.02
-  },
-  {
-   "id": "rekord_kontraktow_chiny",
-   "label": "Rekord kontraktów na ropę w Chinach",
-   "note": "Skok notowań w Szanghaju odzwierciedla presję popytową w Azji i wzmacnia trend wzrostowy ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Yuan-Crude-Oil-Futures-Jump-to-Record-High.html",
-   "brent": 0.02
-  },
-  {
-   "id": "globalny_scisk_paliwowy",
-   "label": "Globalny deficyt gotowych paliw",
-   "note": "Niedobór produktów naftowych zwiększa marże rafineryjne i winduje premie za europejski diesel.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
-   "crack": 0.04
+   "source_url": "https://oilprice.com/Energy/Energy-General/100-Oil-Puts-Central-Banks-Back-on-Inflation-Alert.html",
+   "fx": 0.015
   }
  ]
 }
