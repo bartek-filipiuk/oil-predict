@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-15 10:05 UTC",
+ "generated": "2026-09-15 13:45 UTC",
  "headlines": [
+  {
+   "title": "China’s Yuan Crude Oil Futures Jump to Record High",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Yuan-Crude-Oil-Futures-Jump-to-Record-High.html",
+   "published": "2026-09-15 08:30"
+  },
+  {
+   "title": "Drone Strikes Cripple Half of Russia's Top Diesel Refineries",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
+   "published": "2026-09-15 07:30"
+  },
+  {
+   "title": "Indonesia Eyes Guyana and Suriname Oil Investments for Energy Security",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indonesia-Eyes-Guyana-and-Suriname-Oil-Investments-for-Energy-Security.html",
+   "published": "2026-09-15 05:30"
+  },
   {
    "title": "UK Oil and Gas Group Says Earlier Tax Shift Could Raise £14.9 Billion",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Oil-and-Gas-Group-Says-Earlier-Tax-Shift-Could-Raise-149-Billion.html",
@@ -42,62 +57,73 @@
    "published": "2026-09-14 14:00"
   },
   {
-   "title": "China’s Growing Iran Trade Is Moving Overland Through Central Asia",
-   "url": "https://oilprice.com/Energy/Energy-General/Chinas-Growing-Iran-Trade-Is-Moving-Overland-Through-Central-Asia.html",
-   "published": "2026-09-14 13:00"
-  },
-  {
    "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "published": "2026-09-14 09:05"
-  },
-  {
-   "title": "Orlen znów podnosi ceny diesla. Eksperci mówią o historycznym rekordzie - Auto Świat",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZE1Pa1JTV0lQVHRvVmNkeWJ1VmZ3Ui1DMFd0a2QwT2NTV0ZlbjZOb204OHBjOGF6a1NDaDF3UXA5WFpMU1V5dDFnQUN2SlhrRU5jVUx1YzhIazVJYVVkQlFsWElCYkc3dUhlSzBJNGdCV25ZYXpIdDJjRE9xRjhJVmo5Nnd1RTI5ZThVb1B6UFFEODJ3WlFfazV4S2ZGRmo3YVlobnNvTmo1cTZUYVVQY3ZUcl96RzNEeThhbHpjbw?",
-   "published": "2026-09-13 16:29"
   }
  ],
- "source": "static",
- "model": null,
+ "source": "ai",
+ "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz",
-   "label": "Eskalacja w Ormuz, ataki na tankowce",
-   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
-   "brent": 0.12,
+   "id": "atak_rosyjskie_rafinerie",
+   "label": "Ataki na rosyjskie rafinerie diesla",
+   "note": "Poważne uszkodzenia rafinerii w Rosji drastycznie ograniczają podaż i windują europejski crack spread.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
+   "brent": 0.03,
    "crack": 0.08
   },
   {
-   "id": "truce",
-   "label": "Zawieszenie broni USA–Iran",
-   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
-   "brent": -0.12,
-   "crack": -0.06
+   "id": "awaria_saudyjskiego_ruro",
+   "label": "Tygodnie napraw rurociągu w Saudach",
+   "note": "Wstrzymanie przesyłu saudyjskiej ropy po ataku ogranicza eksport i podbija ceny surowca na świecie.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Pipeline-Repairs-Could-Take-Weeks-After-Drone-Attack.html",
+   "brent": 0.04,
+   "fx": 0.01
   },
   {
-   "id": "opec",
-   "label": "OPEC+ podnosi wydobycie",
-   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
-   "brent": -0.03
+   "id": "eskalacja_ciesnina_hormu",
+   "label": "Ataki na Arabię i Cieśninę Ormuz",
+   "note": "Ryzyko blokady szlaków w Zatoce Perskiej wywołuje silną premię geopolityczną na ropie Brent.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
+   "brent": 0.06,
+   "fx": 0.015
   },
   {
-   "id": "ru",
-   "label": "Drony na rosyjskie rafinerie",
-   "note": "Ropa bez zmian, drożeje europejski diesel",
-   "brent": 0.01,
-   "crack": 0.06
+   "id": "rekord_hurtu_orlen",
+   "label": "Rekord cen diesla w hurcie Płocka",
+   "note": "Hurtowa cena diesla przekroczyła 9 zł/l brutto, napędzając dalszy skok cen paliw w Polsce.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
+   "pl": 0.04
   },
   {
-   "id": "plock",
-   "label": "Awaria lub remont w Płocku",
-   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
-   "pl": 0.02
+   "id": "ryzyka_morze_czerwone",
+   "label": "Wzrost ryzyka na Morzu Czerwonym",
+   "note": "Zagrożenia żeglugi na Morzu Czerwonym wydłużają trasy tankowców i podnoszą koszty dostaw surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-on-Saudi-Pipeline-Outage-and-Rising-Red-Sea-Risks.html",
+   "brent": 0.02,
+   "crack": 0.02
   },
   {
-   "id": "pln",
-   "label": "Złoty umacnia się o 3%",
-   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
-   "fx": -0.03
+   "id": "rekord_kontraktow_chiny",
+   "label": "Rekord kontraktów na ropę w Chinach",
+   "note": "Skok notowań w Szanghaju odzwierciedla presję popytową w Azji i wzmacnia trend wzrostowy ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Yuan-Crude-Oil-Futures-Jump-to-Record-High.html",
+   "brent": 0.02
+  },
+  {
+   "id": "globalny_scisk_paliwowy",
+   "label": "Globalny deficyt gotowych paliw",
+   "note": "Niedobór produktów naftowych zwiększa marże rafineryjne i winduje premie za europejski diesel.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
+   "crack": 0.04
   }
  ]
 }
