@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-15 15:37 UTC",
+ "generated": "2026-09-15 18:19 UTC",
  "headlines": [
+  {
+   "title": "Orlen podniósł hurtowe ceny paliw. Tak drogo w tym roku jeszcze nie było - TVN24",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
+   "published": "2026-09-15 15:32"
+  },
+  {
+   "title": "The New ‘Mecca Alliance’ Warns Iran Over Houthi Attacks on Saudi Arabia",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/The-New-Mecca-Alliance-Warns-Iran-Over-Houthi-Attacks-on-Saudi-Arabia.html",
+   "published": "2026-09-15 13:00"
+  },
+  {
+   "title": "Saudi Oil Crisis Deepens as Aramco Suspends Yanbu Loadings",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
+   "published": "2026-09-15 12:00"
+  },
+  {
+   "title": "Libya Threatens Force Majeure as Oil Guards Shut Fields",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Threatens-Force-Majeure-as-Oil-Guards-Shut-Fields.html",
+   "published": "2026-09-15 11:30"
+  },
+  {
+   "title": "U.S. Diesel Prices on Track for Record Year",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Diesel-Prices-on-Track-for-Record-Year.html",
+   "published": "2026-09-15 11:00"
+  },
   {
    "title": "Saudi Aramco Cancels European Crude Cargoes as Key Pipeline Stays Shut",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
@@ -27,34 +52,9 @@
    "published": "2026-09-15 04:30"
   },
   {
-   "title": "Saudi Oil Pipeline Repairs Could Take Weeks After Drone Attack",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Pipeline-Repairs-Could-Take-Weeks-After-Drone-Attack.html",
-   "published": "2026-09-15 02:15"
-  },
-  {
-   "title": "Oil Prices Rise on Saudi Pipeline Outage and Rising Red Sea Risks",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-on-Saudi-Pipeline-Outage-and-Rising-Red-Sea-Risks.html",
-   "published": "2026-09-15 01:10"
-  },
-  {
    "title": "Ceny paliw 15.09: Nowy rekord w Płocku! Hurt diesla przebił 9,00 zł/l brutto, benzyna również w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
    "published": "2026-09-14 22:33"
-  },
-  {
-   "title": "Wealthy Investors Flock To Oil & Gas Assets Amid Energy Crisis",
-   "url": "https://oilprice.com/Energy/Energy-General/Wealthy-Investors-Flock-To-Oil-Gas-Assets-Amid-Energy-Crisis.html",
-   "published": "2026-09-14 19:00"
-  },
-  {
-   "title": "$100 Oil Puts Central Banks Back on Inflation Alert",
-   "url": "https://oilprice.com/Energy/Energy-General/100-Oil-Puts-Central-Banks-Back-on-Inflation-Alert.html",
-   "published": "2026-09-14 18:00"
-  },
-  {
-   "title": "Global Fuel Squeeze Triggers U.S. Refiners Stocks Rally",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
-   "published": "2026-09-14 17:00"
   },
   {
    "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
@@ -66,56 +66,54 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "aramco_odwoluje_dostawy_",
-   "label": "Aramco odwołuje dostawy ropy do Europy",
-   "note": "Wstrzymanie dostaw z Arabii Saudyjskiej do Europy ogranicza podaż surowca w regionie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
-   "brent": 0.04,
-   "crack": 0.03
-  },
-  {
-   "id": "ataki_dronow_rafinerie_r",
-   "label": "Ataki na rosyjskie rafinerie diesla",
-   "note": "Uszkodzenie połowy kluczowych rafinerii w Rosji gwałtownie ograniczy globalną podaż diesla.",
+   "id": "rosjadronyrafinerie",
+   "label": "Ataki dronów na rosyjskie rafinerie diesla",
+   "note": "Wyłączenie połowy kluczowych rafinerii w Rosji drastycznie ogranicza podaż diesla w Europie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
-   "brent": 0.03,
+   "brent": 0.02,
    "crack": 0.08
   },
   {
-   "id": "naprawa_rurociagu_saudi",
-   "label": "Tygodnie napraw rurociągu w Arabii",
-   "note": "Długotrwałe wyłączenie rurociągu przedłuża ograniczenia eksportu saudyjskiej ropy.",
+   "id": "aramcozawieszayanbu",
+   "label": "Zawieszenie załadunków ropy w Yanbu",
+   "note": "Wstrzymanie operacji w kluczowym saudyjskim terminalu nad Morzem Czerwonym ogranicza podaż ropy.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Pipeline-Repairs-Could-Take-Weeks-After-Drone-Attack.html",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
    "brent": 0.05
   },
   {
-   "id": "eskalacja_ciesnina_hormu",
-   "label": "Ataki na Arabię i Cieśninę Ormuz",
-   "note": "Zagrożenie dla żeglugi w cieśninie Ormuz podbija premię geopolityczną na rynku ropy.",
+   "id": "aramcoodwolujedostawyeu",
+   "label": "Aramco odwołuje transporty do Europy",
+   "note": "Zamknięcie rurociągu zmusza Arabię Saudyjską do redukcji dostaw surowca na rynek europejski.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
+   "brent": 0.04
+  },
+  {
+   "id": "kryzysormuzsaudi",
+   "label": "Ataki na KSA i ryzyko w Cieśninie Ormuz",
+   "note": "Uderzenia w infrastrukturę i zagrożenie szlaku przez Ormuz wywindowały ropę i osłabiają złotego.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "brent": 0.06,
    "fx": 0.02
   },
   {
-   "id": "rekordowe_ceny_plock_hur",
-   "label": "Rekordowe ceny hurtowe paliw w Płocku",
-   "note": "Przebicie 9 zł/l diesla w hurcie Orlenu przenosi presję podażową na polski rynek detaliczny.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
-   "crack": 0.02,
-   "pl": 0.04
+   "id": "blokadapollibia",
+   "label": "Groźba force majeure na polach w Libii",
+   "note": "Blokady instalacji wydobywczych przez strażników grożą nagłym odcięciem dostaw lekkiej ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Threatens-Force-Majeure-as-Oil-Guards-Shut-Fields.html",
+   "brent": 0.03
   },
   {
-   "id": "inflacja_banki_centralne",
-   "label": "Powrót obaw inflacyjnych przez ropę",
-   "note": "Presja inflacyjna i umocnienie dolara osłabiają waluty rynków wschodzących, w tym PLN.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/100-Oil-Puts-Central-Banks-Back-on-Inflation-Alert.html",
-   "fx": 0.015
+   "id": "orlenrekordcenhurt",
+   "label": "Rekordowe podwyżki hurtowe Orlenu",
+   "note": "Gwałtowny skok cen diesla w hurcie powyżej 9 zł/l wymusi presję marżową i podwyżki na stacjach.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
+   "pl": 0.04
   }
  ]
 }
