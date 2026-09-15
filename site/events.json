@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-15 20:21 UTC",
+ "generated": "2026-09-15 22:28 UTC",
  "headlines": [
+  {
+   "title": "Hormuz Risk Opens $40-Plus Price Gap Between Crude Grades",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Risk-Opens-40-Plus-Price-Gap-Between-Crude-Grades.html",
+   "published": "2026-09-15 17:00"
+  },
+  {
+   "title": "U.S. Oil Inventories Jump as Cushing Stocks Keep Falling",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-Inventories-Jump-as-Cushing-Stocks-Keep-Falling.html",
+   "published": "2026-09-15 16:01"
+  },
   {
    "title": "Orlen podniósł hurtowe ceny paliw. Tak drogo w tym roku jeszcze nie było - TVN24",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
@@ -42,16 +52,6 @@
    "published": "2026-09-15 08:30"
   },
   {
-   "title": "Drone Strikes Cripple Half of Russia's Top Diesel Refineries",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
-   "published": "2026-09-15 07:30"
-  },
-  {
-   "title": "Indonesia Eyes Guyana and Suriname Oil Investments for Energy Security",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indonesia-Eyes-Guyana-and-Suriname-Oil-Investments-for-Energy-Security.html",
-   "published": "2026-09-15 05:30"
-  },
-  {
    "title": "Ceny paliw 15.09: Nowy rekord w Płocku! Hurt diesla przebił 9,00 zł/l brutto, benzyna również w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
    "published": "2026-09-14 22:33"
@@ -66,56 +66,65 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atakinarosyjskierafineri",
-   "label": "Ataki dronów na rosyjskie rafinerie",
-   "note": "Wyłączenie połowy kluczowych rafinerii w Rosji drastycznie ogranicza podaż diesla na rynku globalnym.",
+   "id": "yanbususpension",
+   "label": "Zawieszenie załadunków w Yanbu przez Aramco",
+   "note": "Aramco wstrzymuje terminal w Yanbu, co potęguje kryzys podażowy saudyjskiej ropy.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
-   "brent": 0.02,
-   "crack": 0.07
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
+   "brent": 0.06,
+   "crack": 0.03
   },
   {
-   "id": "eskalacjaatakowciesninah",
-   "label": "Ataki na Arabię i Cieśninę Ormuz",
-   "note": "Ryzyko zablokowania szlaku w cieśninie Ormuz wywołało skok cen ropy Brent powyżej 107 USD.",
+   "id": "aramcoeuropepipeline",
+   "label": "Aramco odwołuje dostawy ropy do Europy",
+   "note": "Zablokowany kluczowy rurociąg odcina europejskie rafinerie od saudyjskiego surowca.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
+   "brent": 0.05,
+   "crack": 0.04
+  },
+  {
+   "id": "hormuzsaudistrikes",
+   "label": "Nowe ataki w Cieśninie Ormuz i w Arabii",
+   "note": "Brent skoczył do 107 USD po uderzeniach w infrastrukturę i szlaki w cieśninie Ormuz.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
-   "brent": 0.06,
+   "brent": 0.07,
    "fx": 0.02
   },
   {
-   "id": "aramcowstrzymujezaladunk",
-   "label": "Wstrzymanie załadunków w Yanbu przez Aramco",
-   "note": "Blokada terminalu w Yanbu pogłębia kryzys podażowy saudyjskiej ropy, windując ceny surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
-   "brent": 0.05
-  },
-  {
-   "id": "aramcoodwolujedostawydoe",
-   "label": "Aramco anuluje dostawy ropy do Europy",
-   "note": "Zamknięty kluczowy rurociąg zmusza Saudyjczyków do odwołania dostaw, uderzając bezpośrednio w Europę.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
-   "brent": 0.04,
-   "crack": 0.02
-  },
-  {
-   "id": "libiagroziforcemajeure",
-   "label": "Blokada pól naftowych w Libii",
-   "note": "Groźba siły wyższej po zamknięciu pól przez strażników grozi natychmiastowym ubytkiem podaży surowca.",
+   "id": "libyaforcemajeure",
+   "label": "Groźba siły wyższej na polach w Libii",
+   "note": "Straż naftowa blokuje wydobycie, grożąc całkowitym wstrzymaniem libijskiego eksportu.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Threatens-Force-Majeure-as-Oil-Guards-Shut-Fields.html",
    "brent": 0.03
   },
   {
-   "id": "skokcenhurtowychorlen",
-   "label": "Skokowe podwyżki hurtowe w Orlenie",
-   "note": "Orlen podniósł ceny hurtowe do tegorocznych rekordów, przenosząc presję kosztową na polski rynek.",
+   "id": "meccaallianceiran",
+   "label": "Napięcia Sojuszu z Mekki z Iranem",
+   "note": "Regionalna eskalacja po atakach Huti zwiększa premię geopolityczną na rynku surowców.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/The-New-Mecca-Alliance-Warns-Iran-Over-Houthi-Attacks-on-Saudi-Arabia.html",
+   "brent": 0.04
+  },
+  {
+   "id": "orlenrekordhurt",
+   "label": "Rekordowe ceny hurtowe diesla w Orlenie",
+   "note": "Hurt diesla w Płocku przekroczył 9 zł/l brutto, przenosząc globalne braki na rynek PL.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
-   "fx": 0.01,
-   "pl": 0.03
+   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
+   "crack": 0.02,
+   "pl": 0.04
+  },
+  {
+   "id": "hormuzspreadgap",
+   "label": "Paraliż Ormuz i 40-dolarowy spread ropy",
+   "note": "Ryzyko blokady żeglugi w Zatoce drastycznie różnicuje ceny i winduje koszty frachtu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Risk-Opens-40-Plus-Price-Gap-Between-Crude-Grades.html",
+   "brent": 0.05,
+   "crack": 0.03
   }
  ]
 }
