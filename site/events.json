@@ -1,10 +1,15 @@
 {
- "generated": "2026-09-15 18:19 UTC",
+ "generated": "2026-09-15 20:21 UTC",
  "headlines": [
   {
    "title": "Orlen podniósł hurtowe ceny paliw. Tak drogo w tym roku jeszcze nie było - TVN24",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
    "published": "2026-09-15 15:32"
+  },
+  {
+   "title": "ADNOC Scoops Up Iraqi Crude at $25 Per Barrel Discount",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Scoops-Up-Iraqi-Crude-at-25-Per-Barrel-Discount.html",
+   "published": "2026-09-15 13:30"
   },
   {
    "title": "The New ‘Mecca Alliance’ Warns Iran Over Houthi Attacks on Saudi Arabia",
@@ -47,11 +52,6 @@
    "published": "2026-09-15 05:30"
   },
   {
-   "title": "UK Oil and Gas Group Says Earlier Tax Shift Could Raise £14.9 Billion",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Oil-and-Gas-Group-Says-Earlier-Tax-Shift-Could-Raise-149-Billion.html",
-   "published": "2026-09-15 04:30"
-  },
-  {
    "title": "Ceny paliw 15.09: Nowy rekord w Płocku! Hurt diesla przebił 9,00 zł/l brutto, benzyna również w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
    "published": "2026-09-14 22:33"
@@ -66,54 +66,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rosjadronyrafinerie",
-   "label": "Ataki dronów na rosyjskie rafinerie diesla",
-   "note": "Wyłączenie połowy kluczowych rafinerii w Rosji drastycznie ogranicza podaż diesla w Europie.",
+   "id": "atakinarosyjskierafineri",
+   "label": "Ataki dronów na rosyjskie rafinerie",
+   "note": "Wyłączenie połowy kluczowych rafinerii w Rosji drastycznie ogranicza podaż diesla na rynku globalnym.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strikes-Cripple-Half-of-Russias-Top-Diesel-Refineries.html",
    "brent": 0.02,
-   "crack": 0.08
+   "crack": 0.07
   },
   {
-   "id": "aramcozawieszayanbu",
-   "label": "Zawieszenie załadunków ropy w Yanbu",
-   "note": "Wstrzymanie operacji w kluczowym saudyjskim terminalu nad Morzem Czerwonym ogranicza podaż ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
-   "brent": 0.05
-  },
-  {
-   "id": "aramcoodwolujedostawyeu",
-   "label": "Aramco odwołuje transporty do Europy",
-   "note": "Zamknięcie rurociągu zmusza Arabię Saudyjską do redukcji dostaw surowca na rynek europejski.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
-   "brent": 0.04
-  },
-  {
-   "id": "kryzysormuzsaudi",
-   "label": "Ataki na KSA i ryzyko w Cieśninie Ormuz",
-   "note": "Uderzenia w infrastrukturę i zagrożenie szlaku przez Ormuz wywindowały ropę i osłabiają złotego.",
+   "id": "eskalacjaatakowciesninah",
+   "label": "Ataki na Arabię i Cieśninę Ormuz",
+   "note": "Ryzyko zablokowania szlaku w cieśninie Ormuz wywołało skok cen ropy Brent powyżej 107 USD.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "brent": 0.06,
    "fx": 0.02
   },
   {
-   "id": "blokadapollibia",
-   "label": "Groźba force majeure na polach w Libii",
-   "note": "Blokady instalacji wydobywczych przez strażników grożą nagłym odcięciem dostaw lekkiej ropy.",
+   "id": "aramcowstrzymujezaladunk",
+   "label": "Wstrzymanie załadunków w Yanbu przez Aramco",
+   "note": "Blokada terminalu w Yanbu pogłębia kryzys podażowy saudyjskiej ropy, windując ceny surowca.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
+   "brent": 0.05
+  },
+  {
+   "id": "aramcoodwolujedostawydoe",
+   "label": "Aramco anuluje dostawy ropy do Europy",
+   "note": "Zamknięty kluczowy rurociąg zmusza Saudyjczyków do odwołania dostaw, uderzając bezpośrednio w Europę.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Cancels-European-Crude-Cargoes-as-Key-Pipeline-Stays-Shut.html",
+   "brent": 0.04,
+   "crack": 0.02
+  },
+  {
+   "id": "libiagroziforcemajeure",
+   "label": "Blokada pól naftowych w Libii",
+   "note": "Groźba siły wyższej po zamknięciu pól przez strażników grozi natychmiastowym ubytkiem podaży surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Threatens-Force-Majeure-as-Oil-Guards-Shut-Fields.html",
    "brent": 0.03
   },
   {
-   "id": "orlenrekordcenhurt",
-   "label": "Rekordowe podwyżki hurtowe Orlenu",
-   "note": "Gwałtowny skok cen diesla w hurcie powyżej 9 zł/l wymusi presję marżową i podwyżki na stacjach.",
+   "id": "skokcenhurtowychorlen",
+   "label": "Skokowe podwyżki hurtowe w Orlenie",
+   "note": "Orlen podniósł ceny hurtowe do tegorocznych rekordów, przenosząc presję kosztową na polski rynek.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
-   "pl": 0.04
+   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
+   "fx": 0.01,
+   "pl": 0.03
   }
  ]
 }
