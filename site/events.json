@@ -1,6 +1,36 @@
 {
- "generated": "2026-09-14 22:47 UTC",
+ "generated": "2026-09-15 10:05 UTC",
  "headlines": [
+  {
+   "title": "UK Oil and Gas Group Says Earlier Tax Shift Could Raise £14.9 Billion",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Oil-and-Gas-Group-Says-Earlier-Tax-Shift-Could-Raise-149-Billion.html",
+   "published": "2026-09-15 04:30"
+  },
+  {
+   "title": "Saudi Oil Pipeline Repairs Could Take Weeks After Drone Attack",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Pipeline-Repairs-Could-Take-Weeks-After-Drone-Attack.html",
+   "published": "2026-09-15 02:15"
+  },
+  {
+   "title": "Oil Prices Rise on Saudi Pipeline Outage and Rising Red Sea Risks",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-on-Saudi-Pipeline-Outage-and-Rising-Red-Sea-Risks.html",
+   "published": "2026-09-15 01:10"
+  },
+  {
+   "title": "Ceny paliw 15.09: Nowy rekord w Płocku! Hurt diesla przebił 9,00 zł/l brutto, benzyna również w górę - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEU3NkMzczY3JaRS1FVVBfb3J6aGlsSjgxc0xwQVRJdTBib1daTWZldktHUURIc1BQbVVxcEZ3elNEbzFXZ3IwWkNKekVHcEw3dlFEVnl6andyNDJFMHVIMDJDV3RVOHg2SG1ydnNsOGJwMWJFY25VZi1n?oc=5",
+   "published": "2026-09-14 22:33"
+  },
+  {
+   "title": "Wealthy Investors Flock To Oil & Gas Assets Amid Energy Crisis",
+   "url": "https://oilprice.com/Energy/Energy-General/Wealthy-Investors-Flock-To-Oil-Gas-Assets-Amid-Energy-Crisis.html",
+   "published": "2026-09-14 19:00"
+  },
+  {
+   "title": "$100 Oil Puts Central Banks Back on Inflation Alert",
+   "url": "https://oilprice.com/Energy/Energy-General/100-Oil-Puts-Central-Banks-Back-on-Inflation-Alert.html",
+   "published": "2026-09-14 18:00"
+  },
   {
    "title": "Global Fuel Squeeze Triggers U.S. Refiners Stocks Rally",
    "url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
@@ -17,68 +47,57 @@
    "published": "2026-09-14 13:00"
   },
   {
-   "title": "Record Freight Costs Squeeze Russia's Black Sea Crude Exports",
-   "url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
-   "published": "2026-09-14 10:00"
-  },
-  {
-   "title": "Syria Diesel Prices Jump 40% Triggering Widespread Unrest",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Syria-Diesel-Prices-Jump-40-Triggering-Widespread-Unrest.html",
-   "published": "2026-09-14 09:30"
-  },
-  {
    "title": "Brent crude at $107 per barrel following new strikes on Saudi Arabia, Strait of Hormuz - Dawn",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBtLXBGUzYwZjhTOWxBdG9icUFUSmRjY0Z0N2pDS0JULTIzNzFvOEdUSnRRM0s0YlpCTTEwdjhJLWNXM1prbGxPctIBTkFVX3lxTE9xRlhFZ3lyUXYzQS04VDFsTjVyNmh3eHhHMUEyRm91cFR2U2lWTjRFejF0T1dXOHRyUm9KRVNBLTc3Z2VTSjBEOHlyNTVCQQ?oc=5",
    "published": "2026-09-14 09:05"
   },
   {
-   "title": "The Problem With Trying to Bypass Hormuz Using Pipelines",
-   "url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
-   "published": "2026-09-14 09:00"
-  },
-  {
-   "title": "Brent at $108: Gulf States Halt Hormuz Talks as Houthis Strike Saudi Airbase",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
-   "published": "2026-09-14 07:43"
+   "title": "Orlen znów podnosi ceny diesla. Eksperci mówią o historycznym rekordzie - Auto Świat",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZE1Pa1JTV0lQVHRvVmNkeWJ1VmZ3Ui1DMFd0a2QwT2NTV0ZlbjZOb204OHBjOGF6a1NDaDF3UXA5WFpMU1V5dDFnQUN2SlhrRU5jVUx1YzhIazVJYVVkQlFsWElCYkc3dUhlSzBJNGdCV25ZYXpIdDJjRE9xRjhJVmo5Nnd1RTI5ZThVb1B6UFFEODJ3WlFfazV4S2ZGRmo3YVlobnNvTmo1cTZUYVVQY3ZUcl96RzNEeThhbHpjbw?",
+   "published": "2026-09-13 16:29"
   }
  ],
- "source": "ai",
- "model": "google/gemini-3.8-flash",
+ "source": "static",
+ "model": null,
  "events": [
   {
-   "id": "ataki_saudi_ormuz",
-   "label": "Ataki na Arabię i zerwanie rozmów w Ormuz",
-   "note": "Eskalacja w Ormuz i ataki Huti windują ceny ropy oraz osłabiają złotego przez awersję do ryzyka.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-at-108-Gulf-States-Halt-Hormuz-Talks-as-Houthis-Strike-Saudi-Airbase.html",
-   "brent": 0.06,
-   "fx": 0.015
+   "id": "hormuz",
+   "label": "Eskalacja w Ormuz, ataki na tankowce",
+   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
+   "brent": 0.12,
+   "crack": 0.08
   },
   {
-   "id": "globalny_scisk_paliw",
-   "label": "Globalny deficyt paliw gotowych",
-   "note": "Światowy deficyt paliw winduje marże rafineryjne i podbija europejski crack spread na dieslu.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Squeeze-Triggers-US-Refiners-Stocks-Rally.html",
-   "brent": 0.02,
-   "crack": 0.04
+   "id": "truce",
+   "label": "Zawieszenie broni USA–Iran",
+   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
+   "brent": -0.12,
+   "crack": -0.06
   },
   {
-   "id": "rosyjski_eksport_morze_c",
-   "label": "Rekordowy fracht ropy na Morzu Czarnym",
-   "note": "Skok kosztów transportu dławi rosyjski eksport z Morza Czarnego, zaostrzając bilans w regionie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/International/Record-Freight-Costs-Squeeze-Russias-Black-Sea-Crude-Exports.html",
-   "brent": 0.02,
-   "crack": 0.015
+   "id": "opec",
+   "label": "OPEC+ podnosi wydobycie",
+   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
+   "brent": -0.03
   },
   {
-   "id": "waskie_gardla_ormuz",
-   "label": "Wąskie gardła rurociągów wokół Ormuz",
-   "note": "Problemy z ominięciem cieśniny lądowymi rurociągami utrwalają wysoką premię geopolityczną za ropę.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/The-Problem-With-Trying-to-Bypass-Hormuz-Using-Pipelines.html",
-   "brent": 0.025
+   "id": "ru",
+   "label": "Drony na rosyjskie rafinerie",
+   "note": "Ropa bez zmian, drożeje europejski diesel",
+   "brent": 0.01,
+   "crack": 0.06
+  },
+  {
+   "id": "plock",
+   "label": "Awaria lub remont w Płocku",
+   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
+   "pl": 0.02
+  },
+  {
+   "id": "pln",
+   "label": "Złoty umacnia się o 3%",
+   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
+   "fx": -0.03
   }
  ]
 }
