@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-16 20:20 UTC",
+ "generated": "2026-09-16 22:25 UTC",
  "headlines": [
+  {
+   "title": "Oil Above $100 Pushes U.S. Fuel Prices to New Records",
+   "url": "https://oilprice.com/Energy/Energy-General/Oil-Above-100-Pushes-US-Fuel-Prices-to-New-Records.html",
+   "published": "2026-09-16 17:00"
+  },
+  {
+   "title": "Shale Oil Now Makes Up 72% of Argentina's Crude Output, Data Shows",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Shale-Oil-Now-Makes-Up-72-of-Argentinas-Crude-Output-Data-Shows.html",
+   "published": "2026-09-16 16:00"
+  },
   {
    "title": "Orlen podnosi ceny hurtowe paliw. „To nie koniec złych wieści”. Mamy liczby - Auto Świat",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNenRHN18xU1pXWkFYdmszaVhFQmZyaXFVcWU4djdkTnhXQ3I5ZkhWaFNjUUdwUk4xUEl2M1NXZlBOaktkMm1lanpmTTlpWUFRTUtBejFOejVVWlIwelFONlpGWlBTSUl2VFN6SzZhSFVOcHVBOEFkemxzSmY0TWhBMkZ4a1JraHlWZ25UNThVY2hrZHRybng2SmNUWWpFRndlTENCbXpRQTRfczdNQ0Eyd0hjMkVwWTRXRzJLa0xhZTc",
@@ -37,7 +47,7 @@
    "published": "2026-09-16 09:00"
   },
   {
-   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - Radio ESKA",
+   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - eska.pl",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
    "published": "2026-09-16 08:26"
   },
@@ -45,16 +55,6 @@
    "title": "Paliwo ostro w górę! Orlen stracił kluczowego dostawcę - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
    "published": "2026-09-16 08:23"
-  },
-  {
-   "title": "U.S. Investigates Suspected Cyber Attacks on Texas-Bound Tankers",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
-   "published": "2026-09-16 07:30"
-  },
-  {
-   "title": "Saudi Arabia Pivots to Spot Oil Sales After Key Pipeline Goes Offline",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Pivots-to-Spot-Oil-Sales-After-Key-Pipeline-Goes-Offline.html",
-   "published": "2026-09-16 05:30"
   },
   {
    "title": "Ceny paliw 16 września: diesel w hurcie już po 9 zł - MotoGuru.pl",
@@ -66,52 +66,55 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rosja_zakaz_diesla",
-   "label": "Rosja przedłuża zakaz eksportu diesla",
-   "note": "Przedłużenie embarga do końca października pogłębia deficyt oleju napędowego w Europie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
-   "crack": 0.07
-  },
-  {
-   "id": "saudi_kryzys_rurociag",
+   "id": "saudi_oil_crisis_europe",
    "label": "Kryzys dostaw ropy z Arabii Saudyjskiej",
-   "note": "Wyłączenie kluczowego rurociągu uderza w podaż dla Europy i winduje ceny ropy na rynku spot.",
+   "note": "Ograniczenia podaży z Arabii Saudyjskiej uderzają w Europę, windując ceny ropy i produktów.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Is-About-to-Hit-Europe.html",
-   "brent": 0.05
+   "brent": 0.04,
+   "crack": 0.03
+  },
+  {
+   "id": "russia_diesel_export_ban",
+   "label": "Rosja przedłuża zakaz eksportu diesla",
+   "note": "Przedłużenie zakazu wywozu ON przez Rosję do końca października pogłębia deficyt diesla w UE.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
+   "crack": 0.06
+  },
+  {
+   "id": "us_sanctions_russia_iran",
+   "label": "Projekt sankcji USA na Rosję i Iran",
+   "note": "Ustawa sankcyjna w Kongresie USA może ograniczyć podaż ropy i osłabić waluty wschodzące.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
+   "brent": 0.03,
+   "fx": 0.01
   },
   {
    "id": "orlen_utrata_dostawcy",
-   "label": "Utrata kluczowego dostawcy ropy przez Orlen",
-   "note": "Problemy logistyczne i brak surowca zmuszają Orlen do skokowych podwyżek cen hurtowych w Polsce.",
+   "label": "Utrata kluczowego dostawcy przez Orlen",
+   "note": "Kłopoty z dostawami ropy zmuszają Orlen do skokowego podnoszenia cen hurtowych paliw w kraju.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.05
+   "pl": 0.04
   },
   {
-   "id": "sankcje_usa_rosja_iran",
-   "label": "Ustawa o sankcjach na Rosję i Iran w USA",
-   "note": "Nowe sankcje w Kongresie USA mogą dodatkowo ograniczyć podaż ropy od kluczowych eksporterów.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
-   "brent": 0.03
-  },
-  {
-   "id": "kazachstan_limit_eksport",
-   "label": "Problemy z eksportem ropy z Kazachstanu",
-   "note": "Bariery infrastrukturalne uniemożliwiają Kazachstanowi zrównoważenie globalnego deficytu ropy.",
+   "id": "kazachstan_export_constr",
+   "label": "Bariery eksportu ropy z Kazachstanu",
+   "note": "Kazachstan nie zrównoważy niedoborów na rynku naftowym z powodu ograniczeń infrastrukturalnych.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
    "brent": 0.02
   },
   {
-   "id": "cyberataki_tankowce_usa",
-   "label": "Podejrzenia cyberataków na tankowce w USA",
-   "note": "Śledztwo ws. ataków na tankowce płynące do Teksasu podbija premię za ryzyko w transporcie morskim.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
-   "brent": 0.02
+   "id": "oil_above_100_usd",
+   "label": "Ropa naftowa powyżej 100 USD za baryłkę",
+   "note": "Trwałe przebicie 100 USD nakręca momentum wzrostowe na giełdach paliw i wspiera kurs dolara.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Oil-Above-100-Pushes-US-Fuel-Prices-to-New-Records.html",
+   "brent": 0.03,
+   "fx": 0.01
   }
  ]
 }
