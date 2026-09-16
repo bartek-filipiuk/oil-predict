@@ -1,10 +1,20 @@
 {
- "generated": "2026-09-16 09:57 UTC",
+ "generated": "2026-09-16 13:38 UTC",
  "headlines": [
   {
    "title": "Paliwo ostro w górę! Orlen stracił kluczowego dostawcę - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
    "published": "2026-09-16 08:23"
+  },
+  {
+   "title": "U.S. Investigates Suspected Cyber Attacks on Texas-Bound Tankers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
+   "published": "2026-09-16 07:30"
+  },
+  {
+   "title": "Saudi Arabia Pivots to Spot Oil Sales After Key Pipeline Goes Offline",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Pivots-to-Spot-Oil-Sales-After-Key-Pipeline-Goes-Offline.html",
+   "published": "2026-09-16 05:30"
   },
   {
    "title": "Japanese Refiners Rush for Oman Crude After Saudi Pipeline Shutdown",
@@ -50,83 +60,61 @@
    "title": "Orlen podniósł hurtowe ceny paliw. Tak drogo w tym roku jeszcze nie było - TVN24",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
    "published": "2026-09-15 15:32"
-  },
-  {
-   "title": "ADNOC Scoops Up Iraqi Crude at $25 Per Barrel Discount",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Scoops-Up-Iraqi-Crude-at-25-Per-Barrel-Discount.html",
-   "published": "2026-09-15 13:30"
-  },
-  {
-   "title": "The New ‘Mecca Alliance’ Warns Iran Over Houthi Attacks on Saudi Arabia",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/The-New-Mecca-Alliance-Warns-Iran-Over-Houthi-Attacks-on-Saudi-Arabia.html",
-   "published": "2026-09-15 13:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_pipeline_yanbu",
-   "label": "Wstrzymanie eksportu z Yanbu w Arabii",
-   "note": "Zawieszenie załadunków ropy z Yanbu i awaria rurociągu ograniczają podaż surowca na światowe rynki.",
+   "id": "saudipipelineoutage",
+   "label": "Awaria rurociągu w Arabii Saudyjskiej",
+   "note": "Wstrzymanie kluczowego rurociągu ogranicza podaż saudyjskiej ropy na rynku pozbawionym rezerw.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Deepens-as-Aramco-Suspends-Yanbu-Loadings.html",
-   "brent": 0.06,
-   "crack": 0.02
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Outage-Hits-an-Oil-Market-Running-Out-of-Buffers.html",
+   "brent": 0.05
   },
   {
-   "id": "hormuz_traffic_drop",
-   "label": "Paraliż żeglugi w Cieśninie Ormuz",
-   "note": "Ruch tankowców przez Ormuz spadł do jednocyfrowych wartości, potęgując globalne obawy o podaż.",
+   "id": "hormuztrafficfreeze",
+   "label": "Paraliż ruchu w Cieśninie Ormuz",
+   "note": "Ruch tankowców przez Ormuz spadł do jednocyfrowych wartości, wywołując silną panikę podażową.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Remains-Stuck-in-Single-Digits.html",
    "brent": 0.07,
-   "crack": 0.03,
-   "fx": 0.015
+   "fx": 0.02
   },
   {
-   "id": "china_fuel_export_curbs",
-   "label": "Ograniczenie eksportu paliw przez Chiny",
-   "note": "Spadek chińskich zapasów grozi cięciem eksportu diesla i benzyn, napędzając marże rafineryjne.",
+   "id": "chinafuelexportcurb",
+   "label": "Chiny rozważają cięcie eksportu paliw",
+   "note": "Spadek chińskich zapasów diesla może uderzyć w globalną podaż i podbić marże rafineryjne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Could-Curb-Fuel-Exports-as-Diesel-and-Gasoline-Stocks-Sink.html",
-   "brent": 0.01,
    "crack": 0.05
   },
   {
-   "id": "orlen_loss_supplier",
+   "id": "orlenlostsupplier",
    "label": "Orlen traci kluczowego dostawcę",
-   "note": "Utrata ważnego partnera przez Orlen wymusza droższe zakupy spotowe i winduje ceny w krajowym hurcie.",
+   "note": "Utrata strategicznego kontrahenta zmusza koncern do droższych zakupów i presji na polski hurt.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "crack": 0.01,
    "pl": 0.04
   },
   {
-   "id": "mecca_alliance_iran_warn",
-   "label": "Wzrost napięć wokół ataków Huti i Iranu",
-   "note": "Nowe ostrzeżenia pod adresem Iranu nasilają ryzyko militarne i windowanie premii za baryłkę.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/The-New-Mecca-Alliance-Warns-Iran-Over-Houthi-Attacks-on-Saudi-Arabia.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "rekordowy_diesel_europa",
-   "label": "Historyczny rekord cen diesla w Europie",
-   "note": "Rekordowe notowania europejskiego diesla wymuszają kolejne podwyżki w hurcie PKN Orlen.",
+   "id": "eudieselrecordhigh",
+   "label": "Rekord cen diesla w Europie",
+   "note": "Historyczne maksima notowań diesla w Europie przekładają się na dalsze podwyżki cen w hurcie.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
    "crack": 0.04,
    "pl": 0.02
   },
   {
-   "id": "refiners_scramble_oman",
-   "label": "Wyścig o alternatywne ładunki ropy",
-   "note": "Przełączanie się azjatyckich rafinerii na surowiec z Omanu po cięciach w Arabii winduje ceny.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Rush-for-Oman-Crude-After-Saudi-Pipeline-Shutdown.html",
-   "brent": 0.025
+   "id": "ustankercyberattacks",
+   "label": "Cyberataki na tankowce w USA",
+   "note": "Dochodzenie USA w sprawie ataków rodzi ryzyko zakłóceń dostaw surowca do amerykańskich rafinerii.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
+   "brent": 0.02,
+   "crack": 0.02
   }
  ]
 }
