@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-16 15:27 UTC",
+ "generated": "2026-09-16 18:16 UTC",
  "headlines": [
+  {
+   "title": "Export Constraints Curb Kazakhstan’s Ability to Offset the Global Oil Shortage",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
+   "published": "2026-09-16 13:00"
+  },
+  {
+   "title": "Russia Extends Diesel Export Ban Through October",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
+   "published": "2026-09-16 10:30"
+  },
   {
    "title": "U.S. Oil Inventories Edge Lower as Fuel Demand Softens",
    "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Edge-Lower-as-Fuel-Demand-Softens.html",
@@ -47,76 +57,73 @@
    "published": "2026-09-16 02:00"
   },
   {
-   "title": "China Could Curb Fuel Exports as Diesel and Gasoline Stocks Sink",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Could-Curb-Fuel-Exports-as-Diesel-and-Gasoline-Stocks-Sink.html",
-   "published": "2026-09-16 00:45"
-  },
-  {
    "title": "Ceny paliw od 16.09: Hurt Orlenu o kilkanaście groszy w górę! Europejski diesel najdroższy w historii! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
    "published": "2026-09-15 23:03"
-  },
-  {
-   "title": "Saudi Pipeline Outage Hits an Oil Market Running Out of Buffers",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Outage-Hits-an-Oil-Market-Running-Out-of-Buffers.html",
-   "published": "2026-09-15 19:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "paraliz_ormuz",
-   "label": "Paraliż żeglugi w Cieśninie Ormuz",
-   "note": "Ruch tankowców przez Ormuz drastycznie spadł, grożąc poważnym deficytem ropy na rynkach światowych.",
+   "id": "hormuz_paralysis",
+   "label": "Paraliż żeglugi w cieśninie Ormuz",
+   "note": "Ruch tankowców w cieśninie Ormuz pozostaje sparaliżowany, silnie ograniczając podaż surowca.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Remains-Stuck-in-Single-Digits.html",
    "brent": 0.07,
    "crack": 0.03,
-   "fx": 0.02
+   "fx": 0.015
   },
   {
-   "id": "awaria_rurociagu_saudi",
-   "label": "Awaria rurociągu w Arabii Saudyjskiej",
-   "note": "Wyłączenie rurociągu odcina alternatywny szlak dostaw omijający Ormuz, windując presję na rynek spot.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Outage-Hits-an-Oil-Market-Running-Out-of-Buffers.html",
-   "brent": 0.04
-  },
-  {
-   "id": "chiny_limit_eksportu_die",
-   "label": "Chiny mogą ograniczyć eksport diesla",
-   "note": "Gwałtowny spadek chińskich rezerw paliw grozi cięciem eksportu i dalszym skokiem europejskich marż diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Could-Curb-Fuel-Exports-as-Diesel-and-Gasoline-Stocks-Sink.html",
+   "id": "russia_diesel_ban",
+   "label": "Rosja przedłuża zakaz eksportu diesla",
+   "note": "Przedłużenie embarga do końca października zacieśnia podaż paliw i winduje marże diesla w Europie.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
+   "brent": 0.01,
    "crack": 0.05
   },
   {
-   "id": "orlen_utrata_dostawcy",
-   "label": "Utrata dostawcy ropy przez Orlen",
-   "note": "Kłopoty z dostawami surowca do Płocka zmuszają Orlen do skokowego windowania cen hurtowych w Polsce.",
+   "id": "orlen_supplier_loss",
+   "label": "Orlen traci kluczowego dostawcę ropy",
+   "note": "Kłopoty z dostawami ropy do Płocka zmuszają Orlen do podnoszenia cen hurtowych niezależnie od rynku.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "crack": 0.02,
-   "pl": 0.05
+   "pl": 0.04
   },
   {
-   "id": "sankcje_usa_rosja_iran",
-   "label": "Sankcje USA na Rosję i Iran w Kongresie",
-   "note": "Ustawa zaostrzająca sankcje może usunąć z rynku kolejne baryłki ropy i wzmocnić dolara w ujęciu globalnym.",
+   "id": "saudi_pipeline_outage",
+   "label": "Awaria rurociągu w Arabii Saudyjskiej",
+   "note": "Wstrzymanie rurociągu zmusza Saudyjczyków do sprzedaży spotowej, windując ceny ropy na świecie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Pivots-to-Spot-Oil-Sales-After-Key-Pipeline-Goes-Offline.html",
+   "brent": 0.04
+  },
+  {
+   "id": "us_sanctions_bill",
+   "label": "Nowe sankcje USA na Rosję i Iran",
+   "note": "Postęp prac nad ustawą sankcyjną grozi dalszym ograniczeniem podaży ropy z Iranu i Rosji.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
-   "brent": 0.03,
+   "brent": 0.025,
    "fx": 0.01
   },
   {
-   "id": "cyberataki_tankowce_usa",
-   "label": "Podejrzenie cyberataków na tankowce",
-   "note": "Ataki na tankowce zmierzające do Teksasu podbijają koszty frachtu i premie za ryzyko transportowe.",
+   "id": "kazakhstan_export_curbs",
+   "label": "Bariery eksportowe ropy z Kazachstanu",
+   "note": "Wąskie gardła logistyczne uniemożliwiają Kazachstanowi załatanie deficytu ropy na rynkach.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
+   "brent": 0.015
+  },
+  {
+   "id": "us_tanker_cyberattacks",
+   "label": "Cyberataki na tankowce w USA",
+   "note": "Ryzyko cyberataków na tankowce płynące do Teksasu podnosi premię za ryzyko transportowe.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
-   "brent": 0.01,
-   "crack": 0.02
+   "brent": 0.01
   }
  ]
 }
