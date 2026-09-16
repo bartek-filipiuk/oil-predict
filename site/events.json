@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-16 13:38 UTC",
+ "generated": "2026-09-16 15:27 UTC",
  "headlines": [
+  {
+   "title": "U.S. Oil Inventories Edge Lower as Fuel Demand Softens",
+   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Edge-Lower-as-Fuel-Demand-Softens.html",
+   "published": "2026-09-16 09:41"
+  },
+  {
+   "title": "Sweeping Russia-Iran Sanctions Bill Advances Toward House Vote",
+   "url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
+   "published": "2026-09-16 09:00"
+  },
+  {
+   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - eska.pl",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
+   "published": "2026-09-16 08:26"
+  },
   {
    "title": "Paliwo ostro w górę! Orlen stracił kluczowego dostawcę - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
@@ -45,75 +60,62 @@
    "title": "Saudi Pipeline Outage Hits an Oil Market Running Out of Buffers",
    "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Outage-Hits-an-Oil-Market-Running-Out-of-Buffers.html",
    "published": "2026-09-15 19:00"
-  },
-  {
-   "title": "Hormuz Risk Opens $40-Plus Price Gap Between Crude Grades",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Risk-Opens-40-Plus-Price-Gap-Between-Crude-Grades.html",
-   "published": "2026-09-15 17:00"
-  },
-  {
-   "title": "U.S. Oil Inventories Jump as Cushing Stocks Keep Falling",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-Inventories-Jump-as-Cushing-Stocks-Keep-Falling.html",
-   "published": "2026-09-15 16:01"
-  },
-  {
-   "title": "Orlen podniósł hurtowe ceny paliw. Tak drogo w tym roku jeszcze nie było - TVN24",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY04xSHF4NjFDbVBZTGtnTk9DUWpOOFRNWUJlYXpXVHZYSndmdklTckdra05OeTdJMnFFbFAxLVB4NjZ5d1FCQ2tLc2RtM0F6OXNVTG83QkZnUHgwd243czd3VXhXcGN5ZUlSWUF5ZWFGOGp3THh0b1BxNUo4a3FKTDh2RzNBckhlcW04Z0Z5TVQ2b2FPb1ZfR25FbzNPeGoxMjh2Z01oNkdyUlk?oc=5",
-   "published": "2026-09-15 15:32"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudipipelineoutage",
-   "label": "Awaria rurociągu w Arabii Saudyjskiej",
-   "note": "Wstrzymanie kluczowego rurociągu ogranicza podaż saudyjskiej ropy na rynku pozbawionym rezerw.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Outage-Hits-an-Oil-Market-Running-Out-of-Buffers.html",
-   "brent": 0.05
-  },
-  {
-   "id": "hormuztrafficfreeze",
-   "label": "Paraliż ruchu w Cieśninie Ormuz",
-   "note": "Ruch tankowców przez Ormuz spadł do jednocyfrowych wartości, wywołując silną panikę podażową.",
+   "id": "paraliz_ormuz",
+   "label": "Paraliż żeglugi w Cieśninie Ormuz",
+   "note": "Ruch tankowców przez Ormuz drastycznie spadł, grożąc poważnym deficytem ropy na rynkach światowych.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Remains-Stuck-in-Single-Digits.html",
    "brent": 0.07,
+   "crack": 0.03,
    "fx": 0.02
   },
   {
-   "id": "chinafuelexportcurb",
-   "label": "Chiny rozważają cięcie eksportu paliw",
-   "note": "Spadek chińskich zapasów diesla może uderzyć w globalną podaż i podbić marże rafineryjne.",
+   "id": "awaria_rurociagu_saudi",
+   "label": "Awaria rurociągu w Arabii Saudyjskiej",
+   "note": "Wyłączenie rurociągu odcina alternatywny szlak dostaw omijający Ormuz, windując presję na rynek spot.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Outage-Hits-an-Oil-Market-Running-Out-of-Buffers.html",
+   "brent": 0.04
+  },
+  {
+   "id": "chiny_limit_eksportu_die",
+   "label": "Chiny mogą ograniczyć eksport diesla",
+   "note": "Gwałtowny spadek chińskich rezerw paliw grozi cięciem eksportu i dalszym skokiem europejskich marż diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Could-Curb-Fuel-Exports-as-Diesel-and-Gasoline-Stocks-Sink.html",
    "crack": 0.05
   },
   {
-   "id": "orlenlostsupplier",
-   "label": "Orlen traci kluczowego dostawcę",
-   "note": "Utrata strategicznego kontrahenta zmusza koncern do droższych zakupów i presji na polski hurt.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.04
-  },
-  {
-   "id": "eudieselrecordhigh",
-   "label": "Rekord cen diesla w Europie",
-   "note": "Historyczne maksima notowań diesla w Europie przekładają się na dalsze podwyżki cen w hurcie.",
+   "id": "orlen_utrata_dostawcy",
+   "label": "Utrata dostawcy ropy przez Orlen",
+   "note": "Kłopoty z dostawami surowca do Płocka zmuszają Orlen do skokowego windowania cen hurtowych w Polsce.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
-   "crack": 0.04,
-   "pl": 0.02
+   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
+   "crack": 0.02,
+   "pl": 0.05
   },
   {
-   "id": "ustankercyberattacks",
-   "label": "Cyberataki na tankowce w USA",
-   "note": "Dochodzenie USA w sprawie ataków rodzi ryzyko zakłóceń dostaw surowca do amerykańskich rafinerii.",
+   "id": "sankcje_usa_rosja_iran",
+   "label": "Sankcje USA na Rosję i Iran w Kongresie",
+   "note": "Ustawa zaostrzająca sankcje może usunąć z rynku kolejne baryłki ropy i wzmocnić dolara w ujęciu globalnym.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "cyberataki_tankowce_usa",
+   "label": "Podejrzenie cyberataków na tankowce",
+   "note": "Ataki na tankowce zmierzające do Teksasu podbijają koszty frachtu i premie za ryzyko transportowe.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
-   "brent": 0.02,
+   "brent": 0.01,
    "crack": 0.02
   }
  ]
