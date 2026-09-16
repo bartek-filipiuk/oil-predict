@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-16 18:16 UTC",
+ "generated": "2026-09-16 20:20 UTC",
  "headlines": [
+  {
+   "title": "Orlen podnosi ceny hurtowe paliw. „To nie koniec złych wieści”. Mamy liczby - Auto Świat",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNenRHN18xU1pXWkFYdmszaVhFQmZyaXFVcWU4djdkTnhXQ3I5ZkhWaFNjUUdwUk4xUEl2M1NXZlBOaktkMm1lanpmTTlpWUFRTUtBejFOejVVWlIwelFONlpGWlBTSUl2VFN6SzZhSFVOcHVBOEFkemxzSmY0TWhBMkZ4a1JraHlWZ25UNThVY2hrZHRybng2SmNUWWpFRndlTENCbXpRQTRfczdNQ0Eyd0hjMkVwWTRXRzJLa0xhZTc",
+   "published": "2026-09-16 14:58"
+  },
+  {
+   "title": "Saudi Oil Crisis Is About to Hit Europe",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Is-About-to-Hit-Europe.html",
+   "published": "2026-09-16 13:32"
+  },
+  {
+   "title": "Continental Strikes Venezuela Oil Deal with PDVSA",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Continental-Strikes-Venezuela-Oil-Deal-with-PDVSA.html",
+   "published": "2026-09-16 13:30"
+  },
   {
    "title": "Export Constraints Curb Kazakhstan’s Ability to Offset the Global Oil Shortage",
    "url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
@@ -22,7 +37,7 @@
    "published": "2026-09-16 09:00"
   },
   {
-   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - eska.pl",
+   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - Radio ESKA",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
    "published": "2026-09-16 08:26"
   },
@@ -42,88 +57,61 @@
    "published": "2026-09-16 05:30"
   },
   {
-   "title": "Japanese Refiners Rush for Oman Crude After Saudi Pipeline Shutdown",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Rush-for-Oman-Crude-After-Saudi-Pipeline-Shutdown.html",
-   "published": "2026-09-16 04:30"
-  },
-  {
-   "title": "Japan’s Oil Import Bill Soars 59% as Trade Deficit Deepens",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Oil-Import-Bill-Soars-59-as-Trade-Deficit-Deepens.html",
-   "published": "2026-09-16 03:15"
-  },
-  {
-   "title": "Hormuz Shipping Traffic Remains Stuck in Single Digits",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Remains-Stuck-in-Single-Digits.html",
-   "published": "2026-09-16 02:00"
-  },
-  {
-   "title": "Ceny paliw od 16.09: Hurt Orlenu o kilkanaście groszy w górę! Europejski diesel najdroższy w historii! - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
-   "published": "2026-09-15 23:03"
+   "title": "Ceny paliw 16 września: diesel w hurcie już po 9 zł - MotoGuru.pl",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORkpPT0haXzJwS0NZWXVPWnNiNFgyLXB1b0JkZGNwNWZlVW9jdnkzMmhfdDFwcXppYXVpZVlRQ3RfVkNOdGhKbmNiQ2VWMnliQXgzWVF3RjFsS2VvWGM1WUpneEJudk1iM25MWDdfbk5TX2RhWDdOcXEwa2ptMzc1MnQ5SFRsQXhz?oc=5",
+   "published": "2026-09-16 05:22"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_paralysis",
-   "label": "Paraliż żeglugi w cieśninie Ormuz",
-   "note": "Ruch tankowców w cieśninie Ormuz pozostaje sparaliżowany, silnie ograniczając podaż surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Shipping-Traffic-Remains-Stuck-in-Single-Digits.html",
-   "brent": 0.07,
-   "crack": 0.03,
-   "fx": 0.015
-  },
-  {
-   "id": "russia_diesel_ban",
+   "id": "rosja_zakaz_diesla",
    "label": "Rosja przedłuża zakaz eksportu diesla",
-   "note": "Przedłużenie embarga do końca października zacieśnia podaż paliw i winduje marże diesla w Europie.",
+   "note": "Przedłużenie embarga do końca października pogłębia deficyt oleju napędowego w Europie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
-   "brent": 0.01,
-   "crack": 0.05
+   "crack": 0.07
   },
   {
-   "id": "orlen_supplier_loss",
-   "label": "Orlen traci kluczowego dostawcę ropy",
-   "note": "Kłopoty z dostawami ropy do Płocka zmuszają Orlen do podnoszenia cen hurtowych niezależnie od rynku.",
+   "id": "saudi_kryzys_rurociag",
+   "label": "Kryzys dostaw ropy z Arabii Saudyjskiej",
+   "note": "Wyłączenie kluczowego rurociągu uderza w podaż dla Europy i winduje ceny ropy na rynku spot.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Is-About-to-Hit-Europe.html",
+   "brent": 0.05
+  },
+  {
+   "id": "orlen_utrata_dostawcy",
+   "label": "Utrata kluczowego dostawcy ropy przez Orlen",
+   "note": "Problemy logistyczne i brak surowca zmuszają Orlen do skokowych podwyżek cen hurtowych w Polsce.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.04
+   "pl": 0.05
   },
   {
-   "id": "saudi_pipeline_outage",
-   "label": "Awaria rurociągu w Arabii Saudyjskiej",
-   "note": "Wstrzymanie rurociągu zmusza Saudyjczyków do sprzedaży spotowej, windując ceny ropy na świecie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Pivots-to-Spot-Oil-Sales-After-Key-Pipeline-Goes-Offline.html",
-   "brent": 0.04
-  },
-  {
-   "id": "us_sanctions_bill",
-   "label": "Nowe sankcje USA na Rosję i Iran",
-   "note": "Postęp prac nad ustawą sankcyjną grozi dalszym ograniczeniem podaży ropy z Iranu i Rosji.",
+   "id": "sankcje_usa_rosja_iran",
+   "label": "Ustawa o sankcjach na Rosję i Iran w USA",
+   "note": "Nowe sankcje w Kongresie USA mogą dodatkowo ograniczyć podaż ropy od kluczowych eksporterów.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
-   "brent": 0.025,
-   "fx": 0.01
+   "brent": 0.03
   },
   {
-   "id": "kazakhstan_export_curbs",
-   "label": "Bariery eksportowe ropy z Kazachstanu",
-   "note": "Wąskie gardła logistyczne uniemożliwiają Kazachstanowi załatanie deficytu ropy na rynkach.",
+   "id": "kazachstan_limit_eksport",
+   "label": "Problemy z eksportem ropy z Kazachstanu",
+   "note": "Bariery infrastrukturalne uniemożliwiają Kazachstanowi zrównoważenie globalnego deficytu ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
-   "brent": 0.015
+   "brent": 0.02
   },
   {
-   "id": "us_tanker_cyberattacks",
-   "label": "Cyberataki na tankowce w USA",
-   "note": "Ryzyko cyberataków na tankowce płynące do Teksasu podnosi premię za ryzyko transportowe.",
+   "id": "cyberataki_tankowce_usa",
+   "label": "Podejrzenia cyberataków na tankowce w USA",
+   "note": "Śledztwo ws. ataków na tankowce płynące do Teksasu podbija premię za ryzyko w transporcie morskim.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Investigates-Suspected-Cyber-Attacks-on-Texas-Bound-Tankers.html",
-   "brent": 0.01
+   "brent": 0.02
   }
  ]
 }
