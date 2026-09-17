@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-17 13:41 UTC",
+ "generated": "2026-09-17 15:35 UTC",
  "headlines": [
+  {
+   "title": "Oil Prices Slide as China Presses Iran to Rein In the Houthis",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Slide-as-China-Presses-Iran-to-Rein-In-the-Houthis.html",
+   "published": "2026-09-17 09:54"
+  },
+  {
+   "title": "Ukraine Hits Refinery as Moscow Prepares to Extend Diesel Export Ban",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-Refinery-as-Moscow-Prepares-to-Extend-Diesel-Export-Ban.html",
+   "published": "2026-09-17 09:30"
+  },
+  {
+   "title": "Congress Sends Sweeping Russia-Iran Sanctions Bill to Trump",
+   "url": "https://oilprice.com/Energy/Energy-General/Congress-Sends-Sweeping-Russia-Iran-Sanctions-Bill-to-Trump.html",
+   "published": "2026-09-17 09:00"
+  },
   {
    "title": "LNG Prices Could Jump Further as Hormuz Supply Crunch Persists",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
@@ -42,87 +57,65 @@
    "published": "2026-09-16 17:00"
   },
   {
-   "title": "Shale Oil Now Makes Up 72% of Argentina's Crude Output, Data Shows",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Shale-Oil-Now-Makes-Up-72-of-Argentinas-Crude-Output-Data-Shows.html",
-   "published": "2026-09-16 16:00"
-  },
-  {
    "title": "Orlen podnosi ceny hurtowe paliw. „To nie koniec złych wieści”. Mamy liczby - Auto Świat",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNenRHN18xU1pXWkFYdmszaVhFQmZyaXFVcWU4djdkTnhXQ3I5ZkhWaFNjUUdwUk4xUEl2M1NXZlBOaktkMm1lanpmTTlpWUFRTUtBejFOejVVWlIwelFONlpGWlBTSUl2VFN6SzZhSFVOcHVBOEFkemxzSmY0TWhBMkZ4a1JraHlWZ25UNThVY2hrZHRybng2SmNUWWpFRndlTENCbXpRQTRfczdNQ0Eyd0hjMkVwWTRXRzJLa0xhZTc",
    "published": "2026-09-16 14:58"
-  },
-  {
-   "title": "Saudi Oil Crisis Is About to Hit Europe",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Is-About-to-Hit-Europe.html",
-   "published": "2026-09-16 13:32"
-  },
-  {
-   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - Radio ESKA",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
-   "published": "2026-09-16 08:26"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "orlen_utrata_dostawcy",
-   "label": "Utrata dostawcy ropy przez Orlen",
-   "note": "Braki w dostawach surowca wymuszają podwyżki marż i cen w polskim hurcie.",
+   "id": "ukraina_rafineria_diesel",
+   "label": "Atak na rafinerię i zakaz diesla w Rosji",
+   "note": "Atak na rafinerię w Rosji i przedłużenie zakazu eksportu diesla windować będą europejski crack spread.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.04
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-Refinery-as-Moscow-Prepares-to-Extend-Diesel-Export-Ban.html",
+   "brent": 0.015,
+   "crack": 0.045
   },
   {
-   "id": "rekordowe_stawki_tankowc",
-   "label": "Paraliż frachtu i stawki tankowców",
-   "note": "Ekstremalne koszty transportu morskiego podbijają marże rafineryjne i cracki.",
+   "id": "sankcje_usa_rosja_iran",
+   "label": "Ustawa USA o sankcjach na Rosję i Iran",
+   "note": "Kongres USA uchwalił zaostrzone sankcje na eksport z Rosji i Iranu, co grozi ubytkiem podaży ropy na rynku.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Tanker-Rates-Smash-1-Million-a-Day-as-Oil-Shipping-Crisis-Deepens.html",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Congress-Sends-Sweeping-Russia-Iran-Sanctions-Bill-to-Trump.html",
    "brent": 0.03,
-   "crack": 0.05
+   "fx": 0.008
   },
   {
-   "id": "saudyjski_kryzys_w_europ",
-   "label": "Saudyjski kryzys naftowy uderza w Europę",
-   "note": "Ograniczenie dostaw saudyjskiej ropy do Europy winduje lokalne ceny diesla.",
+   "id": "chiny_presja_huti",
+   "label": "Presja Chin na Iran ws. ataków Hutich",
+   "note": "Chiny naciskają na Teheran, by powstrzymał ataki Hutich, co obniża geopolityczną premię za ryzyko na ropie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Slide-as-China-Presses-Iran-to-Rein-In-the-Houthis.html",
+   "brent": -0.02
+  },
+  {
+   "id": "kryzys_tankowcow_stawki",
+   "label": "Rekordowe stawki frachtu tankowców",
+   "note": "Paraliż szlaków morskich wywindował stawki czarteru tankowców, podbijając koszty transportu ropy i paliw.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Is-About-to-Hit-Europe.html",
-   "brent": 0.04,
-   "crack": 0.05
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Tanker-Rates-Smash-1-Million-a-Day-as-Oil-Shipping-Crisis-Deepens.html",
+   "brent": 0.02,
+   "crack": 0.025,
+   "fx": 0.005
   },
   {
-   "id": "kryzys_ormuz_saudi_route",
-   "label": "Eskalacja kryzysu w cieśninie Ormuz",
-   "note": "Zagrożenie szlaków eksportowych w Zatoce podnosi trwałą premię za ryzyko na ropie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/StanChart-Sees-Higher-Oil-Floor-as-Hormuz-Crisis-Spreads-to-Saudi-Export-Routes.html",
-   "brent": 0.06,
-   "fx": 0.015
-  },
-  {
-   "id": "saudi_rerouting_oman",
-   "label": "Obejście Ormuzu przez rurociągi do Omanu",
-   "note": "Przekierowanie eksportu ropy przez Oman częściowo łagodzi panikę podażową.",
+   "id": "saudi_ropa_oman",
+   "label": "Arabia Saudyjska omija Ormuz przez Oman",
+   "note": "Rurociągowy tranzyt ropy przez Oman zmniejsza zależność od cieśniny Ormuz, schładzając ceny surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Saudi-Arabia-Reroutes-Crude-via-Oman.html",
-   "brent": -0.03
+   "brent": -0.025
   },
   {
-   "id": "poglebienie_deficytu_die",
-   "label": "Pogłębiający się deficyt diesla",
-   "note": "Niedobory podaży średnich destylatów generują dalszą presję na cracki diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-More-Upside-in-Gasoline-as-Diesel-Crunch-Deepens.html",
-   "crack": 0.04
-  },
-  {
-   "id": "spor_usa_indie_rosyjska_",
-   "label": "Spór USA i Indii o rosyjską ropę",
-   "note": "Groźba sankcji celnych na Indie grozi zaburzeniem globalnych przepływów paliw.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Pushes-Back-on-US-Tariff-Threat-Over-Russian-Oil.html",
-   "brent": 0.02
+   "id": "orlen_brak_dostawcy_ropy",
+   "label": "Utrata kluczowego dostawcy przez Orlen",
+   "note": "Orlen zmaga się z utratą kluczowego dostawcy ropy, co wymusza skokowe podwyżki marż i cen w polskim hurcie.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
+   "pl": 0.035
   }
  ]
 }
