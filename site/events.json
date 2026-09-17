@@ -1,10 +1,20 @@
 {
- "generated": "2026-09-17 18:23 UTC",
+ "generated": "2026-09-17 20:28 UTC",
  "headlines": [
   {
-   "title": "Ceny paliw od 16.09: Hurt Orlenu o kilkanaście groszy w górę! Europejski diesel najdroższy w historii! - Agro Profil",
+   "title": "Ceny paliw od 16.09: Hurt Orlenu o kilkanaście groszy w górę! Europejski diesel najdroższy w historii! - agroprofil.pl",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
    "published": "2026-09-17 16:04"
+  },
+  {
+   "title": "U.S. and Houthis Open Talks as Saudi Oil Crisis Deepens",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/US-and-Houthis-Open-Talks-as-Saudi-Oil-Crisis-Deepens.html",
+   "published": "2026-09-17 15:00"
+  },
+  {
+   "title": "America Is Paying a Lot for Fuel, Not Running Out of Gasoline",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/America-Is-Paying-a-Lot-for-Fuel-Not-Running-Out-of-Gasoline.html",
+   "published": "2026-09-17 14:30"
   },
   {
    "title": "Cooking Oil-Powered Plane to Fly Tourists to Antarctica",
@@ -42,88 +52,70 @@
    "published": "2026-09-17 05:30"
   },
   {
-   "title": "Goldman Sachs Sees More Upside in Gasoline as Diesel Crunch Deepens",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-More-Upside-in-Gasoline-as-Diesel-Crunch-Deepens.html",
-   "published": "2026-09-17 04:30"
-  },
-  {
-   "title": "India Pushes Back on U.S. Tariff Threat Over Russian Oil",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Pushes-Back-on-US-Tariff-Threat-Over-Russian-Oil.html",
-   "published": "2026-09-17 03:15"
-  },
-  {
-   "title": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Saudi-Arabia-Reroutes-Crude-via-Oman.html",
-   "published": "2026-09-17 00:20"
-  },
-  {
-   "title": "Orlen podnosi ceny hurtowe paliw. „To nie koniec złych wieści”. Mamy liczby - Auto Świat",
+   "title": "Orlen podnosi ceny hurtowe paliw. „To nie koniec złych wieści”. Mamy liczby - auto-swiat.pl",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNenRHN18xU1pXWkFYdmszaVhFQmZyaXFVcWU4djdkTnhXQ3I5ZkhWaFNjUUdwUk4xUEl2M1NXZlBOaktkMm1lanpmTTlpWUFRTUtBejFOejVVWlIwelFONlpGWlBTSUl2VFN6SzZhSFVOcHVBOEFkemxzSmY0TWhBMkZ4a1JraHlWZ25UNThVY2hrZHRybng2SmNUWWpFRndlTENCbXpRQTRfczdNQ0Eyd0hjMkVwWTRXRzJLa0xhZTc",
    "published": "2026-09-16 14:58"
+  },
+  {
+   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - Radio ESKA",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
+   "published": "2026-09-16 08:26"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ukraina_rafineria_rosja_",
-   "label": "Atak na rafinerię i rosyjski ban diesla",
-   "note": "Ukraiński atak oraz przedłużenie zakazu eksportu z Rosji pogłębią deficyt diesla.",
+   "id": "atak_rafineria_rosja_die",
+   "label": "Atak na rafinerię i zakaz eksportu diesla",
+   "note": "Ukraiński atak oraz przedłużenie rosyjskiego embarga na eksport diesla gwałtownie zawężają podaż paliw w Europie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-Refinery-as-Moscow-Prepares-to-Extend-Diesel-Export-Ban.html",
    "brent": 0.02,
-   "crack": 0.05
+   "crack": 0.06
   },
   {
    "id": "orlen_utrata_dostawcy",
    "label": "Orlen traci kluczowego dostawcę ropy",
-   "note": "Problemy z dostawami ropy do Orlenu windują krajowe ceny hurtowe niezależnie od giełd.",
-   "confidence": "high",
+   "note": "Problemy logistyczne i utrata dostawcy zmuszają Orlen do podnoszenia marż i cen hurtowych na rynku krajowym.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.04
+   "pl": 0.03
   },
   {
-   "id": "sankcje_usa_rosja_iran",
-   "label": "Ustawa o sankcjach na Rosję i Iran",
-   "note": "Zaostrzenie sankcji USA wobec kluczowych eksporterów zagraża globalnej podaży ropy.",
+   "id": "usa_sankcje_rosja_iran",
+   "label": "Nowy pakiet sankcji USA na Rosję i Iran",
+   "note": "Ustawa Kongresu zaostrza restrykcje na eksport ropy z Iranu i Rosji, zwiększając premię geopolityczną.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Congress-Sends-Sweeping-Russia-Iran-Sanctions-Bill-to-Trump.html",
    "brent": 0.03,
    "fx": 0.01
   },
   {
-   "id": "chiny_nacisk_iran_huti",
-   "label": "Presja Chin na Iran ws. Huti",
-   "note": "Działania dyplomatyczne Pekinu obniżają premię za ryzyko geopolityczne w Kanale Sueskim.",
+   "id": "chiny_naciski_iran_huti",
+   "label": "Naciski Chin na Iran ws. ataków Huti",
+   "note": "Presja Pekinu na Teheran może deeskalować zakłócenia na Morzu Czerwonym, wywierając presję na spadek cen ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Slide-as-China-Presses-Iran-to-Rein-In-the-Houthis.html",
-   "brent": -0.025
-  },
-  {
-   "id": "saudi_reroute_oman",
-   "label": "Arabia Saudyjska omija cieśninę Ormuz",
-   "note": "Przekierowanie ropy przez Oman łagodzi obawy o blokadę eksportu z Zatoki Perskiej.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Saudi-Arabia-Reroutes-Crude-via-Oman.html",
    "brent": -0.02
   },
   {
-   "id": "kpler_kryzys_diesla",
-   "label": "Kpler: pogłębia się deficyt diesla",
-   "note": "Niskie zapasy i wysokie marże rafineryjne wywierają dalszą presję na wzrost cen paliw.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Kpler-Sees-Oil-Grinding-Higher-as-Diesel-Crunch-Deepens.html",
-   "brent": 0.015,
-   "crack": 0.04
+   "id": "kryzys_ciesnina_hormuz",
+   "label": "Blokada i kryzys w Cieśninie Ormuz",
+   "note": "Napięcia żeglugowe w Ormuz zagrażają dostawom surowców z Zatoki Perskiej, windując ceny ropy i kurs dolara.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
+   "brent": 0.04,
+   "fx": 0.01
   },
   {
-   "id": "kryzys_podazowy_ormuz_ln",
-   "label": "Napięcia w cieśninie Ormuz",
-   "note": "Utrzymujące się zakłócenia w cieśninie Ormuz podbijają ceny surowców energetycznych.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
+   "id": "kpler_kryzys_diesla_euro",
+   "label": "Pogłębiający się deficyt diesla wg Kpler",
+   "note": "Globalne niedobory średnich destylatów podbijają marże rafineryjne i wywierają presję na europejski crack.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Kpler-Sees-Oil-Grinding-Higher-as-Diesel-Crunch-Deepens.html",
    "brent": 0.02,
-   "fx": 0.01
+   "crack": 0.04
   }
  ]
 }
