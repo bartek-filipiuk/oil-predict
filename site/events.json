@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-16 22:25 UTC",
+ "generated": "2026-09-17 09:59 UTC",
  "headlines": [
+  {
+   "title": "Goldman Sachs Sees More Upside in Gasoline as Diesel Crunch Deepens",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-More-Upside-in-Gasoline-as-Diesel-Crunch-Deepens.html",
+   "published": "2026-09-17 04:30"
+  },
+  {
+   "title": "India Pushes Back on U.S. Tariff Threat Over Russian Oil",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Pushes-Back-on-US-Tariff-Threat-Over-Russian-Oil.html",
+   "published": "2026-09-17 03:15"
+  },
+  {
+   "title": "Oil Prices Slide as Saudi Arabia Reroutes Crude via Oman",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Saudi-Arabia-Reroutes-Crude-via-Oman.html",
+   "published": "2026-09-17 00:20"
+  },
+  {
+   "title": "StanChart Sees Higher Oil Floor as Hormuz Crisis Spreads to Saudi Export Routes",
+   "url": "https://oilprice.com/Energy/Crude-Oil/StanChart-Sees-Higher-Oil-Floor-as-Hormuz-Crisis-Spreads-to-Saudi-Export-Routes.html",
+   "published": "2026-09-16 19:00"
+  },
+  {
+   "title": "Tanker Rates Smash $1 Million a Day as Oil Shipping Crisis Deepens",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Tanker-Rates-Smash-1-Million-a-Day-as-Oil-Shipping-Crisis-Deepens.html",
+   "published": "2026-09-16 18:00"
+  },
   {
    "title": "Oil Above $100 Pushes U.S. Fuel Prices to New Records",
    "url": "https://oilprice.com/Energy/Energy-General/Oil-Above-100-Pushes-US-Fuel-Prices-to-New-Records.html",
@@ -32,89 +57,72 @@
    "published": "2026-09-16 13:00"
   },
   {
-   "title": "Russia Extends Diesel Export Ban Through October",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
-   "published": "2026-09-16 10:30"
-  },
-  {
-   "title": "U.S. Oil Inventories Edge Lower as Fuel Demand Softens",
-   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Edge-Lower-as-Fuel-Demand-Softens.html",
-   "published": "2026-09-16 09:41"
-  },
-  {
-   "title": "Sweeping Russia-Iran Sanctions Bill Advances Toward House Vote",
-   "url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
-   "published": "2026-09-16 09:00"
-  },
-  {
-   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - eska.pl",
+   "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - Radio ESKA",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
    "published": "2026-09-16 08:26"
-  },
-  {
-   "title": "Paliwo ostro w górę! Orlen stracił kluczowego dostawcę - Super Biznes",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "published": "2026-09-16 08:23"
-  },
-  {
-   "title": "Ceny paliw 16 września: diesel w hurcie już po 9 zł - MotoGuru.pl",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORkpPT0haXzJwS0NZWXVPWnNiNFgyLXB1b0JkZGNwNWZlVW9jdnkzMmhfdDFwcXppYXVpZVlRQ3RfVkNOdGhKbmNiQ2VWMnliQXgzWVF3RjFsS2VvWGM1WUpneEJudk1iM25MWDdfbk5TX2RhWDdOcXEwa2ptMzc1MnQ5SFRsQXhz?oc=5",
-   "published": "2026-09-16 05:22"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_oil_crisis_europe",
-   "label": "Kryzys dostaw ropy z Arabii Saudyjskiej",
-   "note": "Ograniczenia podaży z Arabii Saudyjskiej uderzają w Europę, windując ceny ropy i produktów.",
+   "id": "kryzys_tankowcow_stawki",
+   "label": "Eksplozja stawek frachtu tankowców",
+   "note": "Stawki 1 mln USD/dzień drastycznie podnoszą koszty importu ropy i paliw do Europy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Tanker-Rates-Smash-1-Million-a-Day-as-Oil-Shipping-Crisis-Deepens.html",
+   "brent": 0.03,
+   "crack": 0.04
+  },
+  {
+   "id": "kryzys_dostaw_z_saudi",
+   "label": "Kryzys dostaw saudyjskiej ropy do UE",
+   "note": "Braki saudyjskiego surowca bezpośrednio uderzają w zaopatrzenie europejskich rafinerii.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Oil-Crisis-Is-About-to-Hit-Europe.html",
    "brent": 0.04,
    "crack": 0.03
   },
   {
-   "id": "russia_diesel_export_ban",
-   "label": "Rosja przedłuża zakaz eksportu diesla",
-   "note": "Przedłużenie zakazu wywozu ON przez Rosję do końca października pogłębia deficyt diesla w UE.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-October.html",
-   "crack": 0.06
-  },
-  {
-   "id": "us_sanctions_russia_iran",
-   "label": "Projekt sankcji USA na Rosję i Iran",
-   "note": "Ustawa sankcyjna w Kongresie USA może ograniczyć podaż ropy i osłabić waluty wschodzące.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Europe/Sweeping-Russia-Iran-Sanctions-Bill-Advances-Toward-House-Vote.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
    "id": "orlen_utrata_dostawcy",
    "label": "Utrata kluczowego dostawcy przez Orlen",
-   "note": "Kłopoty z dostawami ropy zmuszają Orlen do skokowego podnoszenia cen hurtowych paliw w kraju.",
+   "note": "Utrata kluczowego partnera ogranicza podaż i wymusza skokowe podwyżki w krajowym hurcie.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.04
+   "fx": 0.01,
+   "pl": 0.05
   },
   {
-   "id": "kazachstan_export_constr",
-   "label": "Bariery eksportu ropy z Kazachstanu",
-   "note": "Kazachstan nie zrównoważy niedoborów na rynku naftowym z powodu ograniczeń infrastrukturalnych.",
+   "id": "poglebienie_diesel_crunc",
+   "label": "Pogłębiający się kryzys diesla",
+   "note": "Goldman Sachs wskazuje na deficyt diesla, co napędza marże rafineryjne na rynkach.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-More-Upside-in-Gasoline-as-Diesel-Crunch-Deepens.html",
+   "crack": 0.05
+  },
+  {
+   "id": "saudi_przekierowanie_oma",
+   "label": "Przekierowanie ropy Saudi przez Oman",
+   "note": "Nowa trasa eksportu przez Oman częściowo łagodzi obawy o blokadę cieśniny Ormuz.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Saudi-Arabia-Reroutes-Crude-via-Oman.html",
+   "brent": -0.03
+  },
+  {
+   "id": "ograniczenia_eksportu_ka",
+   "label": "Bariery eksportowe ropy z Kazachstanu",
+   "note": "Problemy logistyczne Kazachstanu uniemożliwiają zastąpienie deficytów na rynku.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Export-Constraints-Curb-Kazakhstans-Ability-to-Offset-the-Global-Oil-Shortage.html",
    "brent": 0.02
   },
   {
-   "id": "oil_above_100_usd",
-   "label": "Ropa naftowa powyżej 100 USD za baryłkę",
-   "note": "Trwałe przebicie 100 USD nakręca momentum wzrostowe na giełdach paliw i wspiera kurs dolara.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Oil-Above-100-Pushes-US-Fuel-Prices-to-New-Records.html",
-   "brent": 0.03,
-   "fx": 0.01
+   "id": "spor_usa_indie_ropa",
+   "label": "Spór USA i Indii o rosyjską ropę",
+   "note": "Groźby ceł za zakup ropy z Rosji mogą zakłócić stabilność dostaw do azjatyckich rafinerii.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Pushes-Back-on-US-Tariff-Threat-Over-Russian-Oil.html",
+   "brent": 0.02
   }
  ]
 }
