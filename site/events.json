@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-17 20:28 UTC",
+ "generated": "2026-09-17 22:28 UTC",
  "headlines": [
   {
-   "title": "Ceny paliw od 16.09: Hurt Orlenu o kilkanaście groszy w górę! Europejski diesel najdroższy w historii! - agroprofil.pl",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
-   "published": "2026-09-17 16:04"
+   "title": "Turkey Bets $108 Billion on Wind and Solar While Expanding Oil and Gas",
+   "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Turkey-Bets-108-Billion-on-Wind-and-Solar-While-Expanding-Oil-and-Gas.html",
+   "published": "2026-09-17 17:00"
   },
   {
    "title": "U.S. and Houthis Open Talks as Saudi Oil Crisis Deepens",
@@ -42,16 +42,6 @@
    "published": "2026-09-17 09:00"
   },
   {
-   "title": "LNG Prices Could Jump Further as Hormuz Supply Crunch Persists",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
-   "published": "2026-09-17 06:30"
-  },
-  {
-   "title": "Alberta Plans New Royalty Incentives to Spur Oil Production",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-Plans-New-Royalty-Incentives-to-Spur-Oil-Production.html",
-   "published": "2026-09-17 05:30"
-  },
-  {
    "title": "Orlen podnosi ceny hurtowe paliw. „To nie koniec złych wieści”. Mamy liczby - auto-swiat.pl",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNenRHN18xU1pXWkFYdmszaVhFQmZyaXFVcWU4djdkTnhXQ3I5ZkhWaFNjUUdwUk4xUEl2M1NXZlBOaktkMm1lanpmTTlpWUFRTUtBejFOejVVWlIwelFONlpGWlBTSUl2VFN6SzZhSFVOcHVBOEFkemxzSmY0TWhBMkZ4a1JraHlWZ25UNThVY2hrZHRybng2SmNUWWpFRndlTENCbXpRQTRfczdNQ0Eyd0hjMkVwWTRXRzJLa0xhZTc",
    "published": "2026-09-16 14:58"
@@ -60,62 +50,80 @@
    "title": "Orlen notuje cenowe rekordy w hurcie. Efekt kłopotów z dostawami ropy - Radio ESKA",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTByWW1fTmd4SHBrdW5HdjBFREhvR2tHNkVVb3E3UERUTF9qVWtMY2FYZ1dwNEpET1Z4Y1RaWnFMZXFlV0VKZlhMQlQxdFQwWDRZakdOeGNaQy1CWjk2RS14YkNoY012T21DRVRBUDdQanNIbzE0SHJBR29Fek1aVHRfSVVBMGJHRUNtTUlIVVhTbFZPZ2c4Q0pxRUNGOXhmV29acl96LWlSbF9NUjRhMU1kdllyeEVCRkZzT1gtclo",
    "published": "2026-09-16 08:26"
+  },
+  {
+   "title": "Paliwo ostro w górę! Orlen stracił kluczowego dostawcę - Super Biznes",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
+   "published": "2026-09-16 08:23"
+  },
+  {
+   "title": "Ceny paliw 16 września: diesel w hurcie już po 9 zł - MotoGuru.pl",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORkpPT0haXzJwS0NZWXVPWnNiNFgyLXB1b0JkZGNwNWZlVW9jdnkzMmhfdDFwcXppYXVpZVlRQ3RfVkNOdGhKbmNiQ2VWMnliQXgzWVF3RjFsS2VvWGM1WUpneEJudk1iM25MWDdfbk5TX2RhWDdOcXEwa2ptMzc1MnQ5SFRsQXhz?oc=5",
+   "published": "2026-09-16 05:22"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_rafineria_rosja_die",
-   "label": "Atak na rafinerię i zakaz eksportu diesla",
-   "note": "Ukraiński atak oraz przedłużenie rosyjskiego embarga na eksport diesla gwałtownie zawężają podaż paliw w Europie.",
+   "id": "atak_rafineria_rosja",
+   "label": "Atak na rafinerię i embargo diesla",
+   "note": "Uderzenie Ukrainy i rosyjskie embargo ograniczają podaż diesla, podbijając europejskie marże.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-Refinery-as-Moscow-Prepares-to-Extend-Diesel-Export-Ban.html",
    "brent": 0.02,
    "crack": 0.06
   },
   {
-   "id": "orlen_utrata_dostawcy",
-   "label": "Orlen traci kluczowego dostawcę ropy",
-   "note": "Problemy logistyczne i utrata dostawcy zmuszają Orlen do podnoszenia marż i cen hurtowych na rynku krajowym.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
-   "pl": 0.03
-  },
-  {
-   "id": "usa_sankcje_rosja_iran",
-   "label": "Nowy pakiet sankcji USA na Rosję i Iran",
-   "note": "Ustawa Kongresu zaostrza restrykcje na eksport ropy z Iranu i Rosji, zwiększając premię geopolityczną.",
+   "id": "sankcje_usa_rosja_iran",
+   "label": "Pakiet sankcji USA na Rosję i Iran",
+   "note": "Nowe sankcje Kongresu mogą odciąć część podaży ropy z Iranu i Rosji, windując cenę surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Congress-Sends-Sweeping-Russia-Iran-Sanctions-Bill-to-Trump.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "chiny_naciski_iran_huti",
-   "label": "Naciski Chin na Iran ws. ataków Huti",
-   "note": "Presja Pekinu na Teheran może deeskalować zakłócenia na Morzu Czerwonym, wywierając presję na spadek cen ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Slide-as-China-Presses-Iran-to-Rein-In-the-Houthis.html",
-   "brent": -0.02
-  },
-  {
-   "id": "kryzys_ciesnina_hormuz",
-   "label": "Blokada i kryzys w Cieśninie Ormuz",
-   "note": "Napięcia żeglugowe w Ormuz zagrażają dostawom surowców z Zatoki Perskiej, windując ceny ropy i kurs dolara.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Prices-Could-Jump-Further-as-Hormuz-Supply-Crunch-Persists.html",
    "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "kpler_kryzys_diesla_euro",
-   "label": "Pogłębiający się deficyt diesla wg Kpler",
-   "note": "Globalne niedobory średnich destylatów podbijają marże rafineryjne i wywierają presję na europejski crack.",
-   "confidence": "medium",
+   "id": "kpler_kryzys_diesla",
+   "label": "Kpler ostrzega przed kryzysem diesla",
+   "note": "Niedobory diesla na rynku windować będą ceny ropy oraz marże rafineryjne w kolejnych dniach.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Kpler-Sees-Oil-Grinding-Higher-as-Diesel-Crunch-Deepens.html",
    "brent": 0.02,
-   "crack": 0.04
+   "crack": 0.05
+  },
+  {
+   "id": "orlen_utrata_dostawcy",
+   "label": "Utrata kluczowego dostawcy przez Orlen",
+   "note": "Problemy z dostawami ropy do Płocka zmuszają Orlen do podnoszenia marż i cen w hurcie paliw.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHFLNnB0UDRidTFHenN1LWJQMFdLdmRWYXcwQXROZG9idE1MOWtvc0dZU3pLaFY2a3ZyXzlOQ2EzNzFPZnB5Tk1FVHJxLWozTW5qZXJXY3lINEdvNHZ0dFB4N1I3VXZ5c3cxNGFPUi1wQ3pNaG5iQ3pzYVdfUWNxdndKakFUTGRUaEE1M0ZZR1JSZTVVUXpEVjRULWRsbE1pa2x6dndR?oc=5",
+   "pl": 0.03
+  },
+  {
+   "id": "chiny_iran_huti",
+   "label": "Naciski Chin na Iran ws. ruchu Huti",
+   "note": "Presja Pekinu na deeskalację na Morzu Czerwonym zdejmuje część premii wojennej z cen ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Slide-as-China-Presses-Iran-to-Rein-In-the-Houthis.html",
+   "brent": -0.03
+  },
+  {
+   "id": "kryzys_saudi_rozmowy_usa",
+   "label": "Kryzys w Arabii Saudyjskiej i rozmowy",
+   "note": "Pogłębiający się kryzys saudyjski podbija ryzyko podażowe mimo otwarcia rozmów USA z Huti.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/US-and-Houthis-Open-Talks-as-Saudi-Oil-Crisis-Deepens.html",
+   "brent": 0.03
+  },
+  {
+   "id": "rekordowy_diesel_europa",
+   "label": "Rekordowe ceny europejskiego diesla",
+   "note": "Historyczne maksima notowań diesla w Europie przekładają się na dalsze podwyżki w hurcie Orlenu.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSzhENWJ3a2NaSzBDb185aFgxTzZOeDVzb2E2YkhsX2c1VDB0dE5tdTlLWkxPSXNyUDN4WXN2NFZWX0dmRmdlWnUzR2FwM21la0p0VW5VY1p6bVB5V0hYbjhFaXpBYjJidEVmdXhvOHB4dGotYkNGamU1NFB4cHg2WWVUMmpNQQ?oc=5",
+   "crack": 0.04,
+   "pl": 0.02
   }
  ]
 }
