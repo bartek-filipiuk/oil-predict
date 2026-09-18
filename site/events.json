@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18 17:44 UTC",
+ "generated": "2026-09-18 19:51 UTC",
  "headlines": [
   {
    "title": "Saudi Arabia Cuts Europe Off From October Crude as Gulf Exports Surge",
@@ -57,63 +57,62 @@
    "published": "2026-09-18 07:00"
   },
   {
-   "title": "Hormuz Tanker Traffic Slumps as Saudi Arabia Scrambles for New Oil Routes",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slumps-as-Saudi-Arabia-Scrambles-for-New-Oil-Routes.html",
-   "published": "2026-09-18 04:30"
+   "title": "Ceny paliw 18.09: Hurtowe ceny diesla w Polsce w końcu poszły w dół, do 9,23 zł/l brutto - agroprofil.pl",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
+   "published": "2026-09-17 23:19"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_europe_cut",
+   "id": "saudi_cuts_europe",
    "label": "Odcięcie Europy od saudyjskiej ropy",
-   "note": "Saudyjczycy wstrzymują dostawy do Europy na październik, co zacieśnia bilans diesla i surowca w UE.",
+   "note": "Przekierowanie dostaw z Europy do Azji zaostrza deficyt surowcowy w UE, podbijając marże rafineryjne.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
    "brent": 0.01,
-   "crack": 0.04
+   "crack": 0.03
   },
   {
-   "id": "saudi_export_surge_brent",
-   "label": "Zwrot Saudyjczyków spycha Brent <105 USD",
-   "note": "Skierowanie ropy z Zatoki Perskiej do Azji łagodzi globalne obawy o podaż i zbija cenę Brent.",
+   "id": "saudi_export_pivot_drop",
+   "label": "Spadek Brent poniżej 105 USD po ruchu Saudów",
+   "note": "Wzrost saudyjskiego eksportu uspokaja globalne obawy o deficyt, spychając notowania ropy w dół.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
-   "brent": -0.03
-  },
-  {
-   "id": "spadek_hurtu_on_polska",
-   "label": "Spadek hurtowych cen diesla w Polsce",
-   "note": "Ceny ON w hurcie Orlenu spadają do 9,23 zł/l brutto, korygując ostatnie rekordowe poziomy.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
-   "pl": -0.03
-  },
-  {
-   "id": "diesel_crude_fall_suez",
-   "label": "Spadek cen diesla na zachód od Suezu",
-   "note": "Nadzieje na wznowienie pracy instalacji w Arabii Saudyjskiej obniżają marże diesla i notowania ropy.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ3pwZ3N3S1h6VHVWSmxyY2NPVUZ1UUJ3TkROZjlIYzhBcXdweU1aTmVJNEFlVGpnMDR1VjR5ci1GZldLYWhKVHBVRl9MNzdlRmFRM29vMnpsVUNJamE5UUJlWDh1eGJQd1cwd0ZtVGhQSzZ6bHBQNEl3cm52RWluSEJfbEhUUjBRVUtxd1p5THNFTWlrNVpuVnQwZFE5Yk9fRlBB?oc=5",
-   "brent": -0.02,
-   "crack": -0.03
-  },
-  {
-   "id": "hormuz_tanker_rebound",
-   "label": "Powrót tankowców do Cieśniny Ormuz",
-   "note": "Wznowienie żeglugi tankowców przez Cieśninę Ormuz redukuje premię za ryzyko transportowe.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
    "brent": -0.02
   },
   {
-   "id": "oil_backup_plan_fails",
-   "label": "Problemy z ominięciem cieśniny Ormuz",
-   "note": "Rurociąg Wschód-Zachód wciąż nie działa, co utrudnia omijanie cieśniny i odnawia obawy o podaż.",
+   "id": "hormuz_lng_resumption",
+   "label": "Powrót tankowców LNG do Cieśniny Ormuz",
+   "note": "Wznowienie żeglugi przez Ormuz obniża premię geopolityczną i presję na globalne ceny energii.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
+   "brent": -0.015
+  },
+  {
+   "id": "saudi_hormuz_rebound",
+   "label": "Odbicie eksportu ropy przez Ormuz",
+   "note": "Większy przepływ tankowców przez Ormuz łagodzi napięcia, mimo wyłączenia rurociągu Wschód-Zachód.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Exports-Rebound-at-Hormuz-While-East-West-Pipeline-Remains-Offline.html",
+   "brent": -0.02
+  },
+  {
+   "id": "pl_diesel_wholesale_drop",
+   "label": "Spadek hurtowych cen diesla w Polsce",
+   "note": "Krajowe ceny hurtowe diesla wreszcie spadają do 9,23 zł/l brutto, korygując marże rafineryjne.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
+   "pl": -0.02
+  },
+  {
+   "id": "backup_routes_failing",
+   "label": "Kłopoty z trasami alternatywnymi ropy",
+   "note": "Zawodność awaryjnych szlaków omijających Ormuz ogranicza elastyczność i podbija marże produktowe.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/The-Oil-Markets-Backup-Plan-Is-Breaking-Down.html",
-   "brent": 0.02,
+   "brent": 0.015,
    "crack": 0.02
   }
  ]
