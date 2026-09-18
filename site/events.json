@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-18 13:04 UTC",
+ "generated": "2026-09-18 15:03 UTC",
  "headlines": [
+  {
+   "title": "LNG Tankers Push Through Hormuz Again as Qatar, UAE Fight Supply Crunch",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
+   "published": "2026-09-18 09:30"
+  },
+  {
+   "title": "The Oil Market’s Backup Plan Is Breaking Down",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Oil-Markets-Backup-Plan-Is-Breaking-Down.html",
+   "published": "2026-09-18 09:00"
+  },
   {
    "title": "Japan's Refiners Have Enough Crude to Last Through November, Industry Body Says",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Refiners-Have-Enough-Crude-to-Last-Through-November-Industry-Body-Says.html",
@@ -42,11 +52,6 @@
    "published": "2026-09-17 23:19"
   },
   {
-   "title": "West of Suez: Crude, diesel fall again as Saudi restart eyed - Quantum Commodity Intelligence",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ3pwZ3N3S1h6VHVWSmxyY2NPVUZ1UUJ3TkROZjlIYzhBcXdweU1aTmVJNEFlVGpnMDR1VjR5ci1GZldLYWhKVHBVRl9MNzdlRmFRM29vMnpsVUNJamE5UUJlWDh1eGJQd1cwd0ZtVGhQSzZ6bHBQNEl3cm52RWluSEJfbEhUUjBRVUtxd1p5THNFTWlrNVpuVnQwZFE5Yk9fRlBB?oc=5",
-   "published": "2026-09-17 20:36"
-  },
-  {
    "title": "What Yemen Really Means to the U.S.-Iran War",
    "url": "https://oilprice.com/Geopolitics/Middle-East/What-Yemen-Really-Means-to-the-US-Iran-War.html",
    "published": "2026-09-17 19:00"
@@ -55,65 +60,60 @@
    "title": "Turkey Bets $108 Billion on Wind and Solar While Expanding Oil and Gas",
    "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Turkey-Bets-108-Billion-on-Wind-and-Solar-While-Expanding-Oil-and-Gas.html",
    "published": "2026-09-17 17:00"
-  },
-  {
-   "title": "U.S. and Houthis Open Talks as Saudi Oil Crisis Deepens",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/US-and-Houthis-Open-Talks-as-Saudi-Oil-Crisis-Deepens.html",
-   "published": "2026-09-17 15:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_export_workaround",
-   "label": "Saudyjskie obejścia łagodzą obawy o podaż",
-   "note": "Alternatywne trasy eksportu z Arabii Saudyjskiej redukują premię za ryzyko blokady Cieśniny Ormuz.",
+   "id": "saudi_export_rebound",
+   "label": "Wzrost eksportu ropy z Arabii Saudyjskiej",
+   "note": "Obejście problemów logistycznych przez Rijad łagodzi obawy o podaż i wywołuje spadek cen ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/WTI-Retreats-as-Saudi-Oil-Workaround-Eases-Supply-Fears.html",
-   "brent": -0.04
+   "brent": -0.03,
+   "fx": -0.005
   },
   {
    "id": "china_diesel_exports",
-   "label": "Wzrost eksportu paliw z Chin",
-   "note": "Zwiększone dostawy diesla z chińskich rafinerii częściowo łagodzą globalny deficyt średnich destylatów.",
+   "label": "Wzrost eksportu diesla z Chin",
+   "note": "Zwiększony eksport paliw z Chin łagodzi globalny deficyt diesla, obniżając marże rafineryjne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Fuel-Exports-Surge-as-Global-Diesel-Shortage-Deepens.html",
    "crack": -0.03
   },
   {
-   "id": "us_houthi_talks",
-   "label": "Rozmowy USA z Huti ws. kryzysu naftowego",
-   "note": "Początek negocjacji może deeskalować ataki na szlaki żeglugowe wokół Półwyspu Arabskiego.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/US-and-Houthis-Open-Talks-as-Saudi-Oil-Crisis-Deepens.html",
-   "brent": -0.02,
-   "fx": -0.01
-  },
-  {
-   "id": "pl_diesel_wholesale_drop",
+   "id": "spadek_hurtu_on_polska",
    "label": "Spadek hurtowych cen diesla w Polsce",
-   "note": "Cena hurtowa ON spadła do 9,23 zł/l brutto, korygując wcześniejsze gwałtowne podwyżki marż.",
+   "note": "Krajowy hurt oleju napędowego spada po wcześniejszych szczytach, przynosząc ulgę na stacjach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
    "pl": -0.02
   },
   {
-   "id": "west_of_suez_retreat",
-   "label": "Spadek cen ropy i diesla w Europie",
-   "note": "Oczekiwania na restart saudyjskiej infrastruktury spychają w dół ceny surowca oraz marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ3pwZ3N3S1h6VHVWSmxyY2NPVUZ1UUJ3TkROZjlIYzhBcXdweU1aTmVJNEFlVGpnMDR1VjR5ci1GZldLYWhKVHBVRl9MNzdlRmFRM29vMnpsVUNJamE5UUJlWDh1eGJQd1cwd0ZtVGhQSzZ6bHBQNEl3cm52RWluSEJfbEhUUjBRVUtxd1p5THNFTWlrNVpuVnQwZFE5Yk9fRlBB?oc=5",
-   "brent": -0.03,
-   "crack": -0.02
+   "id": "us_iran_yemen_risk",
+   "label": "Napięcia USA-Iran wokół Jemenu",
+   "note": "Ryzyko eskalacji konfliktu w rejonie Jemenu podbija premię geopolityczną i umacnia dolara.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/What-Yemen-Really-Means-to-the-US-Iran-War.html",
+   "brent": 0.04,
+   "fx": 0.015
   },
   {
-   "id": "japan_refinery_buffer",
-   "label": "Wysokie zapasy ropy w Japonii",
-   "note": "Azjatyccy przetwórcy mają zapasy do listopada, co zdejmuje presję na paniczne zakupy spotowe.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Refiners-Have-Enough-Crude-to-Last-Through-November-Industry-Body-Says.html",
-   "brent": -0.01
+   "id": "saudi_pipeline_offline",
+   "label": "Awaria rurociągu Wschód-Zachód w Arabii",
+   "note": "Wyłączenie kluczowego rurociągu wymusza ryzykowny tranzyt przez Ormuz, tworząc wąskie gardło.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Exports-Rebound-at-Hormuz-While-East-West-Pipeline-Remains-Offline.html",
+   "brent": 0.02
+  },
+  {
+   "id": "hormuz_tanker_flow",
+   "label": "Wznowienie żeglugi w cieśninie Ormuz",
+   "note": "Powrót tankowców LNG i ropy do cieśniny Ormuz zmniejsza presję na natychmiastowe braki surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
+   "brent": -0.02
   }
  ]
 }
