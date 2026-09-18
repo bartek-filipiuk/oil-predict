@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-18 15:03 UTC",
+ "generated": "2026-09-18 17:44 UTC",
  "headlines": [
+  {
+   "title": "Saudi Arabia Cuts Europe Off From October Crude as Gulf Exports Surge",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
+   "published": "2026-09-18 12:30"
+  },
+  {
+   "title": "U.S. Oil, Gas Rig Count Creeps Up With Strong Prices",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Rig-Count-Creeps-Up-With-Strong-Prices.html",
+   "published": "2026-09-18 12:18"
+  },
+  {
+   "title": "TotalEnergies and BlackRock Sign $1.8B Deal for African Oil and Gas Assets",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-and-BlackRock-Sign-18B-Deal-for-African-Oil-and-Gas-Assets.html",
+   "published": "2026-09-18 11:30"
+  },
+  {
+   "title": "Saudi Export Pivot Sends Brent Below $105",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
+   "published": "2026-09-18 11:15"
+  },
+  {
+   "title": "Russia’s $118 Billion Arctic Oil Bet Pushes Ahead Despite Sanctions",
+   "url": "https://oilprice.com/Energy/Energy-General/Russias-118-Billion-Arctic-Oil-Bet-Pushes-Ahead-Despite-Sanctions.html",
+   "published": "2026-09-18 11:00"
+  },
   {
    "title": "LNG Tankers Push Through Hormuz Again as Qatar, UAE Fight Supply Crunch",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
@@ -35,85 +60,61 @@
    "title": "Hormuz Tanker Traffic Slumps as Saudi Arabia Scrambles for New Oil Routes",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slumps-as-Saudi-Arabia-Scrambles-for-New-Oil-Routes.html",
    "published": "2026-09-18 04:30"
-  },
-  {
-   "title": "China’s Fuel Exports Surge as Global Diesel Shortage Deepens",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Fuel-Exports-Surge-as-Global-Diesel-Shortage-Deepens.html",
-   "published": "2026-09-18 03:30"
-  },
-  {
-   "title": "Oil Prices Head for Weekly Loss as Saudi Export Fears Ease",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Loss-as-Saudi-Export-Fears-Ease.html",
-   "published": "2026-09-18 00:30"
-  },
-  {
-   "title": "Ceny paliw 18.09: Hurtowe ceny diesla w Polsce w końcu poszły w dół, do 9,23 zł/l brutto - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
-   "published": "2026-09-17 23:19"
-  },
-  {
-   "title": "What Yemen Really Means to the U.S.-Iran War",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/What-Yemen-Really-Means-to-the-US-Iran-War.html",
-   "published": "2026-09-17 19:00"
-  },
-  {
-   "title": "Turkey Bets $108 Billion on Wind and Solar While Expanding Oil and Gas",
-   "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Turkey-Bets-108-Billion-on-Wind-and-Solar-While-Expanding-Oil-and-Gas.html",
-   "published": "2026-09-17 17:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_export_rebound",
-   "label": "Wzrost eksportu ropy z Arabii Saudyjskiej",
-   "note": "Obejście problemów logistycznych przez Rijad łagodzi obawy o podaż i wywołuje spadek cen ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/WTI-Retreats-as-Saudi-Oil-Workaround-Eases-Supply-Fears.html",
-   "brent": -0.03,
-   "fx": -0.005
+   "id": "saudi_europe_cut",
+   "label": "Odcięcie Europy od saudyjskiej ropy",
+   "note": "Saudyjczycy wstrzymują dostawy do Europy na październik, co zacieśnia bilans diesla i surowca w UE.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
+   "brent": 0.01,
+   "crack": 0.04
   },
   {
-   "id": "china_diesel_exports",
-   "label": "Wzrost eksportu diesla z Chin",
-   "note": "Zwiększony eksport paliw z Chin łagodzi globalny deficyt diesla, obniżając marże rafineryjne.",
+   "id": "saudi_export_surge_brent",
+   "label": "Zwrot Saudyjczyków spycha Brent <105 USD",
+   "note": "Skierowanie ropy z Zatoki Perskiej do Azji łagodzi globalne obawy o podaż i zbija cenę Brent.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Fuel-Exports-Surge-as-Global-Diesel-Shortage-Deepens.html",
-   "crack": -0.03
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
+   "brent": -0.03
   },
   {
    "id": "spadek_hurtu_on_polska",
    "label": "Spadek hurtowych cen diesla w Polsce",
-   "note": "Krajowy hurt oleju napędowego spada po wcześniejszych szczytach, przynosząc ulgę na stacjach.",
+   "note": "Ceny ON w hurcie Orlenu spadają do 9,23 zł/l brutto, korygując ostatnie rekordowe poziomy.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
-   "pl": -0.02
+   "pl": -0.03
   },
   {
-   "id": "us_iran_yemen_risk",
-   "label": "Napięcia USA-Iran wokół Jemenu",
-   "note": "Ryzyko eskalacji konfliktu w rejonie Jemenu podbija premię geopolityczną i umacnia dolara.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/What-Yemen-Really-Means-to-the-US-Iran-War.html",
-   "brent": 0.04,
-   "fx": 0.015
-  },
-  {
-   "id": "saudi_pipeline_offline",
-   "label": "Awaria rurociągu Wschód-Zachód w Arabii",
-   "note": "Wyłączenie kluczowego rurociągu wymusza ryzykowny tranzyt przez Ormuz, tworząc wąskie gardło.",
+   "id": "diesel_crude_fall_suez",
+   "label": "Spadek cen diesla na zachód od Suezu",
+   "note": "Nadzieje na wznowienie pracy instalacji w Arabii Saudyjskiej obniżają marże diesla i notowania ropy.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Exports-Rebound-at-Hormuz-While-East-West-Pipeline-Remains-Offline.html",
-   "brent": 0.02
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ3pwZ3N3S1h6VHVWSmxyY2NPVUZ1UUJ3TkROZjlIYzhBcXdweU1aTmVJNEFlVGpnMDR1VjR5ci1GZldLYWhKVHBVRl9MNzdlRmFRM29vMnpsVUNJamE5UUJlWDh1eGJQd1cwd0ZtVGhQSzZ6bHBQNEl3cm52RWluSEJfbEhUUjBRVUtxd1p5THNFTWlrNVpuVnQwZFE5Yk9fRlBB?oc=5",
+   "brent": -0.02,
+   "crack": -0.03
   },
   {
-   "id": "hormuz_tanker_flow",
-   "label": "Wznowienie żeglugi w cieśninie Ormuz",
-   "note": "Powrót tankowców LNG i ropy do cieśniny Ormuz zmniejsza presję na natychmiastowe braki surowca.",
+   "id": "hormuz_tanker_rebound",
+   "label": "Powrót tankowców do Cieśniny Ormuz",
+   "note": "Wznowienie żeglugi tankowców przez Cieśninę Ormuz redukuje premię za ryzyko transportowe.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
    "brent": -0.02
+  },
+  {
+   "id": "oil_backup_plan_fails",
+   "label": "Problemy z ominięciem cieśniny Ormuz",
+   "note": "Rurociąg Wschód-Zachód wciąż nie działa, co utrudnia omijanie cieśniny i odnawia obawy o podaż.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Oil-Markets-Backup-Plan-Is-Breaking-Down.html",
+   "brent": 0.02,
+   "crack": 0.02
   }
  ]
 }
