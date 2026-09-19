@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18 21:58 UTC",
+ "generated": "2026-09-19 09:31 UTC",
  "headlines": [
   {
    "title": "Global Shipping Costs Explode as Hormuz Disruptions Hit Key Trade Routes",
@@ -66,57 +66,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "koszty_frachtu_hormuz",
-   "label": "Wzrost stawek frachtu przez Ormuz",
-   "note": "Paraliż cieśniny podbija koszty transportu i premię logistyczną dla europejskich rafinerii.",
+   "id": "saudieuropecut",
+   "label": "Arabia Saudyjska odcina ropę Europie",
+   "note": "Wstrzymanie dostaw saudyjskiej ropy do Europy drastycznie podbija presję na marże diesla w regionie.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Shipping-Costs-Explode-as-Hormuz-Disruptions-Hit-Key-Trade-Routes.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
    "brent": 0.03,
-   "crack": 0.025,
+   "crack": 0.05,
    "fx": 0.01
   },
   {
-   "id": "saudi_ciecie_europy",
-   "label": "Saudyjskie cięcie dostaw do Europy",
-   "note": "Odcięcie dostaw ropy w październiku nasila deficyt surowcowy i winduje marże rafineryjne w UE.",
+   "id": "hormuzshippingcosts",
+   "label": "Eksplozja kosztów frachtu przez Ormuz",
+   "note": "Zakłócenia żeglugi w cieśninie Ormuz podnoszą koszty transportu i premię za ryzyko dostaw surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
-   "brent": 0.02,
-   "crack": 0.035
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Shipping-Costs-Explode-as-Hormuz-Disruptions-Hit-Key-Trade-Routes.html",
+   "brent": 0.04,
+   "crack": 0.03
   },
   {
-   "id": "macron_uwolnienie_rezerw",
-   "label": "Apel o uwolnienie rezerw ropy w UE",
-   "note": "Propozycja interwencyjnego rzutu surowca z zapasów strategicznych ogranicza presję na wzrost cen.",
+   "id": "macronsprrelease",
+   "label": "Apel Macrona o uwolnienie rezerw",
+   "note": "Presja na skoordynowane uwolnienie rezerw w Europie może krótkoterminowo schłodzić presję cenową.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Macron-Calls-for-Another-Emergency-Oil-Release-as-Europe-Loses-Supply.html",
-   "brent": -0.025,
-   "crack": -0.015
+   "brent": -0.03,
+   "crack": -0.02
   },
   {
-   "id": "saudi_zwrot_eksportowy",
-   "label": "Przekierowanie saudyjskiego eksportu",
-   "note": "Wykorzystanie alternatywnych tras eksportu z Zatoki Perskiej spycha cenę Brent poniżej 105 USD.",
+   "id": "saudiexportpivot",
+   "label": "Zwrot eksportowy Saudów zbija Brent",
+   "note": "Przekierowanie eksportu i alternatywne trasy łagodzą obawy o podaż, spychając ropę poniżej 105 USD.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
    "brent": -0.03
   },
   {
-   "id": "kryzys_obejsc_logistyczn",
-   "label": "Załamanie planów awaryjnych rynku ropy",
-   "note": "Problemy z alternatywnymi szlakami omijającymi punkty zapalne podbijają premię za ryzyko.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/The-Oil-Markets-Backup-Plan-Is-Breaking-Down.html",
-   "brent": 0.025,
-   "fx": 0.008
-  },
-  {
-   "id": "spadek_hurtu_on_polska",
-   "label": "Korekta cen diesla w polskim hurcie",
-   "note": "Spadek ceny hurtowej ON do 9,23 zł/l brutto obniża marżę krajową i presję na stacjach paliw.",
+   "id": "plhurtdieselspadek",
+   "label": "Spadek hurtowych cen diesla w Polsce",
+   "note": "Krajowy rynek hurtowy koryguje marże w dół, przynosząc pierwszą od dłuższego czasu ulgę cenową.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVzdmSU5PY1NMRENsa1FQMGpNQ0lfTmE0ZWZrWnZVaC01alVfOWdjOFNvNjhCWVdvTkdsc3hzN1RXZEpvUXhCdHZOTGhuVFZoMm9kWDJtTGhSMXFqWnZiV2NoYVhRejE2U3FKY2tnV3NQd0E3TV9maE5DSmNiS0NGejlwR1ZlajF1eGJDb0k3eEp0T19zNVA0YUpoTWgyY3M5cFE?oc=5",
    "pl": -0.02
+  },
+  {
+   "id": "hormuztankertraffic",
+   "label": "Powrót tankowców do cieśniny Ormuz",
+   "note": "Wznowienie rejsów przez Zatokę Perską łagodzi panikę podażową wokół kluczowego szlaku morskiego.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Tankers-Push-Through-Hormuz-Again-as-Qatar-UAE-Fight-Supply-Crunch.html",
+   "brent": -0.02
   }
  ]
 }
