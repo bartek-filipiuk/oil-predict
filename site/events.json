@@ -1,8 +1,18 @@
 {
- "generated": "2026-09-20 09:49 UTC",
+ "generated": "2026-09-20 21:56 UTC",
  "headlines": [
   {
-   "title": "Ceny paliw ruszą po majówce? Hurt już pokazuje kierunek - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "title": "„Trochę boli”. Rolnicy kupują drogie paliwo na jesień. Z dopłatą jest problem - AgroFakt.pl",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
+   "published": "2026-09-20 17:46"
+  },
+  {
+   "title": "Hormuz Crisis to Push Global Coal Demand to Record High",
+   "url": "https://oilprice.com/Energy/Coal/Hormuz-Crisis-to-Push-Global-Coal-Demand-to-Record-High.html",
+   "published": "2026-09-20 14:00"
+  },
+  {
+   "title": "Ceny paliw ruszą po majówce? Hurt już pokazuje kierunek - agronews.com.pl",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmNPaGFMa1hoVUZ2Vnp6LXMwcE5sZlg1aTJTejJrWDhHUl8waVNFM05GTHI2T1lrRWhOTWZtTkZMaEdsa0tBcTBXc3A4M3JhNEZOUGE4SnJ0eENSbjRtUTlKYThvZjF0UWtyaS1nNEJvYWRwNXVGMVIteTZ5Z2NFR0o2WXp5SzBPU0tVODZCU0o?oc=5",
    "published": "2026-09-19 19:30"
   },
@@ -10,100 +20,37 @@
    "title": "Energy Giants Are Betting Billions on a World of Longer Oil Routes",
    "url": "https://oilprice.com/Energy/Energy-General/Energy-Giants-Are-Betting-Billions-on-a-World-of-Longer-Oil-Routes.html",
    "published": "2026-09-19 18:00"
-  },
-  {
-   "title": "ROPA - Notowania surowców - Złoto - Ropa - Surowce - Bankier.pl",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwX3cxaDJVMXBOeEZLWjRJWjRQNTZLRms3c18walVZLTJrcTFCemlhb3JhdWZ1WG9ta1IxZTV3VUx2ekhDMFdZRThMTlg0TEY3VXEwcmUwNjR3cGhZcExYcUtrMlVMVGpMZy1sTnFxVjRYSVZC?oc=5",
-   "published": "2026-09-18 18:56"
-  },
-  {
-   "title": "Global Shipping Costs Explode as Hormuz Disruptions Hit Key Trade Routes",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Global-Shipping-Costs-Explode-as-Hormuz-Disruptions-Hit-Key-Trade-Routes.html",
-   "published": "2026-09-18 16:00"
-  },
-  {
-   "title": "Macron Calls for Another Emergency Oil Release as Europe Loses Supply",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Macron-Calls-for-Another-Emergency-Oil-Release-as-Europe-Loses-Supply.html",
-   "published": "2026-09-18 16:00"
-  },
-  {
-   "title": "Saudi Arabia Cuts Europe Off From October Crude as Gulf Exports Surge",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
-   "published": "2026-09-18 12:30"
-  },
-  {
-   "title": "U.S. Oil, Gas Rig Count Creeps Up With Strong Prices",
-   "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Rig-Count-Creeps-Up-With-Strong-Prices.html",
-   "published": "2026-09-18 12:18"
-  },
-  {
-   "title": "TotalEnergies and BlackRock Sign $1.8B Deal for African Oil and Gas Assets",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-and-BlackRock-Sign-18B-Deal-for-African-Oil-and-Gas-Assets.html",
-   "published": "2026-09-18 11:30"
-  },
-  {
-   "title": "Saudi Export Pivot Sends Brent Below $105",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
-   "published": "2026-09-18 11:15"
-  },
-  {
-   "title": "Russia’s $118 Billion Arctic Oil Bet Pushes Ahead Despite Sanctions",
-   "url": "https://oilprice.com/Energy/Energy-General/Russias-118-Billion-Arctic-Oil-Bet-Pushes-Ahead-Despite-Sanctions.html",
-   "published": "2026-09-18 11:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_shipping_disrupti",
-   "label": "Zakłócenia w cieśninie Ormuz i fracht",
-   "note": "Paraliż szlaków morskich i skok kosztów frachtu wywierają silną presję na podaż ropy oraz diesla.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Global-Shipping-Costs-Explode-as-Hormuz-Disruptions-Hit-Key-Trade-Routes.html",
-   "brent": 0.04,
-   "crack": 0.03
-  },
-  {
-   "id": "saudi_europe_crude_cut",
-   "label": "Arabia Saudyjska wstrzymuje ropę dla Europy",
-   "note": "Odcięcie europejskich rafinerii od saudyjskiego surowca w październiku zacieśnia lokalny bilans paliw.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Cuts-Europe-Off-From-October-Crude-as-Gulf-Exports-Surge.html",
-   "brent": 0.02,
-   "crack": 0.04
-  },
-  {
-   "id": "macron_spr_release",
-   "label": "Apel Francji o uwolnienie rezerw ropy",
-   "note": "Macron wzywa do awaryjnego uwolnienia zapasów SPR w odpowiedzi na braki dostaw surowca do Europy.",
+   "id": "kryzysciesninahormuz",
+   "label": "Kryzys w cieśninie Ormuz",
+   "note": "Ryzyko blokad w cieśninie Ormuz podbija premię geopolityczną na ropie i marże paliwowe.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Macron-Calls-for-Another-Emergency-Oil-Release-as-Europe-Loses-Supply.html",
-   "brent": -0.03
+   "source_url": "https://oilprice.com/Energy/Coal/Hormuz-Crisis-to-Push-Global-Coal-Demand-to-Record-High.html",
+   "brent": 0.03,
+   "crack": 0.01,
+   "fx": 0.005
   },
   {
-   "id": "saudi_export_pivot",
-   "label": "Zwrot w eksporcie ropy z Zatoki Perskiej",
-   "note": "Wzrost całkowitego wolumenu eksportu z Zatoki spycha globalne notowania Brent poniżej 105 USD.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Export-Pivot-Sends-Brent-Below-105.html",
-   "brent": -0.025
-  },
-  {
-   "id": "polska_hurt_kierunek",
-   "label": "Krajowy hurt paliw sygnalizuje podwyżki",
-   "note": "Polski rynek hurtowy przygotowuje się do przełożenia wyższych kosztów zakupu na ceny detaliczne.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmNPaGFMa1hoVUZ2Vnp6LXMwcE5sZlg1aTJTejJrWDhHUl8waVNFM05GTHI2T1lrRWhOTWZtTkZMaEdsa0tBcTBXc3A4M3JhNEZOUGE4SnJ0eENSbjRtUTlKYThvZjF0UWtyaS1nNEJvYWRwNXVGMVIteTZ5Z2NFR0o2WXp5SzBPU0tVODZCU0o?oc=5",
-   "pl": 0.02
-  },
-  {
-   "id": "us_rig_count_rise",
-   "label": "Wzrost liczby wież wiertniczych w USA",
-   "note": "Drogie paliwa pobudzają aktywność wydobywczą w USA, co w horyzoncie tygodnia lekko chłodzi nastroje.",
+   "id": "dluzszeszlakitankowcow",
+   "label": "Wydłużenie szlaków dostaw ropy",
+   "note": "Trwałe omijanie newralgicznych cieśnin podwyższa koszty frachtu i europejski crack na dieslu.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Gas-Rig-Count-Creeps-Up-With-Strong-Prices.html",
-   "brent": -0.01
+   "source_url": "https://oilprice.com/Energy/Energy-General/Energy-Giants-Are-Betting-Billions-on-a-World-of-Longer-Oil-Routes.html",
+   "brent": 0.01,
+   "crack": 0.015
+  },
+  {
+   "id": "jesiennypopytrolnictwa",
+   "label": "Jesienny popyt rolniczy na ON",
+   "note": "Wzmożone zakupy oleju napędowego przez rolników mogą usztywnić krajowe ceny hurtowe diesla.",
+   "confidence": "low",
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
+   "pl": 0.008
   }
  ]
 }
