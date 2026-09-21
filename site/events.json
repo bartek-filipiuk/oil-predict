@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-21 21:11 UTC",
+ "generated": "2026-09-21 22:52 UTC",
  "headlines": [
+  {
+   "title": "Global Refinery Crunch Pushes Diesel Prices to New Records",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
+   "published": "2026-09-21 17:00"
+  },
   {
    "title": "Where Is OPEC+? Riyadh and Moscow’s Silence Is Becoming Deafening",
    "url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
@@ -32,14 +37,9 @@
    "published": "2026-09-21 08:51"
   },
   {
-   "title": "Ceny paliw 21.09.2026: Ropa w dół, Orlen zamraża diesel na stacjach - agroprofil.pl",
+   "title": "Ceny paliw 21.09.2026: Ropa w dół, Orlen zamraża diesel na stacjach - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "published": "2026-09-21 07:57"
-  },
-  {
-   "title": "Trafigura Launches Volare Shipping to Cash In on Record Tanker Rates",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Launches-Volare-Shipping-to-Cash-In-on-Record-Tanker-Rates.html",
-   "published": "2026-09-21 07:30"
   },
   {
    "title": "Hurtowe ceny paliw 21.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy - Super Biznes",
@@ -56,64 +56,61 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_blockage_lng",
-   "label": "Ryzyko blokady cieśniny Ormuz",
-   "note": "Napięcia w rejonie cieśniny Ormuz stwarzają zagrożenie dla szlaków surowcowych i windują ceny ropy.",
+   "id": "refinery_crunch",
+   "label": "Globalny kryzys podaży diesla",
+   "note": "Niewystarczające moce rafineryjne windują marże crack na dieslu w Europie do rekordów.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
-   "brent": 0.065,
-   "fx": 0.01
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
+   "crack": 0.05
   },
   {
-   "id": "saudi_yanbu_reroute",
-   "label": "Ataki na Janbu i zmiana tras tankowców",
-   "note": "Ataki Huti na port Janbu wymuszają zmianę tras, podbijając premie za ryzyko i koszty frachtu.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
-   "brent": 0.035,
-   "crack": 0.015,
-   "fx": 0.005
-  },
-  {
-   "id": "record_diesel_shortages",
-   "label": "Rekordowe ceny i deficyt diesla",
-   "note": "Globalne niedobory oleju napędowego windują marże crack i grożą lokalnymi brakami paliwa w Europie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Prices-Raise-Fears-of-Local-Fuel-Shortages.html",
-   "crack": 0.055,
-   "pl": 0.01
-  },
-  {
-   "id": "opec_silence_uncertainty",
-   "label": "Brak reakcji OPEC+ na braki ropy",
-   "note": "Brak działań i milczenie kartelu OPEC+ budzi obawy o podaż ropy w obliczu rosnących zaburzeń.",
+   "id": "opec_silence",
+   "label": "Milczenie kartelu OPEC+",
+   "note": "Brak deklaracji o zwiększeniu wydobycia przez Rijad i Moskwę wywiera presję na wzrost Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
    "brent": 0.03
   },
   {
-   "id": "czech_windfall_tax_orlen",
+   "id": "hormuz_blockage",
+   "label": "Zagrożenie żeglugi w cieśninie Ormuz",
+   "note": "Blokada szlaku w Zatoce Perskiej podbija premię geopolityczną ropy i osłabia złotego.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
+   "brent": 0.07,
+   "fx": 0.02
+  },
+  {
+   "id": "houthi_yanbu_strikes",
+   "label": "Ataki Huti na saudyjskie Yanbu",
+   "note": "Konieczność przekierowania eksportu ropy przez Arabię Saudyjską podnosi koszty logistyki i cenę Brent.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+   "brent": 0.03
+  },
+  {
+   "id": "czech_windfall_tax",
    "label": "Czeski podatek windfall dla Orlenu",
-   "note": "Wprowadzenie limitów cen i podatku w Czechach osłabia rentowność i wymusza roszady marżowe koncernu.",
+   "note": "Nałożenie podatku i limitów cen w Czechach zmusza Orlen do kompensacji marż w regionie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
    "pl": 0.02
   },
   {
-   "id": "orlen_zamrozenie_diesla",
-   "label": "Zamrożenie cen diesla przez Orlen",
-   "note": "Decyzja Orlenu o zamrożeniu cen na stacjach tłumi impuls podwyżkowy w krajowym hurcie i detalu.",
+   "id": "orlen_diesel_freeze",
+   "label": "Orlen zamraża ceny diesla",
+   "note": "Polityka zamrażania cen przez Orlen ogranicza wzrost krajowych stawek hurtowych.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "pl": -0.03
   },
   {
-   "id": "hungary_russian_oil_waiv",
-   "label": "Węgierski wniosek o taryfy na ropę",
-   "note": "Starania Węgier o ulgi taryfowe na rosyjską ropę mogą nieco złagodzić regionalne napięcia podażowe.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hungary-Asks-US-to-Waive-Tariffs-Over-Russian-Oil-Purchases.html",
-   "brent": -0.015
+   "id": "diesel_shortage_fear",
+   "label": "Obawy o braki diesla na rynkach",
+   "note": "Rosnące obawy o lokalne braki paliwa napędzają dodatkową premię marżową diesla w Europie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Prices-Raise-Fears-of-Local-Fuel-Shortages.html",
+   "crack": 0.03
   }
  ]
 }
