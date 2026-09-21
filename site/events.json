@@ -1,6 +1,46 @@
 {
- "generated": "2026-09-20 21:56 UTC",
+ "generated": "2026-09-21 10:44 UTC",
  "headlines": [
+  {
+   "title": "Ceny paliw od 21.09: Gwałtowny zwrot na ropie! Czy diesel w końcu potanieje? - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUE1TdUVrWXZMSFRYc0FnLXBwdS04MXN5eXFSbVVvdlBQdXBXdlByMEh0cnZuOEN3Qm84a0V2bHJaR1NHWmFtT25Bd1AyMWlybFRfRmF6N0p0NjNqSWZrN0FzVUFKNW5MRi1CT2lFYlQycG95TUFMMXQ1SDgtQlpkbGtGZS1ISUM1V0xJd29lZjhjTGd6T2h1NWNMNUlwdUVFX2dQUHpNOVd2QU0?oc=5",
+   "published": "2026-09-21 07:57"
+  },
+  {
+   "title": "Hurtowe ceny paliw 21.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy - Super Biznes",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0xfUW9BcTI5dGk5b0xDR052TTFZVndSZThYV3dfVXpwa2ZnX2M1NEZNYWZNdHdtSGg5UllqU00wUHFHVFhuOV9pc0t3RGs0dlFsbVNPTmJyWUw3b3g1Si1Qb1F4N0dLcG5RaERueEZoNXRyN2FVWUU1N2JxRlRJUVNUcmdKbHptT2tvOWdiWDZhdTVjQk5Tb0VTNWtDNnMwM1hqQ3FaOHlMQlJKQVdiUXpZT3J5alBPdDFmNnBmbmp",
+   "published": "2026-09-21 06:46"
+  },
+  {
+   "title": "U.S. Diesel Hits Record $6.50 as Global Fuel Crunch Deepens",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Hits-Record-650-as-Global-Fuel-Crunch-Deepens.html",
+   "published": "2026-09-21 05:30"
+  },
+  {
+   "title": "Pakistan Secures Second Qatari LNG Cargo Through Hormuz After Iran Deal",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Secures-Second-Qatari-LNG-Cargo-Through-Hormuz-After-Iran-Deal.html",
+   "published": "2026-09-21 04:30"
+  },
+  {
+   "title": "Europe’s Fuel Crisis Spreads From Diesel to Jet Fuel",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
+   "published": "2026-09-21 03:15"
+  },
+  {
+   "title": "Strait of Hormuz Shipping Traffic Falls Further as Saudi Oil Flows Rise",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
+   "published": "2026-09-21 02:00"
+  },
+  {
+   "title": "Oil Prices Slide as Traders Bet on Iran Diplomacy",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Traders-Bet-on-Iran-Diplomacy.html",
+   "published": "2026-09-21 00:45"
+  },
+  {
+   "title": "Big Oil’s Production Keeps Soaring Despite Deep Spending Cuts",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-Production-Keeps-Soaring-Despite-Deep-Spending-Cuts.html",
+   "published": "2026-09-20 18:00"
+  },
   {
    "title": "„Trochę boli”. Rolnicy kupują drogie paliwo na jesień. Z dopłatą jest problem - AgroFakt.pl",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
@@ -12,7 +52,7 @@
    "published": "2026-09-20 14:00"
   },
   {
-   "title": "Ceny paliw ruszą po majówce? Hurt już pokazuje kierunek - agronews.com.pl",
+   "title": "Ceny paliw ruszą po majówce? Hurt już pokazuje kierunek - AgroNews - Wiadomości rolnicze - Ceny rolne",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmNPaGFMa1hoVUZ2Vnp6LXMwcE5sZlg1aTJTejJrWDhHUl8waVNFM05GTHI2T1lrRWhOTWZtTkZMaEdsa0tBcTBXc3A4M3JhNEZOUGE4SnJ0eENSbjRtUTlKYThvZjF0UWtyaS1nNEJvYWRwNXVGMVIteTZ5Z2NFR0o2WXp5SzBPU0tVODZCU0o?oc=5",
    "published": "2026-09-19 19:30"
   },
@@ -26,31 +66,52 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "kryzysciesninahormuz",
-   "label": "Kryzys w cieśninie Ormuz",
-   "note": "Ryzyko blokad w cieśninie Ormuz podbija premię geopolityczną na ropie i marże paliwowe.",
+   "id": "iran_dyplomacja_spadek_r",
+   "label": "Dyplomacja z Iranem osłabia ropę",
+   "note": "Inwestorzy grają na deeskalację wokół Iranu, co redukuje premię za ryzyko na ropie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Coal/Hormuz-Crisis-to-Push-Global-Coal-Demand-to-Record-High.html",
-   "brent": 0.03,
-   "crack": 0.01,
-   "fx": 0.005
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Traders-Bet-on-Iran-Diplomacy.html",
+   "brent": -0.04
   },
   {
-   "id": "dluzszeszlakitankowcow",
-   "label": "Wydłużenie szlaków dostaw ropy",
-   "note": "Trwałe omijanie newralgicznych cieśnin podwyższa koszty frachtu i europejski crack na dieslu.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Energy-Giants-Are-Betting-Billions-on-a-World-of-Longer-Oil-Routes.html",
-   "brent": 0.01,
-   "crack": 0.015
+   "id": "globalny_kryzys_diesla_r",
+   "label": "Rekordowe ceny diesla na świecie",
+   "note": "Deficyt średnich destylatów na świecie winduje marże i marżę crack na dieslu.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Hits-Record-650-as-Global-Fuel-Crunch-Deepens.html",
+   "crack": 0.05
   },
   {
-   "id": "jesiennypopytrolnictwa",
-   "label": "Jesienny popyt rolniczy na ON",
-   "note": "Wzmożone zakupy oleju napędowego przez rolników mogą usztywnić krajowe ceny hurtowe diesla.",
-   "confidence": "low",
-   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
-   "pl": 0.008
+   "id": "europejski_kryzys_paliwo",
+   "label": "Kryzys paliwowy w Europie rośnie",
+   "note": "Niedobory diesla i paliwa lotniczego w Europie podbijają presję na europejski crack.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
+   "crack": 0.03
+  },
+  {
+   "id": "spadek_ruchu_ormuz",
+   "label": "Spadek żeglugi w Cieśninie Ormuz",
+   "note": "Zmniejszenie ruchu w cieśninie podtrzymuje obawy o podaż ropy na rynki światowe.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
+   "brent": 0.03
+  },
+  {
+   "id": "korekta_hurtu_polska",
+   "label": "Korekta cen w polskim hurcie",
+   "note": "Krajowy hurt daje chwilowe wytchnienie, obniżając lokalne marże mimo drogiej ropy.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0xfUW9BcTI5dGk5b0xDR052TTFZVndSZThYV3dfVXpwa2ZnX2M1NEZNYWZNdHdtSGg5UllqU00wUHFHVFhuOV9pc0t3RGs0dlFsbVNPTmJyWUw3b3g1Si1Qb1F4N0dLcG5RaERueEZoNXRyN2FVWUU1N2JxRlRJUVNUcmdKbHptT2tvOWdiWDZhdTVjQk5Tb0VTNWtDNnMwM1hqQ3FaOHlMQlJKQVdiUXpZT3J5alBPdDFmNnBmbmp",
+   "pl": -0.02
+  },
+  {
+   "id": "wzrost_wydobycia_big_oil",
+   "label": "Wzrost wydobycia gigantów naftowych",
+   "note": "Rosnąca efektywność wydobycia zwiększa podaż surowca, wywierając lekką presję w dół.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-Production-Keeps-Soaring-Despite-Deep-Spending-Cuts.html",
+   "brent": -0.02
   }
  ]
 }
