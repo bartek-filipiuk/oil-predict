@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-21 15:15 UTC",
+ "generated": "2026-09-21 17:07 UTC",
  "headlines": [
+  {
+   "title": "Hormuz Blockage Puts Qatar's $83 Billion LNG Bet at Risk",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
+   "published": "2026-09-21 11:30"
+  },
+  {
+   "title": "Record Diesel Prices Raise Fears of Local Fuel Shortages",
+   "url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Prices-Raise-Fears-of-Local-Fuel-Shortages.html",
+   "published": "2026-09-21 11:00"
+  },
+  {
+   "title": "Hungary Asks U.S. to Waive Tariffs Over Russian Oil Purchases",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hungary-Asks-US-to-Waive-Tariffs-Over-Russian-Oil-Purchases.html",
+   "published": "2026-09-21 10:30"
+  },
   {
    "title": "Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
@@ -45,74 +60,59 @@
    "title": "Strait of Hormuz Shipping Traffic Falls Further as Saudi Oil Flows Rise",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
    "published": "2026-09-21 02:00"
-  },
-  {
-   "title": "Oil Prices Slide as Traders Bet on Iran Diplomacy",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Traders-Bet-on-Iran-Diplomacy.html",
-   "published": "2026-09-21 00:45"
-  },
-  {
-   "title": "Big Oil’s Production Keeps Soaring Despite Deep Spending Cuts",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-Production-Keeps-Soaring-Despite-Deep-Spending-Cuts.html",
-   "published": "2026-09-20 18:00"
-  },
-  {
-   "title": "„Trochę boli”. Rolnicy kupują drogie paliwo na jesień. Z dopłatą jest problem - AgroFakt.pl",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
-   "published": "2026-09-20 17:46"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "houthi_yanbu_reroute",
-   "label": "Ataki Huti na saudyjski terminal Janbu",
-   "note": "Ataki na Janbu zmuszają do zmian tras eksportu ropy, podbijając ryzyko podażowe na Bliskim Wschodzie.",
+   "id": "hormuz_traffic_drop",
+   "label": "Spadek ruchu tankowców w cieśninie Ormuz",
+   "note": "Nasilone ryzyko militarne w Ormuz ogranicza przepływ surowca i generuje presję cenową.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
+   "brent": 0.04,
+   "fx": 0.01
+  },
+  {
+   "id": "saudi_yanbu_reroute",
+   "label": "Ataki Huti na Yanbu i eksport Saudyjczyków",
+   "note": "Uderzenia w Yanbu wymuszają zmianę tras eksportu, podbijając ryzyko podażowe ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
    "brent": 0.03
   },
   {
-   "id": "iran_diplomacy_hopes",
-   "label": "Nadzieje na porozumienie z Iranem",
-   "note": "Oczekiwania na postęp dyplomatyczny z Iranem redukują premię geopolityczną w notowaniach ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Traders-Bet-on-Iran-Diplomacy.html",
-   "brent": -0.02
-  },
-  {
    "id": "us_global_diesel_crunch",
-   "label": "Rekordowe ceny diesla i globalny kryzys",
-   "note": "Globalny deficyt destylatów winduje marże rafineryjne i europejski crack spread na dieslu.",
+   "label": "Rekordowe ceny diesla w USA i deficyt",
+   "note": "Cena 6,50 USD i globalny brak destylatów drastycznie windują premie lądowe i rafineryjne.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Hits-Record-650-as-Global-Fuel-Crunch-Deepens.html",
+   "crack": 0.06
+  },
+  {
+   "id": "europe_fuel_crisis_sprea",
+   "label": "Kryzys paliwowy w Europie się rozszerza",
+   "note": "Przeniesienie niedoborów z diesla na paliwo lotnicze zaostrza konkurencję o frakcje naftowe.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
    "crack": 0.04
   },
   {
-   "id": "europe_jet_diesel_crisis",
-   "label": "Europejski kryzys paliwowy narasta",
-   "note": "Niedobory paliw średnich w Europie dodatkowo podnoszą marże pękania na rynkach gotowych paliw.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
-   "crack": 0.03
-  },
-  {
-   "id": "hormuz_traffic_drop",
-   "label": "Spadek żeglugi przez cieśninę Ormuz",
-   "note": "Spadek tranzytu przez Ormuz generuje presję logistyczną i wzrost premii za ryzyko dostaw surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
-   "brent": 0.02,
-   "crack": 0.02
-  },
-  {
    "id": "orlen_diesel_freeze",
-   "label": "Zamrożenie cen diesla przez Orlen",
-   "note": "Ograniczenie cen diesla przez Orlen może czasowo odchylić krajowe ceny hurtowe od trendów bazowych.",
-   "confidence": "low",
+   "label": "Orlen zamraża ceny diesla w detalu",
+   "note": "Decyzja koncernu o mrożeniu cen diesla hamuje przełożenie rosnących notowań na rynek w Polsce.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "pl": -0.02
+  },
+  {
+   "id": "hungary_russian_oil_waiv",
+   "label": "Węgry wnioskują o cła na rosyjską ropę",
+   "note": "Próba zachowania dostaw ropy z Rosji łagodzi regionalne obawy o deficyt surowca w CEE.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hungary-Asks-US-to-Waive-Tariffs-Over-Russian-Oil-Purchases.html",
+   "brent": -0.01
   }
  ]
 }
