@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-21 17:07 UTC",
+ "generated": "2026-09-21 19:37 UTC",
  "headlines": [
+  {
+   "title": "Prague Caps Fuel Prices, Taxes Orlen's ‘Windfall’ Refining Margins",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
+   "published": "2026-09-21 12:30"
+  },
   {
    "title": "Hormuz Blockage Puts Qatar's $83 Billion LNG Bet at Risk",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
@@ -47,72 +52,62 @@
    "published": "2026-09-21 05:30"
   },
   {
-   "title": "Pakistan Secures Second Qatari LNG Cargo Through Hormuz After Iran Deal",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Secures-Second-Qatari-LNG-Cargo-Through-Hormuz-After-Iran-Deal.html",
-   "published": "2026-09-21 04:30"
-  },
-  {
-   "title": "Europe’s Fuel Crisis Spreads From Diesel to Jet Fuel",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
-   "published": "2026-09-21 03:15"
-  },
-  {
-   "title": "Strait of Hormuz Shipping Traffic Falls Further as Saudi Oil Flows Rise",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
-   "published": "2026-09-21 02:00"
+   "title": "„Trochę boli”. Rolnicy kupują drogie paliwo na jesień. Z dopłatą jest problem - AgroFakt.pl",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
+   "published": "2026-09-20 17:46"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_traffic_drop",
-   "label": "Spadek ruchu tankowców w cieśninie Ormuz",
-   "note": "Nasilone ryzyko militarne w Ormuz ogranicza przepływ surowca i generuje presję cenową.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "saudi_yanbu_reroute",
-   "label": "Ataki Huti na Yanbu i eksport Saudyjczyków",
-   "note": "Uderzenia w Yanbu wymuszają zmianę tras eksportu, podbijając ryzyko podażowe ropy.",
-   "confidence": "medium",
+   "id": "atakiyanbusaudi",
+   "label": "Ataki na saudyjski terminal Yanbu",
+   "note": "Przekierowanie eksportu ropy przez Saudyjczyków podbija premię geopolityczną na rynku surowca.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
    "brent": 0.03
   },
   {
-   "id": "us_global_diesel_crunch",
-   "label": "Rekordowe ceny diesla w USA i deficyt",
-   "note": "Cena 6,50 USD i globalny brak destylatów drastycznie windują premie lądowe i rafineryjne.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Hits-Record-650-as-Global-Fuel-Crunch-Deepens.html",
-   "crack": 0.06
+   "id": "blokadaciesninyormuz",
+   "label": "Zagrożenie blokadą cieśniny Ormuz",
+   "note": "Ryzyko wstrzymania transportu przez kluczowy szlak windowałoby ceny ropy i osłabiło złotego.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
+   "brent": 0.05,
+   "fx": 0.015
   },
   {
-   "id": "europe_fuel_crisis_sprea",
-   "label": "Kryzys paliwowy w Europie się rozszerza",
-   "note": "Przeniesienie niedoborów z diesla na paliwo lotnicze zaostrza konkurencję o frakcje naftowe.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
+   "id": "rekordowecenydieslausa",
+   "label": "Rekordowe ceny diesla w USA",
+   "note": "Pogłębiający się globalny deficyt destylatów silnie rozszerza europejskie marże crack na dieslu.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Hits-Record-650-as-Global-Fuel-Crunch-Deepens.html",
    "crack": 0.04
   },
   {
-   "id": "orlen_diesel_freeze",
-   "label": "Orlen zamraża ceny diesla w detalu",
-   "note": "Decyzja koncernu o mrożeniu cen diesla hamuje przełożenie rosnących notowań na rynek w Polsce.",
-   "confidence": "high",
+   "id": "orlenzamrazadiesel",
+   "label": "Zamrożenie cen diesla przez Orlen",
+   "note": "Stabilizacja cen detalicznych w Polsce ograniczy przenoszenie zewnętrznych wzrostów na hurt.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "pl": -0.02
   },
   {
-   "id": "hungary_russian_oil_waiv",
-   "label": "Węgry wnioskują o cła na rosyjską ropę",
-   "note": "Próba zachowania dostaw ropy z Rosji łagodzi regionalne obawy o deficyt surowca w CEE.",
+   "id": "czechymarzeorlen",
+   "label": "Czeski limit cen i podatek od Orlenu",
+   "note": "Interwencja rządu w Pradze może wpłynąć na politykę marżową i alokację wolumenów w regionie.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hungary-Asks-US-to-Waive-Tariffs-Over-Russian-Oil-Purchases.html",
-   "brent": -0.01
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
+   "pl": 0.01
+  },
+  {
+   "id": "rekordowyfrachttankowcow",
+   "label": "Rekordowe stawki frachtu tankowców",
+   "note": "Droższy transport ropy i paliw podbija koszty dostaw do rafinerii oraz gotowych produktów.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Launches-Volare-Shipping-to-Cash-In-on-Record-Tanker-Rates.html",
+   "crack": 0.02
   }
  ]
 }
