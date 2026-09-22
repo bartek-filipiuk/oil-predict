@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-22 13:34 UTC",
+ "generated": "2026-09-22 15:33 UTC",
  "headlines": [
+  {
+   "title": "Libya’s Largest Oilfield Hit by New Armed Group Blockade",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Largest-Oilfield-Hit-by-New-Armed-Group-Blockade.html",
+   "published": "2026-09-22 09:30"
+  },
+  {
+   "title": "Yemen Escalation Raises New Risks for Global Oil Markets",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/Yemen-Escalation-Raises-New-Risks-for-Global-Oil-Markets.html",
+   "published": "2026-09-22 09:00"
+  },
+  {
+   "title": "“We're Living On An Oil Market Credit Card”: Analyst Sounds Alarm",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Were-Living-On-An-Oil-Market-Credit-Card-Analyst-Sounds-Alarm.html",
+   "published": "2026-09-22 08:37"
+  },
   {
    "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
@@ -45,21 +60,6 @@
    "title": "Global Refinery Crunch Pushes Diesel Prices to New Records",
    "url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
    "published": "2026-09-21 17:00"
-  },
-  {
-   "title": "Where Is OPEC+? Riyadh and Moscow’s Silence Is Becoming Deafening",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
-   "published": "2026-09-21 15:00"
-  },
-  {
-   "title": "Prague Caps Fuel Prices, Taxes Orlen's ‘Windfall’ Refining Margins",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
-   "published": "2026-09-21 12:30"
-  },
-  {
-   "title": "Ceny paliw 21.09.2026: Ropa w dół, Orlen zamraża diesel na stacjach - agroprofil.pl",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
-   "published": "2026-09-21 07:57"
   }
  ],
  "source": "ai",
@@ -67,57 +67,57 @@
  "events": [
   {
    "id": "iran_hormuz_otwarcie",
-   "label": "Zapowiedź otwarcia cieśniny Ormuz",
-   "note": "Iran sygnalizuje możliwe otwarcie cieśniny w ciągu tygodnia, co zmniejsza premię za ryzyko podażowe.",
+   "label": "Sygnał otwarcia cieśniny Ormuz",
+   "note": "Iran sygnalizuje otwarcie cieśniny Ormuz w ciągu tygodnia, co gwałtownie obniża premię za ryzyko.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
    "brent": -0.04
   },
   {
-   "id": "aramco_restart_yanbu",
-   "label": "Aramco planuje wznowienie Yanbu",
-   "note": "Uruchomienie alternatywnego szlaku eksportu z Arabii Saudyjskiej zwiększy podaż ropy na rynki.",
+   "id": "blokada_zloz_libia",
+   "label": "Blokada największego złoża w Libii",
+   "note": "Zbrojne grupy zablokowały kluczowe pole naftowe w Libii, ograniczając podaż lekkiej ropy do Europy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Largest-Oilfield-Hit-by-New-Armed-Group-Blockade.html",
+   "brent": 0.025
+  },
+  {
+   "id": "globalny_kryzys_rafinery",
+   "label": "Kryzys rafineryjny podbija diesla",
+   "note": "Niedobory mocy przetwórczych windują marże na diesla do rekordowych poziomów na rynkach światowych.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
+   "crack": 0.04
+  },
+  {
+   "id": "eskalacja_jemen_czerwone",
+   "label": "Nowa eskalacja w Jemenie",
+   "note": "Wzrost napięć wokół Jemenu zwiększa ryzyko dla szlaków żeglugowych tankowców na Morzu Czerwonym.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Yemen-Escalation-Raises-New-Risks-for-Global-Oil-Markets.html",
+   "brent": 0.02
+  },
+  {
+   "id": "restart_yanbu_aramco",
+   "label": "Możliwy restart rurociągu Yanbu",
+   "note": "Aramco rozważa wznowienie pracy rurociągu Yanbu, co pomoże ominąć zablokowane szlaki tankowców.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Lifeline-May-Reopen-as-Aramco-Eyes-Yanbu-Restart.html",
    "brent": -0.02
   },
   {
-   "id": "globalny_deficyt_diesla",
-   "label": "Globalny deficyt mocy diesla",
-   "note": "Niedobór mocy rafineryjnych na świecie dynamicznie winduje marże krakowe na oleju napędowym.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
-   "crack": 0.05
-  },
-  {
-   "id": "sankcje_usa_indie_rosja",
-   "label": "Sankcje USA na import ropy z Rosji",
-   "note": "Nowe restrykcje USA mogą odciąć Indie od rosyjskiej ropy, wywołując deficyt surowca na rynku.",
+   "id": "sankcje_usa_rosyjska_rop",
+   "label": "Nowe sankcje USA na ropę z Rosji",
+   "note": "Ustawa sankcyjna USA uderza w dostawy ropy z Rosji do Indii, grożąc zaburzeniem globalnej podaży.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/New-US-Sanctions-Law-Threatens-Indias-Huge-Russian-Oil-Trade.html",
-   "brent": 0.03
-  },
-  {
-   "id": "milczenie_opec_plus",
-   "label": "Milczenie OPEC+ ws. limitów podaży",
-   "note": "Brak decyzji Rijadu i Moskwy o zwiększeniu wydobycia potęguje niepewność co do podaży surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
    "brent": 0.02
   },
   {
-   "id": "czeski_podatek_orlen",
-   "label": "Czeski podatek od marż Orlenu",
-   "note": "Regulacje w Czechach i opodatkowanie marż Orlenu mogą wymusić korekty w polityce marżowej koncernu.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
-   "pl": 0.01
-  },
-  {
-   "id": "orlen_zamraza_diesel",
-   "label": "Orlen zamraża ceny diesla",
-   "note": "Decyzja Orlenu o zamrożeniu cen diesla powstrzymuje wzrosty cen hurtowych na rynku krajowym.",
-   "confidence": "high",
+   "id": "orlen_zamrozenie_diesla",
+   "label": "Zamrożenie cen diesla przez Orlen",
+   "note": "Orlen stabilizuje ceny diesla, co ogranicza bezpośrednie przełożenie rynkowych napięć na krajowy hurt.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "pl": -0.02
   }
