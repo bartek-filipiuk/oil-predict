@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-22 20:21 UTC",
+ "generated": "2026-09-22 22:27 UTC",
  "headlines": [
+  {
+   "title": "US Gasoline, Distillate Inventories Continue to Fall as Crude Stocks Hold",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
+   "published": "2026-09-22 16:08"
+  },
   {
    "title": "India’s Russian Oil Imports Slide as Refiners Hunt for Alternatives",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Russian-Oil-Imports-Slide-as-Refiners-Hunt-for-Alternatives.html",
@@ -27,21 +32,6 @@
    "published": "2026-09-22 09:00"
   },
   {
-   "title": "“We're Living On An Oil Market Credit Card”: Analyst Sounds Alarm",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Were-Living-On-An-Oil-Market-Credit-Card-Analyst-Sounds-Alarm.html",
-   "published": "2026-09-22 08:37"
-  },
-  {
-   "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
-   "published": "2026-09-22 06:57"
-  },
-  {
-   "title": "ING: Supply-Side Risks Stay Elevated Even as Oil Prices Pull Back",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/ING-Supply-Side-Risks-Stay-Elevated-Even-as-Oil-Prices-Pull-Back.html",
-   "published": "2026-09-22 06:30"
-  },
-  {
    "title": "Ceny paliw 21.09.2026: Ropa w dół, Orlen zamraża diesel na stacjach - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "published": "2026-09-21 07:57"
@@ -56,52 +46,54 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_hormuz_reopening",
-   "label": "Zapowiedź otwarcia cieśniny Ormuz",
-   "note": "Iran sygnalizuje otwarcie szlaku w ciągu tygodnia, co szybko redukuje premię za ryzyko w cenach ropy.",
+   "id": "blokada_zloz_libia",
+   "label": "Nowa blokada największego złoża w Libii",
+   "note": "Zbrojna blokada kluczowego złoża ogranicza podaż lekkiej ropy w basenie Morza Śródziemnego.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tumbles-3-as-Iran-Floats-Hormuz-Reopening-Within-a-Week.html",
-   "brent": -0.04
-  },
-  {
-   "id": "libya_oilfield_blockade",
-   "label": "Blokada największego złoża w Libii",
-   "note": "Nowa blokada zbrojna odcina wydobycie w Libii, wywierając presję na spadek podaży ropy w Europie.",
-   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Largest-Oilfield-Hit-by-New-Armed-Group-Blockade.html",
-   "brent": 0.02
+   "brent": 0.025
   },
   {
-   "id": "yemen_escalation_risks",
+   "id": "eskalacja_w_jemenie",
    "label": "Eskalacja konfliktu w Jemenie",
-   "note": "Wzrost napięcia militarnego w Jemenie odnawia ryzyka dla żeglugi tankowców i infrastruktury w regionie.",
+   "note": "Nowe napięcia wokół Jemenu zwiększają premię za ryzyko geopolityczne w szlakach tankowców.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Middle-East/Yemen-Escalation-Raises-New-Risks-for-Global-Oil-Markets.html",
-   "brent": 0.02
+   "brent": 0.02,
+   "fx": 0.005
   },
   {
-   "id": "saudi_pipeline_restart",
-   "label": "Wznowienie rurociągu Wschód-Zachód",
-   "note": "Uruchomienie rurociągu łagodzi wąskie gardła logistyczne, wywierając lekką presję spadkową na Brent.",
+   "id": "spadek_zapasow_destylato",
+   "label": "Spadek zapasów paliw w USA",
+   "note": "Kurczące się zapasy destylatów i benzyn w USA wywierają presję na wzrost marż rafineryjnych.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
+   "brent": 0.01,
+   "crack": 0.03
+  },
+  {
+   "id": "restart_rurociagu_saudi",
+   "label": "Wznowienie rurociągu East-West w Arabii",
+   "note": "Uruchomienie rurociągu omija cieśniny, lecz według analityków nie zdejmuje ciasnoty podaży.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-East-West-Oil-Pipeline.html",
-   "brent": -0.015
+   "brent": -0.01
   },
   {
-   "id": "india_russian_oil_drop",
-   "label": "Spadek importu ropy z Rosji do Indii",
-   "note": "Indie szukają alternatyw dla surowca z Rosji, co zwiększa konkurencję i popyt na gatunki referencyjne.",
-   "confidence": "medium",
+   "id": "indie_odchodza_od_rosyjs",
+   "label": "Indie szukają alternatyw dla ropy z Rosji",
+   "note": "Przeniesienie popytu indyjskich rafinerii na inne źródła nasila presję popytową na ropę Brent.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Russian-Oil-Imports-Slide-as-Refiners-Hunt-for-Alternatives.html",
    "brent": 0.015
   },
   {
-   "id": "orlen_diesel_freeze",
-   "label": "Zamrożenie cen diesla przez Orlen",
-   "note": "Wstrzymanie podwyżek diesla przez krajowego lidera stabilizuje hurtowe marże paliwowe w Polsce.",
-   "confidence": "high",
+   "id": "orlen_zamraza_diesel",
+   "label": "Orlen stabilizuje ceny diesla w Polsce",
+   "note": "Zamrożenie cen diesla na stacjach ogranicza bezpośrednie przełożenie wahań rynkowych na odbiorców.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
-   "pl": -0.02
+   "pl": -0.015
   }
  ]
 }
