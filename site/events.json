@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-21 22:52 UTC",
+ "generated": "2026-09-22 09:58 UTC",
  "headlines": [
+  {
+   "title": "India’s Oil Import Bill Jumps 48% as Crude Prices Soar",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Import-Bill-Jumps-48-as-Crude-Prices-Soar.html",
+   "published": "2026-09-22 04:15"
+  },
+  {
+   "title": "Soaring Oil and Gas Prices Push Europe’s Inflation Fight Into 2027",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Oil-and-Gas-Prices-Push-Europes-Inflation-Fight-Into-2027.html",
+   "published": "2026-09-22 03:00"
+  },
+  {
+   "title": "U.S. Threatens to Ground Iranian Airlines Worldwide",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Threatens-to-Ground-Iranian-Airlines-Worldwide.html",
+   "published": "2026-09-22 01:45"
+  },
+  {
+   "title": "Oil Prices Reverse Course as Traders Watch US-Iran Diplomacy",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Reverse-Course-as-Traders-Watch-US-Iran-Diplomacy.html",
+   "published": "2026-09-22 00:30"
+  },
+  {
+   "title": "New U.S. Sanctions Law Threatens India’s Huge Russian Oil Trade",
+   "url": "https://oilprice.com/Energy/Crude-Oil/New-US-Sanctions-Law-Threatens-Indias-Huge-Russian-Oil-Trade.html",
+   "published": "2026-09-21 18:00"
+  },
   {
    "title": "Global Refinery Crunch Pushes Diesel Prices to New Records",
    "url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
@@ -27,16 +52,6 @@
    "published": "2026-09-21 11:00"
   },
   {
-   "title": "Hungary Asks U.S. to Waive Tariffs Over Russian Oil Purchases",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hungary-Asks-US-to-Waive-Tariffs-Over-Russian-Oil-Purchases.html",
-   "published": "2026-09-21 10:30"
-  },
-  {
-   "title": "Saudi Arabia Reroutes Oil Exports as Houthi Strikes Target Yanbu",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
-   "published": "2026-09-21 08:51"
-  },
-  {
    "title": "Ceny paliw 21.09.2026: Ropa w dół, Orlen zamraża diesel na stacjach - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "published": "2026-09-21 07:57"
@@ -45,72 +60,59 @@
    "title": "Hurtowe ceny paliw 21.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0xfUW9BcTI5dGk5b0xDR052TTFZVndSZThYV3dfVXpwa2ZnX2M1NEZNYWZNdHdtSGg5UllqU00wUHFHVFhuOV9pc0t3RGs0dlFsbVNPTmJyWUw3b3g1Si1Qb1F4N0dLcG5RaERueEZoNXRyN2FVWUU1N2JxRlRJUVNUcmdKbHptT2tvOWdiWDZhdTVjQk5Tb0VTNWtDNnMwM1hqQ3FaOHlMQlJKQVdiUXpZT3J5alBPdDFmNnBmbmp",
    "published": "2026-09-21 06:46"
-  },
-  {
-   "title": "„Trochę boli”. Rolnicy kupują drogie paliwo na jesień. Z dopłatą jest problem - AgroFakt.pl",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaTNYR1RlR2hBWGJjaE8wdWJhcy0tUGR5Q2F3YWdBVm1fdk5XVWkwbzhWOGhCQmhQT3VEbTRTX1R1YmdaaWhjRlRyNDJnSjZOVGxQVHY1dERnRHhkX1ZmNDFJNnlaQUJsNG9pbGhXSXV3QVNpRkVzNFlXRHZOdnh4elVBY3ZMSlVJUUpfMWlKYVV2aGdwS2hkc3ZMZWtfdkxPV0JpRQ?oc=5",
-   "published": "2026-09-20 17:46"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "refinery_crunch",
-   "label": "Globalny kryzys podaży diesla",
-   "note": "Niewystarczające moce rafineryjne windują marże crack na dieslu w Europie do rekordów.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
-   "crack": 0.05
-  },
-  {
-   "id": "opec_silence",
-   "label": "Milczenie kartelu OPEC+",
-   "note": "Brak deklaracji o zwiększeniu wydobycia przez Rijad i Moskwę wywiera presję na wzrost Brent.",
+   "id": "blokada_ormuz",
+   "label": "Ryzyko blokady cieśniny Ormuz",
+   "note": "Zagrożenie żeglugi w cieśninie Ormuz podbija premię za ryzyko dostaw ropy i osłabia złotego.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
-   "brent": 0.03
-  },
-  {
-   "id": "hormuz_blockage",
-   "label": "Zagrożenie żeglugi w cieśninie Ormuz",
-   "note": "Blokada szlaku w Zatoce Perskiej podbija premię geopolityczną ropy i osłabia złotego.",
-   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Blockage-Puts-Qatars-83-Billion-LNG-Bet-at-Risk.html",
-   "brent": 0.07,
+   "brent": 0.05,
    "fx": 0.02
   },
   {
-   "id": "houthi_yanbu_strikes",
-   "label": "Ataki Huti na saudyjskie Yanbu",
-   "note": "Konieczność przekierowania eksportu ropy przez Arabię Saudyjską podnosi koszty logistyki i cenę Brent.",
+   "id": "globalny_deficyt_rafiner",
+   "label": "Globalny deficyt mocy rafineryjnych",
+   "note": "Niedobory mocy przerobowych rafinerii napędzają rekordowe marże crack na dieslu.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Global-Refinery-Crunch-Pushes-Diesel-Prices-to-New-Records.html",
+   "crack": 0.06
+  },
+  {
+   "id": "dyplomacja_usa_iran",
+   "label": "Negocjacje USA-Iran",
+   "note": "Szanse na deeskalację dyplomatyczną redukują premię geopolityczną, wywołując spadek cen ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Reverse-Course-as-Traders-Watch-US-Iran-Diplomacy.html",
+   "brent": -0.03
+  },
+  {
+   "id": "sankcje_usa_indie_rosja",
+   "label": "Sankcje USA na import ropy z Rosji",
+   "note": "Restrykcje wobec Indii kupujących ropę z Rosji zacieśniają globalną podaż surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/New-US-Sanctions-Law-Threatens-Indias-Huge-Russian-Oil-Trade.html",
    "brent": 0.03
   },
   {
-   "id": "czech_windfall_tax",
-   "label": "Czeski podatek windfall dla Orlenu",
-   "note": "Nałożenie podatku i limitów cen w Czechach zmusza Orlen do kompensacji marż w regionie.",
+   "id": "biernosc_opec",
+   "label": "Brak reakcji OPEC+ na drożejącą ropę",
+   "note": "Brak decyzji Arabii Saudyjskiej i Rosji o zwiększeniu limitów wydobycia wspiera wysokie ceny surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Prague-Caps-Fuel-Prices-Taxes-Orlens-Windfall-Refining-Margins.html",
-   "pl": 0.02
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Where-Is-OPEC-Riyadh-and-Moscows-Silence-Is-Becoming-Deafening.html",
+   "brent": 0.02
   },
   {
-   "id": "orlen_diesel_freeze",
-   "label": "Orlen zamraża ceny diesla",
-   "note": "Polityka zamrażania cen przez Orlen ogranicza wzrost krajowych stawek hurtowych.",
+   "id": "orlen_zamrozenie_diesla",
+   "label": "Zamrożenie cen diesla przez Orlen",
+   "note": "Orlen hamuje podwyżki cen diesla, co ogranicza wzrost stawek w polskim hurcie mimo drogiej ropy.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
    "pl": -0.03
-  },
-  {
-   "id": "diesel_shortage_fear",
-   "label": "Obawy o braki diesla na rynkach",
-   "note": "Rosnące obawy o lokalne braki paliwa napędzają dodatkową premię marżową diesla w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Prices-Raise-Fears-of-Local-Fuel-Shortages.html",
-   "crack": 0.03
   }
  ]
 }
