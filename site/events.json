@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-23 13:46 UTC",
+ "generated": "2026-09-23 15:29 UTC",
  "headlines": [
+  {
+   "title": "EIA Reports 3M Barrel Crude Build as Distillate Stocks Fall 12% Below Average",
+   "url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
+   "published": "2026-09-23 09:47"
+  },
+  {
+   "title": "Climate Startup Signs CO2 Deals With Three U.S. Oil Producers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Climate-Startup-Signs-CO2-Deals-With-Three-US-Oil-Producers.html",
+   "published": "2026-09-23 09:30"
+  },
+  {
+   "title": "China's 80% Grip on Iranian Oil Looms Over Trump-Xi Summit",
+   "url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
+   "published": "2026-09-23 09:00"
+  },
   {
    "title": "Hormuz Traffic Running 80% Below Its 10-Day Average",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
@@ -35,55 +50,57 @@
    "title": "Trump Backs Diesel Export Ban as Prices Hit Record Highs",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
    "published": "2026-09-23 00:35"
-  },
-  {
-   "title": "US Gasoline, Distillate Inventories Continue to Fall as Crude Stocks Hold",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
-   "published": "2026-09-22 16:08"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "zalamanieruchuwormuz",
-   "label": "Załamanie ruchu tankowców w cieśninie Ormuz",
-   "note": "Ruch tankowców spadł o 80%, co drastycznie odcina podaż z Zatoki Perskiej i podbija ceny ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
-   "brent": 0.06,
-   "crack": 0.02,
-   "fx": 0.01
-  },
-  {
-   "id": "grozbazakazueksportudies",
+   "id": "trump_diesel_export_ban",
    "label": "Groźba zakazu eksportu diesla z USA",
-   "note": "Wstrzymanie eksportu z USA drastycznie ograniczy podaż diesla w Europie, windując marże rafineryjne.",
+   "note": "Poparcie Trumpa dla zakazu eksportu paliw z USA gwałtownie windowałoby europejski crack spread diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
    "crack": 0.07
   },
   {
-   "id": "rekordowyimportropywazji",
+   "id": "hormuz_traffic_collapse",
+   "label": "Załamanie ruchu w cieśninie Ormuz",
+   "note": "Ruch tankowców 80% poniżej średniej wskazuje na poważne zaburzenia podaży ropy z Zatoki Perskiej.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
+   "brent": 0.06,
+   "fx": 0.015
+  },
+  {
+   "id": "eia_distillates_drop",
+   "label": "Spadek zapasów destylatów w USA (EIA)",
+   "note": "Zapasy destylatów 12% poniżej normy pogłębiają deficyt diesla, mimo wzrostu zapasów surowej ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
+   "brent": -0.01,
+   "crack": 0.03
+  },
+  {
+   "id": "asia_record_crude_import",
    "label": "Rekordowy import ropy do Azji",
-   "note": "Silny popyt azjatycki absorbuje podaż mimo wojny, wywierając presję na dalszy wzrost cen surowca.",
+   "note": "Wysoki popyt i zakupy ropy w Azji po eskalacji wokół Iranu podbijają globalne ceny surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
    "brent": 0.02
   },
   {
-   "id": "spadekzapasowdestylatoww",
-   "label": "Spadek zapasów destylatów w USA",
-   "note": "Kurczące się zapasy paliw gotowych w USA pogłębiają deficyt na europejskim rynku oleju napędowego.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
-   "brent": 0.01,
-   "crack": 0.02
+   "id": "trump_xi_iran_oil",
+   "label": "Irańska ropa w rozmowach Trump-Xi",
+   "note": "Presja Waszyngtonu na chiński import ropy z Iranu może grozić zaostrzeniem sankcji i podaży.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
+   "brent": 0.02
   },
   {
-   "id": "chinyhamujazakupyprzy100",
-   "label": "Chiny hamują zakupy przy cenie 100 USD",
-   "note": "Opór popytowy w Chinach przy wysokich cenach tworzy barierę ograniczającą dalsze wzrosty notowań Brent.",
+   "id": "goldman_china_demand_cap",
+   "label": "Ropa po 100 USD hamuje popyt w Chinach",
+   "note": "Wysokie ceny ropy skłaniają Chiny do cięcia zakupów, co ogranicza przestrzeń do dalszych wzrostów.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
    "brent": -0.02
