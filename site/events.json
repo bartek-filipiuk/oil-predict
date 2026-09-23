@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-23 09:59 UTC",
+ "generated": "2026-09-23 13:46 UTC",
  "headlines": [
+  {
+   "title": "Hormuz Traffic Running 80% Below Its 10-Day Average",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
+   "published": "2026-09-23 07:00"
+  },
+  {
+   "title": "Asia's Crude Imports Hit Highest Level Since the Iran War Began",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
+   "published": "2026-09-23 06:00"
+  },
+  {
+   "title": "Oil Set for Longest Losing Streak Since August 2025",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Longest-Losing-Streak-Since-August-2025.html",
+   "published": "2026-09-23 05:00"
+  },
   {
    "title": "$100 Brent Keeping China's Oil Buying in Check, Goldman Says",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
@@ -25,61 +40,53 @@
    "title": "US Gasoline, Distillate Inventories Continue to Fall as Crude Stocks Hold",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
    "published": "2026-09-22 16:08"
-  },
-  {
-   "title": "India’s Russian Oil Imports Slide as Refiners Hunt for Alternatives",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Russian-Oil-Imports-Slide-as-Refiners-Hunt-for-Alternatives.html",
-   "published": "2026-09-22 12:30"
-  },
-  {
-   "title": "Saudi Pipeline Restart Fails to End Oil Market Tightness",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Restart-Fails-to-End-Oil-Market-Tightness.html",
-   "published": "2026-09-22 11:10"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "zagrozeniebananaeksportd",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Groźba ograniczenia eksportu z USA drastycznie zwiększa ryzyko deficytu i marże diesla w Europie.",
+   "id": "zalamanieruchuwormuz",
+   "label": "Załamanie ruchu tankowców w cieśninie Ormuz",
+   "note": "Ruch tankowców spadł o 80%, co drastycznie odcina podaż z Zatoki Perskiej i podbija ceny ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
+   "brent": 0.06,
+   "crack": 0.02,
+   "fx": 0.01
+  },
+  {
+   "id": "grozbazakazueksportudies",
+   "label": "Groźba zakazu eksportu diesla z USA",
+   "note": "Wstrzymanie eksportu z USA drastycznie ograniczy podaż diesla w Europie, windując marże rafineryjne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
-   "crack": 0.06
+   "crack": 0.07
   },
   {
-   "id": "chinyhamujazakupyropy",
-   "label": "Spadek zakupów ropy przez Chiny",
-   "note": "Cena 100 USD za baryłkę hamuje chiński popyt, osłabiając krótkoterminową presję na wzrost cen ropy.",
+   "id": "rekordowyimportropywazji",
+   "label": "Rekordowy import ropy do Azji",
+   "note": "Silny popyt azjatycki absorbuje podaż mimo wojny, wywierając presję na dalszy wzrost cen surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
-   "brent": -0.02
-  },
-  {
-   "id": "indieszukajaalternatywdl",
-   "label": "Indie szukają alternatyw dla ropy z Rosji",
-   "note": "Odejście od dostaw z Rosji zwiększa rywalizację o surowiec referencyjny i podbija wycenę Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Russian-Oil-Imports-Slide-as-Refiners-Hunt-for-Alternatives.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
    "brent": 0.02
   },
   {
-   "id": "napietybilansmimorestart",
-   "label": "Napięty bilans mimo restartu rurociągu",
-   "note": "Wznowienie przesyłu w Arabii Saudyjskiej nie zdołało zniwelować globalnego deficytu podaży ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Restart-Fails-to-End-Oil-Market-Tightness.html",
-   "brent": 0.015
-  },
-  {
-   "id": "spadekzapasowpaliwwusa",
-   "label": "Dalszy spadek zapasów paliw w USA",
-   "note": "Topniejące rezerwy destylatów w USA zacieśniają rynek gotowych paliw i windują marże crack.",
+   "id": "spadekzapasowdestylatoww",
+   "label": "Spadek zapasów destylatów w USA",
+   "note": "Kurczące się zapasy paliw gotowych w USA pogłębiają deficyt na europejskim rynku oleju napędowego.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
    "brent": 0.01,
    "crack": 0.02
+  },
+  {
+   "id": "chinyhamujazakupyprzy100",
+   "label": "Chiny hamują zakupy przy cenie 100 USD",
+   "note": "Opór popytowy w Chinach przy wysokich cenach tworzy barierę ograniczającą dalsze wzrosty notowań Brent.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
+   "brent": -0.02
   }
  ]
 }
