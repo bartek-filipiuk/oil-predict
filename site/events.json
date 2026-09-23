@@ -1,6 +1,26 @@
 {
- "generated": "2026-09-22 22:27 UTC",
+ "generated": "2026-09-23 09:59 UTC",
  "headlines": [
+  {
+   "title": "$100 Brent Keeping China's Oil Buying in Check, Goldman Says",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
+   "published": "2026-09-23 04:00"
+  },
+  {
+   "title": "Michigan Judge Tosses State's Antitrust Suit Against Big Oil",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Michigan-Judge-Tosses-States-Antitrust-Suit-Against-Big-Oil.html",
+   "published": "2026-09-23 03:00"
+  },
+  {
+   "title": "South Korea Aims to Cut Middle East Crude Reliance to 50% by 2035",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Aims-to-Cut-Middle-East-Crude-Reliance-to-50-by-2035.html",
+   "published": "2026-09-23 01:29"
+  },
+  {
+   "title": "Trump Backs Diesel Export Ban as Prices Hit Record Highs",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
+   "published": "2026-09-23 00:35"
+  },
   {
    "title": "US Gasoline, Distillate Inventories Continue to Fall as Crude Stocks Hold",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
@@ -15,85 +35,51 @@
    "title": "Saudi Pipeline Restart Fails to End Oil Market Tightness",
    "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Restart-Fails-to-End-Oil-Market-Tightness.html",
    "published": "2026-09-22 11:10"
-  },
-  {
-   "title": "Saudi Arabia Restarts East-West Oil Pipeline",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-East-West-Oil-Pipeline.html",
-   "published": "2026-09-22 11:02"
-  },
-  {
-   "title": "Libya’s Largest Oilfield Hit by New Armed Group Blockade",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Largest-Oilfield-Hit-by-New-Armed-Group-Blockade.html",
-   "published": "2026-09-22 09:30"
-  },
-  {
-   "title": "Yemen Escalation Raises New Risks for Global Oil Markets",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/Yemen-Escalation-Raises-New-Risks-for-Global-Oil-Markets.html",
-   "published": "2026-09-22 09:00"
-  },
-  {
-   "title": "Ceny paliw 21.09.2026: Ropa w dół, Orlen zamraża diesel na stacjach - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
-   "published": "2026-09-21 07:57"
-  },
-  {
-   "title": "Hurtowe ceny paliw 21.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy - Super Biznes",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR0xfUW9BcTI5dGk5b0xDR052TTFZVndSZThYV3dfVXpwa2ZnX2M1NEZNYWZNdHdtSGg5UllqU00wUHFHVFhuOV9pc0t3RGs0dlFsbVNPTmJyWUw3b3g1Si1Qb1F4N0dLcG5RaERueEZoNXRyN2FVWUU1N2JxRlRJUVNUcmdKbHptT2tvOWdiWDZhdTVjQk5Tb0VTNWtDNnMwM1hqQ3FaOHlMQlJKQVdiUXpZT3J5alBPdDFmNnBmbmp",
-   "published": "2026-09-21 06:46"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "blokada_zloz_libia",
-   "label": "Nowa blokada największego złoża w Libii",
-   "note": "Zbrojna blokada kluczowego złoża ogranicza podaż lekkiej ropy w basenie Morza Śródziemnego.",
+   "id": "zagrozeniebananaeksportd",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Groźba ograniczenia eksportu z USA drastycznie zwiększa ryzyko deficytu i marże diesla w Europie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Largest-Oilfield-Hit-by-New-Armed-Group-Blockade.html",
-   "brent": 0.025
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
+   "crack": 0.06
   },
   {
-   "id": "eskalacja_w_jemenie",
-   "label": "Eskalacja konfliktu w Jemenie",
-   "note": "Nowe napięcia wokół Jemenu zwiększają premię za ryzyko geopolityczne w szlakach tankowców.",
+   "id": "chinyhamujazakupyropy",
+   "label": "Spadek zakupów ropy przez Chiny",
+   "note": "Cena 100 USD za baryłkę hamuje chiński popyt, osłabiając krótkoterminową presję na wzrost cen ropy.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Yemen-Escalation-Raises-New-Risks-for-Global-Oil-Markets.html",
-   "brent": 0.02,
-   "fx": 0.005
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
+   "brent": -0.02
   },
   {
-   "id": "spadek_zapasow_destylato",
-   "label": "Spadek zapasów paliw w USA",
-   "note": "Kurczące się zapasy destylatów i benzyn w USA wywierają presję na wzrost marż rafineryjnych.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
-   "brent": 0.01,
-   "crack": 0.03
-  },
-  {
-   "id": "restart_rurociagu_saudi",
-   "label": "Wznowienie rurociągu East-West w Arabii",
-   "note": "Uruchomienie rurociągu omija cieśniny, lecz według analityków nie zdejmuje ciasnoty podaży.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-East-West-Oil-Pipeline.html",
-   "brent": -0.01
-  },
-  {
-   "id": "indie_odchodza_od_rosyjs",
+   "id": "indieszukajaalternatywdl",
    "label": "Indie szukają alternatyw dla ropy z Rosji",
-   "note": "Przeniesienie popytu indyjskich rafinerii na inne źródła nasila presję popytową na ropę Brent.",
-   "confidence": "low",
+   "note": "Odejście od dostaw z Rosji zwiększa rywalizację o surowiec referencyjny i podbija wycenę Brent.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Russian-Oil-Imports-Slide-as-Refiners-Hunt-for-Alternatives.html",
+   "brent": 0.02
+  },
+  {
+   "id": "napietybilansmimorestart",
+   "label": "Napięty bilans mimo restartu rurociągu",
+   "note": "Wznowienie przesyłu w Arabii Saudyjskiej nie zdołało zniwelować globalnego deficytu podaży ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Pipeline-Restart-Fails-to-End-Oil-Market-Tightness.html",
    "brent": 0.015
   },
   {
-   "id": "orlen_zamraza_diesel",
-   "label": "Orlen stabilizuje ceny diesla w Polsce",
-   "note": "Zamrożenie cen diesla na stacjach ogranicza bezpośrednie przełożenie wahań rynkowych na odbiorców.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yQnVzMENKbTU2Nm9uNzFTU3VhU3JkQVFURUpsRG05NUJhYWpLWm1TbXFVRlVVaDRpMk1qSHJRR29Rd1NEV01keE40MEJxczVQcm9RTDBFbExYRDJDNV9OYUsyVkp4NTRhbHZ6eUVuRVVhSklYclNkb1REaWhUQQ?oc=5",
-   "pl": -0.015
+   "id": "spadekzapasowpaliwwusa",
+   "label": "Dalszy spadek zapasów paliw w USA",
+   "note": "Topniejące rezerwy destylatów w USA zacieśniają rynek gotowych paliw i windują marże crack.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Distillate-Inventories-Continue-to-Fall-as-Crude-Stocks-Hold.html",
+   "brent": 0.01,
+   "crack": 0.02
   }
  ]
 }
