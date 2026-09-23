@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-23 15:29 UTC",
+ "generated": "2026-09-23 18:29 UTC",
  "headlines": [
+  {
+   "title": "Imperial Oil Becomes First Major Alberta Energy Company to Oppose Separatism",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Imperial-Oil-Becomes-First-Major-Alberta-Energy-Company-to-Oppose-Separatism.html",
+   "published": "2026-09-23 12:30"
+  },
+  {
+   "title": "U.S. Energy Secretary: Blunt Tool of Banning Diesel Exports Doesn't Work",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
+   "published": "2026-09-23 12:00"
+  },
+  {
+   "title": "Dangote's Kenya Refinery Project Launches This Week at Up to $20B",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Dangotes-Kenya-Refinery-Project-Launches-This-Week-at-Up-to-20B.html",
+   "published": "2026-09-23 11:30"
+  },
   {
    "title": "EIA Reports 3M Barrel Crude Build as Distillate Stocks Fall 12% Below Average",
    "url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
@@ -40,70 +55,61 @@
    "title": "Michigan Judge Tosses State's Antitrust Suit Against Big Oil",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Michigan-Judge-Tosses-States-Antitrust-Suit-Against-Big-Oil.html",
    "published": "2026-09-23 03:00"
-  },
-  {
-   "title": "South Korea Aims to Cut Middle East Crude Reliance to 50% by 2035",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Aims-to-Cut-Middle-East-Crude-Reliance-to-50-by-2035.html",
-   "published": "2026-09-23 01:29"
-  },
-  {
-   "title": "Trump Backs Diesel Export Ban as Prices Hit Record Highs",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
-   "published": "2026-09-23 00:35"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "trump_diesel_export_ban",
-   "label": "Groźba zakazu eksportu diesla z USA",
-   "note": "Poparcie Trumpa dla zakazu eksportu paliw z USA gwałtownie windowałoby europejski crack spread diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Backs-Diesel-Export-Ban-as-Prices-Hit-Record-Highs.html",
-   "crack": 0.07
-  },
-  {
-   "id": "hormuz_traffic_collapse",
-   "label": "Załamanie ruchu w cieśninie Ormuz",
-   "note": "Ruch tankowców 80% poniżej średniej wskazuje na poważne zaburzenia podaży ropy z Zatoki Perskiej.",
+   "id": "spadek_ruchu_hormuz",
+   "label": "Drastyczny spadek żeglugi przez Ormuz",
+   "note": "Ruch w cieśninie spadł o 80%, co grozi przerwaniem dostaw i gwałtownym skokiem cen ropy oraz diesla.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
-   "brent": 0.06,
+   "brent": 0.07,
+   "crack": 0.04,
    "fx": 0.015
   },
   {
-   "id": "eia_distillates_drop",
-   "label": "Spadek zapasów destylatów w USA (EIA)",
-   "note": "Zapasy destylatów 12% poniżej normy pogłębiają deficyt diesla, mimo wzrostu zapasów surowej ropy.",
-   "confidence": "high",
+   "id": "spadek_zapasow_destylato",
+   "label": "Niskie zapasy destylatów w USA wg EIA",
+   "note": "Deficyt destylatów napędza marże diesla, mimo lekkiego wzrostu zapasów surowca w USA.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
    "brent": -0.01,
    "crack": 0.03
   },
   {
-   "id": "asia_record_crude_import",
-   "label": "Rekordowy import ropy do Azji",
-   "note": "Wysoki popyt i zakupy ropy w Azji po eskalacji wokół Iranu podbijają globalne ceny surowca.",
+   "id": "brak_zakazu_eksportu_die",
+   "label": "USA odrzucają zakaz eksportu diesla",
+   "note": "Brak blokady amerykańskiego eksportu stabilizuje podaż i ogranicza presję na europejskie marże diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
+   "crack": -0.02
+  },
+  {
+   "id": "rekordowy_import_ropy_az",
+   "label": "Rekordowy import ropy w Azji przez wojnę",
+   "note": "Silne zakupy i gromadzenie zapasów w Azji podczas konfliktu zacieśniają globalną podaż ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
    "brent": 0.02
   },
   {
-   "id": "trump_xi_iran_oil",
-   "label": "Irańska ropa w rozmowach Trump-Xi",
-   "note": "Presja Waszyngtonu na chiński import ropy z Iranu może grozić zaostrzeniem sankcji i podaży.",
-   "confidence": "medium",
+   "id": "szczyt_usa_chiny_ropa_ir",
+   "label": "Kwestia irańskiej ropy na szczycie USA-Chiny",
+   "note": "Ryzyko zaostrzenia sankcji na chiński import z Iranu może podbić premię geopolityczną na ropie.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
-   "brent": 0.02
+   "brent": 0.025
   },
   {
-   "id": "goldman_china_demand_cap",
-   "label": "Ropa po 100 USD hamuje popyt w Chinach",
-   "note": "Wysokie ceny ropy skłaniają Chiny do cięcia zakupów, co ogranicza przestrzeń do dalszych wzrostów.",
+   "id": "bariera_100_usd_chiny",
+   "label": "Bariera 100 USD hamuje zakupy Chin",
+   "note": "Wysokie ceny ropy tłumią chiński popyt rafinerii, ograniczając dalszy rajd cenowy surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
-   "brent": -0.02
+   "brent": -0.015
   }
  ]
 }
