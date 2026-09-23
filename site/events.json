@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-23 18:29 UTC",
+ "generated": "2026-09-23 20:35 UTC",
  "headlines": [
+  {
+   "title": "Hormuz Workarounds Keep Gulf Oil Flowing—at a Steep Cost",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
+   "published": "2026-09-23 15:00"
+  },
+  {
+   "title": "Hormuz Supply Crisis to Change LNG Market Forever",
+   "url": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Supply-Crisis-to-Change-LNG-Market-Forever.html",
+   "published": "2026-09-23 14:00"
+  },
   {
    "title": "Imperial Oil Becomes First Major Alberta Energy Company to Oppose Separatism",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Imperial-Oil-Becomes-First-Major-Alberta-Energy-Company-to-Oppose-Separatism.html",
@@ -45,71 +55,61 @@
    "title": "Oil Set for Longest Losing Streak Since August 2025",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Longest-Losing-Streak-Since-August-2025.html",
    "published": "2026-09-23 05:00"
-  },
-  {
-   "title": "$100 Brent Keeping China's Oil Buying in Check, Goldman Says",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
-   "published": "2026-09-23 04:00"
-  },
-  {
-   "title": "Michigan Judge Tosses State's Antitrust Suit Against Big Oil",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Michigan-Judge-Tosses-States-Antitrust-Suit-Against-Big-Oil.html",
-   "published": "2026-09-23 03:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "spadek_ruchu_hormuz",
-   "label": "Drastyczny spadek żeglugi przez Ormuz",
-   "note": "Ruch w cieśninie spadł o 80%, co grozi przerwaniem dostaw i gwałtownym skokiem cen ropy oraz diesla.",
+   "id": "paraliz_zeglugi_ormuz",
+   "label": "Paraliż żeglugi w cieśninie Ormuz",
+   "note": "Ruch tankowców spadł o 80%, co drastycznie ogranicza podaż ropy i podbija premię za ryzyko.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
-   "brent": 0.07,
-   "crack": 0.04,
-   "fx": 0.015
+   "brent": 0.06,
+   "crack": 0.03
   },
   {
-   "id": "spadek_zapasow_destylato",
-   "label": "Niskie zapasy destylatów w USA wg EIA",
-   "note": "Deficyt destylatów napędza marże diesla, mimo lekkiego wzrostu zapasów surowca w USA.",
-   "confidence": "medium",
+   "id": "spadek_zapasow_diesla_ei",
+   "label": "Spadek zapasów diesla w USA wg EIA",
+   "note": "Zapasy destylatów 12% poniżej normy wspierają marże rafineryjne i europejskie ceny diesla.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
    "brent": -0.01,
    "crack": 0.03
   },
   {
-   "id": "brak_zakazu_eksportu_die",
-   "label": "USA odrzucają zakaz eksportu diesla",
-   "note": "Brak blokady amerykańskiego eksportu stabilizuje podaż i ogranicza presję na europejskie marże diesla.",
+   "id": "kosztowne_obejscia_ormuz",
+   "label": "Alternatywne trasy omijające Ormuz",
+   "note": "Eksport ropy trwa dzięki obejściom, ale wysokie koszty logistyki podnoszą cenę surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
-   "crack": -0.02
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
+   "brent": 0.02
   },
   {
-   "id": "rekordowy_import_ropy_az",
-   "label": "Rekordowy import ropy w Azji przez wojnę",
-   "note": "Silne zakupy i gromadzenie zapasów w Azji podczas konfliktu zacieśniają globalną podaż ropy.",
+   "id": "rekordowy_import_azji",
+   "label": "Wzrost importu ropy w Azji",
+   "note": "Azjatycki popyt osiąga rekordy mimo wojny, co ogranicza dostępność surowca dla Europy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
    "brent": 0.02
   },
   {
-   "id": "szczyt_usa_chiny_ropa_ir",
-   "label": "Kwestia irańskiej ropy na szczycie USA-Chiny",
-   "note": "Ryzyko zaostrzenia sankcji na chiński import z Iranu może podbić premię geopolityczną na ropie.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
-   "brent": 0.025
+   "id": "brak_zakazu_eksportu_die",
+   "label": "USA: brak zakazu eksportu diesla",
+   "note": "Odrzucenie zakazu eksportu stabilizuje podaż paliwa do Europy i hamuje dalszy wzrost cracku.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
+   "crack": -0.02
   },
   {
-   "id": "bariera_100_usd_chiny",
-   "label": "Bariera 100 USD hamuje zakupy Chin",
-   "note": "Wysokie ceny ropy tłumią chiński popyt rafinerii, ograniczając dalszy rajd cenowy surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/100-Brent-Keeping-Chinas-Oil-Buying-in-Check-Goldman-Says.html",
-   "brent": -0.015
+   "id": "szczyt_usa_chiny_iran",
+   "label": "Szczyt USA-Chiny a ropa z Iranu",
+   "note": "Rozmowy o irańskiej ropie zwiększają ryzyko sankcji wtórnych i wahań na rynku surowca.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
+   "brent": 0.015,
+   "fx": 0.01
   }
  ]
 }
