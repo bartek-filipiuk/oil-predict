@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-23 20:35 UTC",
+ "generated": "2026-09-23 22:30 UTC",
  "headlines": [
+  {
+   "title": "White House Rules Out Diesel Export Ban as Prices Surge Above $6.50",
+   "url": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
+   "published": "2026-09-23 17:00"
+  },
   {
    "title": "Hormuz Workarounds Keep Gulf Oil Flowing—at a Steep Cost",
    "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
@@ -45,71 +50,63 @@
    "title": "Hormuz Traffic Running 80% Below Its 10-Day Average",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
    "published": "2026-09-23 07:00"
-  },
-  {
-   "title": "Asia's Crude Imports Hit Highest Level Since the Iran War Began",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
-   "published": "2026-09-23 06:00"
-  },
-  {
-   "title": "Oil Set for Longest Losing Streak Since August 2025",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Longest-Losing-Streak-Since-August-2025.html",
-   "published": "2026-09-23 05:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "paraliz_zeglugi_ormuz",
-   "label": "Paraliż żeglugi w cieśninie Ormuz",
-   "note": "Ruch tankowców spadł o 80%, co drastycznie ogranicza podaż ropy i podbija premię za ryzyko.",
+   "id": "hormuz_traffic_drop",
+   "label": "Załamanie ruchu w Ormuz o 80%",
+   "note": "Drastyczny spadek tranzytu ropy winduje premię za ryzyko podażowe na rynku ropy i paliw.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
-   "brent": 0.06,
-   "crack": 0.03
+   "brent": 0.07,
+   "crack": 0.03,
+   "fx": 0.015
   },
   {
-   "id": "spadek_zapasow_diesla_ei",
-   "label": "Spadek zapasów diesla w USA wg EIA",
-   "note": "Zapasy destylatów 12% poniżej normy wspierają marże rafineryjne i europejskie ceny diesla.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
-   "brent": -0.01,
-   "crack": 0.03
-  },
-  {
-   "id": "kosztowne_obejscia_ormuz",
-   "label": "Alternatywne trasy omijające Ormuz",
-   "note": "Eksport ropy trwa dzięki obejściom, ale wysokie koszty logistyki podnoszą cenę surowca.",
+   "id": "hormuz_costly_workaround",
+   "label": "Drogie trasy alternatywne z Zatoki",
+   "note": "Utrzymanie eksportu ropy rosnącym kosztem frachtu i logistyki podbija ceny dostaw ropy i diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
-   "brent": 0.02
+   "brent": 0.02,
+   "crack": 0.02
   },
   {
-   "id": "rekordowy_import_azji",
-   "label": "Wzrost importu ropy w Azji",
-   "note": "Azjatycki popyt osiąga rekordy mimo wojny, co ogranicza dostępność surowca dla Europy.",
+   "id": "us_rejects_diesel_ban",
+   "label": "Brak zakazu eksportu diesla z USA",
+   "note": "Odrzucenie embarga przez Biały Dom łagodzi presję na marże diesla w Europie mimo wysokich cen.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
+   "crack": -0.035
+  },
+  {
+   "id": "eia_distillate_deficit",
+   "label": "Niski stan zapasów destylatów w USA",
+   "note": "Wzrost zapasów ropy chłodzi surowiec, ale deficyt destylatów o 12% poniżej średniej wspiera crack.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asias-Crude-Imports-Hit-Highest-Level-Since-the-Iran-War-Began.html",
-   "brent": 0.02
+   "source_url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
+   "brent": -0.015,
+   "crack": 0.03
   },
   {
-   "id": "brak_zakazu_eksportu_die",
-   "label": "USA: brak zakazu eksportu diesla",
-   "note": "Odrzucenie zakazu eksportu stabilizuje podaż paliwa do Europy i hamuje dalszy wzrost cracku.",
+   "id": "china_iran_trump_summit",
+   "label": "Spór USA-Chiny o irańską ropę",
+   "note": "Napięcia przed szczytem wokół sankcji na Iran tworzą niepewność i wzmacniają dolara.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
-   "crack": -0.02
-  },
-  {
-   "id": "szczyt_usa_chiny_iran",
-   "label": "Szczyt USA-Chiny a ropa z Iranu",
-   "note": "Rozmowy o irańskiej ropie zwiększają ryzyko sankcji wtórnych i wahań na rynku surowca.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
    "brent": 0.015,
    "fx": 0.01
+  },
+  {
+   "id": "hormuz_lng_crisis",
+   "label": "Kryzys podaży LNG przez Ormuz",
+   "note": "Zaburzenia w LNG napędzają popyt substytucyjny na oleje opałowe i diesla w Europie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Supply-Crisis-to-Change-LNG-Market-Forever.html",
+   "crack": 0.02
   }
  ]
 }
