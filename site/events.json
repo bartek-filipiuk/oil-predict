@@ -1,6 +1,31 @@
 {
- "generated": "2026-09-23 22:30 UTC",
+ "generated": "2026-09-24 10:01 UTC",
  "headlines": [
+  {
+   "title": "Morgan Stanley: Diesel Export Ban Would Push U.S. Gas Prices Higher",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Morgan-Stanley-Says-Diesel-Export-Ban-Would-Push-US-Gas-Prices-Higher.html",
+   "published": "2026-09-24 04:00"
+  },
+  {
+   "title": "Indian Refiners Lift LPG Output Nearly 20% as Hormuz Blockage Chokes Imports",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Lift-LPG-Output-Nearly-20-as-Hormuz-Blockage-Chokes-Imports.html",
+   "published": "2026-09-24 03:00"
+  },
+  {
+   "title": "Southeast Asia Keeps Building Gas Plants Despite Hormuz LNG Shock",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Southeast-Asia-Keeps-Building-Gas-Plants-Despite-Hormuz-LNG-Shock.html",
+   "published": "2026-09-24 02:00"
+  },
+  {
+   "title": "Brent Holds Above $102 as Iran Talks Stall Over Hormuz Conditions",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Iran-Talks-Stall-Over-Hormuz-Conditions.html",
+   "published": "2026-09-24 00:08"
+  },
+  {
+   "title": "Canada’s Oil Patch On Track For Biggest M&A Wave In A Decade",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Canadas-Oil-Patch-On-Track-For-Biggest-MA-Wave-In-A-Decade.html",
+   "published": "2026-09-23 18:00"
+  },
   {
    "title": "White House Rules Out Diesel Export Ban as Prices Surge Above $6.50",
    "url": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
@@ -30,82 +55,43 @@
    "title": "Dangote's Kenya Refinery Project Launches This Week at Up to $20B",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Dangotes-Kenya-Refinery-Project-Launches-This-Week-at-Up-to-20B.html",
    "published": "2026-09-23 11:30"
-  },
-  {
-   "title": "EIA Reports 3M Barrel Crude Build as Distillate Stocks Fall 12% Below Average",
-   "url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
-   "published": "2026-09-23 09:47"
-  },
-  {
-   "title": "Climate Startup Signs CO2 Deals With Three U.S. Oil Producers",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Climate-Startup-Signs-CO2-Deals-With-Three-US-Oil-Producers.html",
-   "published": "2026-09-23 09:30"
-  },
-  {
-   "title": "China's 80% Grip on Iranian Oil Looms Over Trump-Xi Summit",
-   "url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
-   "published": "2026-09-23 09:00"
-  },
-  {
-   "title": "Hormuz Traffic Running 80% Below Its 10-Day Average",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
-   "published": "2026-09-23 07:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_traffic_drop",
-   "label": "Załamanie ruchu w Ormuz o 80%",
-   "note": "Drastyczny spadek tranzytu ropy winduje premię za ryzyko podażowe na rynku ropy i paliw.",
+   "id": "iran_talks_stall",
+   "label": "Impas w rozmowach z Iranem ws. Ormuz",
+   "note": "Brak porozumienia ws. Ormuz podbija ryzyko podażowe i wspiera ceny ropy oraz dolara.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Traffic-Running-80-Below-Its-10-Day-Average.html",
-   "brent": 0.07,
-   "crack": 0.03,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Iran-Talks-Stall-Over-Hormuz-Conditions.html",
+   "brent": 0.04,
    "fx": 0.015
   },
   {
-   "id": "hormuz_costly_workaround",
-   "label": "Drogie trasy alternatywne z Zatoki",
-   "note": "Utrzymanie eksportu ropy rosnącym kosztem frachtu i logistyki podbija ceny dostaw ropy i diesla.",
+   "id": "us_rules_out_diesel_ban",
+   "label": "USA wykluczają zakaz eksportu diesla",
+   "note": "Brak embarga USA na eksport diesla uspokaja rynek w Europie i redukuje marże rafineryjne.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
+   "crack": -0.04
+  },
+  {
+   "id": "hormuz_workarounds_cost",
+   "label": "Kosztowne obejścia blokady Ormuz",
+   "note": "Transport ropy trasami alternatywnymi utrzymuje podaż, ale drastycznie podnosi koszty logistyki.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
    "brent": 0.02,
-   "crack": 0.02
+   "crack": 0.01
   },
   {
-   "id": "us_rejects_diesel_ban",
-   "label": "Brak zakazu eksportu diesla z USA",
-   "note": "Odrzucenie embarga przez Biały Dom łagodzi presję na marże diesla w Europie mimo wysokich cen.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
-   "crack": -0.035
-  },
-  {
-   "id": "eia_distillate_deficit",
-   "label": "Niski stan zapasów destylatów w USA",
-   "note": "Wzrost zapasów ropy chłodzi surowiec, ale deficyt destylatów o 12% poniżej średniej wspiera crack.",
+   "id": "india_refiners_lpg_shift",
+   "label": "Przesunięcie produkcji w Indiach na LPG",
+   "note": "Ograniczenie importu przez Ormuz zmusza Indie do cięcia podaży średnich destylatów na rynek.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/EIA-Reports-3M-Barrel-Crude-Build-as-Distillate-Stocks-Fall-12-Below-Average.html",
-   "brent": -0.015,
-   "crack": 0.03
-  },
-  {
-   "id": "china_iran_trump_summit",
-   "label": "Spór USA-Chiny o irańską ropę",
-   "note": "Napięcia przed szczytem wokół sankcji na Iran tworzą niepewność i wzmacniają dolara.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/International/Chinas-80-Grip-on-Iranian-Oil-Looms-Over-Trump-Xi-Summit.html",
-   "brent": 0.015,
-   "fx": 0.01
-  },
-  {
-   "id": "hormuz_lng_crisis",
-   "label": "Kryzys podaży LNG przez Ormuz",
-   "note": "Zaburzenia w LNG napędzają popyt substytucyjny na oleje opałowe i diesla w Europie.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Natural-Gas/Hormuz-Supply-Crisis-to-Change-LNG-Market-Forever.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Lift-LPG-Output-Nearly-20-as-Hormuz-Blockage-Chokes-Imports.html",
    "crack": 0.02
   }
  ]
