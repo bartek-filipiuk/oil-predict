@@ -1,6 +1,21 @@
 {
- "generated": "2026-09-24 10:01 UTC",
+ "generated": "2026-09-24 13:41 UTC",
  "headlines": [
+  {
+   "title": "Saudi Arabia Sells 100 Million Barrels of Crude to Asia via Hormuz",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Sells-100-Million-Barrels-of-Crude-to-Asia-via-Hormuz.html",
+   "published": "2026-09-24 08:00"
+  },
+  {
+   "title": "Europe’s Gas Prices Jump as Hormuz Standoff Drags On",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Jump-as-Hormuz-Standoff-Drags-On.html",
+   "published": "2026-09-24 07:00"
+  },
+  {
+   "title": "Just One Commodity Vessel Left the Strait of Hormuz on Wednesday",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Just-One-Commodity-Vessel-Left-the-Strait-of-Hormuz-on-Wednesday.html",
+   "published": "2026-09-24 06:00"
+  },
   {
    "title": "Morgan Stanley: Diesel Export Ban Would Push U.S. Gas Prices Higher",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Morgan-Stanley-Says-Diesel-Export-Ban-Would-Push-US-Gas-Prices-Higher.html",
@@ -45,54 +60,54 @@
    "title": "Imperial Oil Becomes First Major Alberta Energy Company to Oppose Separatism",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Imperial-Oil-Becomes-First-Major-Alberta-Energy-Company-to-Oppose-Separatism.html",
    "published": "2026-09-23 12:30"
-  },
-  {
-   "title": "U.S. Energy Secretary: Blunt Tool of Banning Diesel Exports Doesn't Work",
-   "url": "https://oilprice.com/Energy/Energy-General/US-Energy-Secretary-Blunt-Tool-of-Banning-Diesel-Exports-Doesnt-Work.html",
-   "published": "2026-09-23 12:00"
-  },
-  {
-   "title": "Dangote's Kenya Refinery Project Launches This Week at Up to $20B",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Dangotes-Kenya-Refinery-Project-Launches-This-Week-at-Up-to-20B.html",
-   "published": "2026-09-23 11:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_talks_stall",
-   "label": "Impas w rozmowach z Iranem ws. Ormuz",
-   "note": "Brak porozumienia ws. Ormuz podbija ryzyko podażowe i wspiera ceny ropy oraz dolara.",
+   "id": "blokada_ciesniny_ormuz",
+   "label": "Prawie całkowity paraliż cieśniny Ormuz",
+   "note": "Wypłynięcie tylko jednego statku w środę zwiastuje fizyczne załamanie dostaw surowca na rynki globalne.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Just-One-Commodity-Vessel-Left-the-Strait-of-Hormuz-on-Wednesday.html",
+   "brent": 0.07,
+   "crack": 0.04,
+   "fx": 0.02
+  },
+  {
+   "id": "iran_rozmowy_impas",
+   "label": "Fiasko rozmów ws. cieśniny Ormuz",
+   "note": "Brak porozumienia z Iranem utrzymuje obawy podażowe, kotwicząc cenę Brenta powyżej 102 USD za baryłkę.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Iran-Talks-Stall-Over-Hormuz-Conditions.html",
    "brent": 0.04,
-   "fx": 0.015
+   "fx": 0.01
   },
   {
-   "id": "us_rules_out_diesel_ban",
+   "id": "europejski_skok_cen_gazu",
+   "label": "Skok cen gazu w Europie przez Ormuz",
+   "note": "Drożejący gaz skłania energetykę ku paliwom płynnym, podbijając europejski crack spread na oleju napędowym.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Jump-as-Hormuz-Standoff-Drags-On.html",
+   "crack": 0.04,
+   "fx": 0.01
+  },
+  {
+   "id": "usa_brak_zakazu_eksportu",
    "label": "USA wykluczają zakaz eksportu diesla",
-   "note": "Brak embarga USA na eksport diesla uspokaja rynek w Europie i redukuje marże rafineryjne.",
-   "confidence": "high",
+   "note": "Decyzja Białego Domu oddala ryzyko odcięcia Europy od amerykańskich destylatów, stabilizując marże diesla.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/White-House-Rules-Out-Diesel-Export-Ban-as-Prices-Surge-Above-650.html",
-   "crack": -0.04
+   "crack": -0.03
   },
   {
-   "id": "hormuz_workarounds_cost",
-   "label": "Kosztowne obejścia blokady Ormuz",
-   "note": "Transport ropy trasami alternatywnymi utrzymuje podaż, ale drastycznie podnosi koszty logistyki.",
+   "id": "kosztowne_obejscia_ormuz",
+   "label": "Drogie trasy omijające cieśninę Ormuz",
+   "note": "Przekierowanie ropy na rurociągi lądowe chroni wolumeny, ale skokowo powiększa koszty transportu surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Workarounds-Keep-Gulf-Oil-Flowingat-a-Steep-Cost.html",
-   "brent": 0.02,
-   "crack": 0.01
-  },
-  {
-   "id": "india_refiners_lpg_shift",
-   "label": "Przesunięcie produkcji w Indiach na LPG",
-   "note": "Ograniczenie importu przez Ormuz zmusza Indie do cięcia podaży średnich destylatów na rynek.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Lift-LPG-Output-Nearly-20-as-Hormuz-Blockage-Chokes-Imports.html",
-   "crack": 0.02
+   "brent": 0.02
   }
  ]
 }
