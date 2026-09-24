@@ -1,10 +1,15 @@
 {
- "generated": "2026-09-24 20:39 UTC",
+ "generated": "2026-09-24 22:45 UTC",
  "headlines": [
   {
    "title": "West of Suez: Brent, LSGO higher as market weighs diesel ban - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
    "published": "2026-09-24 17:05"
+  },
+  {
+   "title": "Why a U.S. Diesel Export Ban Won’t Lower Fuel Prices",
+   "url": "https://oilprice.com/Energy/Energy-General/Why-a-US-Diesel-Export-Ban-Wont-Lower-Fuel-Prices.html",
+   "published": "2026-09-24 17:00"
   },
   {
    "title": "Saudi Oil Export Costs Surge as Red Sea Risks Mount",
@@ -40,59 +45,52 @@
    "title": "Europe’s Gas Prices Jump as Hormuz Standoff Drags On",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Jump-as-Hormuz-Standoff-Drags-On.html",
    "published": "2026-09-24 07:00"
-  },
-  {
-   "title": "Just One Commodity Vessel Left the Strait of Hormuz on Wednesday",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Just-One-Commodity-Vessel-Left-the-Strait-of-Hormuz-on-Wednesday.html",
-   "published": "2026-09-24 06:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "paraliz_zeglugi_ormuz",
-   "label": "Paraliż żeglugi przez cieśninę Ormuz",
-   "note": "Odpłynięcie zaledwie jednego statku zwiastuje zapaść podaży ropy ze strategicznej cieśniny.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Just-One-Commodity-Vessel-Left-the-Strait-of-Hormuz-on-Wednesday.html",
-   "brent": 0.05,
-   "crack": 0.03,
-   "fx": 0.015
-  },
-  {
-   "id": "eskalacja_iran_ocean_ind",
-   "label": "Groźby Iranu o rozszerzeniu konfliktu",
-   "note": "Ryzyko ataków na Oceanie Indyjskim podbija premię geopolityczną i umacnia dolara.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
-   "brent": 0.035,
-   "fx": 0.01
-  },
-  {
-   "id": "obawy_o_zakaz_diesla",
-   "label": "Obawy o zakaz diesla na zachód od Suezu",
-   "note": "Dyskusje o ograniczeniach w obrocie dieslem windują marże rafineryjne i ceny LSGO w Europie.",
+   "id": "us_diesel_export_ban",
+   "label": "Groźba zakazu eksportu diesla z USA",
+   "note": "Rynek obawia się ograniczeń w dostawach paliw z USA, co winduje marże diesla i ceny LSGO.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
-   "brent": 0.015,
+   "brent": 0.02,
    "crack": 0.04
   },
   {
-   "id": "wzrost_kosztow_saudi_red",
-   "label": "Skok kosztów eksportu z Arabii Saudyjskiej",
-   "note": "Ryzyka na Morzu Czerwonym podbijają stawki frachtu i finalne koszty dostaw surowca.",
+   "id": "saudi_red_sea_risks",
+   "label": "Wzrost kosztów eksportu saudyjskiej ropy",
+   "note": "Zagrożenia żeglugi na Morzu Czerwonym podnoszą fracht i koszty dostaw surowca do Europy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Export-Costs-Surge-as-Red-Sea-Risks-Mount.html",
    "brent": 0.02
   },
   {
-   "id": "start_eksportu_vostok_oi",
-   "label": "Start eksportu z rosyjskiego Vostok Oil",
-   "note": "Uruchomienie dostaw z arktycznego megaprojektu zwiększa długoterminową podaż ropy na rynku.",
+   "id": "iran_threat_indian_ocean",
+   "label": "Groźba eskalacji konfliktu przez Iran",
+   "note": "Ostrzeżenia Iranu przed rozszerzeniem wojny na Ocean Indyjski zwiększają premię geopolityczną.",
    "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "russia_vostok_oil_export",
+   "label": "Start eksportu z rosyjskiego Wostok Oil",
+   "note": "Nowe wolumeny arktycznej ropy z Rosji zwiększają globalną podaż surowca mimo sankcji.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Begins-Oil-Exports-From-Its-Giant-Vostok-Arctic-Project.html",
    "brent": -0.015
+  },
+  {
+   "id": "hormuz_standoff_gas_jump",
+   "label": "Przedłużający się impas w cieśninie Ormuz",
+   "note": "Ryzyko blokady szlaku w Ormuz winduje ceny gazu i surowców energetycznych w Europie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Jump-as-Hormuz-Standoff-Drags-On.html",
+   "brent": 0.025
   }
  ]
 }
