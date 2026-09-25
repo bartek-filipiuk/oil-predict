@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25 18:45 UTC",
+ "generated": "2026-09-25 20:37 UTC",
  "headlines": [
   {
    "title": "West of Suez: Crude, LSGO cracks slide on US-Iran talks - Quantum Commodity Intelligence",
@@ -61,54 +61,55 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rozmowy_usa_iran_ormuz",
-   "label": "Rozmowy USA-Iran ws. Cieśniny Ormuz",
-   "note": "Postęp w rozmowach USA-Iran zmniejsza premię za ryzyko w cieśninie Ormuz, obniżając ceny ropy naftowej.",
+   "id": "rozmowyusairanormuz",
+   "label": "Rozmowy USA-Iran ws. cieśniny Ormuz",
+   "note": "Wznowienie rozmów dyplomatycznych redukuje premię za ryzyko w cieśninie Ormuz.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
-   "brent": -0.04,
+   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMzVfQmh6bmhrZTZzNTJSYVVHOWIyVXVIWFdkaldnOW9VOXJkQ3lfU2RQSEJ4QTJ6Wk82Y2lIdklZaHltLVhzQnJTb2pFNEtnN2F3UUZxVmlQUzd0cHFobDRkcXk2LVIydjFlUVdHQ1lhZE8tNW5xMWtkb00zUFVDRzVScjZ6c0d3SjczNHliOTcxSV90MTF4RnlMbVg?oc=5",
+   "brent": -0.03,
    "crack": -0.02
   },
   {
-   "id": "zagrozenie_eksportu_dies",
+   "id": "grozbazakazueksportudies",
    "label": "Groźba zakazu eksportu diesla z USA",
-   "note": "Groźba restrykcji eksportowych z USA winduje marże i obawy o deficyt oleju napędowego w Europie.",
+   "note": "Zapowiedź restrykcji eksportowych przez Trumpa winduje marże diesla w Europie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
-   "crack": 0.06
+   "brent": 0.01,
+   "crack": 0.04
   },
   {
-   "id": "atak_dronow_rafineria_ro",
-   "label": "Atak na rafinerię Nowoszachtyńsk",
-   "note": "Pożar i wyłączenie rosyjskiej rafinerii zaostrza bilans paliwowy i podbija marże rafineryjne w Europie.",
-   "confidence": "medium",
+   "id": "atakrafinerianowoszachty",
+   "label": "Atak drona na rafinerię Nowoszachtyńsk",
+   "note": "Porażenie rosyjskiej rafinerii ogranicza podaż paliw i wspiera marże rafineryjne.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Drone-Strike-Knocks-Out-Russias-Novoshakhtinsk-Refinery.html",
-   "brent": 0.015,
-   "crack": 0.03
+   "brent": 0.01,
+   "crack": 0.02
   },
   {
-   "id": "wlochy_nacisk_na_rafiner",
-   "label": "Włochy wymuszają wzrost podaży paliw",
-   "note": "Rząd Włoch naciska na rafinerie, by zwiększyły produkcję paliw, co może lekko schłodzić europejskie marże.",
+   "id": "presjawlochnarafinerie",
+   "label": "Naciski Włoch na wzrost produkcji paliw",
+   "note": "Rządowe dążenie do zwiększenia przerobu ropy może lekko złagodzić europejskie marże.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
-   "crack": -0.02
+   "crack": -0.015
   },
   {
-   "id": "wzrost_wiercen_usa",
-   "label": "Wzrost aktywności wiertniczej w USA",
-   "note": "Wzrost liczby odwiertów w USA zapowiada wyższą podaż ropy w średnim terminie, lekko ciążąc wycenom Brent.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drilling-Perks-Up-As-Pressure-Mounts.html",
-   "brent": -0.015
-  },
-  {
-   "id": "presja_usa_ropa_chiny_ir",
-   "label": "Presja USA na chiński import z Iranu",
-   "note": "Krytyka w Kongresie USA może zwiastować ostrzejsze sankcje na irańską ropę, ograniczając globalną podaż.",
+   "id": "sankcjeusairanchiny",
+   "label": "Presja USA na handel ropą Iran-Chiny",
+   "note": "Groźba ściślejszego egzekwowania sankcji na irański surowiec rodzi obawy o podaż.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
-   "brent": 0.02
+   "brent": 0.015
+  },
+  {
+   "id": "wzrostaktywnosciwiertnic",
+   "label": "Ożywienie wierceń ropy i gazu w USA",
+   "note": "Wzrost aktywności wiertniczej w USA zapowiada wyższą podaż surowca w kolejnych tygodniach.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drilling-Perks-Up-As-Pressure-Mounts.html",
+   "brent": -0.01
   }
  ]
 }
