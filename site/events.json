@@ -1,6 +1,26 @@
 {
- "generated": "2026-09-25 10:12 UTC",
+ "generated": "2026-09-25 14:03 UTC",
  "headlines": [
+  {
+   "title": "Beijing's Iran Oil Trade Draws Fresh Criticism From Capitol Hill",
+   "url": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
+   "published": "2026-09-25 09:00"
+  },
+  {
+   "title": "WTI Whipsaws as Hormuz Hopes Collide With Diesel Crunch",
+   "url": "https://oilprice.com/Energy/Energy-General/WTI-Whipsaws-as-Hormuz-Hopes-Collide-With-Diesel-Crunch.html",
+   "published": "2026-09-25 08:00"
+  },
+  {
+   "title": "U.S.-Iran Talks Revive June Plan for Ending Hormuz Standoff",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
+   "published": "2026-09-25 08:00"
+  },
+  {
+   "title": "Ukraine Drone Strike Knocks Out Russia's Novoshakhtinsk Refinery",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Drone-Strike-Knocks-Out-Russias-Novoshakhtinsk-Refinery.html",
+   "published": "2026-09-25 06:00"
+  },
   {
    "title": "India Says It Will Keep Exporting Diesel",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Says-It-Will-Keep-Exporting-Diesel.html",
@@ -35,83 +55,65 @@
    "title": "Why a U.S. Diesel Export Ban Won’t Lower Fuel Prices",
    "url": "https://oilprice.com/Energy/Energy-General/Why-a-US-Diesel-Export-Ban-Wont-Lower-Fuel-Prices.html",
    "published": "2026-09-24 17:00"
-  },
-  {
-   "title": "Saudi Oil Export Costs Surge as Red Sea Risks Mount",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Export-Costs-Surge-as-Red-Sea-Risks-Mount.html",
-   "published": "2026-09-24 13:30"
-  },
-  {
-   "title": "Why Are Diesel Prices So High?",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Are-Diesel-Prices-So-High.html",
-   "published": "2026-09-24 13:00"
-  },
-  {
-   "title": "Vitol Scoops Up 25 Million Barrels of Discounted Iraqi Crude",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Vitol-Scoops-Up-25-Million-Barrels-of-Discounted-Iraqi-Crude.html",
-   "published": "2026-09-24 12:30"
-  },
-  {
-   "title": "Iran Warns U.S. Strikes Could Push War Into Indian Ocean",
-   "url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
-   "published": "2026-09-24 12:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_transit_crash",
-   "label": "Zapaść tranzytu przez Ormuz",
-   "note": "Dramatyczny spadek ruchu tankowców w cieśninie bezpośrednio zagraża globalnej podaży surowca.",
+   "id": "ormuz_spadek_tranzytu",
+   "label": "Kryzys żeglugi w cieśninie Ormuz",
+   "note": "Drastyczny spadek ruchu tankowców ogranicza globalną podaż ropy i podbija ceny.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Transits-Crash-to-Single-Digits-as-Crisis-Deepens.html",
-   "brent": 0.08,
-   "crack": 0.02,
+   "brent": 0.06,
+   "crack": 0.03,
    "fx": 0.015
   },
   {
-   "id": "us_diesel_ban_risk",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Obawy o restrykcje eksportowe w USA wywołują presję na wzrost marż na europejskim dieslu.",
+   "id": "rozmowy_usa_iran_ormuz",
+   "label": "Rozmowy USA-Iran ws. Ormuz",
+   "note": "Potencjalne porozumienie deeskalacyjne może zredukować premię za ryzyko geopolityczne.",
    "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
-   "brent": 0.015,
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
+   "brent": -0.04,
+   "crack": -0.02,
+   "fx": -0.01
+  },
+  {
+   "id": "atak_rafineria_rosja",
+   "label": "Atak drona na rosyjską rafinerię",
+   "note": "Porażenie rafinerii Nowoszachtyńsk zacieśnia podaż paliw gotowych w regionie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Drone-Strike-Knocks-Out-Russias-Novoshakhtinsk-Refinery.html",
+   "brent": 0.01,
    "crack": 0.04
   },
   {
-   "id": "houthi_saudi_attacks",
-   "label": "Ataki Huti na saudyjską infrastrukturę",
-   "note": "Wznowione ataki dronowe zwiększają premię za ryzyko wokół dostaw surowca z Arabii Saudyjskiej.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
-   "brent": 0.03,
-   "fx": 0.005
-  },
-  {
-   "id": "india_diesel_exports",
-   "label": "Indie kontynuują eksport diesla",
-   "note": "Deklaracja utrzymania wysyłek z indyjskich rafinerii ogranicza deficyt paliw w Europie.",
+   "id": "eksport_diesla_indie",
+   "label": "Indie utrzymują eksport diesla",
+   "note": "Zapewnienie o ciągłości eksportu z Indii łagodzi deficyt diesla na rynkach zachodnich.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Says-It-Will-Keep-Exporting-Diesel.html",
-   "crack": -0.02
+   "crack": -0.03
   },
   {
-   "id": "iran_war_expansion",
-   "label": "Groźba rozlania wojny na Ocean Indyjski",
-   "note": "Zapowiedzi Teheranu rodzą ryzyko rozszerzenia blokad morskich poza Zatokę Perską.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-US-Strikes-Could-Push-War-Into-Indian-Ocean.html",
-   "brent": 0.025,
+   "id": "ataki_huti_saudi",
+   "label": "Ataki Huti na saudyjskie instalacje",
+   "note": "Groźba uszkodzenia saudyjskiej infrastruktury wydobywczej podnosi ceny ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+   "brent": 0.035,
    "fx": 0.01
   },
   {
-   "id": "saudi_red_sea_costs",
-   "label": "Skok kosztów frachtu na Morzu Czerwonym",
-   "note": "Wyższe stawki ubezpieczeń i transportu bezpośrednio podnoszą koszty lądowania surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Export-Costs-Surge-as-Red-Sea-Risks-Mount.html",
-   "brent": 0.02
+   "id": "ryzyko_embarga_diesla_us",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Spekulacje rynkowe o restrykcjach eksportowych USA windują europejski crack na dieslu.",
+   "confidence": "low",
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
+   "brent": 0.015,
+   "crack": 0.05
   }
  ]
 }
