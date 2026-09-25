@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-25 14:03 UTC",
+ "generated": "2026-09-25 15:52 UTC",
  "headlines": [
+  {
+   "title": "Trump’s Diesel Export Threat Puts Britain on Edge",
+   "url": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
+   "published": "2026-09-25 10:00"
+  },
+  {
+   "title": "Italy Pushes Refineries to Raise Fuel Output Amid Price Surge",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
+   "published": "2026-09-25 09:15"
+  },
   {
    "title": "Beijing's Iran Oil Trade Draws Fresh Criticism From Capitol Hill",
    "url": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
@@ -40,80 +50,59 @@
    "title": "West of Suez: Brent, LSGO higher as market weighs diesel ban - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
    "published": "2026-09-24 20:06"
-  },
-  {
-   "title": "5 Energy Stocks Positioned for a Prolonged Iran War",
-   "url": "https://oilprice.com/Energy/Crude-Oil/5-Energy-Stocks-Positioned-for-a-Prolonged-Iran-War.html",
-   "published": "2026-09-24 19:00"
-  },
-  {
-   "title": "Soaring Freight Costs Make Japan’s Crude Imports the World’s Most Expensive",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Soaring-Freight-Costs-Make-Japans-Crude-Imports-the-Worlds-Most-Expensive.html",
-   "published": "2026-09-24 18:00"
-  },
-  {
-   "title": "Why a U.S. Diesel Export Ban Won’t Lower Fuel Prices",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-a-US-Diesel-Export-Ban-Wont-Lower-Fuel-Prices.html",
-   "published": "2026-09-24 17:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ormuz_spadek_tranzytu",
-   "label": "Kryzys żeglugi w cieśninie Ormuz",
-   "note": "Drastyczny spadek ruchu tankowców ogranicza globalną podaż ropy i podbija ceny.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Transits-Crash-to-Single-Digits-as-Crisis-Deepens.html",
-   "brent": 0.06,
-   "crack": 0.03,
-   "fx": 0.015
-  },
-  {
-   "id": "rozmowy_usa_iran_ormuz",
-   "label": "Rozmowy USA-Iran ws. Ormuz",
-   "note": "Potencjalne porozumienie deeskalacyjne może zredukować premię za ryzyko geopolityczne.",
+   "id": "us_diesel_export_threat",
+   "label": "Groźba zakazu eksportu diesla z USA",
+   "note": "Zagrożenie ograniczeniem dostaw z USA winduje marże i ceny oleju napędowego w Europie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
-   "brent": -0.04,
-   "crack": -0.02,
-   "fx": -0.01
-  },
-  {
-   "id": "atak_rafineria_rosja",
-   "label": "Atak drona na rosyjską rafinerię",
-   "note": "Porażenie rafinerii Nowoszachtyńsk zacieśnia podaż paliw gotowych w regionie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Drone-Strike-Knocks-Out-Russias-Novoshakhtinsk-Refinery.html",
-   "brent": 0.01,
+   "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
    "crack": 0.04
   },
   {
-   "id": "eksport_diesla_indie",
-   "label": "Indie utrzymują eksport diesla",
-   "note": "Zapewnienie o ciągłości eksportu z Indii łagodzi deficyt diesla na rynkach zachodnich.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Says-It-Will-Keep-Exporting-Diesel.html",
-   "crack": -0.03
-  },
-  {
-   "id": "ataki_huti_saudi",
-   "label": "Ataki Huti na saudyjskie instalacje",
-   "note": "Groźba uszkodzenia saudyjskiej infrastruktury wydobywczej podnosi ceny ropy.",
+   "id": "hormuz_tanker_drop",
+   "label": "Załamanie ruchu tankowców w cieśninie Ormuz",
+   "note": "Dramatyczny spadek tranzytu ropy przez Ormuz silnie podbija premię geopolityczną i kurs ropy.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
-   "brent": 0.035,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Transits-Crash-to-Single-Digits-as-Crisis-Deepens.html",
+   "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "ryzyko_embarga_diesla_us",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Spekulacje rynkowe o restrykcjach eksportowych USA windują europejski crack na dieslu.",
+   "id": "houthi_saudi_attacks",
+   "label": "Ataki Huti na saudyjską infrastrukturę",
+   "note": "Nasilenie ataków Huti na saudyjskie instalacje zwiększa ryzyko zakłóceń dostaw surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Set-for-Weekly-Gain-as-Houthi-Attacks-Rattle-Saudi-Oil-Supply.html",
+   "brent": 0.03
+  },
+  {
+   "id": "novoshakhtinsk_refinery_",
+   "label": "Atak na rosyjską rafinerię Nowoszachtyńsk",
+   "note": "Wyłączenie kolejnej rosyjskiej rafinerii zacieśnia regionalny bilans produktów naftowych.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Drone-Strike-Knocks-Out-Russias-Novoshakhtinsk-Refinery.html",
+   "crack": 0.02
+  },
+  {
+   "id": "us_iran_hormuz_talks",
+   "label": "Rozmowy USA-Iran ws. cieśniny Ormuz",
+   "note": "Szansa na deeskalację wokół cieśniny Ormuz może obniżyć premię za ryzyko w cenach ropy.",
    "confidence": "low",
-   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
-   "brent": 0.015,
-   "crack": 0.05
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
+   "brent": -0.03
+  },
+  {
+   "id": "italy_refinery_output_pu",
+   "label": "Włochy wymuszają wzrost produkcji paliw",
+   "note": "Rządowa presja na wzrost przerobu może krótkoterminowo złagodzić presję na europejski crack.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
+   "crack": -0.01
   }
  ]
 }
