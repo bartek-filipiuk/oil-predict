@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25 22:51 UTC",
+ "generated": "2026-09-26 09:52 UTC",
  "headlines": [
   {
    "title": "Nigeria Joins IEA As Crude Output Hits Six-Year High",
@@ -56,54 +56,52 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "us_diesel_export_threat",
-   "label": "Groźba blokady eksportu diesla z USA",
-   "note": "Ryzyko odcięcia dostaw diesla z USA gwałtownie podbija europejski crack spread na oleju napędowym.",
+   "id": "trump_diesel_export_thre",
+   "label": "Groźba zakazu eksportu diesla z USA",
+   "note": "Ryzyko ograniczenia dostaw z USA winduje europejskie marże rafineryjne i ceny diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
-   "brent": 0.01,
-   "crack": 0.08
+   "crack": 0.04
   },
   {
-   "id": "iran_us_hormuz_talks",
+   "id": "us_iran_hormuz_talks",
    "label": "Rozmowy USA-Iran ws. cieśniny Ormuz",
-   "note": "Wznowienie negocjacji i deeskalacja wokół Ormuzu redukują premię geopolityczną w notowaniach ropy.",
+   "note": "Wznowienie dialogu redukuje premię za ryzyko geopolityczne i ewentualną blokadę cieśniny.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
-   "brent": -0.04
+   "brent": -0.02
   },
   {
    "id": "italy_refinery_output_pu",
-   "label": "Presja Włoch na rafinerie ws. produkcji",
-   "note": "Wzrost przerobu paliw we Włoszech ma złagodzić deficyt, lekko chłodząc marże rafineryjne w Europie.",
+   "label": "Włochy naciskają na produkcję paliw",
+   "note": "Naciski na rafinerie mogą częściowo złagodzić napięcia podażowe na rynku paliw gotowych.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
-   "brent": 0.01,
-   "crack": -0.02
+   "crack": -0.01
   },
   {
-   "id": "nigeria_oil_output_peak",
+   "id": "nigeria_output_high",
    "label": "Wzrost wydobycia ropy w Nigerii",
-   "note": "Sześcioletnie maksima produkcji surowca w Nigerii zwiększają fizyczną podaż ropy w Europie.",
+   "note": "Sześcioletnie maksima produkcji słodkiej ropy zwiększają fizyczną podaż w basenie Atlantyku.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
-   "brent": -0.015
+   "brent": -0.01
   },
   {
-   "id": "us_criticism_china_iran_",
-   "label": "Krytyka zakupu irańskiej ropy przez Chiny",
-   "note": "Groźba twardszych sankcji na chińsko-irański handel może ograniczyć dostępną globalnie podaż ropy.",
+   "id": "us_china_iran_sanctions",
+   "label": "Presja USA na handel ropą Chiny-Iran",
+   "note": "Ryzyko zaostrzenia egzekwowania sankcji grozi ubytkiem części wolumenów z rynku.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
-   "brent": 0.02
+   "brent": 0.01
   },
   {
-   "id": "us_drilling_activity_up",
-   "label": "Ożywienie wierceń naftowych w USA",
-   "note": "Wzrost liczby platform wiertniczych w USA zapowiada wyższą podaż ropy, ograniczając wzrost cen.",
+   "id": "wti_brent_spread_widenin",
+   "label": "Dyskonto WTI wobec Brent rośnie do $12",
+   "note": "Ograniczenia logistyczne w USA przekładają się na wyższy relatywny popyt na ropę Brent.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drilling-Perks-Up-As-Pressure-Mounts.html",
-   "brent": -0.01
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-WTI-Is-Suddenly-Trading-12-Below-Brent.html",
+   "brent": 0.01
   }
  ]
 }
