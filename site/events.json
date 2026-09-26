@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-26 09:52 UTC",
+ "generated": "2026-09-26 22:13 UTC",
  "headlines": [
+  {
+   "title": "Brazil's Energy Mix Goes Green Even As Oil Production Climbs",
+   "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Brazils-Energy-Mix-Goes-Green-Even-As-Oil-Production-Climbs.html",
+   "published": "2026-09-26 14:00"
+  },
   {
    "title": "Nigeria Joins IEA As Crude Output Hits Six-Year High",
    "url": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
@@ -45,63 +50,58 @@
    "title": "U.S.-Iran Talks Revive June Plan for Ending Hormuz Standoff",
    "url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
    "published": "2026-09-25 08:00"
-  },
-  {
-   "title": "West of Suez: Brent, LSGO higher as market weighs diesel ban - Quantum Commodity Intelligence",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVsRE9wU1NQZjhxanlQaHFZVnh4aFlHV0trajJyU1ZvS21xZ1dTMVQ0aHE2dXo1bHBYT3BPTEtkRngtVElPcHJqUlpDZGx2WmhLNEM2cml6cjdKMVFkd0YxUGN4Ql9PenRUSVAyQndIQ2xXQ05EWFY2V2dZYVAxY0RyZ2hUX0pOcTZNU0dWeDV1dmRRbTdoWjVfV0t2d2k1b0tJ?oc=5",
-   "published": "2026-09-24 20:06"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "trump_diesel_export_thre",
-   "label": "Groźba zakazu eksportu diesla z USA",
-   "note": "Ryzyko ograniczenia dostaw z USA winduje europejskie marże rafineryjne i ceny diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
-   "crack": 0.04
-  },
-  {
    "id": "us_iran_hormuz_talks",
    "label": "Rozmowy USA-Iran ws. cieśniny Ormuz",
-   "note": "Wznowienie dialogu redukuje premię za ryzyko geopolityczne i ewentualną blokadę cieśniny.",
+   "note": "Wznowienie planu deeskalacji wokół Ormuz obniża premię geopolityczną za ryzyko na ropie Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/US-Iran-Talks-Revive-June-Plan-for-Ending-Hormuz-Standoff.html",
-   "brent": -0.02
+   "brent": -0.04
   },
   {
-   "id": "italy_refinery_output_pu",
-   "label": "Włochy naciskają na produkcję paliw",
-   "note": "Naciski na rafinerie mogą częściowo złagodzić napięcia podażowe na rynku paliw gotowych.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
-   "crack": -0.01
-  },
-  {
-   "id": "nigeria_output_high",
-   "label": "Wzrost wydobycia ropy w Nigerii",
-   "note": "Sześcioletnie maksima produkcji słodkiej ropy zwiększają fizyczną podaż w basenie Atlantyku.",
+   "id": "trump_diesel_export_thre",
+   "label": "Groźba ograniczenia eksportu diesla z USA",
+   "note": "Ryzyko restrykcji eksportowych z USA winduje marże rafineryjne (crack) na dieslu w Europie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
-   "brent": -0.01
-  },
-  {
-   "id": "us_china_iran_sanctions",
-   "label": "Presja USA na handel ropą Chiny-Iran",
-   "note": "Ryzyko zaostrzenia egzekwowania sankcji grozi ubytkiem części wolumenów z rynku.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
-   "brent": 0.01
+   "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Diesel-Export-Threat-Puts-Britain-on-Edge.html",
+   "crack": 0.05
   },
   {
    "id": "wti_brent_spread_widenin",
-   "label": "Dyskonto WTI wobec Brent rośnie do $12",
-   "note": "Ograniczenia logistyczne w USA przekładają się na wyższy relatywny popyt na ropę Brent.",
-   "confidence": "low",
+   "label": "Rozszerzenie dyskonta WTI do Brent do 12$",
+   "note": "Szeroki spread wskazuje na relatywną ciasnotę na rynku Brent wobec nasyconego rynku w USA.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-WTI-Is-Suddenly-Trading-12-Below-Brent.html",
-   "brent": 0.01
+   "brent": 0.015
+  },
+  {
+   "id": "nigeria_crude_output_hig",
+   "label": "Wydobycie ropy w Nigerii na 6-letnim szczycie",
+   "note": "Wyższe wydobycie w Nigerii zwiększa globalną podaż surowca, wywierając lekką presję zniżkową na Brent.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
+   "brent": -0.015
+  },
+  {
+   "id": "italy_refinery_output_pu",
+   "label": "Włochy naciskają na wzrost produkcji paliw",
+   "note": "Presja na rafinerie potwierdza deficyt paliw gotowych w Europie, wspierając marże diesla.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Italy-Pushes-Refineries-to-Raise-Fuel-Output-Amid-Price-Surge.html",
+   "crack": 0.02
+  },
+  {
+   "id": "us_criticism_china_iran_",
+   "label": "Spór USA-Chiny o import ropy z Iranu",
+   "note": "Groźba ściślejszego egzekwowania sankcji na irański eksport może okresowo ograniczyć podaż ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/International/Beijings-Iran-Oil-Trade-Draws-Fresh-Criticism-From-Capitol-Hill.html",
+   "brent": 0.02
   }
  ]
 }
