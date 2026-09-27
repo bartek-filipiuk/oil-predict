@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27 10:33 UTC",
+ "generated": "2026-09-27 22:36 UTC",
  "headlines": [
   {
    "title": "Hurtowe ceny paliw 27.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy? - Super Biznes",
@@ -10,70 +10,49 @@
    "title": "Brazil's Energy Mix Goes Green Even As Oil Production Climbs",
    "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Brazils-Energy-Mix-Goes-Green-Even-As-Oil-Production-Climbs.html",
    "published": "2026-09-26 14:00"
-  },
-  {
-   "title": "Nigeria Joins IEA As Crude Output Hits Six-Year High",
-   "url": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
-   "published": "2026-09-25 17:00"
-  },
-  {
-   "title": "Venezuela Oil Output Could Hit 1.8 Million Bpd By 2030, Rystad Says",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuela-Oil-Output-Could-Hit-18-Million-Bpd-By-2030-Rystad-Says.html",
-   "published": "2026-09-25 13:00"
-  },
-  {
-   "title": "U.S. Oil, Gas Drilling Perks Up As Pressure Mounts",
-   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drilling-Perks-Up-As-Pressure-Mounts.html",
-   "published": "2026-09-25 12:15"
-  },
-  {
-   "title": "Why WTI Is Suddenly Trading $12 Below Brent",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Why-WTI-Is-Suddenly-Trading-12-Below-Brent.html",
-   "published": "2026-09-25 11:15"
   }
  ],
- "source": "ai",
- "model": "google/gemini-3.8-flash",
+ "source": "static",
+ "model": null,
  "events": [
   {
-   "id": "krajowy_hurt_stabilizacj",
-   "label": "Krajowy rynek hurtowy paliw w Polsce",
-   "note": "Uspokojenie krajowego hurtu mimo drogiej ropy daje przestrzeń na wyhamowanie dynamiki cen na stacjach.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
-   "pl": -0.01
+   "id": "hormuz",
+   "label": "Eskalacja w Ormuz, ataki na tankowce",
+   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
+   "brent": 0.12,
+   "crack": 0.08
   },
   {
-   "id": "spread_wti_brent_12usd",
-   "label": "Rozszerzenie spreadu WTI-Brent do 12 USD",
-   "note": "Rekordowy spread stymuluje tańszy import z USA do Europy, co może korygować premię na europejskim Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-WTI-Is-Suddenly-Trading-12-Below-Brent.html",
-   "brent": -0.015
+   "id": "truce",
+   "label": "Zawieszenie broni USA–Iran",
+   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
+   "brent": -0.12,
+   "crack": -0.06
   },
   {
-   "id": "nigeria_szczyt_wydobycia",
-   "label": "Wydobycie w Nigerii na 6-letnim szczycie",
-   "note": "Silny wzrost wydobycia w Nigerii zwiększa globalną podaż surowca i działa łagodząco na notowania Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Nigeria-Joins-IEA-As-Crude-Output-Hits-Six-Year-High.html",
-   "brent": -0.015
+   "id": "opec",
+   "label": "OPEC+ podnosi wydobycie",
+   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
+   "brent": -0.03
   },
   {
-   "id": "wzrost_aktywnosci_wierce",
-   "label": "Ożywienie wierceń naftowych w USA",
-   "note": "Zwiększenie liczby wierceń w USA zwiastuje wyższą podaż w krótkim terminie i studzi presję wzrostową na ropę.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drilling-Perks-Up-As-Pressure-Mounts.html",
-   "brent": -0.01
+   "id": "ru",
+   "label": "Drony na rosyjskie rafinerie",
+   "note": "Ropa bez zmian, drożeje europejski diesel",
+   "brent": 0.01,
+   "crack": 0.06
   },
   {
-   "id": "wzrost_produkcji_brazyli",
-   "label": "Rosnąca produkcja ropy w Brazylii",
-   "note": "Wzrost wydobycia w Brazylii dokłada baryłki poza kartelem OPEC+, ograniczając deficyt podażowy ropy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Brazils-Energy-Mix-Goes-Green-Even-As-Oil-Production-Climbs.html",
-   "brent": -0.01
+   "id": "plock",
+   "label": "Awaria lub remont w Płocku",
+   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
+   "pl": 0.02
+  },
+  {
+   "id": "pln",
+   "label": "Złoty umacnia się o 3%",
+   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
+   "fx": -0.03
   }
  ]
 }
