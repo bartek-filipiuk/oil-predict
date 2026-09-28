@@ -1,6 +1,46 @@
 {
- "generated": "2026-09-27 22:36 UTC",
+ "generated": "2026-09-28 11:42 UTC",
  "headlines": [
+  {
+   "title": "Oil gains over two pct as US-Iran peace talks in stalemate - Newswav",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzR3XzczcVh3SmR0ZDZmUkFIVDFVcTROUlh0QVlLUVg1cU9YOFRUbnBkQkRIZTh0RnBKQzRPM0UzOG9TMm9qc1dmVjNlTmctWFpMUmhNRnNVVVlNRHdJSEhLbU5aN2xYOWxTX2IwQ2ItR0xGbFNBNVc1QjhIU3p3QlVnRDdEaTZ5UndCWHI4ZG5EZ1oxT0JJWVBaNjFkUTZp?oc=5",
+   "published": "2026-09-28 09:07"
+  },
+  {
+   "title": "European Gas Prices Rally on U.S.-Iran Stalemate",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rally-on-US-Iran-Stalemate.html",
+   "published": "2026-09-28 06:30"
+  },
+  {
+   "title": "TotalEnergies Targets 3% Annual Oil and Gas Growth Through 2030",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Targets-3-Annual-Oil-and-Gas-Growth-Through-2030.html",
+   "published": "2026-09-28 05:30"
+  },
+  {
+   "title": "Goldman Warns Diesel Export Ban Would Send Gasoline Prices Higher",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Diesel-Export-Ban-Would-Send-Gasoline-Prices-Higher.html",
+   "published": "2026-09-28 03:00"
+  },
+  {
+   "title": "Middle East Oil Exports Rebound to 12.8 Million Bpd",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
+   "published": "2026-09-28 02:00"
+  },
+  {
+   "title": "Oil Prices Jump 3% on Rekindled War Fears",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Moves-Higher-on-Rekindled-War-Fears.html",
+   "published": "2026-09-28 00:37"
+  },
+  {
+   "title": "Oil gains over 3% as US-Iran peace talks in stalemate - Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
+   "published": "2026-09-27 22:13"
+  },
+  {
+   "title": "Venezuela’s Oil Comeback Could Cost More Than $100 Billion",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Comeback-Could-Cost-More-Than-100-Billion.html",
+   "published": "2026-09-27 18:00"
+  },
   {
    "title": "Hurtowe ceny paliw 27.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy? - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
@@ -12,47 +52,50 @@
    "published": "2026-09-26 14:00"
   }
  ],
- "source": "static",
- "model": null,
+ "source": "ai",
+ "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz",
-   "label": "Eskalacja w Ormuz, ataki na tankowce",
-   "note": "Jak 6 III (+28% w tydzień) i 23 VII 2026 (+7% w dzień)",
-   "brent": 0.12,
-   "crack": 0.08
+   "id": "us_iran_stalemate",
+   "label": "Fiasko rozmów USA-Iran i groźba eskalacji",
+   "note": "Pat w negocjacjach pokojowych odnawia premię wojenną, windując notowania ropy i osłabiając złotego.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
+   "brent": 0.04,
+   "fx": 0.01
   },
   {
-   "id": "truce",
-   "label": "Zawieszenie broni USA–Iran",
-   "note": "Jak 8 IV 2026: Brent −13% w jeden dzień",
-   "brent": -0.12,
-   "crack": -0.06
+   "id": "bliski_wschod_eksport",
+   "label": "Wzrost eksportu ropy z Bliskiego Wschodu",
+   "note": "Odbicie dostaw do poziomu 12,8 mln bpd częściowo łagodzi napięcia podażowe na globalnym rynku.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
+   "brent": -0.015
   },
   {
-   "id": "opec",
-   "label": "OPEC+ podnosi wydobycie",
-   "note": "Kolejna transza +188 tys. b/d, rynek reaguje słabo",
-   "brent": -0.03
-  },
-  {
-   "id": "ru",
-   "label": "Drony na rosyjskie rafinerie",
-   "note": "Ropa bez zmian, drożeje europejski diesel",
+   "id": "gaz_europa_wzrost",
+   "label": "Skok cen gazu ziemnego w Europie",
+   "note": "Droższy gaz podbija koszty operacyjne europejskich rafinerii, wspierając marże na dieslu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rally-on-US-Iran-Stalemate.html",
    "brent": 0.01,
-   "crack": 0.06
+   "crack": 0.02
   },
   {
-   "id": "plock",
-   "label": "Awaria lub remont w Płocku",
-   "note": "Krajowa podaż w dół, Orlen podnosi hurt niezależnie od rynku",
-   "pl": 0.02
+   "id": "ryzyko_bana_diesel",
+   "label": "Ostrzeżenie przed zakazem eksportu diesla",
+   "note": "Dyskusje o restrykcjach eksportu paliw z USA zagrażają zaopatrzeniu Europy i podbijają crack spread.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Diesel-Export-Ban-Would-Send-Gasoline-Prices-Higher.html",
+   "crack": 0.025
   },
   {
-   "id": "pln",
-   "label": "Złoty umacnia się o 3%",
-   "note": "Jak 30 III–17 IV 2026: USD/PLN z 3,68 na 3,57",
-   "fx": -0.03
+   "id": "krajowy_hurt_stabilizacj",
+   "label": "Próba stabilizacji cen w hurcie w Polsce",
+   "note": "Krajowy hurt próbuje łagodzić przenoszenie skoku notowań surowca na bezpośrednie ceny paliw.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
+   "pl": -0.015
   }
  ]
 }
