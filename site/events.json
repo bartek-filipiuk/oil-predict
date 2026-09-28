@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-28 20:38 UTC",
+ "generated": "2026-09-28 22:36 UTC",
  "headlines": [
+  {
+   "title": "Standard Chartered: Record CTA Long Bets Are Capping Oil's Upside",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Record-CTA-Long-Bets-Are-Capping-Oils-Upside.html",
+   "published": "2026-09-28 17:00"
+  },
   {
    "title": "Record Diesel Costs Add Fresh Pressure on UK Economy",
    "url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
@@ -10,6 +15,11 @@
    "title": "Can Fracking Reverse Colombia’s Oil and Gas Decline?",
    "url": "https://oilprice.com/Energy/Energy-General/Can-Fracking-Reverse-Colombias-Oil-and-Gas-Decline.html",
    "published": "2026-09-28 12:00"
+  },
+  {
+   "title": "Oil jumps over 2% as US-Iran peace talks remain deadlocked - Profit by Pakistan Today",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTVMSTl0aUNfQUY1VWROMmdLZzNLY0ZPenluQkZHMHdIdVhXcVY0MHRLaFlBM09KR3BxTlZqUnZpUWkyYW44QWpsUHQzRGFQZmxkcFRsNkdNanA4dHJqX3hRajZwZzF2Um5ORFczVkt3d2VpNVNHN0U0bUFFUWRRd1BrUm9qQVlrNnlfa0VPYzZNY25TLWlnTVpwcFdmbW5Uem5JS0ttRTdPUEZEeDk5VA?oc=5",
+   "published": "2026-09-28 10:26"
   },
   {
    "title": "Qatar Extends LNG Force Majeure as Hormuz Crisis Drags On",
@@ -22,21 +32,6 @@
    "published": "2026-09-28 09:07"
   },
   {
-   "title": "European Gas Prices Rally on U.S.-Iran Stalemate",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rally-on-US-Iran-Stalemate.html",
-   "published": "2026-09-28 06:30"
-  },
-  {
-   "title": "Oil gains over 2% as US-Iran peace talks in stalemate - The Mighty 790 KFGO",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeXNWSjE0UFE3Y0dyNWg4a0VKeC10RW16RGdZekZLWFNOOUlmT0I2UDJMV3EwQnk1MVJrVXQxcnVoNG1uMnNKbTJZS1hsUDg0bXJJUkJLbWZwOVBCcWIzckJVNTI2SFI0ZVNjbDctMzR0ZVJZNUVLSmhyREJJQUhrVWhsYw?oc=5",
-   "published": "2026-09-28 02:24"
-  },
-  {
-   "title": "Oil prices rise 2% after Trump rejects Iran peace deal - Reuters",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-   "published": "2026-09-27 22:13"
-  },
-  {
    "title": "Hurtowe ceny paliw 27.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy? - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
    "published": "2026-09-27 06:46"
@@ -46,36 +41,44 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_deal_stalemate",
-   "label": "Fiasko rozmów USA z Iranem",
-   "note": "Odrzucenie porozumienia pokojowego podbija ryzyko podażowe w Zatoce Perskiej i ceny ropy.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-   "brent": 0.04,
-   "fx": 0.01
+   "id": "us_iran_stalemate",
+   "label": "Fiasko rozmów USA-Iran",
+   "note": "Brak przełomu w negocjacjach utrzymuje wysoką premię za ryzyko geopolityczne na rynku ropy.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTVMSTl0aUNfQUY1VWROMmdLZzNLY0ZPenluQkZHMHdIdVhXcVY0MHRLaFlBM09KR3BxTlZqUnZpUWkyYW44QWpsUHQzRGFQZmxkcFRsNkdNanA4dHJqX3hRajZwZzF2Um5ORFczVkt3d2VpNVNHN0U0bUFFUWRRd1BrUm9qQVlrNnlfa0VPYzZNY25TLWlnTVpwcFdmbW5Uem5JS0ttRTdPUEZEeDk5VA?oc=5",
+   "brent": 0.025,
+   "fx": 0.005
   },
   {
-   "id": "qatar_force_majeure",
-   "label": "Przedłużenie siły wyższej w Katarze",
-   "note": "Trwający kryzys w cieśninie Ormuz ogranicza podaż surowców energetycznych i winduje ceny diesla.",
-   "confidence": "medium",
+   "id": "qatar_hormuz_crisis",
+   "label": "Kryzys w Cieśninie Ormuz",
+   "note": "Utrzymujące się zakłócenia w żegludze i force majeure Kataru zagrażają podaży surowców z Zatoki.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Extends-LNG-Force-Majeure-as-Hormuz-Crisis-Drags-On.html",
    "brent": 0.03,
-   "crack": 0.02
+   "crack": 0.015
   },
   {
-   "id": "uk_record_diesel_costs",
-   "label": "Rekordowe ceny diesla w Europie",
-   "note": "Napięcia podażowe na rynku średnich destylatów utrzymują presję na wysokie marże rafineryjne diesla.",
+   "id": "record_diesel_costs",
+   "label": "Presja podażowa na europejskim dieslu",
+   "note": "Utrzymujący się deficyt destylatów w Europie winduje marże rafineryjne na oleju napędowym.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
-   "crack": 0.03
+   "crack": 0.025
   },
   {
-   "id": "krajowy_hurt_paliw",
-   "label": "Presja na marże w polskim hurcie",
-   "note": "Mimo drogiej ropy próby stabilizacji cen hurtowych ograniczają natychmiastowe przeniesienie wzrostów.",
+   "id": "cta_long_capping",
+   "label": "Pozycjonowanie CTA hamuje wzrosty",
+   "note": "Ekstremalnie wysokie pozycje długie funduszy ograniczają potencjał dalszego rajdu cen ropy.",
    "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Record-CTA-Long-Bets-Are-Capping-Oils-Upside.html",
+   "brent": -0.015
+  },
+  {
+   "id": "polska_oddech_hurt",
+   "label": "Stabilizacja cen hurtowych w Polsce",
+   "note": "Krajowy hurt wykazuje chwilową odporność na drożejącą ropę dzięki buforom marżowym.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
    "pl": -0.01
   }
