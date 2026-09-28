@@ -1,6 +1,11 @@
 {
- "generated": "2026-09-28 11:42 UTC",
+ "generated": "2026-09-28 16:52 UTC",
  "headlines": [
+  {
+   "title": "Qatar Extends LNG Force Majeure as Hormuz Crisis Drags On",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Extends-LNG-Force-Majeure-as-Hormuz-Crisis-Drags-On.html",
+   "published": "2026-09-28 09:30"
+  },
   {
    "title": "Oil gains over two pct as US-Iran peace talks in stalemate - Newswav",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzR3XzczcVh3SmR0ZDZmUkFIVDFVcTROUlh0QVlLUVg1cU9YOFRUbnBkQkRIZTh0RnBKQzRPM0UzOG9TMm9qc1dmVjNlTmctWFpMUmhNRnNVVVlNRHdJSEhLbU5aN2xYOWxTX2IwQ2ItR0xGbFNBNVc1QjhIU3p3QlVnRDdEaTZ5UndCWHI4ZG5EZ1oxT0JJWVBaNjFkUTZp?oc=5",
@@ -22,6 +27,11 @@
    "published": "2026-09-28 03:00"
   },
   {
+   "title": "Oil gains over 2% as US-Iran peace talks in stalemate - kfgo.com",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeXNWSjE0UFE3Y0dyNWg4a0VKeC10RW16RGdZekZLWFNOOUlmT0I2UDJMV3EwQnk1MVJrVXQxcnVoNG1uMnNKbTJZS1hsUDg0bXJJUkJLbWZwOVBCcWIzckJVNTI2SFI0ZVNjbDctMzR0ZVJZNUVLSmhyREJJQUhrVWhsYw?oc=5",
+   "published": "2026-09-28 02:24"
+  },
+  {
    "title": "Middle East Oil Exports Rebound to 12.8 Million Bpd",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
    "published": "2026-09-28 02:00"
@@ -32,7 +42,7 @@
    "published": "2026-09-28 00:37"
   },
   {
-   "title": "Oil gains over 3% as US-Iran peace talks in stalemate - Reuters",
+   "title": "Oil gains 2% as US-Iran peace talks in stalemate - Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
    "published": "2026-09-27 22:13"
   },
@@ -45,54 +55,50 @@
    "title": "Hurtowe ceny paliw 27.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy? - Super Biznes",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
    "published": "2026-09-27 06:46"
-  },
-  {
-   "title": "Brazil's Energy Mix Goes Green Even As Oil Production Climbs",
-   "url": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Brazils-Energy-Mix-Goes-Green-Even-As-Oil-Production-Climbs.html",
-   "published": "2026-09-26 14:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "us_iran_stalemate",
-   "label": "Fiasko rozmów USA-Iran i groźba eskalacji",
-   "note": "Pat w negocjacjach pokojowych odnawia premię wojenną, windując notowania ropy i osłabiając złotego.",
+   "id": "kryzys_hormuz_lng",
+   "label": "Katar przedłuża force majeure w Hormuz",
+   "note": "Przedłużający się kryzys w cieśninie Hormuz podbija ryzyko podażowe dla surowców i marż diesla.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-   "brent": 0.04,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Extends-LNG-Force-Majeure-as-Hormuz-Crisis-Drags-On.html",
+   "brent": 0.03,
+   "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "bliski_wschod_eksport",
-   "label": "Wzrost eksportu ropy z Bliskiego Wschodu",
-   "note": "Odbicie dostaw do poziomu 12,8 mln bpd częściowo łagodzi napięcia podażowe na globalnym rynku.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
-   "brent": -0.015
+   "id": "fiasko_rozmow_usa_iran",
+   "label": "Pat w rozmowach USA-Iran i groźba wojny",
+   "note": "Fiasko rokowań pokojowych USA z Iranem podsyca obawy o eskalację militarną i podbija wycenę ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Moves-Higher-on-Rekindled-War-Fears.html",
+   "brent": 0.035,
+   "fx": 0.01
   },
   {
-   "id": "gaz_europa_wzrost",
-   "label": "Skok cen gazu ziemnego w Europie",
-   "note": "Droższy gaz podbija koszty operacyjne europejskich rafinerii, wspierając marże na dieslu.",
+   "id": "wzrost_eksportu_bliski_w",
+   "label": "Odbicie eksportu ropy z Bliskiego Wschodu",
+   "note": "Wzrost eksportu do 12,8 mln bpd może krótkoterminowo złagodzić presję na globalny bilans surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Rally-on-US-Iran-Stalemate.html",
-   "brent": 0.01,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
+   "brent": -0.02
+  },
+  {
+   "id": "ostrzezenie_goldman_dies",
+   "label": "Ryzyko ograniczeń eksportu diesla",
+   "note": "Raport Goldman Sachs wskazuje na zaburzenia w podaży paliw gotowych przy restrykcjach handlowych.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Diesel-Export-Ban-Would-Send-Gasoline-Prices-Higher.html",
    "crack": 0.02
   },
   {
-   "id": "ryzyko_bana_diesel",
-   "label": "Ostrzeżenie przed zakazem eksportu diesla",
-   "note": "Dyskusje o restrykcjach eksportu paliw z USA zagrażają zaopatrzeniu Europy i podbijają crack spread.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Diesel-Export-Ban-Would-Send-Gasoline-Prices-Higher.html",
-   "crack": 0.025
-  },
-  {
-   "id": "krajowy_hurt_stabilizacj",
-   "label": "Próba stabilizacji cen w hurcie w Polsce",
-   "note": "Krajowy hurt próbuje łagodzić przenoszenie skoku notowań surowca na bezpośrednie ceny paliw.",
+   "id": "krajowy_hurt_paliw",
+   "label": "Chwilowa ulga w polskich cenach hurtowych",
+   "note": "Krajowy rynek próbuje buforować wcześniejsze wzrosty ropy, stabilizując marże rafineryjne w hurcie.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
    "pl": -0.015
