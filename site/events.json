@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28 18:39 UTC",
+ "generated": "2026-09-28 20:38 UTC",
  "headlines": [
   {
    "title": "Record Diesel Costs Add Fresh Pressure on UK Economy",
@@ -27,17 +27,12 @@
    "published": "2026-09-28 06:30"
   },
   {
-   "title": "TotalEnergies Targets 3% Annual Oil and Gas Growth Through 2030",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Targets-3-Annual-Oil-and-Gas-Growth-Through-2030.html",
-   "published": "2026-09-28 05:30"
-  },
-  {
    "title": "Oil gains over 2% as US-Iran peace talks in stalemate - The Mighty 790 KFGO",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeXNWSjE0UFE3Y0dyNWg4a0VKeC10RW16RGdZekZLWFNOOUlmT0I2UDJMV3EwQnk1MVJrVXQxcnVoNG1uMnNKbTJZS1hsUDg0bXJJUkJLbWZwOVBCcWIzckJVNTI2SFI0ZVNjbDctMzR0ZVJZNUVLSmhyREJJQUhrVWhsYw?oc=5",
    "published": "2026-09-28 02:24"
   },
   {
-   "title": "Oil gains 2% as US-Iran peace talks in stalemate - Reuters",
+   "title": "Oil prices rise 2% after Trump rejects Iran peace deal - Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
    "published": "2026-09-27 22:13"
   },
@@ -51,36 +46,35 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "impas_usa_iran",
-   "label": "Impas w rozmowach USA-Iran",
-   "note": "Fiasko negocjacji podbija premię geopolityczną i ryzyko eskalacji na Bliskim Wschodzie.",
+   "id": "iran_deal_stalemate",
+   "label": "Fiasko rozmów USA z Iranem",
+   "note": "Odrzucenie porozumienia pokojowego podbija ryzyko podażowe w Zatoce Perskiej i ceny ropy.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
-   "brent": 0.03,
+   "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "kryzys_ormuz_katar",
-   "label": "Kryzys w Ormuz i force majeure Kataru",
-   "note": "Przedłużający się kryzys żeglugowy w Cieśninie Ormuz ogranicza podaż surowców energetycznych.",
+   "id": "qatar_force_majeure",
+   "label": "Przedłużenie siły wyższej w Katarze",
+   "note": "Trwający kryzys w cieśninie Ormuz ogranicza podaż surowców energetycznych i winduje ceny diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Extends-LNG-Force-Majeure-as-Hormuz-Crisis-Drags-On.html",
    "brent": 0.03,
-   "crack": 0.02,
-   "fx": 0.01
+   "crack": 0.02
   },
   {
-   "id": "presja_cen_diesla",
-   "label": "Rekordowe marże diesla w Europie",
-   "note": "Napięta podaż gotowych paliw w Europie wywiera dodatkową presję na wzrost marż diesla.",
+   "id": "uk_record_diesel_costs",
+   "label": "Rekordowe ceny diesla w Europie",
+   "note": "Napięcia podażowe na rynku średnich destylatów utrzymują presję na wysokie marże rafineryjne diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
    "crack": 0.03
   },
   {
-   "id": "orlen_hurt_stabilizacja",
-   "label": "Chwilowy oddech w polskim hurcie",
-   "note": "Krajowy rynek hurtowy chwilowo ogranicza przenoszenie wzrostów ropy na ceny paliw.",
+   "id": "krajowy_hurt_paliw",
+   "label": "Presja na marże w polskim hurcie",
+   "note": "Mimo drogiej ropy próby stabilizacji cen hurtowych ograniczają natychmiastowe przeniesienie wzrostów.",
    "confidence": "low",
    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
    "pl": -0.01
