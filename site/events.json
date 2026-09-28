@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-28 16:52 UTC",
+ "generated": "2026-09-28 18:39 UTC",
  "headlines": [
+  {
+   "title": "Record Diesel Costs Add Fresh Pressure on UK Economy",
+   "url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
+   "published": "2026-09-28 13:00"
+  },
+  {
+   "title": "Can Fracking Reverse Colombia’s Oil and Gas Decline?",
+   "url": "https://oilprice.com/Energy/Energy-General/Can-Fracking-Reverse-Colombias-Oil-and-Gas-Decline.html",
+   "published": "2026-09-28 12:00"
+  },
   {
    "title": "Qatar Extends LNG Force Majeure as Hormuz Crisis Drags On",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Extends-LNG-Force-Majeure-as-Hormuz-Crisis-Drags-On.html",
@@ -22,34 +32,14 @@
    "published": "2026-09-28 05:30"
   },
   {
-   "title": "Goldman Warns Diesel Export Ban Would Send Gasoline Prices Higher",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Diesel-Export-Ban-Would-Send-Gasoline-Prices-Higher.html",
-   "published": "2026-09-28 03:00"
-  },
-  {
-   "title": "Oil gains over 2% as US-Iran peace talks in stalemate - kfgo.com",
+   "title": "Oil gains over 2% as US-Iran peace talks in stalemate - The Mighty 790 KFGO",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeXNWSjE0UFE3Y0dyNWg4a0VKeC10RW16RGdZekZLWFNOOUlmT0I2UDJMV3EwQnk1MVJrVXQxcnVoNG1uMnNKbTJZS1hsUDg0bXJJUkJLbWZwOVBCcWIzckJVNTI2SFI0ZVNjbDctMzR0ZVJZNUVLSmhyREJJQUhrVWhsYw?oc=5",
    "published": "2026-09-28 02:24"
-  },
-  {
-   "title": "Middle East Oil Exports Rebound to 12.8 Million Bpd",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
-   "published": "2026-09-28 02:00"
-  },
-  {
-   "title": "Oil Prices Jump 3% on Rekindled War Fears",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Moves-Higher-on-Rekindled-War-Fears.html",
-   "published": "2026-09-28 00:37"
   },
   {
    "title": "Oil gains 2% as US-Iran peace talks in stalemate - Reuters",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
    "published": "2026-09-27 22:13"
-  },
-  {
-   "title": "Venezuela’s Oil Comeback Could Cost More Than $100 Billion",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Comeback-Could-Cost-More-Than-100-Billion.html",
-   "published": "2026-09-27 18:00"
   },
   {
    "title": "Hurtowe ceny paliw 27.09.2026. Czas na oddech dla kierowców w cieniu drogiej ropy? - Super Biznes",
@@ -61,47 +51,39 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "kryzys_hormuz_lng",
-   "label": "Katar przedłuża force majeure w Hormuz",
-   "note": "Przedłużający się kryzys w cieśninie Hormuz podbija ryzyko podażowe dla surowców i marż diesla.",
+   "id": "impas_usa_iran",
+   "label": "Impas w rozmowach USA-Iran",
+   "note": "Fiasko negocjacji podbija premię geopolityczną i ryzyko eskalacji na Bliskim Wschodzie.",
    "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU3FBcU1hWkxSdzlSbHdGdkJEbDR0REJsckozLWtuZGRwbXJvNU1kVnFMendhelM2Q3plNUFlUm1yZTljZDFiMEQwZjVDcWt2X011c193RWUtWTVlcEE4bjBKSWtYZ1A5MnhXS2hUSlVCN0lPcjhTRmNBc2V4ZERrclRaVW45NUl0cmtsb1g2d0s3SFB5NDRPc0lnRzVSZHZ2S0E?oc=5",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "kryzys_ormuz_katar",
+   "label": "Kryzys w Ormuz i force majeure Kataru",
+   "note": "Przedłużający się kryzys żeglugowy w Cieśninie Ormuz ogranicza podaż surowców energetycznych.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Qatar-Extends-LNG-Force-Majeure-as-Hormuz-Crisis-Drags-On.html",
    "brent": 0.03,
    "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "fiasko_rozmow_usa_iran",
-   "label": "Pat w rozmowach USA-Iran i groźba wojny",
-   "note": "Fiasko rokowań pokojowych USA z Iranem podsyca obawy o eskalację militarną i podbija wycenę ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Moves-Higher-on-Rekindled-War-Fears.html",
-   "brent": 0.035,
-   "fx": 0.01
-  },
-  {
-   "id": "wzrost_eksportu_bliski_w",
-   "label": "Odbicie eksportu ropy z Bliskiego Wschodu",
-   "note": "Wzrost eksportu do 12,8 mln bpd może krótkoterminowo złagodzić presję na globalny bilans surowca.",
+   "id": "presja_cen_diesla",
+   "label": "Rekordowe marże diesla w Europie",
+   "note": "Napięta podaż gotowych paliw w Europie wywiera dodatkową presję na wzrost marż diesla.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Oil-Exports-Rebound-to-128-Million-Bpd.html",
-   "brent": -0.02
+   "source_url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
+   "crack": 0.03
   },
   {
-   "id": "ostrzezenie_goldman_dies",
-   "label": "Ryzyko ograniczeń eksportu diesla",
-   "note": "Raport Goldman Sachs wskazuje na zaburzenia w podaży paliw gotowych przy restrykcjach handlowych.",
+   "id": "orlen_hurt_stabilizacja",
+   "label": "Chwilowy oddech w polskim hurcie",
+   "note": "Krajowy rynek hurtowy chwilowo ogranicza przenoszenie wzrostów ropy na ceny paliw.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Diesel-Export-Ban-Would-Send-Gasoline-Prices-Higher.html",
-   "crack": 0.02
-  },
-  {
-   "id": "krajowy_hurt_paliw",
-   "label": "Chwilowa ulga w polskich cenach hurtowych",
-   "note": "Krajowy rynek próbuje buforować wcześniejsze wzrosty ropy, stabilizując marże rafineryjne w hurcie.",
-   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZmJnSVJiQURtbHVfanFsTGNLa2JSbXNHbVpTTDU0My15UlV0alF0NXFYQ3YtWkhrODBobWlwaWQ5ckhyUWVOSkQwTV85ckRxVzFlOEo3RVU5MlVUMkJCbW1nUVlQNlV5ZUFVV0RDUFhYZlp3c0dlX0IteGxQS2JJeFRVTVFzUmdBUmI0eFU4b0R6UmVBbVZkdVJkaUY5UE10dE50ZVl2WHNKcS1OekpHeXZIM1JBMEJuTFVkOHpadzc",
-   "pl": -0.015
+   "pl": -0.01
   }
  ]
 }
