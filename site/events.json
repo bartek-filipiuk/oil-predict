@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-29 11:22 UTC",
+ "generated": "2026-09-29 14:57 UTC",
  "headlines": [
+  {
+   "title": "The Hidden Tradeoffs of a U.S. Diesel Export Ban",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Hidden-Tradeoffs-of-a-US-Diesel-Export-Ban.html",
+   "published": "2026-09-29 09:00"
+  },
+  {
+   "title": "India Looks to Boost Exploration as Hormuz Crisis Threatens Supply",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Looks-to-Boost-Exploration-as-Hormuz-Crisis-Threatens-Supply.html",
+   "published": "2026-09-29 06:30"
+  },
   {
    "title": "Saudi Arabia Restarts Red Sea Crude Oil Loadings",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-Red-Sea-Crude-Oil-Loadings.html",
@@ -42,16 +52,6 @@
    "published": "2026-09-28 17:00"
   },
   {
-   "title": "Record Diesel Costs Add Fresh Pressure on UK Economy",
-   "url": "https://oilprice.com/Energy/Energy-General/Record-Diesel-Costs-Add-Fresh-Pressure-on-UK-Economy.html",
-   "published": "2026-09-28 13:00"
-  },
-  {
-   "title": "Can Fracking Reverse Colombia’s Oil and Gas Decline?",
-   "url": "https://oilprice.com/Energy/Energy-General/Can-Fracking-Reverse-Colombias-Oil-and-Gas-Decline.html",
-   "published": "2026-09-28 12:00"
-  },
-  {
    "title": "Oil jumps over 2% as US-Iran peace talks remain deadlocked - Profit by Pakistan Today",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTVMSTl0aUNfQUY1VWROMmdLZzNLY0ZPenluQkZHMHdIdVhXcVY0MHRLaFlBM09KR3BxTlZqUnZpUWkyYW44QWpsUHQzRGFQZmxkcFRsNkdNanA4dHJqX3hRajZwZzF2Um5ORFczVkt3d2VpNVNHN0U0bUFFUWRRd1BrUm9qQVlrNnlfa0VPYzZNY25TLWlnTVpwcFdmbW5Uem5JS0ttRTdPUEZEeDk5VA?oc=5",
    "published": "2026-09-28 10:26"
@@ -66,54 +66,54 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "pat_usa_iran",
-   "label": "Pat w rozmowach USA-Iran",
-   "note": "Fiasko negocjacji winduje premię geopolityczną na rynku ropy wobec ryzyka eskalacji w Zatoce Perskiej.",
+   "id": "us_diesel_export_ban_ris",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Dyskusje o ograniczeniu eksportu z USA grożą deficytem diesla w Europie i skokiem marż rafineryjnych.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Hidden-Tradeoffs-of-a-US-Diesel-Export-Ban.html",
+   "crack": 0.04
+  },
+  {
+   "id": "us_iran_talks_deadlock",
+   "label": "Fiasko rozmów USA-Iran",
+   "note": "Brak porozumienia USA z Iranem podbija premię geopolityczną i grozi eskalacją w cieśninie Ormuz.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTVMSTl0aUNfQUY1VWROMmdLZzNLY0ZPenluQkZHMHdIdVhXcVY0MHRLaFlBM09KR3BxTlZqUnZpUWkyYW44QWpsUHQzRGFQZmxkcFRsNkdNanA4dHJqX3hRajZwZzF2Um5ORFczVkt3d2VpNVNHN0U0bUFFUWRRd1BrUm9qQVlrNnlfa0VPYzZNY25TLWlnTVpwcFdmbW5Uem5JS0ttRTdPUEZEeDk5VA?oc=5",
-   "brent": 0.035,
+   "brent": 0.03,
    "fx": 0.005
   },
   {
-   "id": "saudi_red_sea_restart",
-   "label": "Saudowie wznawiają wysyłki z M. Czerwonego",
-   "note": "Wznowienie załadunków ropy na Morzu Czerwonym poprawia płynność dostaw i lekko studzi presję podażową.",
+   "id": "saudi_red_sea_loadings",
+   "label": "Wznowienie załadunków ropy w M. Czerwonym",
+   "note": "Restart eksportu ropy przez Arabię Saudyjską nad Morzem Czerwonym łagodzi obawy o wąskie gardła.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-Red-Sea-Crude-Oil-Loadings.html",
    "brent": -0.02
   },
   {
-   "id": "orlen_spadek_hurtu",
-   "label": "Spadek hurtowych cen diesla w Orlenie",
-   "note": "Krajowa korekta cen diesla w hurcie Orlenu do poziomu 9,06 zł/l obniża lokalną marżę rafineryjną.",
+   "id": "orlen_hurt_spadek",
+   "label": "Spadek cen diesla w hurcie Orlenu",
+   "note": "Obniżka ceny hurtowej diesla do 9,06 zł/l bezpośrednio obniża presję kosztową na polskich stacjach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTW81eDJBX3Z2SmlDcl83Q1U3eDhoTnRRbTBMYWFBUUc3NmdpVnV1WU5SazlZMzRpVVlRSVVLdllFZDJUZFBwYUVUT1JfdkpqV0MyS011eVFUSkZMUEl6ekJkOU5USTJLemlqWC1xSkJubm9aanBJS0ZSQkw3bUloSVdtRGRlclBQcXJvanZYM0E?oc=5",
    "pl": -0.015
   },
   {
-   "id": "ryzyko_eksportu_diesla_u",
-   "label": "Ryzyko blokady eksportu diesla z USA",
-   "note": "Potencjalne ograniczenia eksportu paliw z USA grożą deficytem diesla w Europie i skokiem marż rafineryjnych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Blocking-US-Diesel-Exports-Could-Make-Fuel-More-Expensive.html",
-   "crack": 0.03
-  },
-  {
-   "id": "omijanie_ormuz_koszty",
-   "label": "Omijanie cieśniny Ormuz a fracht",
-   "note": "Podwojenie ruchu wokół Afryki wydłuża czas dostaw ropy, podtrzymując wysokie ceny surowca i paliw gotowych.",
+   "id": "hormuz_rerouting_costs",
+   "label": "Opływanie Afryki omija cieśninę Ormuz",
+   "note": "Dwukrotny wzrost ruchu wokół Przylądka Dobrej Nadziei podnosi koszty transportu surowca do Europy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Hormuz-Rerouting-Doubles-Cape-Traffic-Without-Delivering-a-Windfall.html",
-   "brent": 0.02,
-   "crack": 0.015
+   "brent": 0.015,
+   "crack": 0.01
   },
   {
-   "id": "pozycjonowanie_cta_ropa",
-   "label": "Rekordowe pozycje CTA hamują wzrosty",
-   "note": "Maksymalne zaangażowanie funduszy trendowych w ropę grozi realizacją zysków i korektą cen w dół.",
+   "id": "cta_positioning_cap",
+   "label": "Rekordowe pozycje CTA ograniczają wzrosty",
+   "note": "Wyczerpujący się potencjał zakupowy funduszy CTA ogranicza dalsze zwyżki notowań ropy naftowej.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Record-CTA-Long-Bets-Are-Capping-Oils-Upside.html",
-   "brent": -0.02
+   "brent": -0.015
   }
  ]
 }
