@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-29 19:30 UTC",
+ "generated": "2026-09-29 21:29 UTC",
  "headlines": [
+  {
+   "title": "US Distillate Stocks Continue to Fall As Crude Inventories Build",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Distillate-Stocks-Continue-to-Fall-As-Crude-Inventories-Build.html",
+   "published": "2026-09-29 16:02"
+  },
+  {
+   "title": "White House Weighs Red-Dyed Diesel Relief as Fuel Prices Soar",
+   "url": "https://oilprice.com/Energy/Energy-General/White-House-Weighs-Red-Dyed-Diesel-Relief-as-Fuel-Prices-Soar.html",
+   "published": "2026-09-29 16:00"
+  },
   {
    "title": "Iran Threatens Middle East Energy Infrastructure as Hormuz Standoff Deepens",
    "url": "https://oilprice.com/Energy/Energy-General/Iran-Threatens-Middle-East-Energy-Infrastructure-as-Hormuz-Standoff-Deepens.html",
@@ -27,27 +37,12 @@
    "published": "2026-09-29 06:30"
   },
   {
-   "title": "Saudi Arabia Restarts Red Sea Crude Oil Loadings",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-Red-Sea-Crude-Oil-Loadings.html",
-   "published": "2026-09-29 05:30"
-  },
-  {
-   "title": "India Unlikely to Ditch Russian Oil Despite Trump's 100% Tariff Threat",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Unlikely-to-Ditch-Russian-Oil-Despite-Trumps-100-Tariff-Threat.html",
-   "published": "2026-09-29 04:30"
-  },
-  {
-   "title": "Argentina Threatens UK with Court Action Over Falklands Oil Drilling",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Threatens-UK-with-Court-Action-Over-Falklands-Oil-Drilling.html",
-   "published": "2026-09-29 03:00"
-  },
-  {
    "title": "Ceny paliw od 29 września: Hurt w Orlenie tanieje we wtorek do 9,06 zł za litr diesla - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTW81eDJBX3Z2SmlDcl83Q1U3eDhoTnRRbTBMYWFBUUc3NmdpVnV1WU5SazlZMzRpVVlRSVVLdllFZDJUZFBwYUVUT1JfdkpqV0MyS011eVFUSkZMUEl6ekJkOU5USTJLemlqWC1xSkJubm9aanBJS0ZSQkw3bUloSVdtRGRlclBQcXJvanZYM0E?oc=5",
    "published": "2026-09-28 22:44"
   },
   {
-   "title": "Oil jumps over 2% as US-Iran peace talks remain deadlocked - profit.pakistantoday.com.pk",
+   "title": "Oil jumps over 2% as US-Iran peace talks remain deadlocked - Profit by Pakistan Today",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTVMSTl0aUNfQUY1VWROMmdLZzNLY0ZPenluQkZHMHdIdVhXcVY0MHRLaFlBM09KR3BxTlZqUnZpUWkyYW44QWpsUHQzRGFQZmxkcFRsNkdNanA4dHJqX3hRajZwZzF2Um5ORFczVkt3d2VpNVNHN0U0bUFFUWRRd1BrUm9qQVlrNnlfa0VPYzZNY25TLWlnTVpwcFdmbW5Uem5JS0ttRTdPUEZEeDk5VA?oc=5",
    "published": "2026-09-28 10:26"
   },
@@ -61,54 +56,54 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_hormuz_threat",
+   "id": "iran_hormuz_grozby",
    "label": "Groźby Iranu wobec infrastruktury w Zatoce",
-   "note": "Eskalacja napięć w cieśninie Ormuz podbija premię za ryzyko podaży surowca na rynkach.",
+   "note": "Eskalacja w Cieśninie Ormuz podbija ryzyko odcięcia dostaw ropy i skłania inwestorów do ucieczki w dolara.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Threatens-Middle-East-Energy-Infrastructure-as-Hormuz-Standoff-Deepens.html",
-   "brent": 0.04,
+   "brent": 0.05,
    "fx": 0.01
   },
   {
-   "id": "us_spr_release_diesel",
-   "label": "Uwolnienie rezerw SPR w USA",
-   "note": "Kolejne uwolnienie ropy z rezerw SPR łagodzi presję na surowiec przy rekordowo drogim dieslu.",
+   "id": "usa_uwolnienie_spr",
+   "label": "Kolejne uwolnienie rezerw SPR w USA",
+   "note": "Administracja USA uruchamia rezerwy strategiczne ropy, by przeciwdziałać gwałtownemu wzrostowi cen paliw.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html",
    "brent": -0.02,
-   "crack": 0.015
+   "crack": -0.01
   },
   {
-   "id": "us_diesel_export_ban_ris",
+   "id": "spadek_zapasow_diesla_us",
+   "label": "Dalszy spadek zapasów diesla w USA",
+   "note": "Spadek zapasów destylatów w USA przy rosnącym popycie podbija marże rafineryjne i crack spread diesla.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Distillate-Stocks-Continue-to-Fall-As-Crude-Inventories-Build.html",
+   "crack": 0.03
+  },
+  {
+   "id": "ryzyko_zakazu_eksportu_d",
    "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Spekulacje o blokadzie eksportu paliw z USA grożą gwałtownym skokiem marż diesla w Europie.",
+   "note": "Dyskusja o ograniczeniu eksportu z USA grozi gwałtownym skokiem cen i marż diesla na rynku europejskim.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/The-Hidden-Tradeoffs-of-a-US-Diesel-Export-Ban.html",
    "crack": 0.04
   },
   {
-   "id": "iran_talks_moderation",
-   "label": "Rozmowy z Iranem studzą rajd cenowy ropy",
-   "note": "Doniesienia o postępach dyplomatycznych czasowo zdejmują premię geopolityczną z notowań ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-Talks-Take-the-Heat-Out-of-the-Oil-Rally.html",
-   "brent": -0.025
+   "id": "usa_ulgi_dla_diesla",
+   "label": "Ulgi dla diesla ze strony Białego Domu",
+   "note": "Dopuszczenie oleju napędowego ze stawką ulgową może krótkoterminowo złagodzić presję na marże diesla.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/White-House-Weighs-Red-Dyed-Diesel-Relief-as-Fuel-Prices-Soar.html",
+   "crack": -0.02
   },
   {
-   "id": "saudi_red_sea_loadings",
-   "label": "Wznowienie załadunków ropy w Arabii Saud.",
-   "note": "Wznowienie transportu ropy przez Morze Czerwone poprawia bieżącą płynność podaży surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-Red-Sea-Crude-Oil-Loadings.html",
-   "brent": -0.015
-  },
-  {
-   "id": "orlen_hurt_spadek_diesel",
-   "label": "Spadek cen hurtowych diesla w Orlenie",
-   "note": "Obniżka cen hurtowych ON do 9,06 zł/l bezpośrednio obniża koszty zakupu paliwa w Polsce.",
+   "id": "obnizka_hurtu_orlen",
+   "label": "Obniżka cen diesla w hurcie Orlenu",
+   "note": "Orlen obniża cenę hurtową diesla do 9,06 zł/l, co przekłada się na bezpośredni spadek cen w kraju.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTW81eDJBX3Z2SmlDcl83Q1U3eDhoTnRRbTBMYWFBUUc3NmdpVnV1WU5SazlZMzRpVVlRSVVLdllFZDJUZFBwYUVUT1JfdkpqV0MyS011eVFUSkZMUEl6ekJkOU5USTJLemlqWC1xSkJubm9aanBJS0ZSQkw3bUloSVdtRGRlclBQcXJvanZYM0E?oc=5",
-   "pl": -0.015
+   "pl": -0.02
   }
  ]
 }
