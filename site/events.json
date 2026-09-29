@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-29 16:56 UTC",
+ "generated": "2026-09-29 19:30 UTC",
  "headlines": [
+  {
+   "title": "Iran Threatens Middle East Energy Infrastructure as Hormuz Standoff Deepens",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-Threatens-Middle-East-Energy-Infrastructure-as-Hormuz-Standoff-Deepens.html",
+   "published": "2026-09-29 14:00"
+  },
+  {
+   "title": "U.S. Taps Strategic Oil Reserve Again as Diesel Tops $6",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html",
+   "published": "2026-09-29 13:20"
+  },
   {
    "title": "Iran Talks Take the Heat Out of the Oil Rally",
    "url": "https://oilprice.com/Energy/Crude-Oil/Iran-Talks-Take-the-Heat-Out-of-the-Oil-Rally.html",
@@ -32,87 +42,73 @@
    "published": "2026-09-29 03:00"
   },
   {
-   "title": "Oil Extends Rally Despite Higher Hormuz Volume Reports",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Extends-Rally-Despite-Higher-Hormuz-Volume-Reports.html",
-   "published": "2026-09-29 00:19"
-  },
-  {
    "title": "Ceny paliw od 29 września: Hurt w Orlenie tanieje we wtorek do 9,06 zł za litr diesla - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTW81eDJBX3Z2SmlDcl83Q1U3eDhoTnRRbTBMYWFBUUc3NmdpVnV1WU5SazlZMzRpVVlRSVVLdllFZDJUZFBwYUVUT1JfdkpqV0MyS011eVFUSkZMUEl6ekJkOU5USTJLemlqWC1xSkJubm9aanBJS0ZSQkw3bUloSVdtRGRlclBQcXJvanZYM0E?oc=5",
    "published": "2026-09-28 22:44"
   },
   {
-   "title": "Hormuz Rerouting Doubles Cape Traffic Without Delivering a Windfall",
-   "url": "https://oilprice.com/Energy/Energy-General/Hormuz-Rerouting-Doubles-Cape-Traffic-Without-Delivering-a-Windfall.html",
-   "published": "2026-09-28 19:00"
-  },
-  {
-   "title": "Why Blocking U.S. Diesel Exports Could Make Fuel More Expensive",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Blocking-US-Diesel-Exports-Could-Make-Fuel-More-Expensive.html",
-   "published": "2026-09-28 18:00"
-  },
-  {
-   "title": "Standard Chartered: Record CTA Long Bets Are Capping Oil's Upside",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Record-CTA-Long-Bets-Are-Capping-Oils-Upside.html",
-   "published": "2026-09-28 17:00"
-  },
-  {
-   "title": "Oil jumps over 2% as US-Iran peace talks remain deadlocked - Profit by Pakistan Today",
+   "title": "Oil jumps over 2% as US-Iran peace talks remain deadlocked - profit.pakistantoday.com.pk",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTVMSTl0aUNfQUY1VWROMmdLZzNLY0ZPenluQkZHMHdIdVhXcVY0MHRLaFlBM09KR3BxTlZqUnZpUWkyYW44QWpsUHQzRGFQZmxkcFRsNkdNanA4dHJqX3hRajZwZzF2Um5ORFczVkt3d2VpNVNHN0U0bUFFUWRRd1BrUm9qQVlrNnlfa0VPYzZNY25TLWlnTVpwcFdmbW5Uem5JS0ttRTdPUEZEeDk5VA?oc=5",
    "published": "2026-09-28 10:26"
+  },
+  {
+   "title": "Oil gains over two pct as US-Iran peace talks in stalemate - Newswav",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzR3XzczcVh3SmR0ZDZmUkFIVDFVcTROUlh0QVlLUVg1cU9YOFRUbnBkQkRIZTh0RnBKQzRPM0UzOG9TMm9qc1dmVjNlTmctWFpMUmhNRnNVVVlNRHdJSEhLbU5aN2xYOWxTX2IwQ2ItR0xGbFNBNVc1QjhIU3p3QlVnRDdEaTZ5UndCWHI4ZG5EZ1oxT0JJWVBaNjFkUTZp?oc=5",
+   "published": "2026-09-28 09:07"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_talks_cooling",
-   "label": "Postępy w rozmowach USA-Iran",
-   "note": "Doniesienia o postępach w rozmowach zdejmują premię za ryzyko geopolityczne z ropy Brent.",
+   "id": "iran_hormuz_threat",
+   "label": "Groźby Iranu wobec infrastruktury w Zatoce",
+   "note": "Eskalacja napięć w cieśninie Ormuz podbija premię za ryzyko podaży surowca na rynkach.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Threatens-Middle-East-Energy-Infrastructure-as-Hormuz-Standoff-Deepens.html",
+   "brent": 0.04,
+   "fx": 0.01
+  },
+  {
+   "id": "us_spr_release_diesel",
+   "label": "Uwolnienie rezerw SPR w USA",
+   "note": "Kolejne uwolnienie ropy z rezerw SPR łagodzi presję na surowiec przy rekordowo drogim dieslu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Taps-Strategic-Oil-Reserve-Again-as-Diesel-Tops-6.html",
+   "brent": -0.02,
+   "crack": 0.015
+  },
+  {
+   "id": "us_diesel_export_ban_ris",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Spekulacje o blokadzie eksportu paliw z USA grożą gwałtownym skokiem marż diesla w Europie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Hidden-Tradeoffs-of-a-US-Diesel-Export-Ban.html",
+   "crack": 0.04
+  },
+  {
+   "id": "iran_talks_moderation",
+   "label": "Rozmowy z Iranem studzą rajd cenowy ropy",
+   "note": "Doniesienia o postępach dyplomatycznych czasowo zdejmują premię geopolityczną z notowań ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-Talks-Take-the-Heat-Out-of-the-Oil-Rally.html",
    "brent": -0.025
   },
   {
-   "id": "us_diesel_export_ban",
-   "label": "Widmo zakazu eksportu diesla z USA",
-   "note": "Dyskusja o zakazie eksportu z USA grozi silnym deficytem i wzrostem marż diesla w Europie.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Blocking-US-Diesel-Exports-Could-Make-Fuel-More-Expensive.html",
-   "crack": 0.04
-  },
-  {
-   "id": "saudi_red_sea_restart",
-   "label": "Arabia wznawia załadunki w M. Czerwonym",
-   "note": "Powrót saudyjskiego eksportu przez Morze Czerwone poprawia płynność podaży ropy na rynku.",
-   "confidence": "high",
+   "id": "saudi_red_sea_loadings",
+   "label": "Wznowienie załadunków ropy w Arabii Saud.",
+   "note": "Wznowienie transportu ropy przez Morze Czerwone poprawia bieżącą płynność podaży surowca.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Restarts-Red-Sea-Crude-Oil-Loadings.html",
    "brent": -0.015
   },
   {
-   "id": "orlen_wholesale_drop",
-   "label": "Spadek hurtowych cen ON w Orlenie",
-   "note": "Obniżka ceny diesla w hurcie Orlenu do 9,06 zł łagodzi presję kosztową na polskich stacjach.",
+   "id": "orlen_hurt_spadek_diesel",
+   "label": "Spadek cen hurtowych diesla w Orlenie",
+   "note": "Obniżka cen hurtowych ON do 9,06 zł/l bezpośrednio obniża koszty zakupu paliwa w Polsce.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTW81eDJBX3Z2SmlDcl83Q1U3eDhoTnRRbTBMYWFBUUc3NmdpVnV1WU5SazlZMzRpVVlRSVVLdllFZDJUZFBwYUVUT1JfdkpqV0MyS011eVFUSkZMUEl6ekJkOU5USTJLemlqWC1xSkJubm9aanBJS0ZSQkw3bUloSVdtRGRlclBQcXJvanZYM0E?oc=5",
    "pl": -0.015
-  },
-  {
-   "id": "hormuz_supply_threat",
-   "label": "Utrzymujące się ryzyko w Ormuz",
-   "note": "Napięcia i przekierowania tankowców z cieśniny Ormuz podbijają koszty frachtu i ceny surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Looks-to-Boost-Exploration-as-Hormuz-Crisis-Threatens-Supply.html",
-   "brent": 0.02,
-   "fx": 0.005
-  },
-  {
-   "id": "cta_long_bets_capping",
-   "label": "Rekordowe pozycje długie CTA",
-   "note": "Wyczerpanie popytu ze strony funduszy algorytmicznych ogranicza przestrzeń do dalszych zwyżek.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Standard-Chartered-Record-CTA-Long-Bets-Are-Capping-Oils-Upside.html",
-   "brent": -0.01
   }
  ]
 }
