@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-30 15:06 UTC",
+ "generated": "2026-09-30 16:53 UTC",
  "headlines": [
+  {
+   "title": "Deadly Blast Hits Major Indian Refinery as Fuel Markets Tighten",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
+   "published": "2026-09-30 11:07"
+  },
+  {
+   "title": "Oil Price Forecasts Jump as Hormuz Disruption Drags On",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
+   "published": "2026-09-30 11:00"
+  },
   {
    "title": "EIA Reports Crude Build as Diesel Stocks Fall 14% Below Average",
    "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
@@ -50,77 +60,67 @@
    "title": "Oil Prices Climb as Trump Rules Out Easing Iran Sanctions",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Trump-Rules-Out-Easing-Iran-Sanctions.html",
    "published": "2026-09-30 00:37"
-  },
-  {
-   "title": "Ceny paliw od 30 września: Słabnie blokada Cieśniny Ormuz, ropa wyraźnie tanieje, a Płock ścina ceny w hurcie - agroprofil.pl",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
-   "published": "2026-09-29 23:10"
-  },
-  {
-   "title": "Oil's New Normal Is Higher Prices",
-   "url": "https://oilprice.com/Energy/Energy-General/Oils-New-Normal-Is-Higher-Prices.html",
-   "published": "2026-09-29 19:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_threat_infra",
-   "label": "Groźby Iranu wobec infrastruktury",
-   "note": "Teheran ostrzega przed atakami na infrastrukturę energetyczną, podbijając premię za ryzyko na ropie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
-   "brent": 0.04
-  },
-  {
    "id": "russia_diesel_ban",
    "label": "Rosja przedłuża zakaz eksportu diesla",
-   "note": "Przedłużenie embarga do końca października zacieśnia bilans diesla w Europie i podbija marże.",
+   "note": "Przedłużenie embarga do końca października mocno ogranicza podaż diesla w Europie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
    "crack": 0.05
   },
   {
-   "id": "us_diesel_stocks_drop",
-   "label": "Niski stan zapasów diesla w USA",
-   "note": "Zapasy diesla w USA 14% poniżej normy wspierają crack spread, mimo jednoczesnego przyrostu ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
-   "brent": -0.01,
+   "id": "iran_threats_infrastruct",
+   "label": "Groźby Iranu wobec infrastruktury naftowej",
+   "note": "Eskalacja gróźb odwetowych rodzi ryzyko ataków na infrastrukturę Zatoki Perskiej.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
+   "brent": 0.04,
+   "fx": 0.015
+  },
+  {
+   "id": "india_refinery_blast",
+   "label": "Wybuch w dużej rafinerii w Indiach",
+   "note": "Awaria kluczowego eksportera paliw pogłębia deficyt gotowych destylatów na świecie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
    "crack": 0.03
   },
   {
-   "id": "china_demand_downgrade",
-   "label": "Cięcie prognoz importu ropy do Chin",
-   "note": "Cięcie prognoz importu Chin o 400 tys. b/d w IV kwartale osłabia oczekiwania popytowe na ropę.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
-   "brent": -0.025
+   "id": "eia_diesel_stocks_drop",
+   "label": "Zapasy diesla w USA 14% poniżej normy",
+   "note": "Niski poziom zapasów destylatów w USA zwiększa presję na marże rafineryjne diesla.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
+   "crack": 0.025
+  },
+  {
+   "id": "orlen_hurt_obnizki",
+   "label": "Obniżki cen w hurcie PKN Orlen",
+   "note": "Płock ścina ceny hurtowe diesla i benzyn, łagodząc presję kosztową na stacjach.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
+   "pl": -0.03
   },
   {
    "id": "trump_iran_sanctions",
-   "label": "Brak złagodzenia sankcji na Iran",
-   "note": "Wykluczenie złagodzenia sankcji przez USA ogranicza podaż surowca z Iranu, wspierając ceny Brent.",
+   "label": "Trump wyklucza złagodzenie sankcji na Iran",
+   "note": "Brak perspektyw na powrót irańskiej ropy na rynki podtrzymuje napiętą podaż surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Trump-Rules-Out-Easing-Iran-Sanctions.html",
    "brent": 0.02
   },
   {
-   "id": "orlen_hurt_obnizki",
-   "label": "Obniżki cen hurtowych w Orlenie",
-   "note": "Płock obniża ceny hurtowe diesla, przenosząc tańszy surowiec bezpośrednio na rynek krajowy.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
-   "pl": -0.025
-  },
-  {
-   "id": "opec_quotas_unchanged",
-   "label": "OPEC+ utrzyma limity wydobycia",
-   "note": "Brak planów zwiększenia wydobycia przez OPEC+ podtrzymuje napiętą podaż na globalnym rynku.",
+   "id": "china_import_cut",
+   "label": "Cięcie prognoz importu ropy do Chin",
+   "note": "Redukcja szacunków popytu Chin o 400 tys. b/d działa chłodząco na notowania ropy.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Expected-to-Keep-Oil-Production-Quotas-Unchanged.html",
-   "brent": 0.015
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
+   "brent": -0.02
   }
  ]
 }
