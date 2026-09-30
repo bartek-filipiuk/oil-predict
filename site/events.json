@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30 19:31 UTC",
+ "generated": "2026-09-30 21:29 UTC",
  "headlines": [
   {
    "title": "Guyana’s Oil Riches Are Transforming Its Economy at Breakneck Speed",
@@ -42,7 +42,7 @@
    "published": "2026-09-30 08:30"
   },
   {
-   "title": "Jest decyzja Orlenu w sprawie cen paliw. Polacy odetchną z ulgą - Business Insider Polska",
+   "title": "Jest decyzja Orlenu w sprawie cen paliw. Polacy odetchną z ulgą - businessinsider.com.pl",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVA0MHRERF9vckdoR25ySFBDNlBvQWJsSm9yc2tVRXFrLVBncnZROWtOTk9nQWYxRDNKcHRLYTRkUENYWXBVWlJjMkZiamJuVHVWdXRrekV3UXpXclNETjhQdlpsblA1TUluV3VMLV8xSWVTbkRZVmc3RC1qZ3Fia0hrampYUGI0WHdfYlI3N294MTBiazZlM2xRVHpTaEJ6YXBBRGFSTHViX2c?oc=5",
    "published": "2026-09-30 08:14"
   },
@@ -57,9 +57,9 @@
    "published": "2026-09-30 06:30"
   },
   {
-   "title": "Foreign Investors Pull $3.2 Billion From Indian Markets as Oil Rally Returns",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Foreign-Investors-Pull-32-Billion-From-Indian-Markets-as-Oil-Rally-Returns.html",
-   "published": "2026-09-30 04:30"
+   "title": "Ceny paliw od 30 września: Słabnie blokada Cieśniny Ormuz, ropa wyraźnie tanieje, a Płock ścina ceny w hurcie - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
+   "published": "2026-09-29 23:10"
   }
  ],
  "source": "ai",
@@ -67,16 +67,16 @@
  "events": [
   {
    "id": "rosja_zakaz_diesla",
-   "label": "Rosja przedłuża zakaz eksportu diesla",
-   "note": "Przedłużenie embarga do końca października zacieśnia bilans diesla w Europie i podbija marże crack.",
+   "label": "Przedłużenie embarga Rosji na diesel",
+   "note": "Rosja przedłuża zakaz eksportu ON do końca października, zaostrzając deficyt paliw w Europie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
-   "crack": 0.06
+   "crack": 0.05
   },
   {
    "id": "iran_grozby_infrastruktu",
-   "label": "Groźby Iranu wobec infrastruktury naftowej",
-   "note": "Teheran grozi atakami na instalacje naftowe w regionie, windując premię ryzyka i umacniając dolara.",
+   "label": "Groźby Iranu uderzenia w infrastrukturę",
+   "note": "Iran ostrzega przed atakami na obiekty naftowe, wzmagając premię za ryzyko geopolityczne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
    "brent": 0.06,
@@ -85,40 +85,40 @@
   {
    "id": "wybuch_rafineria_indie",
    "label": "Wybuch w dużej rafinerii w Indiach",
-   "note": "Śmiertelny wybuch w instalacji rafineryjnej ogranicza podaż paliw gotowych na napiętym rynku.",
+   "note": "Pożar indyjskiej rafinerii ogranicza podaż gotowych paliw i winduje marże rafineryjne na świecie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
    "crack": 0.035
   },
   {
-   "id": "decyzja_orlen_obnizki",
-   "label": "Orlen stabilizuje i obniża ceny hurtowe",
-   "note": "Krajowy lider łagodzi presję na stacjach, wprowadzając jednostronne obniżki marży hurtowej w Płocku.",
+   "id": "orlen_spadek_cen_hurt",
+   "label": "Obniżki cen paliw w hurcie Orlenu",
+   "note": "Krajowy lider obniża marże i ceny hurtowe paliw, przynosząc ulgę polskim odbiorcom.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVA0MHRERF9vckdoR25ySFBDNlBvQWJsSm9yc2tVRXFrLVBncnZROWtOTk9nQWYxRDNKcHRLYTRkUENYWXBVWlJjMkZiamJuVHVWdXRrekV3UXpXclNETjhQdlpsblA1TUluV3VMLV8xSWVTbkRZVmc3RC1qZ3Fia0hrampYUGI0WHdfYlI3N294MTBiazZlM2xRVHpTaEJ6YXBBRGFSTHViX2c?oc=5",
    "pl": -0.03
   },
   {
-   "id": "spadek_popytu_chiny",
-   "label": "Rewizja w dół importu ropy przez Chiny",
-   "note": "Cięcie prognoz popytu z Chin o 400 tys. b/d osłabia fundamenty i ciąży wycenom ropy Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
-   "brent": -0.03
-  },
-  {
-   "id": "eia_zapasy_diesla",
-   "label": "Spadek zapasów diesla w USA o 14%",
-   "note": "Przyrost zapasów surowca i głęboki deficyt destylatów rozszerzają europejski crack spread na dieslu.",
-   "confidence": "medium",
+   "id": "eia_spadek_zapasow_diesl",
+   "label": "Niskie zapasy diesla w raporcie EIA",
+   "note": "Wzrost zapasów ropy przy spadku zapasów diesla o 14% poniżej normy wspiera crack spready ON.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
    "brent": -0.015,
    "crack": 0.04
   },
   {
-   "id": "hormuz_zaklocenia",
-   "label": "Przedłużające się zakłócenia w Ormuz",
-   "note": "Utrzymujące się utrudnienia w kluczowej cieśninie podbijają prognozy cen ropy i wywołują ucieczkę do USD.",
+   "id": "chiny_spadek_importu_rop",
+   "label": "Cięcie prognoz importu ropy do Chin",
+   "note": "Obniżenie prognoz importu o 400 tys. b/d na IV kwartał wywiera presję spadkową na notowania ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
+   "brent": -0.03
+  },
+  {
+   "id": "kryzys_ciesnina_ormuz",
+   "label": "Wzrost prognoz cen przez cieśninę Ormuz",
+   "note": "Przedłużające się perturbacje w tranzycie przez Ormuz podbijają prognozy cen baryłki Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
    "brent": 0.045,
