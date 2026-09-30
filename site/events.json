@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-30 21:29 UTC",
+ "generated": "2026-09-30 23:14 UTC",
  "headlines": [
+  {
+   "title": "Ceny paliw od 1 października: Orlen podnosi hurt. Kierowcy benzyny dopłacają do diesla? - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
+   "published": "2026-09-30 23:00"
+  },
+  {
+   "title": "Venezuela’s Oil Revival Accelerates as Foreign Companies Return",
+   "url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Accelerates-as-Foreign-Companies-Return.html",
+   "published": "2026-09-30 17:00"
+  },
   {
    "title": "Guyana’s Oil Riches Are Transforming Its Economy at Breakneck Speed",
    "url": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Riches-Are-Transforming-Its-Economy-at-Breakneck-Speed.html",
@@ -50,79 +60,68 @@
    "title": "Russia Extends Diesel Export Ban Through Oct. 31",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
    "published": "2026-09-30 07:30"
-  },
-  {
-   "title": "Analysts Cut China's Q4 Crude Import Forecasts by 400,000 Bpd",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
-   "published": "2026-09-30 06:30"
-  },
-  {
-   "title": "Ceny paliw od 30 września: Słabnie blokada Cieśniny Ormuz, ropa wyraźnie tanieje, a Płock ścina ceny w hurcie - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
-   "published": "2026-09-29 23:10"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rosja_zakaz_diesla",
-   "label": "Przedłużenie embarga Rosji na diesel",
-   "note": "Rosja przedłuża zakaz eksportu ON do końca października, zaostrzając deficyt paliw w Europie.",
+   "id": "rosjazakazdiesla",
+   "label": "Przedłużenie zakazu eksportu diesla z Rosji",
+   "note": "Przedłużenie embarga do końca października zacieśnia europejski bilans średnich destylatów.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
-   "crack": 0.05
-  },
-  {
-   "id": "iran_grozby_infrastruktu",
-   "label": "Groźby Iranu uderzenia w infrastrukturę",
-   "note": "Iran ostrzega przed atakami na obiekty naftowe, wzmagając premię za ryzyko geopolityczne.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
-   "brent": 0.06,
-   "fx": 0.015
-  },
-  {
-   "id": "wybuch_rafineria_indie",
-   "label": "Wybuch w dużej rafinerii w Indiach",
-   "note": "Pożar indyjskiej rafinerii ogranicza podaż gotowych paliw i winduje marże rafineryjne na świecie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
-   "crack": 0.035
-  },
-  {
-   "id": "orlen_spadek_cen_hurt",
-   "label": "Obniżki cen paliw w hurcie Orlenu",
-   "note": "Krajowy lider obniża marże i ceny hurtowe paliw, przynosząc ulgę polskim odbiorcom.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVA0MHRERF9vckdoR25ySFBDNlBvQWJsSm9yc2tVRXFrLVBncnZROWtOTk9nQWYxRDNKcHRLYTRkUENYWXBVWlJjMkZiamJuVHVWdXRrekV3UXpXclNETjhQdlpsblA1TUluV3VMLV8xSWVTbkRZVmc3RC1qZ3Fia0hrampYUGI0WHdfYlI3N294MTBiazZlM2xRVHpTaEJ6YXBBRGFSTHViX2c?oc=5",
-   "pl": -0.03
-  },
-  {
-   "id": "eia_spadek_zapasow_diesl",
-   "label": "Niskie zapasy diesla w raporcie EIA",
-   "note": "Wzrost zapasów ropy przy spadku zapasów diesla o 14% poniżej normy wspiera crack spready ON.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
-   "brent": -0.015,
    "crack": 0.04
   },
   {
-   "id": "chiny_spadek_importu_rop",
-   "label": "Cięcie prognoz importu ropy do Chin",
-   "note": "Obniżenie prognoz importu o 400 tys. b/d na IV kwartał wywiera presję spadkową na notowania ropy.",
+   "id": "irangrozbyinfrastruktura",
+   "label": "Groźby Iranu wobec infrastruktury ropy",
+   "note": "Groźby uderzeń w regionalną infrastrukturę naftową podbijają premię za ryzyko geopolityczne.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Analysts-Cut-Chinas-Q4-Crude-Import-Forecasts-by-400000-Bpd.html",
-   "brent": -0.03
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
+   "brent": 0.04,
+   "fx": 0.01
   },
   {
-   "id": "kryzys_ciesnina_ormuz",
-   "label": "Wzrost prognoz cen przez cieśninę Ormuz",
-   "note": "Przedłużające się perturbacje w tranzycie przez Ormuz podbijają prognozy cen baryłki Brent.",
+   "id": "ormuzzakloceniatranzytu",
+   "label": "Zakłócenia żeglugi w Cieśninie Ormuz",
+   "note": "Dalsze utrudnienia w Cieśninie Ormuz podnoszą rynkowe prognozy cen surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
-   "brent": 0.045,
-   "fx": 0.01
+   "brent": 0.03
+  },
+  {
+   "id": "eianiskipoziomdiesla",
+   "label": "Zapasy diesla w USA 14% poniżej normy",
+   "note": "Spadek zapasów oleju napędowego w USA mocno wspiera marże rafineryjne (crack spread).",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
+   "brent": -0.015,
+   "crack": 0.03
+  },
+  {
+   "id": "indiewybuchrafinerii",
+   "label": "Wybuch w dużej rafinerii w Indiach",
+   "note": "Awaria dużej rafinerii w Indiach zmniejsza globalną podaż paliw gotowych.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
+   "crack": 0.02
+  },
+  {
+   "id": "orlenpodwyzkahurtu",
+   "label": "Podwyżka cen hurtowych przez Orlen",
+   "note": "Krajowy producent podnosi ceny hurtowe, co bezpośrednio przekłada się na rynek w Polsce.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
+   "pl": 0.02
+  },
+  {
+   "id": "opecutrzymaniekwot",
+   "label": "OPEC+ utrzyma limity wydobycia",
+   "note": "Brak zwiększenia podaży przez kartel stabilizuje ceny ropy na podwyższonym poziomie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Expected-to-Keep-Oil-Production-Quotas-Unchanged.html",
+   "brent": 0.015
   }
  ]
 }
