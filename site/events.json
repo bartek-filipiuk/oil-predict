@@ -1,10 +1,30 @@
 {
- "generated": "2026-09-30 23:14 UTC",
+ "generated": "2026-10-01 11:37 UTC",
  "headlines": [
   {
-   "title": "Ceny paliw od 1 października: Orlen podnosi hurt. Kierowcy benzyny dopłacają do diesla? - Agro Profil",
+   "title": "Three Tankers Struck by Unknown Projectiles in Strait of Hormuz",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+   "published": "2026-10-01 06:30"
+  },
+  {
+   "title": "Trump Admits Diesel U.S. Export Ban Could Raise Gasoline Prices",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Admits-Diesel-US-Export-Ban-Could-Raise-Gasoline-Prices.html",
+   "published": "2026-10-01 02:00"
+  },
+  {
+   "title": "Brent Tumbles to $96 as Gulf Oil Flows Bounce Back",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
+   "published": "2026-10-01 00:17"
+  },
+  {
+   "title": "Ceny paliw od 1 października: Orlen podnosi hurt. Kupujący benzynę dopłacają do diesla? - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
    "published": "2026-09-30 23:00"
+  },
+  {
+   "title": "Iran’s Disappearing Oil Is Becoming Everyone’s Problem",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Irans-Disappearing-Oil-Is-Becoming-Everyones-Problem.html",
+   "published": "2026-09-30 19:00"
   },
   {
    "title": "Venezuela’s Oil Revival Accelerates as Foreign Companies Return",
@@ -27,101 +47,68 @@
    "published": "2026-09-30 12:31"
   },
   {
-   "title": "Deadly Blast Hits Major Indian Refinery as Fuel Markets Tighten",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
-   "published": "2026-09-30 11:07"
-  },
-  {
-   "title": "Oil Price Forecasts Jump as Hormuz Disruption Drags On",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
-   "published": "2026-09-30 11:00"
-  },
-  {
-   "title": "EIA Reports Crude Build as Diesel Stocks Fall 14% Below Average",
-   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
-   "published": "2026-09-30 09:43"
-  },
-  {
-   "title": "Iran Warns No Energy Infrastructure Will Be Safe If It Can't Sell Oil",
-   "url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
-   "published": "2026-09-30 09:00"
-  },
-  {
-   "title": "OPEC+ Expected to Keep Oil Production Quotas Unchanged",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Expected-to-Keep-Oil-Production-Quotas-Unchanged.html",
-   "published": "2026-09-30 08:30"
-  },
-  {
-   "title": "Jest decyzja Orlenu w sprawie cen paliw. Polacy odetchną z ulgą - businessinsider.com.pl",
+   "title": "Benzyna i diesel mocno w dół. Jest decyzja Orlenu w sprawie cen paliw - Business Insider Polska",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVA0MHRERF9vckdoR25ySFBDNlBvQWJsSm9yc2tVRXFrLVBncnZROWtOTk9nQWYxRDNKcHRLYTRkUENYWXBVWlJjMkZiamJuVHVWdXRrekV3UXpXclNETjhQdlpsblA1TUluV3VMLV8xSWVTbkRZVmc3RC1qZ3Fia0hrampYUGI0WHdfYlI3N294MTBiazZlM2xRVHpTaEJ6YXBBRGFSTHViX2c?oc=5",
    "published": "2026-09-30 08:14"
   },
   {
-   "title": "Russia Extends Diesel Export Ban Through Oct. 31",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
-   "published": "2026-09-30 07:30"
+   "title": "Ceny paliw od 30 września: Słabnie blokada Cieśniny Ormuz, ropa wyraźnie tanieje, a Płock ścina ceny w hurcie - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
+   "published": "2026-09-29 23:10"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rosjazakazdiesla",
-   "label": "Przedłużenie zakazu eksportu diesla z Rosji",
-   "note": "Przedłużenie embarga do końca października zacieśnia europejski bilans średnich destylatów.",
+   "id": "atak_tankowce_ormuz",
+   "label": "Atak na tankowce w Cieśninie Ormuz",
+   "note": "Trafienie 3 tankowców zwiastuje eskalację blokady Cieśniny Ormuz i skokowy wzrost premii za ryzyko.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Extends-Diesel-Export-Ban-Through-Oct-31.html",
-   "crack": 0.04
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+   "brent": 0.08,
+   "crack": 0.04,
+   "fx": 0.015
   },
   {
-   "id": "irangrozbyinfrastruktura",
-   "label": "Groźby Iranu wobec infrastruktury ropy",
-   "note": "Groźby uderzeń w regionalną infrastrukturę naftową podbijają premię za ryzyko geopolityczne.",
+   "id": "us_diesel_export_ban",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Rozważania administracji USA podsycają obawy o odcięcie Europy od amerykańskich paliw gotowych.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Warns-No-Energy-Infrastructure-Will-Be-Safe-If-It-Cant-Sell-Oil.html",
-   "brent": 0.04,
-   "fx": 0.01
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Admits-Diesel-US-Export-Ban-Could-Raise-Gasoline-Prices.html",
+   "crack": 0.05
   },
   {
-   "id": "ormuzzakloceniatranzytu",
-   "label": "Zakłócenia żeglugi w Cieśninie Ormuz",
-   "note": "Dalsze utrudnienia w Cieśninie Ormuz podnoszą rynkowe prognozy cen surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Price-Forecasts-Jump-as-Hormuz-Disruption-Drags-On.html",
-   "brent": 0.03
-  },
-  {
-   "id": "eianiskipoziomdiesla",
-   "label": "Zapasy diesla w USA 14% poniżej normy",
-   "note": "Spadek zapasów oleju napędowego w USA mocno wspiera marże rafineryjne (crack spread).",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Reports-Crude-Build-as-Diesel-Stocks-Fall-14-Below-Average.html",
-   "brent": -0.015,
-   "crack": 0.03
-  },
-  {
-   "id": "indiewybuchrafinerii",
-   "label": "Wybuch w dużej rafinerii w Indiach",
-   "note": "Awaria dużej rafinerii w Indiach zmniejsza globalną podaż paliw gotowych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Deadly-Blast-Hits-Major-Indian-Refinery-as-Fuel-Markets-Tighten.html",
-   "crack": 0.02
-  },
-  {
-   "id": "orlenpodwyzkahurtu",
+   "id": "orlen_podwyzka_hurt",
    "label": "Podwyżka cen hurtowych przez Orlen",
-   "note": "Krajowy producent podnosi ceny hurtowe, co bezpośrednio przekłada się na rynek w Polsce.",
+   "note": "Od 1 października Orlen koryguje cennik hurtowy w górę, co bezpośrednio uderza w koszty stacji.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
    "pl": 0.02
   },
   {
-   "id": "opecutrzymaniekwot",
-   "label": "OPEC+ utrzyma limity wydobycia",
-   "note": "Brak zwiększenia podaży przez kartel stabilizuje ceny ropy na podwyższonym poziomie.",
+   "id": "zanik_eksportu_iran",
+   "label": "Zanikający eksport ropy z Iranu",
+   "note": "Fizyczne ubytki surowca z Iranu zacieśniają podaż na globalnym rynku, wspierając ceny ropy.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Expected-to-Keep-Oil-Production-Quotas-Unchanged.html",
-   "brent": 0.015
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Irans-Disappearing-Oil-Is-Becoming-Everyones-Problem.html",
+   "brent": 0.03
+  },
+  {
+   "id": "globalny_deficyt_diesla",
+   "label": "Globalny deficyt podaży diesla",
+   "note": "Niedobory mocy rafineryjnych i zapasów diesla wykraczają poza samą geopolitykę Bliskiego Wschodu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Diesel-Problem-Runs-Deeper-Than-the-Iran-War.html",
+   "crack": 0.03
+  },
+  {
+   "id": "chwilowe_odbicie_ormuz",
+   "label": "Chwilowe odbicie dostaw z Zatoki",
+   "note": "Przejściowy powrót części tankowców zbił Brent do 96 USD przed kolejną falą niepewności w regionie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
+   "brent": -0.04
   }
  ]
 }
