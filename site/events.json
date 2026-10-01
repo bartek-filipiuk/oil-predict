@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01 21:55 UTC",
+ "generated": "2026-10-01 23:30 UTC",
  "headlines": [
   {
    "title": "Venezuela’s Oil Exports Drop 9% as Freight Costs Bite",
@@ -42,70 +42,62 @@
    "published": "2026-10-01 09:00"
   },
   {
-   "title": "Indian Refiners Seek Tankers for Hormuz Oil",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Seek-Tankers-for-Hormuz-Oil.html",
-   "published": "2026-10-01 07:30"
-  },
-  {
-   "title": "Three Tankers Struck by Unknown Projectiles in Strait of Hormuz",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
-   "published": "2026-10-01 06:30"
-  },
-  {
    "title": "Ceny paliw od 1 października: Orlen podnosi hurt. Kupujący benzynę dopłacają do diesla? - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
    "published": "2026-09-30 23:00"
-  },
-  {
-   "title": "Ceny paliw od 30 września: Słabnie blokada Cieśniny Ormuz, ropa wyraźnie tanieje, a Płock ścina ceny w hurcie - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdGlWRS1jb0RyVlFCREUzZXloRUtXQjR5UzBZV1J0SHVHNlFiV3JOTVFfWU9HdHIzaTZiTVVyR1lmRS1NeDAwNzV6Y2xHc3JUUXpxWHBqZU42S3VmajFUX1pQMFZ1NFRpWGVhcFQyMHhMaTV6djFkcktkbE5vLVRoTGpNRXZMMzY5RmVMclpmYlRwY3EwRXVSd2l3RmwyV0RBRWMxSEliQUZBTzZCNlZ0M1BRbVYzZlozZGF0U3pYeGZ",
-   "published": "2026-09-29 23:10"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_tankowce_ormuz",
-   "label": "Ataki na tankowce w Cieśninie Ormuz",
-   "note": "Napięcia militarne w Cieśninie Ormuz zwiększają ryzyko tranzytu i premię za baryłkę.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "chiny_wstrzymuja_eksport",
+   "id": "china_fuel_export_halt",
    "label": "Chiny wstrzymują eksport paliw",
-   "note": "Zatrzymanie chińskich wysyłek w październiku silnie zawęża podaż diesla na rynku globalnym.",
+   "note": "Zatrzymanie chińskiego eksportu ogranicza podaż diesla, co drastycznie winduje marże rafineryjne w Europie.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html",
-   "brent": 0.01,
-   "crack": 0.06
-  },
-  {
-   "id": "usa_grozi_zakazem_ekspor",
-   "label": "USA grozi ograniczeniem eksportu diesla",
-   "note": "Groźba embarga w USA drastycznie podbija europejski crack spread z obawy o brak dostaw.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
+   "brent": 0.02,
    "crack": 0.07
   },
   {
-   "id": "orlen_podnosi_hurt",
-   "label": "Podwyżki cen hurtowych w Orlenie",
-   "note": "Decyzja Orlenu o podniesieniu cen hurtowych bezpośrednio wpłynie na krajowy rynek paliw.",
+   "id": "us_diesel_export_threat",
+   "label": "Groźba zakazu eksportu diesla z USA",
+   "note": "Ryzyko wstrzymania eksportu paliw z USA pogłębia panikę na rynku diesla i napędza europejski crack spread.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
-   "pl": 0.02
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
+   "crack": 0.08
   },
   {
-   "id": "wzrost_eksportu_bliski_w",
-   "label": "Wzrost eksportu z Bliskiego Wschodu",
-   "note": "Odbicie wolumenów z Bliskiego Wschodu częściowo łagodzi obawy o braki surowca na rynku.",
+   "id": "orlen_podwyzka_hurtu",
+   "label": "Podwyżka cen hurtowych przez Orlen",
+   "note": "Orlen podnosi hurt od 1 października, przerzucając koszty na rynek krajowy niezależnie od giełd.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
+   "pl": 0.025
+  },
+  {
+   "id": "mideast_exports_rebound",
+   "label": "Wzrost eksportu ropy z Bliskiego Wschodu",
+   "note": "Odbicie eksportu ropy z Zatoki Perskiej zwiększa podaż surowca, wywierając presję spadkową na Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Middle-East-Oil-Exports-Stage-a-Remarkable-Comeback.html",
-   "brent": -0.02
+   "brent": -0.025
+  },
+  {
+   "id": "venezuela_export_drop",
+   "label": "Spadek eksportu ropy z Wenezueli o 9%",
+   "note": "Drogie koszty frachtu dławią wenezuelski eksport, ograniczając podaż ciężkiej ropy na rynku globalnym.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Exports-Drop-9-as-Freight-Costs-Bite.html",
+   "brent": 0.015
+  },
+  {
+   "id": "uk_us_diesel_talks",
+   "label": "Kryzysowe rozmowy UK-USA ws. diesla",
+   "note": "Pilne konsultacje ws. deficytu diesla potwierdzają krytyczną sytuację zapasów paliw w Europie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/UK-Holds-Emergency-Talks-With-US-as-Diesel-Crisis-Escalates.html",
+   "crack": 0.03
   }
  ]
 }
