@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-01 11:37 UTC",
+ "generated": "2026-10-01 15:34 UTC",
  "headlines": [
+  {
+   "title": "India Emphasizes That Shipping Chaos, Not Supply, Is Driving High Oil Prices",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Emphasizes-That-Shipping-Chaos-Not-Supply-Is-Driving-High-Oil-Prices.html",
+   "published": "2026-10-01 09:30"
+  },
+  {
+   "title": "U.S. Threatens Diesel Export Ban Unless Europe Releases Stockpiles",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
+   "published": "2026-10-01 09:00"
+  },
+  {
+   "title": "Indian Refiners Seek Tankers for Hormuz Oil",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiners-Seek-Tankers-for-Hormuz-Oil.html",
+   "published": "2026-10-01 07:30"
+  },
   {
    "title": "Three Tankers Struck by Unknown Projectiles in Strait of Hormuz",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
@@ -32,21 +47,6 @@
    "published": "2026-09-30 17:00"
   },
   {
-   "title": "Guyana’s Oil Riches Are Transforming Its Economy at Breakneck Speed",
-   "url": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Riches-Are-Transforming-Its-Economy-at-Breakneck-Speed.html",
-   "published": "2026-09-30 14:00"
-  },
-  {
-   "title": "The World’s Diesel Problem Runs Deeper Than the Iran War",
-   "url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Diesel-Problem-Runs-Deeper-Than-the-Iran-War.html",
-   "published": "2026-09-30 13:00"
-  },
-  {
-   "title": "U.S. Oil and Gas Production Climbs Despite Extreme Oil Price Volatility",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-and-Gas-Production-Climbs-Despite-Extreme-Oil-Price-Volatility.html",
-   "published": "2026-09-30 12:31"
-  },
-  {
    "title": "Benzyna i diesel mocno w dół. Jest decyzja Orlenu w sprawie cen paliw - Business Insider Polska",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVA0MHRERF9vckdoR25ySFBDNlBvQWJsSm9yc2tVRXFrLVBncnZROWtOTk9nQWYxRDNKcHRLYTRkUENYWXBVWlJjMkZiamJuVHVWdXRrekV3UXpXclNETjhQdlpsblA1TUluV3VMLV8xSWVTbkRZVmc3RC1qZ3Fia0hrampYUGI0WHdfYlI3N294MTBiazZlM2xRVHpTaEJ6YXBBRGFSTHViX2c?oc=5",
    "published": "2026-09-30 08:14"
@@ -61,54 +61,53 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atak_tankowce_ormuz",
+   "id": "us_diesel_export_ban",
+   "label": "Groźba zakazu eksportu diesla z USA",
+   "note": "Groźba wstrzymania dostaw diesla z USA do Europy grozi gwałtownym skokiem marż rafineryjnych.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
+   "crack": 0.07
+  },
+  {
+   "id": "hormuz_tankers_attacked",
    "label": "Atak na tankowce w Cieśninie Ormuz",
-   "note": "Trafienie 3 tankowców zwiastuje eskalację blokady Cieśniny Ormuz i skokowy wzrost premii za ryzyko.",
+   "note": "Ostrzelanie tankowców odnawia ryzyko blokady szlaku morskiego i podbija premię geopolityczną.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
-   "brent": 0.08,
-   "crack": 0.04,
-   "fx": 0.015
+   "brent": 0.04,
+   "fx": 0.01
   },
   {
-   "id": "us_diesel_export_ban",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Rozważania administracji USA podsycają obawy o odcięcie Europy od amerykańskich paliw gotowych.",
+   "id": "gulf_oil_flows_rebound",
+   "label": "Powrót dostaw ropy z Zatoki Perskiej",
+   "note": "Odbudowa przepływów surowca z Zatoki Perskiej wywołała spadki cen ropy Brent w rejon 96 USD.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Admits-Diesel-US-Export-Ban-Could-Raise-Gasoline-Prices.html",
-   "crack": 0.05
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
+   "brent": -0.03
   },
   {
-   "id": "orlen_podwyzka_hurt",
-   "label": "Podwyżka cen hurtowych przez Orlen",
-   "note": "Od 1 października Orlen koryguje cennik hurtowy w górę, co bezpośrednio uderza w koszty stacji.",
+   "id": "orlen_podwyzka_hurtu",
+   "label": "Wzrost cen hurtowych w Orlenie",
+   "note": "Orlen podnosi hurtowe ceny paliw od 1 października, wpływając bezpośrednio na krajowe marże.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
    "pl": 0.02
   },
   {
-   "id": "zanik_eksportu_iran",
-   "label": "Zanikający eksport ropy z Iranu",
-   "note": "Fizyczne ubytki surowca z Iranu zacieśniają podaż na globalnym rynku, wspierając ceny ropy.",
+   "id": "iran_oil_supply_drop",
+   "label": "Spadek podaży irańskiej ropy",
+   "note": "Znikający z rynku irański surowiec zaostrza deficyt podaży na światowych rynkach naftowych.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Irans-Disappearing-Oil-Is-Becoming-Everyones-Problem.html",
-   "brent": 0.03
+   "brent": 0.02
   },
   {
-   "id": "globalny_deficyt_diesla",
-   "label": "Globalny deficyt podaży diesla",
-   "note": "Niedobory mocy rafineryjnych i zapasów diesla wykraczają poza samą geopolitykę Bliskiego Wschodu.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/The-Worlds-Diesel-Problem-Runs-Deeper-Than-the-Iran-War.html",
-   "crack": 0.03
-  },
-  {
-   "id": "chwilowe_odbicie_ormuz",
-   "label": "Chwilowe odbicie dostaw z Zatoki",
-   "note": "Przejściowy powrót części tankowców zbił Brent do 96 USD przed kolejną falą niepewności w regionie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
-   "brent": -0.04
+   "id": "venezuela_output_revival",
+   "label": "Odbudowa wydobycia w Wenezueli",
+   "note": "Powrót koncernów do Wenezueli zapowiada wzrost podaży surowca i łagodzi napięcia na rynku.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Accelerates-as-Foreign-Companies-Return.html",
+   "brent": -0.01
   }
  ]
 }
