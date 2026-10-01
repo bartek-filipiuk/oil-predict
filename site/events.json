@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-01 15:34 UTC",
+ "generated": "2026-10-01 17:25 UTC",
  "headlines": [
+  {
+   "title": "Canada Fast-Tracks 1 Million-Bpd Pacific Link Oil Pipeline to Asia",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Canada-Fast-Tracks-1-Million-Bpd-Pacific-Link-Oil-Pipeline-to-Asia.html",
+   "published": "2026-10-01 11:30"
+  },
   {
    "title": "India Emphasizes That Shipping Chaos, Not Supply, Is Driving High Oil Prices",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Emphasizes-That-Shipping-Chaos-Not-Supply-Is-Driving-High-Oil-Prices.html",
@@ -42,12 +47,7 @@
    "published": "2026-09-30 19:00"
   },
   {
-   "title": "Venezuela’s Oil Revival Accelerates as Foreign Companies Return",
-   "url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Accelerates-as-Foreign-Companies-Return.html",
-   "published": "2026-09-30 17:00"
-  },
-  {
-   "title": "Benzyna i diesel mocno w dół. Jest decyzja Orlenu w sprawie cen paliw - Business Insider Polska",
+   "title": "Jest decyzja Orlenu w sprawie cen paliw. Polacy odetchną z ulgą - Business Insider Polska",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcVA0MHRERF9vckdoR25ySFBDNlBvQWJsSm9yc2tVRXFrLVBncnZROWtOTk9nQWYxRDNKcHRLYTRkUENYWXBVWlJjMkZiamJuVHVWdXRrekV3UXpXclNETjhQdlpsblA1TUluV3VMLV8xSWVTbkRZVmc3RC1qZ3Fia0hrampYUGI0WHdfYlI3N294MTBiazZlM2xRVHpTaEJ6YXBBRGFSTHViX2c?oc=5",
    "published": "2026-09-30 08:14"
   },
@@ -61,52 +61,53 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "us_diesel_export_ban",
-   "label": "Groźba zakazu eksportu diesla z USA",
-   "note": "Groźba wstrzymania dostaw diesla z USA do Europy grozi gwałtownym skokiem marż rafineryjnych.",
+   "id": "atak_tankowce_ormuz",
+   "label": "Atak na tankowce w Cieśninie Ormuz",
+   "note": "Ostrzelanie tankowców odnawia premię za ryzyko geopolityczne i grozi ponownym paraliżem szlaku morskiego.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
+   "brent": 0.04,
+   "crack": 0.02,
+   "fx": 0.01
+  },
+  {
+   "id": "grozba_bana_export_diesl",
+   "label": "Groźba wstrzymania eksportu diesla z USA",
+   "note": "Zapowiedź embarga na amerykański diesel może drastycznie pogłębić deficyt paliw i podbić marże w Europie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/US-Threatens-Diesel-Export-Ban-Unless-Europe-Releases-Stockpiles.html",
    "crack": 0.07
   },
   {
-   "id": "hormuz_tankers_attacked",
-   "label": "Atak na tankowce w Cieśninie Ormuz",
-   "note": "Ostrzelanie tankowców odnawia ryzyko blokady szlaku morskiego i podbija premię geopolityczną.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Three-Tankers-Struck-by-Unknown-Projectiles-in-Strait-of-Hormuz.html",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "gulf_oil_flows_rebound",
-   "label": "Powrót dostaw ropy z Zatoki Perskiej",
-   "note": "Odbudowa przepływów surowca z Zatoki Perskiej wywołała spadki cen ropy Brent w rejon 96 USD.",
+   "id": "odbicie_plynnosci_zatoka",
+   "label": "Wznowienie przepływów ropy z Zatoki",
+   "note": "Częściowy powrót eksportu z Zatoki Perskiej obniża premię wojenną i wywiera presję spadkową na Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tumbles-to-96-as-Gulf-Oil-Flows-Bounce-Back.html",
    "brent": -0.03
   },
   {
-   "id": "orlen_podwyzka_hurtu",
-   "label": "Wzrost cen hurtowych w Orlenie",
-   "note": "Orlen podnosi hurtowe ceny paliw od 1 października, wpływając bezpośrednio na krajowe marże.",
+   "id": "orlen_podwyzka_hurt",
+   "label": "Podwyżka cen w hurcie przez Orlen",
+   "note": "Wzrost stawek w hurcie od 1 października przekłada się bezpośrednio na wyższe koszty paliw na stacjach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
    "pl": 0.02
   },
   {
-   "id": "iran_oil_supply_drop",
-   "label": "Spadek podaży irańskiej ropy",
-   "note": "Znikający z rynku irański surowiec zaostrza deficyt podaży na światowych rynkach naftowych.",
+   "id": "spadek_eksportu_iranu",
+   "label": "Utrata podaży irańskiej ropy",
+   "note": "Spadek dostępności surowca z Iranu zacieśnia fizyczny rynek, wywierając presję na wzrost cen ropy.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Irans-Disappearing-Oil-Is-Becoming-Everyones-Problem.html",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Irans-Disappearing-Oil-Is-Becoming-Everyone-Problem.html",
    "brent": 0.02
   },
   {
-   "id": "venezuela_output_revival",
-   "label": "Odbudowa wydobycia w Wenezueli",
-   "note": "Powrót koncernów do Wenezueli zapowiada wzrost podaży surowca i łagodzi napięcia na rynku.",
+   "id": "rurociag_kanada_azja",
+   "label": "Przyspieszenie rurociągu w Kanadzie",
+   "note": "Projekt Pacific Link o przepustowości 1 mln b/d sygnalizuje wzrost podaży poza OPEC w perspektywie rynku.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Accelerates-as-Foreign-Companies-Return.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Canada-Fast-Tracks-1-Million-Bpd-Pacific-Link-Oil-Pipeline-to-Asia.html",
    "brent": -0.01
   }
  ]
