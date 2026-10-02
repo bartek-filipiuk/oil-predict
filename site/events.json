@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-02 11:06 UTC",
+ "generated": "2026-10-02 14:53 UTC",
  "headlines": [
+  {
+   "title": "U.S. Deploys Patriots to Shield Saudi Oil and Qatari Gas Facilities",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
+   "published": "2026-10-02 09:30"
+  },
+  {
+   "title": "Japan’s JERA Creates Oil Storage Firm to Manage National Reserve Sites",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-JERA-Creates-Oil-Storage-Firm-to-Manage-National-Reserve-Sites.html",
+   "published": "2026-10-02 08:30"
+  },
   {
    "title": "U.S. Diesel Export Ban Would Hit Latin America Hardest: Goldman",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
@@ -10,31 +20,6 @@
    "title": "Brent Holds Above $102 as Gulf Export Rebound Offsets U.S. Military Moves",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Gulf-Export-Rebound-Offsets-US-Military-Moves.html",
    "published": "2026-10-02 00:06"
-  },
-  {
-   "title": "Venezuela’s Oil Exports Drop 9% as Freight Costs Bite",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Exports-Drop-9-as-Freight-Costs-Bite.html",
-   "published": "2026-10-01 16:00"
-  },
-  {
-   "title": "China Halts October Fuel Exports as Global Diesel Crunch Deepens",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html",
-   "published": "2026-10-01 15:40"
-  },
-  {
-   "title": "UK Holds Emergency Talks With U.S. as Diesel Crisis Escalates",
-   "url": "https://oilprice.com/Energy/Energy-General/UK-Holds-Emergency-Talks-With-US-as-Diesel-Crisis-Escalates.html",
-   "published": "2026-10-01 15:00"
-  },
-  {
-   "title": "Middle East Oil Exports Stage a Remarkable Comeback",
-   "url": "https://oilprice.com/Energy/Energy-General/Middle-East-Oil-Exports-Stage-a-Remarkable-Comeback.html",
-   "published": "2026-10-01 14:00"
-  },
-  {
-   "title": "BLM Opens 35,000 California Acres to December Oil and Gas Lease Sale",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/BLM-Opens-35000-California-Acres-to-December-Oil-and-Gas-Lease-Sale.html",
-   "published": "2026-10-01 12:30"
   },
   {
    "title": "Orlen obniżył ceny paliw. Ekspert wskazuje, co będzie na stacjach - Business Insider Polska",
@@ -51,54 +36,44 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "chiny_wstrzymuja_eksport",
-   "label": "Chiny wstrzymują eksport paliw",
-   "note": "Wstrzymanie eksportu z Chin pogłębia globalny deficyt diesla i podbija marże rafineryjne w Europie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html",
-   "brent": 0.015,
-   "crack": 0.06
-  },
-  {
-   "id": "rozmowy_uk_usa_kryzys_di",
-   "label": "Rozmowy UK i USA ws. kryzysu diesla",
-   "note": "Nadzwyczajne rozmowy sojuszników sygnalizują krytycznie niski poziom zapasów destylatów na Atlantyku.",
+   "id": "patriot_saudi_qatar",
+   "label": "Tarcza Patriot nad infrastrukturą Zatoki",
+   "note": "Rozmieszczenie obrony USA zmniejsza ryzyko przerw w dostawach, łagodząc premię geopolityczną.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/UK-Holds-Emergency-Talks-With-US-as-Diesel-Crisis-Escalates.html",
-   "crack": 0.04
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploy-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
+   "brent": -0.015
   },
   {
-   "id": "brent_napiecia_militarne",
-   "label": "Ruchy militarne USA i Brent powyżej 102$",
-   "note": "Działania wojskowe USA tworzą premię geopolityczną, powstrzymując spadki cen ropy mimo wzrostu dostaw.",
+   "id": "us_diesel_export_ban_ris",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Potencjalne ograniczenia eksportu z USA zacieśniają globalny bilans i podbijają marże diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
+   "crack": 0.035
+  },
+  {
+   "id": "gulf_export_rebound",
+   "label": "Odbicie eksportu ropy z Zatoki Perskiej",
+   "note": "Wyższy eksport z Bliskiego Wschodu łagodzi obawy podażowe, stabilizując notowania Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Gulf-Export-Rebound-Offsets-US-Military-Moves.html",
-   "brent": 0.02,
-   "fx": 0.01
+   "brent": -0.02
   },
   {
-   "id": "powrot_eksportu_bliski_w",
-   "label": "Odbicie eksportu ropy z Bliskiego Wschodu",
-   "note": "Wzrost dostaw surowca z Bliskiego Wschodu stabilizuje rynek fizyczny i studzi presję na wzrost notowań.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Middle-East-Oil-Exports-Stage-a-Remarkable-Comeback.html",
-   "brent": -0.025
-  },
-  {
-   "id": "ryzyko_bana_eksportu_die",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Analizy Goldman Sachs dot. zakazu eksportu z USA potęgują obawy o globalną dostępność paliw gotowych.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
-   "crack": 0.03
-  },
-  {
-   "id": "orlen_podwyzki_hurt",
-   "label": "Podwyżki cen w hurcie Orlenu",
-   "note": "Przesunięcia cen hurtowych od 1 października bezpośrednio wpływają na marże i stawki na polskich stacjach.",
-   "confidence": "medium",
+   "id": "orlen_podwyzka_hurtu",
+   "label": "Podwyżka hurtowych cen w Orlenie",
+   "note": "Wzrost stawek hurtowych od 1 października bezpośrednio podbija krajowe ceny bazowe paliw.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
    "pl": 0.02
+  },
+  {
+   "id": "orlen_obnizki_cen",
+   "label": "Obniżki cen paliw przez Orlen",
+   "note": "Kolejne korekty cenowe koncernu bezpośrednio wpływają na marże i poziomy cen na rynku polskim.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3ltdF9jSk5fR0tOV2xGbnZsN2NXeWltTmhnQnVzdl9fSHQxUHVWTzUtVFFRUnVOWmF0bTNDdTh4Qkh6a2xhNk4xb1Brel84WUd4bUFYdFp1QkUyOGwxWmJSLTZHeFpXZkNGaWowTC1RemkzbnB3TkhMX2FMdVVIWGY1TjlVM19RZXlOVWI0dHpNNDUxcHo5cUE2SElyU2lubG91T1F3a3FDeGpk?oc=5",
+   "pl": -0.015
   }
  ]
 }
