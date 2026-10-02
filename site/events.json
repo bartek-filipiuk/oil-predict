@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-02 14:53 UTC",
+ "generated": "2026-10-02 16:43 UTC",
  "headlines": [
+  {
+   "title": "G7 Moves to Release 100 Million Barrels to Counter Diesel Crisis",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
+   "published": "2026-10-02 10:23"
+  },
+  {
+   "title": "LNG Shipments Through Hormuz Hit Highest Level Since Iran War Began",
+   "url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
+   "published": "2026-10-02 10:00"
+  },
   {
    "title": "U.S. Deploys Patriots to Shield Saudi Oil and Qatari Gas Facilities",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
@@ -36,44 +46,45 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "patriot_saudi_qatar",
-   "label": "Tarcza Patriot nad infrastrukturą Zatoki",
-   "note": "Rozmieszczenie obrony USA zmniejsza ryzyko przerw w dostawach, łagodząc premię geopolityczną.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploy-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
-   "brent": -0.015
+   "id": "g7_uwolnienie_rezerw",
+   "label": "Uwolnienie 100 mln bbl przez G7",
+   "note": "Skoordynowana interwencja G7 zwiększy podaż ropy i złagodzi kryzys podażowy na rynku diesla.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
+   "brent": -0.04,
+   "crack": -0.03
   },
   {
-   "id": "us_diesel_export_ban_ris",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Potencjalne ograniczenia eksportu z USA zacieśniają globalny bilans i podbijają marże diesla.",
+   "id": "ormuz_rekord_lng",
+   "label": "Wzrost żeglugi przez cieśninę Ormuz",
+   "note": "Rekordowy ruch statków przez Ormuz uspokaja obawy o blokadę szlaków eksportowych z Zatoki.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
-   "crack": 0.035
-  },
-  {
-   "id": "gulf_export_rebound",
-   "label": "Odbicie eksportu ropy z Zatoki Perskiej",
-   "note": "Wyższy eksport z Bliskiego Wschodu łagodzi obawy podażowe, stabilizując notowania Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Gulf-Export-Rebound-Offsets-US-Military-Moves.html",
+   "source_url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
    "brent": -0.02
   },
   {
-   "id": "orlen_podwyzka_hurtu",
-   "label": "Podwyżka hurtowych cen w Orlenie",
-   "note": "Wzrost stawek hurtowych od 1 października bezpośrednio podbija krajowe ceny bazowe paliw.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
-   "pl": 0.02
+   "id": "usa_patriot_zatoka",
+   "label": "Tarcza Patriot dla instalacji w Zatoce",
+   "note": "Ochrona infrastruktury naftowej i gazowej w regionie zmniejsza ryzyko nagłych przerw w dostawach.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
+   "brent": -0.02
   },
   {
-   "id": "orlen_obnizki_cen",
-   "label": "Obniżki cen paliw przez Orlen",
-   "note": "Kolejne korekty cenowe koncernu bezpośrednio wpływają na marże i poziomy cen na rynku polskim.",
-   "confidence": "medium",
+   "id": "usa_ryzyko_zakazu_ekspor",
+   "label": "Ryzyko zakazu eksportu diesla z USA",
+   "note": "Groźba ograniczeń eksportowych z USA może zacieśnić globalny bilans i podbić marże diesla.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
+   "crack": 0.03
+  },
+  {
+   "id": "orlen_obnizka_cen",
+   "label": "Obniżka cen paliw przez Orlen",
+   "note": "Decyzja Orlenu o obniżkach cen hurtowych przekłada się na natychmiastową ulgę na stacjach.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3ltdF9jSk5fR0tOV2xGbnZsN2NXeWltTmhnQnVzdl9fSHQxUHVWTzUtVFFRUnVOWmF0bTNDdTh4Qkh6a2xhNk4xb1Brel84WUd4bUFYdFp1QkUyOGwxWmJSLTZHeFpXZkNGaWowTC1RemkzbnB3TkhMX2FMdVVIWGY1TjlVM19RZXlOVWI0dHpNNDUxcHo5cUE2SElyU2lubG91T1F3a3FDeGpk?oc=5",
-   "pl": -0.015
+   "pl": -0.02
   }
  ]
 }
