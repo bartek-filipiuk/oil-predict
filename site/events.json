@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-02 16:43 UTC",
+ "generated": "2026-10-02 19:25 UTC",
  "headlines": [
+  {
+   "title": "Iranian Oil Starts Flowing to Tajikistan Despite U.S. Sanctions Risk",
+   "url": "https://oilprice.com/Energy/Energy-General/Iranian-Oil-Starts-Flowing-to-Tajikistan-Despite-US-Sanctions-Risk.html",
+   "published": "2026-10-02 14:00"
+  },
+  {
+   "title": "U.S. Oil Drilling Inches Up As Prices Fall",
+   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drilling-Inches-Up-As-Prices-Fall.html",
+   "published": "2026-10-02 12:16"
+  },
+  {
+   "title": "Dated Brent Above $120 Signals a Serious Oil Squeeze",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
+   "published": "2026-10-02 11:50"
+  },
   {
    "title": "G7 Moves to Release 100 Million Barrels to Counter Diesel Crisis",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
@@ -22,16 +37,6 @@
    "published": "2026-10-02 08:30"
   },
   {
-   "title": "U.S. Diesel Export Ban Would Hit Latin America Hardest: Goldman",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
-   "published": "2026-10-02 03:00"
-  },
-  {
-   "title": "Brent Holds Above $102 as Gulf Export Rebound Offsets U.S. Military Moves",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-102-as-Gulf-Export-Rebound-Offsets-US-Military-Moves.html",
-   "published": "2026-10-02 00:06"
-  },
-  {
    "title": "Orlen obniżył ceny paliw. Ekspert wskazuje, co będzie na stacjach - Business Insider Polska",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3ltdF9jSk5fR0tOV2xGbnZsN2NXeWltTmhnQnVzdl9fSHQxUHVWTzUtVFFRUnVOWmF0bTNDdTh4Qkh6a2xhNk4xb1Brel84WUd4bUFYdFp1QkUyOGwxWmJSLTZHeFpXZkNGaWowTC1RemkzbnB3TkhMX2FMdVVIWGY1TjlVM19RZXlOVWI0dHpNNDUxcHo5cUE2SElyU2lubG91T1F3a3FDeGpk?oc=5",
    "published": "2026-10-01 10:09"
@@ -46,45 +51,53 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "g7_uwolnienie_rezerw",
-   "label": "Uwolnienie 100 mln bbl przez G7",
-   "note": "Skoordynowana interwencja G7 zwiększy podaż ropy i złagodzi kryzys podażowy na rynku diesla.",
+   "id": "g7_diesel_release",
+   "label": "Uwolnienie 100 mln baryłek przez G7",
+   "note": "Koordynowana interwencja G7 uderza w marże diesla i presję na ropę.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
    "brent": -0.04,
-   "crack": -0.03
+   "crack": -0.05
   },
   {
-   "id": "ormuz_rekord_lng",
-   "label": "Wzrost żeglugi przez cieśninę Ormuz",
-   "note": "Rekordowy ruch statków przez Ormuz uspokaja obawy o blokadę szlaków eksportowych z Zatoki.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
-   "brent": -0.02
+   "id": "dated_brent_squeeze",
+   "label": "Dated Brent powyżej 120 USD",
+   "note": "Silny deficyt fizycznej ropy na rynku spot pcha ceny surowca w górę.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
+   "brent": 0.05
   },
   {
-   "id": "usa_patriot_zatoka",
-   "label": "Tarcza Patriot dla instalacji w Zatoce",
-   "note": "Ochrona infrastruktury naftowej i gazowej w regionie zmniejsza ryzyko nagłych przerw w dostawach.",
+   "id": "us_patriots_gulf",
+   "label": "Tarcza Patriot nad infrastrukturą Zatoki",
+   "note": "Ochrona instalacji w Arabii i Katarze zmniejsza premię wojenną.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
    "brent": -0.02
   },
   {
-   "id": "usa_ryzyko_zakazu_ekspor",
-   "label": "Ryzyko zakazu eksportu diesla z USA",
-   "note": "Groźba ograniczeń eksportowych z USA może zacieśnić globalny bilans i podbić marże diesla.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Export-Ban-Would-Hit-Latin-America-Hardest-Goldman.html",
-   "crack": 0.03
+   "id": "hormuz_transit_rebounds",
+   "label": "Wzrost tranzytu przez Cieśninę Ormuz",
+   "note": "Rekordowy przepływ od wybuchu wojny redukuje obawy o blokadę szlaku.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
+   "brent": -0.02
   },
   {
-   "id": "orlen_obnizka_cen",
-   "label": "Obniżka cen paliw przez Orlen",
-   "note": "Decyzja Orlenu o obniżkach cen hurtowych przekłada się na natychmiastową ulgę na stacjach.",
+   "id": "orlen_korekta_cen",
+   "label": "Korekta cen paliw przez Orlen",
+   "note": "Obniżki w hurcie przekładają się bezpośrednio na spadek cen na stacjach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3ltdF9jSk5fR0tOV2xGbnZsN2NXeWltTmhnQnVzdl9fSHQxUHVWTzUtVFFRUnVOWmF0bTNDdTh4Qkh6a2xhNk4xb1Brel84WUd4bUFYdFp1QkUyOGwxWmJSLTZHeFpXZkNGaWowTC1RemkzbnB3TkhMX2FMdVVIWGY1TjlVM19RZXlOVWI0dHpNNDUxcHo5cUE2SElyU2lubG91T1F3a3FDeGpk?oc=5",
    "pl": -0.02
+  },
+  {
+   "id": "orlen_wzrost_hurtu",
+   "label": "Zmiana relacji cen w hurcie Orlenu",
+   "note": "Przesunięcie marż w hurcie podnosi koszty benzyny względem diesla.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
+   "pl": 0.02
   }
  ]
 }
