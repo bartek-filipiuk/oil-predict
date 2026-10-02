@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02 19:25 UTC",
+ "generated": "2026-10-02 21:24 UTC",
  "headlines": [
   {
    "title": "Iranian Oil Starts Flowing to Tajikistan Despite U.S. Sanctions Risk",
@@ -51,53 +51,48 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "g7_diesel_release",
-   "label": "Uwolnienie 100 mln baryłek przez G7",
-   "note": "Koordynowana interwencja G7 uderza w marże diesla i presję na ropę.",
+   "id": "g7_rezerwy_diesel",
+   "label": "Uwolnienie rezerw ropy przez G7",
+   "note": "G7 interweniuje rezerwami 100 mln baryłek, co osłabi marże na dieslu i presję na ropę.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
-   "brent": -0.04,
-   "crack": -0.05
+   "brent": -0.03,
+   "crack": -0.06
   },
   {
    "id": "dated_brent_squeeze",
-   "label": "Dated Brent powyżej 120 USD",
-   "note": "Silny deficyt fizycznej ropy na rynku spot pcha ceny surowca w górę.",
+   "label": "Fizyczny deficyt ropy Brent",
+   "note": "Dated Brent powyżej 120 USD wskazuje na dotkliwy brak surowca w dostawach natychmiastowych.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
-   "brent": 0.05
+   "brent": 0.04,
+   "crack": 0.02
   },
   {
-   "id": "us_patriots_gulf",
-   "label": "Tarcza Patriot nad infrastrukturą Zatoki",
-   "note": "Ochrona instalacji w Arabii i Katarze zmniejsza premię wojenną.",
+   "id": "orlen_podwyzki_hurt",
+   "label": "Podwyżki w hurcie Orlenu",
+   "note": "Zmiany cenowe Orlenu od 1 października podnoszą krajowy hurt, przenosząc koszty na diesla.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
+   "crack": 0.01,
+   "pl": 0.02
+  },
+  {
+   "id": "patriot_zatoka_perska",
+   "label": "Tarcza Patriot dla infrastruktury Zatoki",
+   "note": "Ochrona saudyjskich i katarskich instalacji zmniejsza premię za ryzyko ataków w Zatoce.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
    "brent": -0.02
   },
   {
-   "id": "hormuz_transit_rebounds",
-   "label": "Wzrost tranzytu przez Cieśninę Ormuz",
-   "note": "Rekordowy przepływ od wybuchu wojny redukuje obawy o blokadę szlaku.",
+   "id": "zegluga_ormuz_lng",
+   "label": "Wzrost transportu przez Ormuz",
+   "note": "Rekordowy ruch tankowców sugeruje spadek ryzyka blokady cieśniny mimo napięć z Iranem.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
-   "brent": -0.02
-  },
-  {
-   "id": "orlen_korekta_cen",
-   "label": "Korekta cen paliw przez Orlen",
-   "note": "Obniżki w hurcie przekładają się bezpośrednio na spadek cen na stacjach.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOb3ltdF9jSk5fR0tOV2xGbnZsN2NXeWltTmhnQnVzdl9fSHQxUHVWTzUtVFFRUnVOWmF0bTNDdTh4Qkh6a2xhNk4xb1Brel84WUd4bUFYdFp1QkUyOGwxWmJSLTZHeFpXZkNGaWowTC1RemkzbnB3TkhMX2FMdVVIWGY1TjlVM19RZXlOVWI0dHpNNDUxcHo5cUE2SElyU2lubG91T1F3a3FDeGpk?oc=5",
-   "pl": -0.02
-  },
-  {
-   "id": "orlen_wzrost_hurtu",
-   "label": "Zmiana relacji cen w hurcie Orlenu",
-   "note": "Przesunięcie marż w hurcie podnosi koszty benzyny względem diesla.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY3h6MEhnblNyNDUyMXdreHlMem5rQjdrRlA1X0N4Y3BzbHhJNVVIS3FzaFpZdWIwazdNemNYSjlZQzItNFpVTkN5a0Q2NXZvczNpTU8zT2xkcUZFSnVfUXhkSVZ6ZG1hYktBUUlPLVAwT29ybGluQnhvRkc4cGNfbm5oNEZTTjFjT2JZSWNrcUxOVzc2V1E?oc=5",
-   "pl": 0.02
+   "brent": -0.02,
+   "fx": -0.01
   }
  ]
 }
