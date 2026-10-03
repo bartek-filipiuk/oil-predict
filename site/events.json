@@ -1,8 +1,18 @@
 {
- "generated": "2026-10-03 10:24 UTC",
+ "generated": "2026-10-03 22:28 UTC",
  "headlines": [
   {
-   "title": "Orlen mocno ściął ceny paliw. Diesel potaniał o 337 zł - Rzeczpospolita",
+   "title": "Iran Is Losing Some of Its Leverage Over the Strait of Hormuz",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
+   "published": "2026-10-03 14:00"
+  },
+  {
+   "title": "Orlen mocno obniża hurtowe ceny paliw. Cena ropy spada po decyzji państw G7 - xyz.pl",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObjlRMlotVHZ6Z19lTXZINlFrN1lrRUY4eXpIVVRkSWZCZjA5a2Z1RjcySUlWa2RaUmF4UnVCNm1mVnRYRTBmR3A1VFh4ODJzSkJMODE4cFNfbG9xeFRiS3FOZFhNWXQ3Sjl0cHVPMnlZNGJ0SmdRR2dRbkdPbmJaemh0TEEzOEsxYjlsQzlTYThsWEQ1OGtYVl9LVmdyUklyODl1ckdYOHg?oc=5",
+   "published": "2026-10-03 08:07"
+  },
+  {
+   "title": "Orlen mocno ściął ceny paliw. Diesel potaniał o 337 zł - energia.rp.pl",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmtVWEx5OVVHcmhuUmpfUGlOUmR4S1Q5YkpQVVQwWG41MHZWYlk2RG8xQzdvRi04UWx0a19OMVhVUUFlM2JfdThtVzRlQWpHeUkyNU1HWTg0SzhVZHAwckcxb0tINDdRQXZjMmZhNmx5Zk9iX3VLYWFIQ1hyYUhyVENxSEZPd0Zhd1pFMElkTTRKczZSUU1MMHVucXdMZ1k?oc=5",
    "published": "2026-10-03 07:51"
   },
@@ -45,71 +55,58 @@
    "title": "U.S. Deploys Patriots to Shield Saudi Oil and Qatari Gas Facilities",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
    "published": "2026-10-02 09:30"
-  },
-  {
-   "title": "Japan’s JERA Creates Oil Storage Firm to Manage National Reserve Sites",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-JERA-Creates-Oil-Storage-Firm-to-Manage-National-Reserve-Sites.html",
-   "published": "2026-10-02 08:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "orlen_obnizka_hurt",
-   "label": "Mocna obniżka cen w hurcie Orlenu",
-   "note": "Orlen ściął ceny diesla o 337 zł/m3, co przełoży się na wyraźny spadek cen na stacjach.",
+   "id": "uwolnienie_rezerw_g7",
+   "label": "Uwolnienie 100 mln baryłek przez G7",
+   "note": "Koordynowana interwencja G7 uderza w ceny surowca i marże diesla na rynku europejskim.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxN...",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
+   "brent": -0.05,
+   "crack": -0.04
+  },
+  {
+   "id": "orlen_obnizka_hurtu",
+   "label": "Mocna obniżka cen diesla w Orlenie",
+   "note": "Krajowy koncern ściął hurtową cenę oleju napędowego o ponad 300 zł/m3 po spadkach cen ropy.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmtVWEx5OVVHcmhuUmpfUGlOUmR4S1Q5YkpQVVQwWG41MHZWYlk2RG8xQzdvRi04UWx0a19OMVhVUUFlM2JfdThtVzRlQWpHeUkyNU1HWTg0SzhVZHAwckcxb0tINDdRQXZjMmZhNmx5Zk9iX3VLYWFIQ1hyYUhyVENxSEZPd0Zhd1pFMElkTTRKczZSUU1MMHVucXdMZ1k?oc=5",
    "pl": -0.05
   },
   {
-   "id": "dated_brent_squeeze",
-   "label": "Squeeze na rynku fizycznym ropy Brent",
-   "note": "Notowania Dated Brent powyżej 120 USD sygnalizują ostry deficyt fizycznego surowca.",
+   "id": "brent_squeeze_120",
+   "label": "Dated Brent powyżej 120 USD",
+   "note": "Poważny deficyt podaży na rynku fizycznym winduje ceny spotowe i wywiera presję na kontrakty.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
    "brent": 0.04
   },
   {
-   "id": "g7_rezerwy_diesel",
-   "label": "Uwolnienie 100 mln baryłek przez G7",
-   "note": "Interwencja G7 ma złagodzić kryzys diesla, obniżając marże rafineryjne i presję na ropę.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
-   "brent": -0.03,
-   "crack": -0.06
-  },
-  {
-   "id": "ruch_hormuz_wzrost",
-   "label": "Wzrost żeglugi w Cieśninie Ormuz",
-   "note": "Wzrost transportów przez Ormuz zmniejsza premię za ryzyko geopolityczne w Zatoce.",
+   "id": "usa_patriot_bliski_wscho",
+   "label": "Patrioty chronią instalacje w Zatoce",
+   "note": "Wysłanie baterii obrony USA do Arabii i Kataru obniża premię za ryzyko ataków na rafinerie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
    "brent": -0.02
   },
   {
-   "id": "usa_patriot_bliski_wscho",
-   "label": "Tarcza Patriot dla infrastruktury Zatoki",
-   "note": "Rozmieszczenie rakiet Patriot obniża ryzyko przerw w dostawach z Arabii i Kataru.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
-   "brent": -0.015
+   "id": "iran_ormuz_dostawy",
+   "label": "Wzrost żeglugi przez cieśninę Ormuz",
+   "note": "Słabnący wpływ Iranu i udrożnienie szlaków morskich zmniejszają obawy o blokadę eksportu.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
+   "brent": -0.02
   },
   {
-   "id": "usa_wzrost_wiercen",
-   "label": "Niewielki wzrost liczby wież w USA",
-   "note": "Wzrost aktywności wiertniczej w USA ogranicza presję na dalszy wzrost cen surowca.",
+   "id": "usa_wzrost_wiertni",
+   "label": "Wzrost aktywności wiertniczej w USA",
+   "note": "Wzrost liczby wież wiertniczych w USA zapowiada wyższą podaż ropy w perspektywie tygodni.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drilling-Inches-Up-As-Prices-Fall.html",
-   "brent": -0.01
-  },
-  {
-   "id": "iranska_ropa_tadzykistan",
-   "label": "Eksport irańskiej ropy do Tadżykistanu",
-   "note": "Omijanie sankcji przez Iran zwiększa podaż surowca w Azji, łagodząc napięcia rynkowe.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Oil-Starts-Flowing-to-Tajikistan-Despite-US-Sanctions-Risk.html",
    "brent": -0.01
   }
  ]
