@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03 22:28 UTC",
+ "generated": "2026-10-04 11:07 UTC",
  "headlines": [
   {
    "title": "Iran Is Losing Some of Its Leverage Over the Strait of Hormuz",
@@ -40,74 +40,60 @@
    "title": "Dated Brent Above $120 Signals a Serious Oil Squeeze",
    "url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
    "published": "2026-10-02 11:50"
-  },
-  {
-   "title": "G7 Moves to Release 100 Million Barrels to Counter Diesel Crisis",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
-   "published": "2026-10-02 10:23"
-  },
-  {
-   "title": "LNG Shipments Through Hormuz Hit Highest Level Since Iran War Began",
-   "url": "https://oilprice.com/Energy/Energy-General/LNG-Shipments-Through-Hormuz-Hit-Highest-Level-Since-Iran-War-Began.html",
-   "published": "2026-10-02 10:00"
-  },
-  {
-   "title": "U.S. Deploys Patriots to Shield Saudi Oil and Qatari Gas Facilities",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
-   "published": "2026-10-02 09:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "uwolnienie_rezerw_g7",
-   "label": "Uwolnienie 100 mln baryłek przez G7",
-   "note": "Koordynowana interwencja G7 uderza w ceny surowca i marże diesla na rynku europejskim.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/G7-Moves-to-Release-100-Million-Barrels-to-Counter-Diesel-Crisis.html",
-   "brent": -0.05,
-   "crack": -0.04
-  },
-  {
-   "id": "orlen_obnizka_hurtu",
-   "label": "Mocna obniżka cen diesla w Orlenie",
-   "note": "Krajowy koncern ściął hurtową cenę oleju napędowego o ponad 300 zł/m3 po spadkach cen ropy.",
+   "id": "orlen_obnizka_hurt",
+   "label": "Gwałtowna obniżka cen w hurcie Orlenu",
+   "note": "Orlen ściął ceny hurtowe diesla o 337 zł/m3, wywierając silną presję spadkową na polski rynek paliw.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmtVWEx5OVVHcmhuUmpfUGlOUmR4S1Q5YkpQVVQwWG41MHZWYlk2RG8xQzdvRi04UWx0a19OMVhVUUFlM2JfdThtVzRlQWpHeUkyNU1HWTg0SzhVZHAwckcxb0tINDdRQXZjMmZhNmx5Zk9iX3VLYWFIQ1hyYUhyVENxSEZPd0Zhd1pFMElkTTRKczZSUU1MMHVucXdMZ1k?oc=5",
    "pl": -0.05
   },
   {
-   "id": "brent_squeeze_120",
-   "label": "Dated Brent powyżej 120 USD",
-   "note": "Poważny deficyt podaży na rynku fizycznym winduje ceny spotowe i wywiera presję na kontrakty.",
+   "id": "decyzja_g7_spadek_ropy",
+   "label": "Decyzja G7 obniża światowe ceny ropy",
+   "note": "Działania państw G7 przynoszą natychmiastowe spadki notowań ropy naftowej na rynkach światowych.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObjlRMlotVHZ6Z19lTXZINlFrN1lrRUY4eXpIVVRkSWZCZjA5a2Z1RjcySUlWa2RaUmF4UnVCNm1mVnRYRTBmR3A1VFh4ODJzSkJMODE4cFNfbG9xeFRiS3FOZFhNWXQ3Sjl0cHVPMnlZNGJ0SmdRR2dRbkdPbmJaemh0TEEzOEsxYjlsQzlTYThsWEQ1OGtYVl9LVmdyUklyODl1ckdYOHg?oc=5",
+   "brent": -0.04
+  },
+  {
+   "id": "dated_brent_oil_squeeze",
+   "label": "Dated Brent powyżej 120 USD i squeeze",
+   "note": "Wycena Dated Brent powyżej 120 USD sygnalizuje dotkliwy brak fizycznej ropy na rynku natychmiastowym.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Dated-Brent-Above-120-Signals-a-Serious-Oil-Squeeze.html",
-   "brent": 0.04
+   "brent": 0.05,
+   "crack": 0.02
   },
   {
-   "id": "usa_patriot_bliski_wscho",
-   "label": "Patrioty chronią instalacje w Zatoce",
-   "note": "Wysłanie baterii obrony USA do Arabii i Kataru obniża premię za ryzyko ataków na rafinerie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Deploys-Patriots-to-Shield-Saudi-Oil-and-Qatari-Gas-Facilities.html",
-   "brent": -0.02
-  },
-  {
-   "id": "iran_ormuz_dostawy",
-   "label": "Wzrost żeglugi przez cieśninę Ormuz",
-   "note": "Słabnący wpływ Iranu i udrożnienie szlaków morskich zmniejszają obawy o blokadę eksportu.",
+   "id": "iran_hormuz_leverage",
+   "label": "Mniejsza presja Iranu na cieśninę Ormuz",
+   "note": "Spadek możliwości blokady cieśniny Ormuz przez Iran zmniejsza geopolityczną premię za ryzyko dla ropy.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
    "brent": -0.02
   },
   {
-   "id": "usa_wzrost_wiertni",
-   "label": "Wzrost aktywności wiertniczej w USA",
-   "note": "Wzrost liczby wież wiertniczych w USA zapowiada wyższą podaż ropy w perspektywie tygodni.",
+   "id": "wzrost_wiercen_usa",
+   "label": "Lekki wzrost liczby wież wiertniczych USA",
+   "note": "Zwiększenie aktywności wiertniczej w USA zapowiada powolny wzrost podaży surowca, chłodząc rynek.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drilling-Inches-Up-As-Prices-Fall.html",
-   "brent": -0.01
+   "brent": -0.015
+  },
+  {
+   "id": "usa_korea_projekt_naftow",
+   "label": "Umowa USA i Korei na 8,4 mld USD w ropę",
+   "note": "Duże porozumienie inwestycyjne może zwiększyć eksport z USA, stymulując dolara i wspierając popyt.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Says-South-Korea-Deal-Includes-84-Billion-US-Oil-Project.html",
+   "brent": 0.01,
+   "fx": 0.005
   }
  ]
 }
