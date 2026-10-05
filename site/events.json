@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-05 21:32 UTC",
+ "generated": "2026-10-05 23:16 UTC",
  "headlines": [
+  {
+   "title": "G7 Oil Stocks Release Is A Band-Aid Fix in Broken Fuel Market",
+   "url": "https://oilprice.com/Energy/Energy-General/G7-Oil-Stocks-Release-Is-A-Band-Aid-Fix-in-Broken-Fuel-Market.html",
+   "published": "2026-10-05 17:00"
+  },
   {
    "title": "Singapore Eyes Nuclear Power as Iran War Exposes Its Import Problem",
    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Singapore-Eyes-Nuclear-Power-as-Iran-War-Exposes-Its-Import-Problem.html",
@@ -37,12 +42,7 @@
    "published": "2026-10-05 09:30"
   },
   {
-   "title": "South Korea Plans to Triple Canadian Crude Imports as Saudi Share Slips",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Plans-to-Triple-Canadian-Crude-Imports-as-Saudi-Share-Slips.html",
-   "published": "2026-10-05 07:30"
-  },
-  {
-   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - agronews.com.pl",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
    "published": "2026-10-05 04:29"
   },
@@ -57,45 +57,54 @@
  "events": [
   {
    "id": "saudi_refinery_fire",
-   "label": "Pożar w saudyjskiej rafinerii",
-   "note": "Doniesienia o możliwym ataku i pożarze w rafinerii zwiększają ryzyko podażowe i marże diesla.",
+   "label": "Pożar w rafinerii w Arabii Saudyjskiej",
+   "note": "Doniesienia o ataku i pożarze w rafinerii zwiększają premię ryzyka i grożą podaży paliw.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Possible-Fire-Reported-at-Saudi-Refinery-as-Attack-Claims-Circulate.html",
-   "brent": 0.035,
-   "crack": 0.025,
-   "fx": 0.005
+   "brent": 0.04,
+   "crack": 0.03
   },
   {
-   "id": "iran_export_blockade",
-   "label": "Blokada eksportu ropy z Iranu",
-   "note": "Dymisja ministra na tle amerykańskiej blokady zacieśnia bilans podaży surowca na świecie.",
-   "confidence": "high",
+   "id": "iran_blockade_minister",
+   "label": "Blokada USA dławi eksport z Iranu",
+   "note": "Dymisja ministra w obliczu blokady USA zwiastuje dalszy spadek podaży ropy na światowym rynku.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Minister-Resigns-as-US-Blockade-Chokes-Crude-Exports.html",
-   "brent": 0.025
+   "brent": 0.03,
+   "fx": 0.01
   },
   {
-   "id": "aramco_thin_inventories",
+   "id": "aramco_low_inventories",
    "label": "Ostrzeżenie Aramco o niskich zapasach",
-   "note": "Prezes Aramco alarmuje o krytycznie niskich zapasach ropy, co wspiera dalsze wzrosty cen.",
+   "note": "Szef Saudi Aramco ostrzega przed krytycznie niskim poziomem zapasów, wzmagając niepokój o podaż.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
    "brent": 0.02
   },
   {
-   "id": "trump_graham_act_sanctio",
-   "label": "Zaostrzenie sankcji USA na Rosję i Iran",
-   "note": "Ustawa Grahama ma ograniczyć eksport z Rosji i Iranu, budząc obawy o podaż ropy.",
+   "id": "g7_stocks_release",
+   "label": "Uwolnienie rezerw paliw przez G7",
+   "note": "Uwolnienie rezerw ropy przez G7 chwilowo łagodzi napięcia, lecz rynek obawia się braku trwałości.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/G7-Oil-Stocks-Release-Is-A-Band-Aid-Fix-in-Broken-Fuel-Market.html",
+   "brent": -0.02,
+   "crack": -0.01
+  },
+  {
+   "id": "graham_act_sanctions",
+   "label": "Zaostrzenie sankcji Graham Act",
+   "note": "Działania USA wymierzone w eksport Rosji i Iranu zacieśniają globalny bilans ropy naftowej.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Heres-How-Trumps-Using-The-Graham-Act-To-Trap-Russia-And-Crush-Iran.html",
    "brent": 0.02
   },
   {
    "id": "orlen_hurt_obnizka",
-   "label": "Obniżka cen hurtowych przez Orlen",
+   "label": "Korekta cen w hurcie Orlenu",
    "note": "Orlen skorygował w dół ceny hurtowe po wcześniejszych podwyżkach, stabilizując rynek krajowy.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmE5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
-   "pl": -0.015
+   "pl": -0.02
   }
  ]
 }
