@@ -1,6 +1,31 @@
 {
- "generated": "2026-10-05 12:17 UTC",
+ "generated": "2026-10-05 17:17 UTC",
  "headlines": [
+  {
+   "title": "Here’s How Trump’s Using The Graham Act To Trap Russia And Crush Iran",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Heres-How-Trumps-Using-The-Graham-Act-To-Trap-Russia-And-Crush-Iran.html",
+   "published": "2026-10-05 12:00"
+  },
+  {
+   "title": "Indian State Firm BPCL Readies $3-Billion Bond to Fund Brazil oil Project",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-State-Firm-BPCL-Readies-3-Billion-Bond-to-Fund-Brazil-oil-Project.html",
+   "published": "2026-10-05 11:30"
+  },
+  {
+   "title": "Possible Fire Reported at Saudi Refinery as Attack Claims Circulate",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Possible-Fire-Reported-at-Saudi-Refinery-as-Attack-Claims-Circulate.html",
+   "published": "2026-10-05 10:31"
+  },
+  {
+   "title": "Aramco CEO Warns Oil Inventories Are ‘Scarily Thin’",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
+   "published": "2026-10-05 09:30"
+  },
+  {
+   "title": "South Korea Plans to Triple Canadian Crude Imports as Saudi Share Slips",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Plans-to-Triple-Canadian-Crude-Imports-as-Saudi-Share-Slips.html",
+   "published": "2026-10-05 07:30"
+  },
   {
    "title": "Hormuz LNG Flows Still Down More Than 75% Despite Rebound",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html",
@@ -27,28 +52,18 @@
    "published": "2026-10-05 00:26"
   },
   {
-   "title": "Europe’s Diesel Woes Just Got Even Worse",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Europes-Diesel-Woes-Just-Got-Even-Worse.html",
-   "published": "2026-10-04 16:00"
-  },
-  {
-   "title": "Private Equity Firms Double Down on Fossil Fuels",
-   "url": "https://oilprice.com/Energy/Energy-General/Private-Equity-Firms-Double-Down-on-Fossil-Fuels.html",
-   "published": "2026-10-04 10:00"
-  },
-  {
-   "title": "Iran Is Losing Some of Its Leverage Over the Strait of Hormuz",
-   "url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
-   "published": "2026-10-03 14:00"
+   "title": "Orlen obniżył hurtowe ceny paliw. Po wcześniejszej podwyżce - farmer.pl",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmE5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
+   "published": "2026-10-04 13:22"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "g7_rezerwy_diesel",
+   "id": "g7_rezerwy_ropa",
    "label": "Uwolnienie rezerw ropy przez G7",
-   "note": "Decyzja G7 o uwolnieniu 100 mln baryłek obniża marże diesla i presję na ceny ropy.",
+   "note": "Decyzja G7 o uwolnieniu 100 mln baryłek gwałtownie obniża marże na dieslu i cenę surowca.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html",
    "brent": -0.03,
@@ -56,43 +71,52 @@
   },
   {
    "id": "ormuz_wzrost_przeplywu",
-   "label": "Wzrost przepływu ropy przez Ormuz",
-   "note": "Ruch tankowców powyżej poziomów przedwojennych redukuje premię geopolityczną.",
-   "confidence": "high",
+   "label": "Normalizacja żeglugi w cieśninie Ormuz",
+   "note": "Eksport ropy przekraczający poziomy sprzed kryzysu zmniejsza premię geopolityczną.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html",
-   "brent": -0.04
+   "brent": -0.035
+  },
+  {
+   "id": "pozar_rafineria_saudi",
+   "label": "Ryzyko ataku na saudyjską rafinerię",
+   "note": "Doniesienia o pożarze i potencjalnym ataku windują lokalną premię ryzyka i marże rafineryjne.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Possible-Fire-Reported-at-Saudi-Refinery-as-Attack-Claims-Circulate.html",
+   "brent": 0.02,
+   "crack": 0.025
   },
   {
    "id": "aramco_podwyzka_europa",
-   "label": "Aramco podnosi ceny ropy dla Europy",
-   "note": "Wyższe ceny saudyjskiej ropy dla odbiorców w Europie podbijają koszty rafinacji.",
+   "label": "Aramco podnosi ceny dla Europy",
+   "note": "Wyższy koszt oficjalnej sprzedaży saudyjskiej ropy do Europy zwiększa presję kosztową na marże.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Cuts-Asia-Oil-Prices-to-Six-Year-Low-Raises-Prices-for-Europe.html",
-   "crack": 0.02
+   "crack": 0.015
   },
   {
-   "id": "opec_utrzymanie_kwot",
-   "label": "OPEC+ utrzymuje limity wydobycia",
-   "note": "Pozostawienie kwot wydobycia na poziomie 31 mln baryłek stabilizuje podaż surowca.",
+   "id": "orlen_korekta_hurt",
+   "label": "Obniżka cen hurtowych w Polsce",
+   "note": "Krajowa decyzja Orlenu o obniżce cen po wcześniejszych wzrostach wpłynie na cenniki stacji.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmA5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
+   "pl": -0.015
+  },
+  {
+   "id": "usa_sankcje_graham",
+   "label": "Nacisk USA na eksport Iranu i Rosji",
+   "note": "Planowane restrykcje prawne mogą ograniczyć globalną podaż ropy w perspektywie kolejnych tygodni.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Holds-November-Quota-at-3101-Million-Barrels-Daily.html",
-   "brent": 0.01
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Heres-How-Trumps-Using-The-Graham-Act-To-Trap-Russia-And-Crush-Iran.html",
+   "brent": 0.02
   },
   {
-   "id": "europa_kryzys_diesla",
-   "label": "Narastający deficyt diesla w Europie",
-   "note": "Ograniczona dostępność paliwa w Europie podbija marże crack na rynku paliw gotowych.",
+   "id": "aramco_niskie_zapasy",
+   "label": "Ostrzeżenie Aramco o niskich zapasach",
+   "note": "Informacja o krytycznie niskim buforze magazynowym ogranicza potencjał do dalszych spadków cen.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Europes-Diesel-Woes-Just-Got-Even-Worse.html",
-   "crack": 0.03
-  },
-  {
-   "id": "iran_spadek_wplywu_ormuz",
-   "label": "Spadek kontroli Iranu nad Ormuzem",
-   "note": "Utrata dźwigni Iranu w cieśninie Ormuz ogranicza obawy o blokadę i obniża ceny ropy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
-   "brent": -0.02
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
+   "brent": 0.015
   }
  ]
 }
