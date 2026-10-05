@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-05 17:17 UTC",
+ "generated": "2026-10-05 21:32 UTC",
  "headlines": [
+  {
+   "title": "Singapore Eyes Nuclear Power as Iran War Exposes Its Import Problem",
+   "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Singapore-Eyes-Nuclear-Power-as-Iran-War-Exposes-Its-Import-Problem.html",
+   "published": "2026-10-05 16:00"
+  },
+  {
+   "title": "Southeast Asia’s Oil and Gas M&A Market Is Heating Up",
+   "url": "https://oilprice.com/Energy/Energy-General/Southeast-Asias-Oil-and-Gas-MA-Market-Is-Heating-Up.html",
+   "published": "2026-10-05 14:00"
+  },
+  {
+   "title": "Iran’s Oil Minister Resigns as U.S. Blockade Chokes Crude Exports",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Minister-Resigns-as-US-Blockade-Chokes-Crude-Exports.html",
+   "published": "2026-10-05 12:30"
+  },
   {
    "title": "Here’s How Trump’s Using The Graham Act To Trap Russia And Crush Iran",
    "url": "https://oilprice.com/Energy/Crude-Oil/Heres-How-Trumps-Using-The-Graham-Act-To-Trap-Russia-And-Crush-Iran.html",
@@ -27,32 +42,12 @@
    "published": "2026-10-05 07:30"
   },
   {
-   "title": "Hormuz LNG Flows Still Down More Than 75% Despite Rebound",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html",
-   "published": "2026-10-05 05:30"
+   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
+   "published": "2026-10-05 04:29"
   },
   {
-   "title": "Diesel Margins Slide as G7 Announces 100 Million Barrel Stocks Release",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html",
-   "published": "2026-10-05 04:00"
-  },
-  {
-   "title": "Aramco Cuts Asia Oil Prices to Six-Year Low, Raises Prices for Europe",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Cuts-Asia-Oil-Prices-to-Six-Year-Low-Raises-Prices-for-Europe.html",
-   "published": "2026-10-05 03:00"
-  },
-  {
-   "title": "OPEC+ Holds November Quota at 31.01 Million Barrels Daily",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Holds-November-Quota-at-3101-Million-Barrels-Daily.html",
-   "published": "2026-10-05 02:00"
-  },
-  {
-   "title": "Oil Prices Fall as Reports Say Hormuz Crude Flows Top Pre-War Levels",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html",
-   "published": "2026-10-05 00:26"
-  },
-  {
-   "title": "Orlen obniżył hurtowe ceny paliw. Po wcześniejszej podwyżce - farmer.pl",
+   "title": "Orlen obniżył hurtowe ceny paliw. Po wcześniejszej podwyżce - Farmer.pl",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmE5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
    "published": "2026-10-04 13:22"
   }
@@ -61,62 +56,46 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "g7_rezerwy_ropa",
-   "label": "Uwolnienie rezerw ropy przez G7",
-   "note": "Decyzja G7 o uwolnieniu 100 mln baryłek gwałtownie obniża marże na dieslu i cenę surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html",
-   "brent": -0.03,
-   "crack": -0.05
-  },
-  {
-   "id": "ormuz_wzrost_przeplywu",
-   "label": "Normalizacja żeglugi w cieśninie Ormuz",
-   "note": "Eksport ropy przekraczający poziomy sprzed kryzysu zmniejsza premię geopolityczną.",
+   "id": "saudi_refinery_fire",
+   "label": "Pożar w saudyjskiej rafinerii",
+   "note": "Doniesienia o możliwym ataku i pożarze w rafinerii zwiększają ryzyko podażowe i marże diesla.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html",
-   "brent": -0.035
-  },
-  {
-   "id": "pozar_rafineria_saudi",
-   "label": "Ryzyko ataku na saudyjską rafinerię",
-   "note": "Doniesienia o pożarze i potencjalnym ataku windują lokalną premię ryzyka i marże rafineryjne.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Possible-Fire-Reported-at-Saudi-Refinery-as-Attack-Claims-Circulate.html",
-   "brent": 0.02,
-   "crack": 0.025
+   "brent": 0.035,
+   "crack": 0.025,
+   "fx": 0.005
   },
   {
-   "id": "aramco_podwyzka_europa",
-   "label": "Aramco podnosi ceny dla Europy",
-   "note": "Wyższy koszt oficjalnej sprzedaży saudyjskiej ropy do Europy zwiększa presję kosztową na marże.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Cuts-Asia-Oil-Prices-to-Six-Year-Low-Raises-Prices-for-Europe.html",
-   "crack": 0.015
-  },
-  {
-   "id": "orlen_korekta_hurt",
-   "label": "Obniżka cen hurtowych w Polsce",
-   "note": "Krajowa decyzja Orlenu o obniżce cen po wcześniejszych wzrostach wpłynie na cenniki stacji.",
+   "id": "iran_export_blockade",
+   "label": "Blokada eksportu ropy z Iranu",
+   "note": "Dymisja ministra na tle amerykańskiej blokady zacieśnia bilans podaży surowca na świecie.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmA5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
-   "pl": -0.015
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Minister-Resigns-as-US-Blockade-Chokes-Crude-Exports.html",
+   "brent": 0.025
   },
   {
-   "id": "usa_sankcje_graham",
-   "label": "Nacisk USA na eksport Iranu i Rosji",
-   "note": "Planowane restrykcje prawne mogą ograniczyć globalną podaż ropy w perspektywie kolejnych tygodni.",
+   "id": "aramco_thin_inventories",
+   "label": "Ostrzeżenie Aramco o niskich zapasach",
+   "note": "Prezes Aramco alarmuje o krytycznie niskich zapasach ropy, co wspiera dalsze wzrosty cen.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
+   "brent": 0.02
+  },
+  {
+   "id": "trump_graham_act_sanctio",
+   "label": "Zaostrzenie sankcji USA na Rosję i Iran",
+   "note": "Ustawa Grahama ma ograniczyć eksport z Rosji i Iranu, budząc obawy o podaż ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Heres-How-Trumps-Using-The-Graham-Act-To-Trap-Russia-And-Crush-Iran.html",
    "brent": 0.02
   },
   {
-   "id": "aramco_niskie_zapasy",
-   "label": "Ostrzeżenie Aramco o niskich zapasach",
-   "note": "Informacja o krytycznie niskim buforze magazynowym ogranicza potencjał do dalszych spadków cen.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
-   "brent": 0.015
+   "id": "orlen_hurt_obnizka",
+   "label": "Obniżka cen hurtowych przez Orlen",
+   "note": "Orlen skorygował w dół ceny hurtowe po wcześniejszych podwyżkach, stabilizując rynek krajowy.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmE5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
+   "pl": -0.015
   }
  ]
 }
