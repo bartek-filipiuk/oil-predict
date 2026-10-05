@@ -1,6 +1,31 @@
 {
- "generated": "2026-10-04 22:34 UTC",
+ "generated": "2026-10-05 12:17 UTC",
  "headlines": [
+  {
+   "title": "Hormuz LNG Flows Still Down More Than 75% Despite Rebound",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-LNG-Flows-Still-Down-More-Than-75-Despite-Rebound.html",
+   "published": "2026-10-05 05:30"
+  },
+  {
+   "title": "Diesel Margins Slide as G7 Announces 100 Million Barrel Stocks Release",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html",
+   "published": "2026-10-05 04:00"
+  },
+  {
+   "title": "Aramco Cuts Asia Oil Prices to Six-Year Low, Raises Prices for Europe",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Cuts-Asia-Oil-Prices-to-Six-Year-Low-Raises-Prices-for-Europe.html",
+   "published": "2026-10-05 03:00"
+  },
+  {
+   "title": "OPEC+ Holds November Quota at 31.01 Million Barrels Daily",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Holds-November-Quota-at-3101-Million-Barrels-Daily.html",
+   "published": "2026-10-05 02:00"
+  },
+  {
+   "title": "Oil Prices Fall as Reports Say Hormuz Crude Flows Top Pre-War Levels",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html",
+   "published": "2026-10-05 00:26"
+  },
   {
    "title": "Europe’s Diesel Woes Just Got Even Worse",
    "url": "https://oilprice.com/Energy/Crude-Oil/Europes-Diesel-Woes-Just-Got-Even-Worse.html",
@@ -15,57 +40,59 @@
    "title": "Iran Is Losing Some of Its Leverage Over the Strait of Hormuz",
    "url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
    "published": "2026-10-03 14:00"
-  },
-  {
-   "title": "Orlen mocno obniża hurtowe ceny paliw. Cena ropy spada po decyzji państw G7 - xyz.pl",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObjlRMlotVHZ6Z19lTXZINlFrN1lrRUY4eXpIVVRkSWZCZjA5a2Z1RjcySUlWa2RaUmF4UnVCNm1mVnRYRTBmR3A1VFh4ODJzSkJMODE4cFNfbG9xeFRiS3FOZFhNWXQ3Sjl0cHVPMnlZNGJ0SmdRR2dRbkdPbmJaemh0TEEzOEsxYjlsQzlTYThsWEQ1OGtYVl9LVmdyUklyODl1ckdYOHg?oc=5",
-   "published": "2026-10-03 08:07"
-  },
-  {
-   "title": "Orlen mocno ściął ceny paliw. Diesel potaniał o 337 zł - Rzeczpospolita",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmtVWEx5OVVHcmhuUmpfUGlOUmR4S1Q5YkpQVVQwWG41MHZWYlk2RG8xQzdvRi04UWx0a19OMVhVUUFlM2JfdThtVzRlQWpHeUkyNU1HWTg0SzhVZHAwckcxb0tINDdRQXZjMmZhNmx5Zk9iX3VLYWFIQ1hyYUhyVENxSEZPd0Zhd1pFMElkTTRKczZSUU1MMHVucXdMZ1k?oc=5",
-   "published": "2026-10-03 07:51"
-  },
-  {
-   "title": "Orlen znacznie obniża ceny paliw hurtowych. Efekt na stacjach już wkrótce - Business Insider Polska",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNE9fQVVGZW42LUp5ak5qR3pnMFhhWmM0WWk4VGFvZlhfOUw5OW1sZUtucElvYVgtMS12d2VjZHhUVDRlNWE3d0NtbzY4a1VmWU5GdXNKM09BMU9MalNNd2FkeXRwalBrY211T2hSS2YtZ3plMG91UzZXdS00ejUxVm8yQVlYc3Z1NVhOemtRWUtmWm5VZkRSMHdXTEZDTWdCUlNnV1lDRVVQdVZZaFE?oc=5",
-   "published": "2026-10-03 07:31"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "kryzys_diesla_europa",
-   "label": "Pogłębienie kryzysu diesla w Europie",
-   "note": "Kolejne ograniczenia podaży diesla w Europie mogą podbić marże rafineryjne na tym paliwie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Europes-Diesel-Woes-Just-Got-Even-Worse.html",
-   "crack": 0.04
+   "id": "g7_rezerwy_diesel",
+   "label": "Uwolnienie rezerw ropy przez G7",
+   "note": "Decyzja G7 o uwolnieniu 100 mln baryłek obniża marże diesla i presję na ceny ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Margins-Slide-as-G7-Announces-100-Million-Barrel-Stocks-Release.html",
+   "brent": -0.03,
+   "crack": -0.05
   },
   {
-   "id": "mniejsza_presja_hormuz",
-   "label": "Spadek lewaru Iranu w Cieśninie Ormuz",
-   "note": "Osłabienie pozycji Iranu redukuje premię za ryzyko geopolityczne dla transportu ropy.",
+   "id": "ormuz_wzrost_przeplywu",
+   "label": "Wzrost przepływu ropy przez Ormuz",
+   "note": "Ruch tankowców powyżej poziomów przedwojennych redukuje premię geopolityczną.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html",
+   "brent": -0.04
+  },
+  {
+   "id": "aramco_podwyzka_europa",
+   "label": "Aramco podnosi ceny ropy dla Europy",
+   "note": "Wyższe ceny saudyjskiej ropy dla odbiorców w Europie podbijają koszty rafinacji.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Cuts-Asia-Oil-Prices-to-Six-Year-Low-Raises-Prices-for-Europe.html",
+   "crack": 0.02
+  },
+  {
+   "id": "opec_utrzymanie_kwot",
+   "label": "OPEC+ utrzymuje limity wydobycia",
+   "note": "Pozostawienie kwot wydobycia na poziomie 31 mln baryłek stabilizuje podaż surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Holds-November-Quota-at-3101-Million-Barrels-Daily.html",
+   "brent": 0.01
+  },
+  {
+   "id": "europa_kryzys_diesla",
+   "label": "Narastający deficyt diesla w Europie",
+   "note": "Ograniczona dostępność paliwa w Europie podbija marże crack na rynku paliw gotowych.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Europes-Diesel-Woes-Just-Got-Even-Worse.html",
+   "crack": 0.03
+  },
+  {
+   "id": "iran_spadek_wplywu_ormuz",
+   "label": "Spadek kontroli Iranu nad Ormuzem",
+   "note": "Utrata dźwigni Iranu w cieśninie Ormuz ogranicza obawy o blokadę i obniża ceny ropy.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/Iran-Is-Losing-Some-of-Its-Leverage-Over-the-Strait-of-Hormuz.html",
    "brent": -0.02
-  },
-  {
-   "id": "decyzja_g7_spadek_ropy",
-   "label": "Spadek cen ropy po decyzji państw G7",
-   "note": "Reakcja rynków na skoordynowane decyzje G7 wywołuje bezpośrednią presję spadkową na Brent.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObjlRMlotVHZ6Z19lTXZINlFrN1lrRUY4eXpIVVRkSWZCZjA5a2Z1RjcySUlWa2RaUmF4UnVCNm1mVnRYRTBmR3A1VFh4ODJzSkJMODE4cFNfbG9xeFRiS3FOZFhNWXQ3Sjl0cHVPMnlZNGJ0SmdRR2dRbkdPbmJaemh0TEEzOEsxYjlsQzlTYThsWEQ1OGtYVl9LVmdyUklyODl1ckdYOHg?oc=5",
-   "brent": -0.03
-  },
-  {
-   "id": "orlen_ciecie_hurt_diesel",
-   "label": "Gwałtowna obniżka cen diesla w Orlenie",
-   "note": "Ścięcie hurtowych cen ON o 337 zł/m3 bezpośrednio obniża krajowe notowania paliw w Polsce.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQmtVWEx5OVVHcmhuUmpfUGlOUmR4S1Q5YkpQVVQwWG41MHZWYlk2RG8xQzdvRi04UWx0a19OMVhVUUFlM2JfdThtVzRlQWpHeUkyNU1HWTg0SzhVZHAwckcxb0tINDdRQXZjMmZhNmx5Zk9iX3VLYWFIQ1hyYUhyVENxSEZPd0Zhd1pFMElkTTRKczZSUU1MMHVucXdMZ1k?oc=5",
-   "pl": -0.05
   }
  ]
 }
