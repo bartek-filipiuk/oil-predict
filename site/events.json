@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-06 19:37 UTC",
+ "generated": "2026-10-06 21:47 UTC",
  "headlines": [
+  {
+   "title": "US Crude Inventories Slide",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
+   "published": "2026-10-06 16:15"
+  },
+  {
+   "title": "Halliburton Shuns Falklands Oil Project",
+   "url": "https://oilprice.com/Energy/Energy-General/Halliburton-Shuns-Falklands-Oil-Project.html",
+   "published": "2026-10-06 15:00"
+  },
+  {
+   "title": "Iraq Builds 2027 Budget on $58 Oil—and a Very Large Deficit",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Builds-2027-Budget-on-58-Oiland-a-Very-Large-Deficit.html",
+   "published": "2026-10-06 14:30"
+  },
   {
    "title": "Is the West’s 100-Year Venezuela Oil Bet About To Backfire?",
    "url": "https://oilprice.com/Energy/Crude-Oil/Is-the-Wests-100-Year-Venezuela-Oil-Bet-About-To-Backfire.html",
@@ -32,26 +47,6 @@
    "published": "2026-10-06 06:35"
   },
   {
-   "title": "Japan Courts Saudi Arabia and UAE as Asia's Oil Supply Fears Persist",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Courts-Saudi-Arabia-and-UAE-as-Asias-Oil-Supply-Fears-Persist.html",
-   "published": "2026-10-06 06:30"
-  },
-  {
-   "title": "China Accelerates Ultra-Deep Drilling to Boost Domestic Oil Supply",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Accelerates-Ultra-Deep-Drilling-to-Boost-Domestic-Oil-Supply.html",
-   "published": "2026-10-06 05:30"
-  },
-  {
-   "title": "At Least 50 Iranian Tankers Are Stuck in the Gulf as U.S. Blockade Holds",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/At-Least-50-Iranian-Tankers-Are-Stuck-in-the-Gulf-as-US-Blockade-Holds.html",
-   "published": "2026-10-06 04:00"
-  },
-  {
-   "title": "Gulf Oil Exports Recover to 81% of Pre-War Levels",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Recover-to-81-of-Pre-War-Levels.html",
-   "published": "2026-10-06 03:00"
-  },
-  {
    "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
    "published": "2026-10-05 04:29"
@@ -61,54 +56,46 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "blokada_tankowcow_iran",
-   "label": "Blokada irańskich tankowców w Zatoce",
-   "note": "Zablokowanie 50 tankowców ogranicza podaż ropy na rynkach azjatyckich i podbija globalne ceny surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/At-Least-50-Iranian-Tankers-Are-Stuck-in-the-Gulf-as-US-Blockade-Holds.html",
-   "brent": 0.035,
-   "fx": 0.01
-  },
-  {
-   "id": "napiecia_ormuz_brent100",
-   "label": "Napięcia w cieśninie Ormuz i Brent >100$",
-   "note": "Ryzyko eskalacji w cieśninie Ormuz winduje wycenę ropy powyżej 100 USD i wspiera premię geopolityczną.",
+   "id": "napieciahormuzbrent100",
+   "label": "Napięcia w cieśninie Ormuz i Brent pow. 100$",
+   "note": "Ryzyko zakłóceń żeglugi podbija premię geopolityczną i osłabia złotego.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "brent": 0.04,
-   "fx": 0.01
+   "fx": 0.015
   },
   {
-   "id": "ue_ulgi_dla_rafinerii",
-   "label": "UE opóźnia przepisy metanowe dla rafinerii",
-   "note": "Opóźnienie regulacji i rozmowy z rafineriami mogą ograniczyć presję kosztową na marże diesla w Europie.",
+   "id": "kosztyomijaniaormuz",
+   "label": "Wyższe koszty omijania cieśniny Ormuz",
+   "note": "Przeniesienie kosztów logistyki na importerów podbije marże i ceny produktów.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
+   "brent": 0.015,
+   "crack": 0.02
+  },
+  {
+   "id": "ueulgidlarafinerii",
+   "label": "UE łagodzi wymogi dla rafinerii",
+   "note": "Opóźnienie regulacji ma zapobiec dalszemu wzrostowi rekordowych cen paliw w Europie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-Opens-Refinery-Talks-as-Fuel-Prices-Hit-Records.html",
    "crack": -0.025
   },
   {
-   "id": "doplaty_do_tras_ormuz",
-   "label": "Dopłaty do omijania cieśniny Ormuz",
-   "note": "Producenci chcą przerzucić koszty alternatywnych tras na importerów, co zwiększy koszty importu surowca.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
+   "id": "spadekzapasowusa",
+   "label": "Spadek zapasów ropy w USA",
+   "note": "Mniejsze zapasy w USA sygnalizują silny popyt i wspierają wzrosty cen surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
    "brent": 0.02
   },
   {
-   "id": "odbicie_eksportu_zatoka",
-   "label": "Odbudowa eksportu ropy z Zatoki do 81%",
-   "note": "Odbudowa wolumenów eksportu z Zatoki Perskiej stabilizuje podaż i częściowo hamuje wzrosty cen ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Recover-to-81-of-Pre-War-Levels.html",
-   "brent": -0.02
-  },
-  {
-   "id": "presja_wzrostowa_hurt_pl",
-   "label": "Rosnące ceny hurtowe paliw w Polsce",
-   "note": "Wzrost notowań ropy i cen na rynku europejskim wymusza skokowe podwyżki w krajowych cennikach hurtowych.",
+   "id": "presjanahurtorlen",
+   "label": "Presja na wzrost cen hurtowych w Polsce",
+   "note": "Droższa ropa i opóźnienia wymuszają dalsze podwyżki w krajowym hurcie paliw.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
-   "pl": 0.025
+   "pl": 0.02
   }
  ]
 }
