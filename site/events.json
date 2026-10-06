@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-06 15:22 UTC",
+ "generated": "2026-10-06 17:19 UTC",
  "headlines": [
+  {
+   "title": "The Hidden Cost of Saudi Arabia’s Oil Export Recovery",
+   "url": "https://oilprice.com/Energy/Crude-Oil/The-Hidden-Cost-of-Saudi-Arabias-Oil-Export-Recovery.html",
+   "published": "2026-10-06 11:05"
+  },
   {
    "title": "Gulf Producers Say Importers Should Share the Cost of Hormuz Workarounds",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
@@ -47,19 +52,14 @@
    "published": "2026-10-06 00:15"
   },
   {
-   "title": "Standard Chartered Says Hormuz Oil Flows Are Far From Normal",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Standard-Chartered-Says-Hormuz-Oil-Flows-Are-Far-From-Normal.html",
-   "published": "2026-10-05 19:00"
+   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
+   "published": "2026-10-05 04:29"
   },
   {
-   "title": "G7 Oil Stocks Release Is A Band-Aid Fix in Broken Fuel Market",
-   "url": "https://oilprice.com/Energy/Energy-General/G7-Oil-Stocks-Release-Is-A-Band-Aid-Fix-in-Broken-Fuel-Market.html",
-   "published": "2026-10-05 17:00"
-  },
-  {
-   "title": "Singapore Eyes Nuclear Power as Iran War Exposes Its Import Problem",
-   "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Singapore-Eyes-Nuclear-Power-as-Iran-War-Exposes-Its-Import-Problem.html",
-   "published": "2026-10-05 16:00"
+   "title": "Ceny paliw ruszą po majówce? Hurt już pokazuje kierunek - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmNPaGFMa1hoVUZ2Vnp6LXMwcE5sZlg1aTJTejJrWDhHUl8waVNFM05GTHI2T1lrRWhOTWZtTkZMaEdsa0tBcTBXc3A4M3JhNEZOUGE4SnJ0eENSbjRtUTlKYThvZjF0UWtyaS1nNEJvYWRwNXVGMVIteTZ5Z2NFR0o2WXp5SzBPU0tVODZCU0o?oc=5",
+   "published": "2026-10-04 23:38"
   }
  ],
  "source": "ai",
@@ -67,59 +67,50 @@
  "events": [
   {
    "id": "blokada_tankowcow_iran",
-   "label": "Blokada 50 irańskich tankowców w Zatoce",
-   "note": "Amerykańska blokada ogranicza eksport ropy z Iranu, zaostrzając deficyt podaży na rynku.",
-   "confidence": "high",
+   "label": "Blokada irańskich tankowców w Zatoce",
+   "note": "Blokada 50 tankowców ogranicza podaż ropy i podbija premię geopolityczną na Bliskim Wschodzie.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/At-Least-50-Iranian-Tankers-Are-Stuck-in-the-Gulf-as-US-Blockade-Holds.html",
    "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "odbudowa_eksportu_zatoka",
-   "label": "Częściowa odbudowa eksportu z Zatoki",
-   "note": "Wzrost eksportu do 81% poziomu przedwojennego łagodzi skrajne obawy o dostępność ropy.",
+   "id": "ue_ulgi_dla_rafinerii",
+   "label": "Ulgi UE dla rafinerii i reguł metanowych",
+   "note": "Odroczone regulacje mają złagodzić kryzys podażowy paliw i ograniczyć rekordowe marże rafineryjne.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Recover-to-81-of-Pre-War-Levels.html",
-   "brent": -0.03
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-Opens-Refinery-Talks-as-Fuel-Prices-Hit-Records.html",
+   "crack": -0.03
   },
   {
-   "id": "brent_powyzej_100_hormuz",
-   "label": "Brent powyżej 100 USD przez Ormuz",
-   "note": "Trwające zakłócenia żeglugi w cieśninie Ormuz utrzymują presję na wysokie ceny ropy i diesla.",
+   "id": "napiecia_ciesnina_hormuz",
+   "label": "Napięcia w cieśninie Ormuz i Brent >100$",
+   "note": "Ryzyko blokad szlaków morskich winduje ceny ropy Brent powyżej 100 USD za baryłkę.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
-   "brent": 0.03,
+   "brent": 0.03
+  },
+  {
+   "id": "odbicie_eksportu_zatoka",
+   "label": "Odbudowa eksportu z Zatoki do 81%",
+   "note": "Częściowy powrót eksportu z Zatoki Perskiej stabilizuje podaż i ogranicza dalsze wzrosty cen.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Recover-to-81-of-Pre-War-Levels.html",
+   "brent": -0.02
+  },
+  {
+   "id": "koszty_objazdow_ormuz",
+   "label": "Koszty ominięcia cieśniny Ormuz",
+   "note": "Dodatkowe koszty logistyki i frachtu omijającego Cieśninę Ormuz podbijają ceny dostaw produktów.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
    "crack": 0.02
   },
   {
-   "id": "eu_ulgi_rafinerie",
-   "label": "UE łagodzi regulacje dla rafinerii",
-   "note": "Opóźnienie przepisów metanowych i wsparcie rafinerii może lekko obniżyć marże diesla w Europie.",
+   "id": "presja_na_polski_hurt",
+   "label": "Wzrost hurtowych cen paliw w Polsce",
+   "note": "Drożejąca ropa i opóźnione dostosowanie marż windują krajowy hurt i uderzają w marże stacji.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-Opens-Refinery-Talks-as-Fuel-Prices-Hit-Records.html",
-   "crack": -0.02
-  },
-  {
-   "id": "rezerwy_g7_niewystarczaj",
-   "label": "Uwolnienie rezerw G7 niewystarczające",
-   "note": "Sceptycyzm wobec skuteczności rezerw strategicznych wzmaga obawy o braki paliw gotowych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/G7-Oil-Stocks-Release-Is-A-Band-Aid-Fix-in-Broken-Fuel-Market.html",
-   "crack": 0.03
-  },
-  {
-   "id": "koszty_obejscia_ormuz",
-   "label": "Dopłaty do transportu ropy z Zatoki",
-   "note": "Żądanie podziału kosztów tras alternatywnych podbija premię logistyczną surowca.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
-   "brent": 0.02
-  },
-  {
-   "id": "presja_hurt_orlen",
-   "label": "Presja na wzrost krajowego hurtu",
-   "note": "Drożejąca ropa i rosnący hurt w kraju wymuszają dalsze dostosowanie cen przez Orlen.",
-   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
    "pl": 0.02
   }
