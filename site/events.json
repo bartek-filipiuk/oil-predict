@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-06 17:19 UTC",
+ "generated": "2026-10-06 19:37 UTC",
  "headlines": [
+  {
+   "title": "Is the West’s 100-Year Venezuela Oil Bet About To Backfire?",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Is-the-Wests-100-Year-Venezuela-Oil-Bet-About-To-Backfire.html",
+   "published": "2026-10-06 14:00"
+  },
   {
    "title": "The Hidden Cost of Saudi Arabia’s Oil Export Recovery",
    "url": "https://oilprice.com/Energy/Crude-Oil/The-Hidden-Cost-of-Saudi-Arabias-Oil-Export-Recovery.html",
@@ -47,19 +52,9 @@
    "published": "2026-10-06 03:00"
   },
   {
-   "title": "Trump Defers Federal Fuel Tax on Dyed Diesel as Prices Hit $6.32",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Defers-Federal-Fuel-Tax-on-Dyed-Diesel-as-Prices-Hit-632.html",
-   "published": "2026-10-06 00:15"
-  },
-  {
    "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
    "published": "2026-10-05 04:29"
-  },
-  {
-   "title": "Ceny paliw ruszą po majówce? Hurt już pokazuje kierunek - AgroNews - Wiadomości rolnicze - Ceny rolne",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdmNPaGFMa1hoVUZ2Vnp6LXMwcE5sZlg1aTJTejJrWDhHUl8waVNFM05GTHI2T1lrRWhOTWZtTkZMaEdsa0tBcTBXc3A4M3JhNEZOUGE4SnJ0eENSbjRtUTlKYThvZjF0UWtyaS1nNEJvYWRwNXVGMVIteTZ5Z2NFR0o2WXp5SzBPU0tVODZCU0o?oc=5",
-   "published": "2026-10-04 23:38"
   }
  ],
  "source": "ai",
@@ -68,51 +63,52 @@
   {
    "id": "blokada_tankowcow_iran",
    "label": "Blokada irańskich tankowców w Zatoce",
-   "note": "Blokada 50 tankowców ogranicza podaż ropy i podbija premię geopolityczną na Bliskim Wschodzie.",
+   "note": "Zablokowanie 50 tankowców ogranicza podaż ropy na rynkach azjatyckich i podbija globalne ceny surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/At-Least-50-Iranian-Tankers-Are-Stuck-in-the-Gulf-as-US-Blockade-Holds.html",
+   "brent": 0.035,
+   "fx": 0.01
+  },
+  {
+   "id": "napiecia_ormuz_brent100",
+   "label": "Napięcia w cieśninie Ormuz i Brent >100$",
+   "note": "Ryzyko eskalacji w cieśninie Ormuz winduje wycenę ropy powyżej 100 USD i wspiera premię geopolityczną.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "brent": 0.04,
    "fx": 0.01
   },
   {
    "id": "ue_ulgi_dla_rafinerii",
-   "label": "Ulgi UE dla rafinerii i reguł metanowych",
-   "note": "Odroczone regulacje mają złagodzić kryzys podażowy paliw i ograniczyć rekordowe marże rafineryjne.",
+   "label": "UE opóźnia przepisy metanowe dla rafinerii",
+   "note": "Opóźnienie regulacji i rozmowy z rafineriami mogą ograniczyć presję kosztową na marże diesla w Europie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-Opens-Refinery-Talks-as-Fuel-Prices-Hit-Records.html",
-   "crack": -0.03
+   "crack": -0.025
   },
   {
-   "id": "napiecia_ciesnina_hormuz",
-   "label": "Napięcia w cieśninie Ormuz i Brent >100$",
-   "note": "Ryzyko blokad szlaków morskich winduje ceny ropy Brent powyżej 100 USD za baryłkę.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
-   "brent": 0.03
+   "id": "doplaty_do_tras_ormuz",
+   "label": "Dopłaty do omijania cieśniny Ormuz",
+   "note": "Producenci chcą przerzucić koszty alternatywnych tras na importerów, co zwiększy koszty importu surowca.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
+   "brent": 0.02
   },
   {
    "id": "odbicie_eksportu_zatoka",
-   "label": "Odbudowa eksportu z Zatoki do 81%",
-   "note": "Częściowy powrót eksportu z Zatoki Perskiej stabilizuje podaż i ogranicza dalsze wzrosty cen.",
+   "label": "Odbudowa eksportu ropy z Zatoki do 81%",
+   "note": "Odbudowa wolumenów eksportu z Zatoki Perskiej stabilizuje podaż i częściowo hamuje wzrosty cen ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Recover-to-81-of-Pre-War-Levels.html",
    "brent": -0.02
   },
   {
-   "id": "koszty_objazdow_ormuz",
-   "label": "Koszty ominięcia cieśniny Ormuz",
-   "note": "Dodatkowe koszty logistyki i frachtu omijającego Cieśninę Ormuz podbijają ceny dostaw produktów.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
-   "crack": 0.02
-  },
-  {
-   "id": "presja_na_polski_hurt",
-   "label": "Wzrost hurtowych cen paliw w Polsce",
-   "note": "Drożejąca ropa i opóźnione dostosowanie marż windują krajowy hurt i uderzają w marże stacji.",
-   "confidence": "medium",
+   "id": "presja_wzrostowa_hurt_pl",
+   "label": "Rosnące ceny hurtowe paliw w Polsce",
+   "note": "Wzrost notowań ropy i cen na rynku europejskim wymusza skokowe podwyżki w krajowych cennikach hurtowych.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
-   "pl": 0.02
+   "pl": 0.025
   }
  ]
 }
