@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-06 21:47 UTC",
+ "generated": "2026-10-06 23:22 UTC",
  "headlines": [
+  {
+   "title": "5 Natural Gas Stocks Profiting From the Strait of Hormuz Standoff",
+   "url": "https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html",
+   "published": "2026-10-06 18:00"
+  },
   {
    "title": "US Crude Inventories Slide",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
@@ -32,16 +37,6 @@
    "published": "2026-10-06 09:30"
   },
   {
-   "title": "EU Delays Methane Rules, Opens Refinery Talks as Fuel Prices Hit Records",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-Opens-Refinery-Talks-as-Fuel-Prices-Hit-Records.html",
-   "published": "2026-10-06 08:30"
-  },
-  {
-   "title": "India Could Boost Crude and Critical Minerals Supply from Ecuador",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Could-Boost-Crude-and-Critical-Minerals-Supply-from-Ecuador.html",
-   "published": "2026-10-06 07:30"
-  },
-  {
    "title": "Energy: Brent above $100, tensions in Hormuz support prices - Agenzia Nova",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "published": "2026-10-06 06:35"
@@ -56,46 +51,47 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "napieciahormuzbrent100",
-   "label": "Napięcia w cieśninie Ormuz i Brent pow. 100$",
-   "note": "Ryzyko zakłóceń żeglugi podbija premię geopolityczną i osłabia złotego.",
+   "id": "ormuz_brent_100",
+   "label": "Napięcia w cieśninie Ormuz",
+   "note": "Napięcia w cieśninie Ormuz windują cenę ropy Brent powyżej poziomu 100 USD.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "brent": 0.04,
-   "fx": 0.015
+   "crack": 0.02,
+   "fx": 0.01
   },
   {
-   "id": "kosztyomijaniaormuz",
-   "label": "Wyższe koszty omijania cieśniny Ormuz",
-   "note": "Przeniesienie kosztów logistyki na importerów podbije marże i ceny produktów.",
+   "id": "ormuz_workaround_costs",
+   "label": "Koszty ominięcia cieśniny Ormuz",
+   "note": "Producenci z Zatoki chcą przerzucić koszty bypassów na importerów, podnosząc marże.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
-   "brent": 0.015,
-   "crack": 0.02
+   "brent": 0.02,
+   "crack": 0.01
   },
   {
-   "id": "ueulgidlarafinerii",
-   "label": "UE łagodzi wymogi dla rafinerii",
-   "note": "Opóźnienie regulacji ma zapobiec dalszemu wzrostowi rekordowych cen paliw w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-Opens-Refinery-Talks-as-Fuel-Prices-Hit-Records.html",
-   "crack": -0.025
-  },
-  {
-   "id": "spadekzapasowusa",
+   "id": "us_crude_stocks_fall",
    "label": "Spadek zapasów ropy w USA",
-   "note": "Mniejsze zapasy w USA sygnalizują silny popyt i wspierają wzrosty cen surowca.",
+   "note": "Malejące zapasy surowca w Stanach Zjednoczonych zaostrzają bilans podaży na rynku.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
-   "brent": 0.02
+   "brent": 0.015
   },
   {
-   "id": "presjanahurtorlen",
-   "label": "Presja na wzrost cen hurtowych w Polsce",
-   "note": "Droższa ropa i opóźnienia wymuszają dalsze podwyżki w krajowym hurcie paliw.",
+   "id": "pl_wholesale_pressure",
+   "label": "Presja na ceny hurtowe w Polsce",
+   "note": "Rosnące notowania ropy przekładają się bezpośrednio na podwyżki w krajowym hurcie paliw.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
    "pl": 0.02
+  },
+  {
+   "id": "venezuela_supply_risk",
+   "label": "Ryzyko dostaw z Wenezueli",
+   "note": "Niepewność co do eksportu z Wenezueli ogranicza podaż ciężkich gatunków ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Is-the-Wests-100-Year-Venezuela-Oil-Bet-About-To-Backfire.html",
+   "brent": 0.01
   }
  ]
 }
