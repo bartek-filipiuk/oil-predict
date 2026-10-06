@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-05 23:16 UTC",
+ "generated": "2026-10-06 01:00 UTC",
  "headlines": [
+  {
+   "title": "Standard Chartered Says Hormuz Oil Flows Are Far From Normal",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Standard-Chartered-Says-Hormuz-Oil-Flows-Are-Far-From-Normal.html",
+   "published": "2026-10-05 19:00"
+  },
   {
    "title": "G7 Oil Stocks Release Is A Band-Aid Fix in Broken Fuel Market",
    "url": "https://oilprice.com/Energy/Energy-General/G7-Oil-Stocks-Release-Is-A-Band-Aid-Fix-in-Broken-Fuel-Market.html",
@@ -42,12 +47,12 @@
    "published": "2026-10-05 09:30"
   },
   {
-   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - agronews.com.pl",
+   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
    "published": "2026-10-05 04:29"
   },
   {
-   "title": "Orlen obniżył hurtowe ceny paliw. Po wcześniejszej podwyżce - Farmer.pl",
+   "title": "Orlen obniżył hurtowe ceny paliw. Po wcześniejszej podwyżce - farmer.pl",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmE5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
    "published": "2026-10-04 13:22"
   }
@@ -56,55 +61,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_refinery_fire",
-   "label": "Pożar w rafinerii w Arabii Saudyjskiej",
-   "note": "Doniesienia o ataku i pożarze w rafinerii zwiększają premię ryzyka i grożą podaży paliw.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Possible-Fire-Reported-at-Saudi-Refinery-as-Attack-Claims-Circulate.html",
+   "id": "hormuz_przeplyw_zaklocen",
+   "label": "Zaburzenia transportu przez Ormuz",
+   "note": "Standard Chartered wskazuje na ograniczone przepływy ropy, co podtrzymuje premię za ryzyko podaży.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Standard-Chartered-Says-Hormuz-Oil-Flows-Are-Far-From-Normal.html",
    "brent": 0.04,
-   "crack": 0.03
-  },
-  {
-   "id": "iran_blockade_minister",
-   "label": "Blokada USA dławi eksport z Iranu",
-   "note": "Dymisja ministra w obliczu blokady USA zwiastuje dalszy spadek podaży ropy na światowym rynku.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Minister-Resigns-as-US-Blockade-Chokes-Crude-Exports.html",
-   "brent": 0.03,
+   "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "aramco_low_inventories",
-   "label": "Ostrzeżenie Aramco o niskich zapasach",
-   "note": "Szef Saudi Aramco ostrzega przed krytycznie niskim poziomem zapasów, wzmagając niepokój o podaż.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
-   "brent": 0.02
+   "id": "pozar_rafinerii_saudi",
+   "label": "Możliwy atak na saudyjską rafinerię",
+   "note": "Doniesienia o pożarze instalacji rafineryjnej zagrażają podaży paliw gotowych, windując marże diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Possible-Fire-Reported-at-Saudi-Refinery-as-Attack-Claims-Circulate.html",
+   "brent": 0.03,
+   "crack": 0.04
   },
   {
-   "id": "g7_stocks_release",
-   "label": "Uwolnienie rezerw paliw przez G7",
-   "note": "Uwolnienie rezerw ropy przez G7 chwilowo łagodzi napięcia, lecz rynek obawia się braku trwałości.",
+   "id": "blokada_eksportu_iranu",
+   "label": "Skuteczna blokada USA eksportu Iranu",
+   "note": "Dymisja ministra ropy po odcięciu eksportu potwierdza ubytek irańskich baryłek z globalnego rynku.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Minister-Resigns-as-US-Blockade-Chokes-Crude-Exports.html",
+   "brent": 0.035
+  },
+  {
+   "id": "ostrzezenie_aramco_zapas",
+   "label": "Aramco: Zapasy ropy drastycznie niskie",
+   "note": "Krytycznie niski poziom światowych zapasów zwiększa wrażliwość rynku na dalsze zakłócenia dostaw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-CEO-Warns-Oil-Inventories-Are-Scarily-Thin.html",
+   "brent": 0.025
+  },
+  {
+   "id": "rezerwy_g7_niewystarczaj",
+   "label": "Uwolnienie rezerw G7 to za mało",
+   "note": "Sceptycyzm wobec skuteczności interwencji G7 osłabia efekt chłodzący na rynku paliw gotowych.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/G7-Oil-Stocks-Release-Is-A-Band-Aid-Fix-in-Broken-Fuel-Market.html",
-   "brent": -0.02,
-   "crack": -0.01
+   "brent": 0.015,
+   "crack": 0.02
   },
   {
-   "id": "graham_act_sanctions",
-   "label": "Zaostrzenie sankcji Graham Act",
-   "note": "Działania USA wymierzone w eksport Rosji i Iranu zacieśniają globalny bilans ropy naftowej.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Heres-How-Trumps-Using-The-Graham-Act-To-Trap-Russia-And-Crush-Iran.html",
-   "brent": 0.02
-  },
-  {
-   "id": "orlen_hurt_obnizka",
-   "label": "Korekta cen w hurcie Orlenu",
-   "note": "Orlen skorygował w dół ceny hurtowe po wcześniejszych podwyżkach, stabilizując rynek krajowy.",
+   "id": "korekta_hurtu_orlen",
+   "label": "Obniżka cen hurtowych przez Orlen",
+   "note": "Krajowy lider obniża hurt po wcześniejszych wzrostach, stabilizując chwilowo marże detaliczne.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMHVLVTVreldqTXE0REpITGdjODNmeWZ6TWxjWlhEV0FrMHFPWVY5bHozQkpwMVhhWTBPTjdiMXl6QllLUWtrbUtlZk9SR1hPU1czeUJCemE0LVk5ai1xRmFsM1JBS2hhODVySHZhQjMyQlpkY1dxYmhCLW8wWGFISkVPay1wU0E1cVh1cmE5UWVHcS1tR3V4ejRMTzh5cEUzZlRiYUxyeDJxQWhkOV90N2Ntell6Q1R3cEdlR2d4VzM",
-   "pl": -0.02
+   "pl": -0.015
   }
  ]
 }
