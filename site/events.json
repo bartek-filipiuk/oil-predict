@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-07 20:02 UTC",
+ "generated": "2026-10-07 22:10 UTC",
  "headlines": [
+  {
+   "title": "Depleted Global Stocks Set Higher Floor Under Oil Prices",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Depleted-Global-Stocks-Set-Higher-Floor-Under-Oil-Prices.html",
+   "published": "2026-10-07 17:00"
+  },
+  {
+   "title": "Iran War Pushes 25 Countries Into New Electrification Policies",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Pushes-25-Countries-Into-New-Electrification-Policies.html",
+   "published": "2026-10-07 16:00"
+  },
   {
    "title": "Global Diesel Crunch Fuels New Wave of Energy Nationalism",
    "url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
@@ -36,43 +46,44 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "napiecia_ciesnina_hormuz",
-   "label": "Napięcia w cieśninie Ormuz pow. 100 USD",
-   "note": "Zagrożenie szlaków morskich w Ormuz utrzymuje Brent powyżej 100 USD i zwiększa awersję do ryzyka.",
+   "id": "paralizormuzirak",
+   "label": "Paraliż Ormuz i dewaluacja w Iraku",
+   "note": "Zakłócenia w Ormuz uderzają w dostawy z Iraku, podsycając obawy o deficyt ropy i osłabiając PLN.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
    "brent": 0.04,
-   "fx": 0.015
+   "fx": 0.01
   },
   {
-   "id": "iea_uwolnienie_rezerw",
-   "label": "Możliwe uwolnienie rezerw MAE/G7",
-   "note": "Plany uwolnienia 100 mln baryłek ropy i diesla mogą złagodzić presję na ceny paliw.",
+   "id": "rezerwyieag7",
+   "label": "Uwolnienie 100 mln baryłek z rezerw G7",
+   "note": "Plany uwolnienia 100 mln baryłek przez MAE i G7 mogą schłodzić notowania ropy i marże diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html",
-   "brent": -0.04,
-   "crack": -0.03
+   "brent": -0.03,
+   "crack": -0.02
   },
   {
-   "id": "kryzys_diesla_nacjonaliz",
-   "label": "Globalny deficyt diesla i protekcjonizm",
-   "note": "Rosnący nacjonalizm surowcowy ogranicza eksport diesla, windując marże rafineryjne w Europie.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
-   "crack": 0.05
-  },
-  {
-   "id": "irak_kryzys_ormuz",
-   "label": "Paraliż eksportu z Iraku przez Ormuz",
-   "note": "Dewaluacja dinara potwierdza realne odcięcie eksportu przez Ormuz, co ogranicza podaż na rynku.",
+   "id": "kryzysdiesla",
+   "label": "Globalny kryzys podaży diesla",
+   "note": "Nacjonalizm surowcowy i braki diesla napędzają wzrost marż rafineryjnych i presję cenową w UE.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
-   "brent": 0.03
+   "source_url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
+   "brent": 0.01,
+   "crack": 0.04
   },
   {
-   "id": "spadek_zapasow_usa",
+   "id": "wyczerpanezapasy",
+   "label": "Wyczerpane globalne zapasy ropy",
+   "note": "Niski poziom zapasów ropy na świecie wyznacza wysokie dno cenowe, utrudniając głębsze korekty.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Depleted-Global-Stocks-Set-Higher-Floor-Under-Oil-Prices.html",
+   "brent": 0.02
+  },
+  {
+   "id": "spadekzapasowusa",
    "label": "Spadek zapasów ropy w USA",
-   "note": "Kolejny spadek zapasów surowca w USA przy stabilnych destylatach lekko wspiera notowania ropy.",
+   "note": "Spadek zapasów ropy w USA lekko podbija ceny surowca, choć stabilne destylaty równoważą efekt.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html",
    "brent": 0.01
