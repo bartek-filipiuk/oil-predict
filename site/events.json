@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07 15:41 UTC",
+ "generated": "2026-10-07 17:52 UTC",
  "headlines": [
   {
    "title": "Iraq Devalues Dinar 14.5% as Hormuz Disruption Drains Oil Revenue",
@@ -22,21 +22,6 @@
    "published": "2026-10-07 07:30"
   },
   {
-   "title": "Brent Back Above $100 as Houthis Hit Saudi Infrastructure",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html",
-   "published": "2026-10-07 00:00"
-  },
-  {
-   "title": "Why $100 Oil Is Hard to Kill",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Why-100-Oil-Is-Hard-to-Kill.html",
-   "published": "2026-10-06 19:00"
-  },
-  {
-   "title": "5 Natural Gas Stocks Profiting From the Strait of Hormuz Standoff",
-   "url": "https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html",
-   "published": "2026-10-06 18:00"
-  },
-  {
    "title": "Energy: Brent above $100, tensions in Hormuz support prices - Agenzia Nova",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "published": "2026-10-06 06:35"
@@ -46,36 +31,38 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "huti_atak_saudi",
-   "label": "Atak Huti na saudyjską infrastrukturę",
-   "note": "Uderzenie Huti w instalacje naftowe w Arabii Saudyjskiej zwiększa obawy o podaż z Zatoki Perskiej.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "hormuz_blokada_irak",
-   "label": "Zakłócenia eksportu przez cieśninę Ormuz",
-   "note": "Paraliż transportu przez cieśninę Ormuz uderza w eksport Iraku i winduje światowe ceny surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
-   "brent": 0.05,
-   "fx": 0.01
-  },
-  {
-   "id": "iea_uwolnienie_rezerw",
-   "label": "Plany uwolnienia 100 mln baryłek przez IEA",
-   "note": "Rozmowy IEA i G7 o interwencyjnym uwolnieniu ropy i diesla mają wyhamować rajd cenowy powyżej 100 USD.",
+   "id": "iea_spr_release",
+   "label": "Uwolnienie 100 mln baryłek z rezerw IEA",
+   "note": "Potencjalna skoordynowana interwencja IEA i G7 może istotnie obniżyć ceny ropy i diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html",
    "brent": -0.04,
-   "crack": -0.03
+   "crack": -0.02,
+   "fx": -0.005
   },
   {
-   "id": "spadek_zapasow_usa",
+   "id": "hormuz_tension_brent",
+   "label": "Napięcia w Ormuz i Brent powyżej 100 USD",
+   "note": "Zagrożenie dla żeglugi w Cieśninie Ormuz podbija premię geopolityczną i osłabia złotego.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
+   "brent": 0.05,
+   "crack": 0.02,
+   "fx": 0.015
+  },
+  {
+   "id": "iraq_export_disruption",
+   "label": "Paraliż eksportu z Iraku przez Ormuz",
+   "note": "Dewaluacja dinara potwierdza realne odcięcie przepływów surowca z Zatoki Perskiej.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "us_crude_stocks_draw",
    "label": "Spadek zapasów ropy w USA",
-   "note": "Ubytek zapasów ropy w USA przy stabilnym poziomie destylatów daje umiarkowane wsparcie dla notowań.",
+   "note": "Ubytek w amerykańskich magazynach ropy przy stabilnych destylatach lekko wspiera surowiec.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html",
    "brent": 0.01
