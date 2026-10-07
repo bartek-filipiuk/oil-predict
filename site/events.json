@@ -1,6 +1,26 @@
 {
- "generated": "2026-10-07 11:47 UTC",
+ "generated": "2026-10-07 15:41 UTC",
  "headlines": [
+  {
+   "title": "Iraq Devalues Dinar 14.5% as Hormuz Disruption Drains Oil Revenue",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
+   "published": "2026-10-07 10:30"
+  },
+  {
+   "title": "U.S. Crude Stocks Dip But Distillates Hold Steady",
+   "url": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html",
+   "published": "2026-10-07 09:40"
+  },
+  {
+   "title": "IEA Discusses G7's 100 Million-Barrel Oil and Diesel Release",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html",
+   "published": "2026-10-07 08:30"
+  },
+  {
+   "title": "Norway Plans to Tap $63.7 Billion From Its Oil Fund in 2027",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Norway-Plans-to-Tap-637-Billion-From-Its-Oil-Fund-in-2027.html",
+   "published": "2026-10-07 07:30"
+  },
   {
    "title": "Brent Back Above $100 as Houthis Hit Saudi Infrastructure",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html",
@@ -17,26 +37,6 @@
    "published": "2026-10-06 18:00"
   },
   {
-   "title": "US Crude Inventories Slide",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
-   "published": "2026-10-06 16:15"
-  },
-  {
-   "title": "Halliburton Shuns Falklands Oil Project",
-   "url": "https://oilprice.com/Energy/Energy-General/Halliburton-Shuns-Falklands-Oil-Project.html",
-   "published": "2026-10-06 15:00"
-  },
-  {
-   "title": "Iraq Builds 2027 Budget on $58 Oil—and a Very Large Deficit",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Builds-2027-Budget-on-58-Oiland-a-Very-Large-Deficit.html",
-   "published": "2026-10-06 14:30"
-  },
-  {
-   "title": "Is the West’s 100-Year Venezuela Oil Bet About To Backfire?",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Is-the-Wests-100-Year-Venezuela-Oil-Bet-About-To-Backfire.html",
-   "published": "2026-10-06 14:00"
-  },
-  {
    "title": "Energy: Brent above $100, tensions in Hormuz support prices - Agenzia Nova",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "published": "2026-10-06 06:35"
@@ -46,38 +46,38 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "houthi_saudi_attack",
+   "id": "huti_atak_saudi",
    "label": "Atak Huti na saudyjską infrastrukturę",
-   "note": "Uderzenie w obiekty w Arabii Saudyjskiej winduje cenę Brent powyżej 100 USD przez obawy o podaż.",
+   "note": "Uderzenie Huti w instalacje naftowe w Arabii Saudyjskiej zwiększa obawy o podaż z Zatoki Perskiej.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html",
+   "brent": 0.04,
+   "fx": 0.01
+  },
+  {
+   "id": "hormuz_blokada_irak",
+   "label": "Zakłócenia eksportu przez cieśninę Ormuz",
+   "note": "Paraliż transportu przez cieśninę Ormuz uderza w eksport Iraku i winduje światowe ceny surowca.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
    "brent": 0.05,
    "fx": 0.01
   },
   {
-   "id": "hormuz_standoff",
-   "label": "Napięcia w Cieśninie Ormuz",
-   "note": "Ryzyko paraliżu kluczowego szlaku transportowego podbija premię za ryzyko oraz marże na dieslu.",
+   "id": "iea_uwolnienie_rezerw",
+   "label": "Plany uwolnienia 100 mln baryłek przez IEA",
+   "note": "Rozmowy IEA i G7 o interwencyjnym uwolnieniu ropy i diesla mają wyhamować rajd cenowy powyżej 100 USD.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html",
-   "brent": 0.03,
-   "crack": 0.02,
-   "fx": 0.005
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html",
+   "brent": -0.04,
+   "crack": -0.03
   },
   {
-   "id": "us_inventories_slide",
+   "id": "spadek_zapasow_usa",
    "label": "Spadek zapasów ropy w USA",
-   "note": "Kurczące się zapasy surowca w Stanach Zjednoczonych sygnalizują zacieśnianie się rynku.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
-   "brent": 0.015
-  },
-  {
-   "id": "venezuela_supply_risk",
-   "label": "Niepewność wokół dostaw z Wenezueli",
-   "note": "Zagrożenie dla zachodnich projektów w Wenezueli ogranicza perspektywy wzrostu podaży ciężkiej ropy.",
+   "note": "Ubytek zapasów ropy w USA przy stabilnym poziomie destylatów daje umiarkowane wsparcie dla notowań.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Is-the-Wests-100-Year-Venezuela-Oil-Bet-About-To-Backfire.html",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html",
    "brent": 0.01
   }
  ]
