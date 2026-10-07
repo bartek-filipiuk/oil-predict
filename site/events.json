@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-06 23:22 UTC",
+ "generated": "2026-10-07 11:47 UTC",
  "headlines": [
+  {
+   "title": "Brent Back Above $100 as Houthis Hit Saudi Infrastructure",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html",
+   "published": "2026-10-07 00:00"
+  },
+  {
+   "title": "Why $100 Oil Is Hard to Kill",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Why-100-Oil-Is-Hard-to-Kill.html",
+   "published": "2026-10-06 19:00"
+  },
   {
    "title": "5 Natural Gas Stocks Profiting From the Strait of Hormuz Standoff",
    "url": "https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html",
@@ -27,68 +37,45 @@
    "published": "2026-10-06 14:00"
   },
   {
-   "title": "The Hidden Cost of Saudi Arabia’s Oil Export Recovery",
-   "url": "https://oilprice.com/Energy/Crude-Oil/The-Hidden-Cost-of-Saudi-Arabias-Oil-Export-Recovery.html",
-   "published": "2026-10-06 11:05"
-  },
-  {
-   "title": "Gulf Producers Say Importers Should Share the Cost of Hormuz Workarounds",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
-   "published": "2026-10-06 09:30"
-  },
-  {
    "title": "Energy: Brent above $100, tensions in Hormuz support prices - Agenzia Nova",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
    "published": "2026-10-06 06:35"
-  },
-  {
-   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
-   "published": "2026-10-05 04:29"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ormuz_brent_100",
-   "label": "Napięcia w cieśninie Ormuz",
-   "note": "Napięcia w cieśninie Ormuz windują cenę ropy Brent powyżej poziomu 100 USD.",
+   "id": "houthi_saudi_attack",
+   "label": "Atak Huti na saudyjską infrastrukturę",
+   "note": "Uderzenie w obiekty w Arabii Saudyjskiej winduje cenę Brent powyżej 100 USD przez obawy o podaż.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
-   "brent": 0.04,
-   "crack": 0.02,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Back-Above-100-as-Houthis-Hit-Saudi-Infrastructure.html",
+   "brent": 0.05,
    "fx": 0.01
   },
   {
-   "id": "ormuz_workaround_costs",
-   "label": "Koszty ominięcia cieśniny Ormuz",
-   "note": "Producenci z Zatoki chcą przerzucić koszty bypassów na importerów, podnosząc marże.",
+   "id": "hormuz_standoff",
+   "label": "Napięcia w Cieśninie Ormuz",
+   "note": "Ryzyko paraliżu kluczowego szlaku transportowego podbija premię za ryzyko oraz marże na dieslu.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Producers-Say-Importers-Should-Share-the-Cost-of-Hormuz-Workarounds.html",
-   "brent": 0.02,
-   "crack": 0.01
+   "source_url": "https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html",
+   "brent": 0.03,
+   "crack": 0.02,
+   "fx": 0.005
   },
   {
-   "id": "us_crude_stocks_fall",
+   "id": "us_inventories_slide",
    "label": "Spadek zapasów ropy w USA",
-   "note": "Malejące zapasy surowca w Stanach Zjednoczonych zaostrzają bilans podaży na rynku.",
+   "note": "Kurczące się zapasy surowca w Stanach Zjednoczonych sygnalizują zacieśnianie się rynku.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Inventories-Slide.html",
    "brent": 0.015
   },
   {
-   "id": "pl_wholesale_pressure",
-   "label": "Presja na ceny hurtowe w Polsce",
-   "note": "Rosnące notowania ropy przekładają się bezpośrednio na podwyżki w krajowym hurcie paliw.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
-   "pl": 0.02
-  },
-  {
    "id": "venezuela_supply_risk",
-   "label": "Ryzyko dostaw z Wenezueli",
-   "note": "Niepewność co do eksportu z Wenezueli ogranicza podaż ciężkich gatunków ropy.",
+   "label": "Niepewność wokół dostaw z Wenezueli",
+   "note": "Zagrożenie dla zachodnich projektów w Wenezueli ogranicza perspektywy wzrostu podaży ciężkiej ropy.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Is-the-Wests-100-Year-Venezuela-Oil-Bet-About-To-Backfire.html",
    "brent": 0.01
