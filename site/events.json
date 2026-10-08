@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-08 12:02 UTC",
+ "generated": "2026-10-08 15:46 UTC",
  "headlines": [
+  {
+   "title": "Russian Oil Flows to India Plunge to 310,000 Bpd",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
+   "published": "2026-10-08 09:30"
+  },
+  {
+   "title": "Supertanker Rates Hit Record $1.4 Million a Day",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
+   "published": "2026-10-08 08:30"
+  },
   {
    "title": "Oil Jumps 5% as Iran Steps Up Attacks on Hormuz Tankers",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
@@ -45,64 +55,71 @@
    "title": "Iran War Pushes 25 Countries Into New Electrification Policies",
    "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Pushes-25-Countries-Into-New-Electrification-Policies.html",
    "published": "2026-10-07 16:00"
-  },
-  {
-   "title": "Global Diesel Crunch Fuels New Wave of Energy Nationalism",
-   "url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
-   "published": "2026-10-07 15:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_hormuz_ataki",
-   "label": "Wzrost ataków Iranu w cieśninie Ormuz",
-   "note": "Eskalacja ataków na tankowce ogranicza podaż surowca i podbija premię geopolityczną.",
+   "id": "iran_hormuz_attacks",
+   "label": "Ataki Iranu na tankowce w Cieśninie Ormuz",
+   "note": "Nasilenie ataków blokuje szlak dostaw z Zatoki Perskiej, windując ceny surowca i paliw.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
    "brent": 0.06,
+   "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "zatrzymanie_wydobycia_za",
-   "label": "Wstrzymanie wydobycia w Zatoce Meksykańskiej",
-   "note": "Wyłączanie platform naftowych w Zatoce Meksykańskiej ogranicza bieżącą podaż ropy w USA.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
-   "brent": 0.025
+   "id": "tanker_freight_record",
+   "label": "Rekordowe stawki frachtu supertankowców",
+   "note": "Ekstremalny koszt transportu morskiego podbija marże rafineryjne i ceny importowanych paliw.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
+   "brent": 0.02,
+   "crack": 0.03
   },
   {
-   "id": "globalny_deficyt_diesla",
-   "label": "Globalny deficyt diesla i protekcjonizm",
-   "note": "Nacjonalizm energetyczny i braki oleju napędowego windować będą marże rafineryjne diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
-   "crack": 0.05
-  },
-  {
-   "id": "orlen_wzrost_hurtu",
-   "label": "Wyhamowanie obniżek i wzrost hurtu Orlenu",
-   "note": "Orlen podnosi hurtowe ceny paliw w czwartek, odwracając wcześniejszy trend spadkowy.",
+   "id": "orlen_hurt_wzrost",
+   "label": "Podwyżka cen hurtowych w PKN Orlen",
+   "note": "Wyhamowanie wcześniejszych obniżek i wzrost cen w hurcie podbije stawki na stacjach w Polsce.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "pl": 0.02
   },
   {
-   "id": "rekordowo_niskie_zapasy",
-   "label": "Wyczerpane zapasy wyznaczają dno cen ropy",
-   "note": "Niski poziom globalnych rezerw ropy ogranicza przestrzeń do korekt i wspiera ceny surowca.",
+   "id": "qatar_tanker_attack",
+   "label": "Atak na tankowiec u wybrzeży Kataru",
+   "note": "Eskalacja w głębi Zatoki Perskiej podnosi premię za ryzyko i zwiększa awersję do ryzyka (FX).",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Depleted-Global-Stocks-Set-Higher-Floor-Under-Oil-Prices.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
+   "brent": 0.025,
+   "fx": 0.005
+  },
+  {
+   "id": "gom_production_shut",
+   "label": "Wstrzymanie wydobycia w Zatoce Meksyku",
+   "note": "Zamykanie platform w USA ogranicza lokalną podaż ropy, wywierając presję na światowe ceny.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
    "brent": 0.02
   },
   {
-   "id": "atak_tankowiec_katar",
-   "label": "Pierwszy od miesiąca atak u wybrzeży Kataru",
-   "note": "Rozszerzenie zasięgu ataków na tankowce w głąb Zatoki Perskiej potęguje ryzyko żeglugowe.",
+   "id": "russia_india_flows_plung",
+   "label": "Załamanie eksportu ropy z Rosji do Indii",
+   "note": "Gwałtowny spadek dostaw zmusza Indie do zakupów z alternatywnych źródeł, napinając rynek.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
-   "brent": 0.02
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
+   "brent": 0.02,
+   "crack": 0.01
+  },
+  {
+   "id": "global_stocks_depleted",
+   "label": "Niski poziom globalnych rezerw ropy",
+   "note": "Wyczerpane zapasy magazynowe tworzą wysokie dno cenowe i potęgują wrażliwość rynku na szoki.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Depleted-Global-Stocks-Set-Higher-Floor-Under-Oil-Prices.html",
+   "brent": 0.015
   }
  ]
 }
