@@ -1,10 +1,15 @@
 {
- "generated": "2026-10-08 17:55 UTC",
+ "generated": "2026-10-08 20:01 UTC",
  "headlines": [
   {
    "title": "West of Suez: Brent, LSGO surge on latest Mideast attacks - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
    "published": "2026-10-08 16:42"
+  },
+  {
+   "title": "Oil Prices Plunge as Trump Rules Out Iran Strikes Before Midterms",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
+   "published": "2026-10-08 13:00"
   },
   {
    "title": "U.S. Gasoline Prices Set October Record Even as National Average Slips",
@@ -47,16 +52,6 @@
    "published": "2026-10-08 04:00"
   },
   {
-   "title": "Big Oil Begins Shutting In Gulf of Mexico Production",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
-   "published": "2026-10-08 03:00"
-  },
-  {
-   "title": "Hormuz Tanker Traffic Hits Two-Month Low as Attacks Surge",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Hits-Two-Month-Low-as-Attacks-Surge.html",
-   "published": "2026-10-08 02:00"
-  },
-  {
    "title": "Ceny paliw od 08.10.2026: Środowe obniżki wyhamowane. Czwartkowy hurt w Orlenie idzie w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "published": "2026-10-07 22:59"
@@ -66,52 +61,55 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_ormuz",
-   "label": "Ataki Iranu na tankowce w Ormuz",
-   "note": "Eskalacja w Zatoce Perskiej paraliżuje transport ropy i podbija premię geopolityczną.",
+   "id": "trump_wyklucza_uderzenie",
+   "label": "Trump wyklucza atak na Iran przed wyborami",
+   "note": "Spadek premii wojennej prowadzi do gwałtownej korekty w dół na rynku ropy naftowej.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
+   "brent": -0.05
+  },
+  {
+   "id": "iran_ataki_hormuz",
+   "label": "Nasilenie ataków Iranu w cieśninie Ormuz",
+   "note": "Zagrożenie szlaków tankowców w cieśninie Ormuz wywołuje skokowy wzrost cen ropy.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
    "brent": 0.05,
+   "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "rekordowy_fracht",
-   "label": "Rekordowe stawki frachtu supertankowców",
-   "note": "Stawki 1,4 mln USD/dzień drastycznie podnoszą koszty importu surowca i marże rafineryjne.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
-   "brent": 0.015,
-   "crack": 0.02
-  },
-  {
-   "id": "przestoje_zatoka_meksyka",
-   "label": "Wstrzymanie wydobycia w Zatoce Meksyk.",
-   "note": "Ograniczenie podaży ropy z USA wspiera notowania surowca na rynkach światowych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
-   "brent": 0.02
-  },
-  {
-   "id": "spadek_rosja_indie",
-   "label": "Spadek dostaw rosyjskiej ropy do Indii",
-   "note": "Gwałtowny spadek przepływów z Rosji zmusza Indie do zakupów z alternatywnych źródeł.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
-   "brent": 0.015
-  },
-  {
-   "id": "wzrost_lsgo_bliski_wscho",
-   "label": "Wzrost cen diesla LSGO i ropy na Zachodzie",
-   "note": "Ataki na Bliskim Wschodzie wywołały silny skok notowań ropy Brent oraz marż na dieslu.",
+   "id": "mideast_attacks_brent_ls",
+   "label": "Ataki na Bliskim Wschodzie windowały ropę",
+   "note": "Wzrost ryzyka geopolitycznego podbija notowania ropy Brent oraz marże na dieslu (LSGO).",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
-   "brent": 0.03,
+   "brent": 0.04,
+   "crack": 0.02,
+   "fx": 0.01
+  },
+  {
+   "id": "rekordowe_stawki_superta",
+   "label": "Rekordowe stawki frachtu supertankowców",
+   "note": "Drastyczny wzrost kosztów transportu morskiego podbija marże rafineryjne i ceny importu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
+   "brent": 0.01,
    "crack": 0.03
   },
   {
-   "id": "wzrost_hurtu_orlen",
-   "label": "Wyhamowanie obniżek i wzrost hurtu Orlenu",
-   "note": "Koniec fali obniżek w rafineriach i podwyżki w hurcie bezpośrednio podnoszą ceny w kraju.",
+   "id": "atak_tankowiec_katar",
+   "label": "Atak na tankowiec u wybrzeży Kataru",
+   "note": "Rozszerzenie zasięgu ataków w Zatoce Perskiej podnosi premię za ryzyko dostaw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
+   "brent": 0.02,
+   "crack": 0.01
+  },
+  {
+   "id": "orlen_wzrost_cen_hurtowy",
+   "label": "Wzrost cen hurtowych paliw w Orlenie",
+   "note": "Wyhamowanie obniżek i podwyżki hurtowe w Orlenie bezpośrednio podnoszą ceny w kraju.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "pl": 0.02
