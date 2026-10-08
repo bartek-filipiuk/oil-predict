@@ -1,10 +1,40 @@
 {
- "generated": "2026-10-07 23:53 UTC",
+ "generated": "2026-10-08 12:02 UTC",
  "headlines": [
+  {
+   "title": "Oil Jumps 5% as Iran Steps Up Attacks on Hormuz Tankers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
+   "published": "2026-10-08 05:46"
+  },
+  {
+   "title": "India's Inflation Likely Hit 5.4% in September as Oil Costs Bite",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Inflation-Likely-Hit-54-in-September-as-Oil-Costs-Bite.html",
+   "published": "2026-10-08 05:30"
+  },
+  {
+   "title": "First Deep-Gulf Tanker Attack in Nearly a Month Hits Vessel off Qatar",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
+   "published": "2026-10-08 04:00"
+  },
+  {
+   "title": "Big Oil Begins Shutting In Gulf of Mexico Production",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
+   "published": "2026-10-08 03:00"
+  },
+  {
+   "title": "Hormuz Tanker Traffic Hits Two-Month Low as Attacks Surge",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Hits-Two-Month-Low-as-Attacks-Surge.html",
+   "published": "2026-10-08 02:00"
+  },
   {
    "title": "Ceny paliw od 08.10.2026: Środowe obniżki wyhamowane. Czwartkowy hurt w Orlenie idzie w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "published": "2026-10-07 22:59"
+  },
+  {
+   "title": "Kpler Suspects Gulf Producers Are Paying Iran for Safe Passage",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html",
+   "published": "2026-10-07 19:00"
   },
   {
    "title": "Depleted Global Stocks Set Higher Floor Under Oil Prices",
@@ -20,72 +50,58 @@
    "title": "Global Diesel Crunch Fuels New Wave of Energy Nationalism",
    "url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
    "published": "2026-10-07 15:00"
-  },
-  {
-   "title": "Iraq Devalues Dinar 14.5% as Hormuz Disruption Drains Oil Revenue",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
-   "published": "2026-10-07 10:30"
-  },
-  {
-   "title": "U.S. Crude Stocks Dip But Distillates Hold Steady",
-   "url": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Stocks-Dip-But-Distillates-Hold-Steady.html",
-   "published": "2026-10-07 09:40"
-  },
-  {
-   "title": "IEA Discusses G7's 100 Million-Barrel Oil and Diesel Release",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html",
-   "published": "2026-10-07 08:30"
-  },
-  {
-   "title": "Energy: Brent above $100, tensions in Hormuz support prices - Agenzia Nova",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnItWnVVbElESmZaRG1OZUFDUDdWc2doSmRIakJUc2tEa0VpdVdQRHdUVGxEcEJDal9jVjA2OEhkQXZPYlJpeGpjRVc0RG9BOW1zVDFiWFBPTmIyUHpxVVVnRG1COUVJcnVqUTJJNFBjcmJ2T0JPWVNGb3QxNDFsRUlPMkpUTjRValdtOTBJSVFEd0RibVRvRVY1QzhBa0RUZ3c?oc=5",
-   "published": "2026-10-06 06:35"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "orlen_podwyzki_hurt",
-   "label": "Wzrost hurtowych cen w Orlenie",
-   "note": "Orlen podnosi ceny hurtowe po chwilowych spadkach, co bezpośrednio podbija stawki na krajowym rynku.",
+   "id": "iran_hormuz_ataki",
+   "label": "Wzrost ataków Iranu w cieśninie Ormuz",
+   "note": "Eskalacja ataków na tankowce ogranicza podaż surowca i podbija premię geopolityczną.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
+   "brent": 0.06,
+   "fx": 0.01
+  },
+  {
+   "id": "zatrzymanie_wydobycia_za",
+   "label": "Wstrzymanie wydobycia w Zatoce Meksykańskiej",
+   "note": "Wyłączanie platform naftowych w Zatoce Meksykańskiej ogranicza bieżącą podaż ropy w USA.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Big-Oil-Begins-Shutting-In-Gulf-of-Mexico-Production.html",
+   "brent": 0.025
+  },
+  {
+   "id": "globalny_deficyt_diesla",
+   "label": "Globalny deficyt diesla i protekcjonizm",
+   "note": "Nacjonalizm energetyczny i braki oleju napędowego windować będą marże rafineryjne diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
+   "crack": 0.05
+  },
+  {
+   "id": "orlen_wzrost_hurtu",
+   "label": "Wyhamowanie obniżek i wzrost hurtu Orlenu",
+   "note": "Orlen podnosi hurtowe ceny paliw w czwartek, odwracając wcześniejszy trend spadkowy.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "pl": 0.02
   },
   {
-   "id": "iea_uwolnienie_rezerw",
-   "label": "Rozmowy MAE o uwolnieniu rezerw G7",
-   "note": "Potencjalne uwolnienie 100 mln baryłek ropy i diesla może schłodzić presję cenową na giełdach.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Discusses-G7s-100-Million-Barrel-Oil-and-Diesel-Release.html",
-   "brent": -0.04,
-   "crack": -0.02
-  },
-  {
-   "id": "globalny_kryzys_diesla",
-   "label": "Nacjonalizm surowcowy i deficyt diesla",
-   "note": "Globalne niedobory diesla i ograniczenia eksportowe powiększają marże rafineryjne w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Global-Diesel-Crunch-Fuels-New-Wave-of-Energy-Nationalism.html",
-   "brent": 0.01,
-   "crack": 0.04
-  },
-  {
-   "id": "hormuz_irak_zaklocenia",
-   "label": "Blokada cieśniny Ormuz uderza w Irak",
-   "note": "Paraliż szlaku przez Ormuz tnie dochody Iraku i podsyca obawy o ciągłość dostaw z Zatoki Perskiej.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Devalues-Dinar-145-as-Hormuz-Disruption-Drains-Oil-Revenue.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "spadek_zapasow_ropy",
-   "label": "Niski poziom globalnych zapasów ropy",
-   "note": "Wyczerpane zapasy surowca na świecie tworzą twarde dno pod notowania ropy i ograniczają spadki.",
+   "id": "rekordowo_niskie_zapasy",
+   "label": "Wyczerpane zapasy wyznaczają dno cen ropy",
+   "note": "Niski poziom globalnych rezerw ropy ogranicza przestrzeń do korekt i wspiera ceny surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Depleted-Global-Stocks-Set-Higher-Floor-Under-Oil-Prices.html",
+   "brent": 0.02
+  },
+  {
+   "id": "atak_tankowiec_katar",
+   "label": "Pierwszy od miesiąca atak u wybrzeży Kataru",
+   "note": "Rozszerzenie zasięgu ataków na tankowce w głąb Zatoki Perskiej potęguje ryzyko żeglugowe.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
    "brent": 0.02
   }
  ]
