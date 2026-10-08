@@ -1,10 +1,25 @@
 {
- "generated": "2026-10-08 20:01 UTC",
+ "generated": "2026-10-08 22:16 UTC",
  "headlines": [
   {
    "title": "West of Suez: Brent, LSGO surge on latest Mideast attacks - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
    "published": "2026-10-08 16:42"
+  },
+  {
+   "title": "Iran War Energy Shock Puts Hydrogen Back on the Table",
+   "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Energy-Shock-Puts-Hydrogen-Back-on-the-Table.html",
+   "published": "2026-10-08 16:00"
+  },
+  {
+   "title": "Hurricane Isaias Shuts In 1.28 Million Bpd of Gulf Oil Production",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Hurricane-Isaias-Shuts-In-128-Million-Bpd-of-Gulf-Oil-Production.html",
+   "published": "2026-10-08 15:00"
+  },
+  {
+   "title": "10 wrześnie: ceny paliw. Ropa Brent powyżej 100 dol. - MotoGuru.pl",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJVdzN2bmJPZDV4YXFJSGZ5ZFhGdVdKQnR1Q1NKcUFvTkllczI4SkV5MzVVbWgtRVpGTnFFVm9rMHFKLW95RlgyaWdfUk5UUnc5Q3BmbDlqTVlDZ3dDalR4X0dDVm5GelkzVmNmMmYyTmhjV3VHMzRjTE1hcjZseFBpQS1WVHM?oc=5",
+   "published": "2026-10-08 13:35"
   },
   {
    "title": "Oil Prices Plunge as Trump Rules Out Iran Strikes Before Midterms",
@@ -37,21 +52,6 @@
    "published": "2026-10-08 08:30"
   },
   {
-   "title": "Oil Jumps 5% as Iran Steps Up Attacks on Hormuz Tankers",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
-   "published": "2026-10-08 05:46"
-  },
-  {
-   "title": "India's Inflation Likely Hit 5.4% in September as Oil Costs Bite",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Inflation-Likely-Hit-54-in-September-as-Oil-Costs-Bite.html",
-   "published": "2026-10-08 05:30"
-  },
-  {
-   "title": "First Deep-Gulf Tanker Attack in Nearly a Month Hits Vessel off Qatar",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
-   "published": "2026-10-08 04:00"
-  },
-  {
    "title": "Ceny paliw od 08.10.2026: Środowe obniżki wyhamowane. Czwartkowy hurt w Orlenie idzie w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "published": "2026-10-07 22:59"
@@ -61,58 +61,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "trump_wyklucza_uderzenie",
-   "label": "Trump wyklucza atak na Iran przed wyborami",
-   "note": "Spadek premii wojennej prowadzi do gwałtownej korekty w dół na rynku ropy naftowej.",
+   "id": "atakbliskiwschod",
+   "label": "Ataki na Bliskim Wschodzie",
+   "note": "Wzrost cen Brent i oleju napędowego po nowych atakach w regionie Bliskiego Wschodu.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
+   "brent": 0.035,
+   "crack": 0.025,
+   "fx": 0.005
+  },
+  {
+   "id": "trumpbrakuderzeniairan",
+   "label": "Brak uderzenia USA na Iran",
+   "note": "Wykluczenie ataków na Iran przed wyborami w USA obniża premię geopolityczną za ryzyko.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
-   "brent": -0.05
+   "brent": -0.04,
+   "crack": -0.01
   },
   {
-   "id": "iran_ataki_hormuz",
-   "label": "Nasilenie ataków Iranu w cieśninie Ormuz",
-   "note": "Zagrożenie szlaków tankowców w cieśninie Ormuz wywołuje skokowy wzrost cen ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
-   "brent": 0.05,
-   "crack": 0.02,
-   "fx": 0.01
+   "id": "huraganisaiaszatoka",
+   "label": "Huragan Isaias w USA",
+   "note": "Wstrzymanie 1,28 mln baryłek dziennie wydobycia w Zatoce Meksykańskiej ogranicza bieżącą podaż.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hurricane-Isaias-Shuts-In-128-Million-Bpd-of-Gulf-Oil-Production.html",
+   "brent": 0.02
   },
   {
-   "id": "mideast_attacks_brent_ls",
-   "label": "Ataki na Bliskim Wschodzie windowały ropę",
-   "note": "Wzrost ryzyka geopolitycznego podbija notowania ropy Brent oraz marże na dieslu (LSGO).",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
-   "brent": 0.04,
-   "crack": 0.02,
-   "fx": 0.01
-  },
-  {
-   "id": "rekordowe_stawki_superta",
-   "label": "Rekordowe stawki frachtu supertankowców",
-   "note": "Drastyczny wzrost kosztów transportu morskiego podbija marże rafineryjne i ceny importu.",
+   "id": "rekordowestawkisupertank",
+   "label": "Rekordowe stawki frachtu VLCC",
+   "note": "Wzrost stawek supertankowców do 1,4 mln USD/dzień podbija koszty transportu ropy i marże diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
-   "brent": 0.01,
-   "crack": 0.03
+   "brent": 0.015,
+   "crack": 0.02
   },
   {
-   "id": "atak_tankowiec_katar",
-   "label": "Atak na tankowiec u wybrzeży Kataru",
-   "note": "Rozszerzenie zasięgu ataków w Zatoce Perskiej podnosi premię za ryzyko dostaw.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html",
-   "brent": 0.02,
-   "crack": 0.01
+   "id": "spadekeksporturosjaindie",
+   "label": "Spadek dostaw ropy z Rosji do Indii",
+   "note": "Zmniejszenie wolumenów do 310 tys. bpd wymusza popyt na alternatywne źródła ropy na rynku spot.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
+   "brent": 0.01
   },
   {
-   "id": "orlen_wzrost_cen_hurtowy",
-   "label": "Wzrost cen hurtowych paliw w Orlenie",
-   "note": "Wyhamowanie obniżek i podwyżki hurtowe w Orlenie bezpośrednio podnoszą ceny w kraju.",
+   "id": "wzrosthurtuorlen",
+   "label": "Wzrost cen hurtowych w Orlenie",
+   "note": "Wyhamowanie spadków i czwartkowy wzrost hurtu w Orlenie podnosi presję na krajowe marże.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
-   "pl": 0.02
+   "pl": 0.015
   }
  ]
 }
