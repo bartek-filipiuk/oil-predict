@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-09 21:49 UTC",
+ "generated": "2026-10-09 23:36 UTC",
  "headlines": [
+  {
+   "title": "Why Record Crude Output Can’t Solve America’s Diesel Crisis",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
+   "published": "2026-10-09 17:00"
+  },
+  {
+   "title": "Russia, Germany Add Diesel Supply as Fuel Market Scrambles for Barrels",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html",
+   "published": "2026-10-09 16:30"
+  },
+  {
+   "title": "Hurricane Isaias Shuts In 71% of U.S. Gulf Oil Production",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hurricane-Isaias-Shuts-In-71-of-US-Gulf-Oil-Production.html",
+   "published": "2026-10-09 15:30"
+  },
   {
    "title": "5 Stocks Cashing In as $100 Oil Pushes Drivers Toward Electric",
    "url": "https://oilprice.com/Energy/Energy-General/5-Stocks-Cashing-In-as-100-Oil-Pushes-Drivers-Toward-Electric.html",
@@ -42,36 +57,26 @@
    "published": "2026-10-09 05:30"
   },
   {
-   "title": "Australia Close to Finalizing Gas Reservation Plan for LNG Exporters",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Close-to-Finalizing-Gas-Reservation-Plan-for-LNG-Exporters.html",
-   "published": "2026-10-09 04:30"
-  },
-  {
    "title": "West of Suez: Brent, LSGO surge on latest Mideast attacks - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
    "published": "2026-10-08 19:44"
-  },
-  {
-   "title": "Ceny paliw od 08.10.2026: Środowe obniżki wyhamowane. Czwartkowy hurt w Orlenie idzie w górę - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
-   "published": "2026-10-07 22:59"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "trump_iran_huragan",
-   "label": "Wstrzymanie ataków na Iran i huragan w USA",
-   "note": "Odroczenie uderzeń na Iran redukuje premię wojenną, lecz huragan w Zatoce ogranicza podaż ropy w USA.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
-   "brent": -0.02
+   "id": "huragan_isaias_zatoka",
+   "label": "Huragan Isaias wstrzymuje wydobycie w USA",
+   "note": "Wstrzymanie 71% wydobycia w Zatoce Meksykańskiej gwałtownie ogranicza podaż surowca w USA.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hurricane-Isaias-Shuts-In-71-of-US-Gulf-Oil-Production.html",
+   "brent": 0.04
   },
   {
-   "id": "bliski_wschod_ataki_lsgo",
-   "label": "Ataki na Bliskim Wschodzie windowały LSGO",
-   "note": "Nowa eskalacja w regionie podbiła notowania ropy Brent oraz marże i ceny europejskiego diesla (LSGO).",
+   "id": "ataki_bliski_wschod_lsgo",
+   "label": "Nowe ataki na Bliskim Wschodzie",
+   "note": "Eskalacja działań zbrojnych winduje notowania ropy Brent oraz europejskiego diesla LSGO.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
    "brent": 0.04,
@@ -79,37 +84,45 @@
    "fx": 0.01
   },
   {
-   "id": "orlen_wzrost_cen_hurtowy",
-   "label": "Podwyżki hurtowych cen paliw w Orlenie",
-   "note": "Krajowy potentat podnosi ceny hurtowe po wcześniejszych obniżkach pod presją drożejącej ropy i paliw.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
-   "pl": 0.02
-  },
-  {
-   "id": "kryzys_ormuz_magazyny_ue",
-   "label": "Kryzys w Ormuz zagraża zapasom w Europie",
-   "note": "Napięcia w cieśninie Ormuz podbijają koszty energii w UE, wspierając marże rafineryjne i ropę.",
+   "id": "kryzys_ormuz_gaz_ue",
+   "label": "Kryzys w cieśninie Ormuz uderza w UE",
+   "note": "Niedobory gazu przed zimą z powodu napięć w cieśninie Ormuz zwiększają presję na paliwa i osłabiają PLN.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Crisis-Leaves-EU-Gas-Storage-Short-Heading-Into-Winter.html",
    "brent": 0.03,
-   "crack": 0.02
+   "fx": 0.015
+  },
+  {
+   "id": "trump_wstrzymuje_ataki_i",
+   "label": "Wstrzymanie uderzeń USA na Iran",
+   "note": "Decyzja Trumpa o odłożeniu ataków na Iran tymczasowo redukuje premię geopolityczną na rynku ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
+   "brent": -0.025
+  },
+  {
+   "id": "rosja_niemcy_podaz_diesl",
+   "label": "Nowa podaż diesla w Niemczech i Rosji",
+   "note": "Zwiększenie podaży oleju napędowego w Europie łagodzi deficyt i obniża marże rafineryjne crack.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html",
+   "crack": -0.03
   },
   {
    "id": "drogie_supertankowce_azj",
-   "label": "Skok stawek frachtu supertankowców",
-   "note": "Ekstremalny koszt frachtu ogranicza arbitraż z USA i podbija popyt na lokalne surowce, w tym Brent.",
+   "label": "Rekordowy wzrost stawek za supertankowce",
+   "note": "Wysokie koszty frachtu zmuszają rafinerie do szukania surowca bliżej, co podbija lokalne ceny ropy.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Ditch-US-Oil-as-Supertanker-Rates-Hit-82-Million.html",
    "brent": 0.02
   },
   {
-   "id": "energy_aspects_niedowart",
-   "label": "Energy Aspects: ropa niedowartościowana",
-   "note": "Wyceny analityków wskazują na zbyt niską premię za ryzyko podażowe, co sprzyja dalszym wzrostom cen ropy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Crude-Oil-is-Underpriced-Energy-Aspects-Says.html",
-   "brent": 0.015
+   "id": "strukturalny_brak_diesla",
+   "label": "Kryzys podaży diesla mimo rekordu ropy",
+   "note": "Niewystarczające moce rafineryjne w USA napędzają marże diesla na globalnym rynku paliwowym.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
+   "crack": 0.02
   }
  ]
 }
