@@ -1,6 +1,26 @@
 {
- "generated": "2026-10-09 00:00 UTC",
+ "generated": "2026-10-09 11:54 UTC",
  "headlines": [
+  {
+   "title": "Asian Refiners Ditch U.S. Oil as Supertanker Rates Hit $82 Million",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Ditch-US-Oil-as-Supertanker-Rates-Hit-82-Million.html",
+   "published": "2026-10-09 06:30"
+  },
+  {
+   "title": "Hormuz Crisis Leaves EU Gas Storage Short Heading Into Winter",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Crisis-Leaves-EU-Gas-Storage-Short-Heading-Into-Winter.html",
+   "published": "2026-10-09 05:30"
+  },
+  {
+   "title": "Australia Close to Finalizing Gas Reservation Plan for LNG Exporters",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Close-to-Finalizing-Gas-Reservation-Plan-for-LNG-Exporters.html",
+   "published": "2026-10-09 04:30"
+  },
+  {
+   "title": "Brent Holds Above $100 as Hormuz Tanker Traffic Hits Two-Month Low",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html",
+   "published": "2026-10-09 00:03"
+  },
   {
    "title": "West of Suez: Brent, LSGO surge on latest Mideast attacks - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
@@ -37,21 +57,6 @@
    "published": "2026-10-08 12:30"
   },
   {
-   "title": "Reliance Drives India’s Venezuelan Oil Imports to Seven-Year High",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Reliance-Drives-Indias-Venezuelan-Oil-Imports-to-Seven-Year-High.html",
-   "published": "2026-10-08 11:30"
-  },
-  {
-   "title": "Equinor Finds Up to 10.3 Million Barrels of Oil Equivalent at Gullfaks South",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Equinor-Finds-Up-to-103-Million-Barrels-of-Oil-Equivalent-at-Gullfaks-South.html",
-   "published": "2026-10-08 11:00"
-  },
-  {
-   "title": "Russian Oil Flows to India Plunge to 310,000 Bpd",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
-   "published": "2026-10-08 09:30"
-  },
-  {
    "title": "Ceny paliw od 08.10.2026: Środowe obniżki wyhamowane. Czwartkowy hurt w Orlenie idzie w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "published": "2026-10-07 22:59"
@@ -61,45 +66,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_bliski_wschod",
+   "id": "atak_bliski_wschod_lsgo",
    "label": "Nowe ataki na Bliskim Wschodzie",
-   "note": "Wzrost napięć i ataki windują ceny ropy Brent oraz marże na europejskim oleju napędowym (LSGO).",
+   "note": "Ataki windują ceny ropy i oleju napędowego LSGO w basenie atlantyckim.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
    "brent": 0.04,
+   "crack": 0.03
+  },
+  {
+   "id": "huragan_isaias_zatoka_me",
+   "label": "Huragan Isaias odcina wydobycie w USA",
+   "note": "Wstrzymanie 1,28 mln baryłek dziennie w Zatoce Meksykańskiej ogranicza globalną podaż.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hurricane-Isaias-Shuts-In-128-Million-Bpd-of-Gulf-Oil-Production.html",
+   "brent": 0.03,
    "crack": 0.02
   },
   {
-   "id": "huragan_isaias",
-   "label": "Huragan Isaias ogranicza wydobycie w USA",
-   "note": "Wstrzymanie 1,28 mln baryłek dziennie wydobycia w Zatoce Meksykańskiej ogranicza bieżącą podaż surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hurricane-Isaias-Shuts-In-128-Million-Bpd-of-Gulf-Oil-Production.html",
-   "brent": 0.025
-  },
-  {
-   "id": "trump_iran_midterms",
+   "id": "trump_wyklucza_uderzenie",
    "label": "Brak uderzenia USA na Iran przed wyborami",
-   "note": "Wykluczenie natychmiastowego ataku na Iran łagodzi premię geopolityczną, wywołując korektę cen ropy.",
+   "note": "Wykluczenie odwetu przed midterms obniża premię geopolityczną na ropie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
-   "brent": -0.04
+   "brent": -0.05
   },
   {
-   "id": "podwyzka_hurtu_orlen",
-   "label": "Podwyżka cen w hurcie Orlenu",
-   "note": "Wyhamowanie wcześniejszych obniżek i podniesienie krajowych cen hurtowych przez PKN Orlen.",
+   "id": "kryzys_ciesnina_hormuz",
+   "label": "Spadek ruchu tankowców w cieśninie Ormuz",
+   "note": "Ruch tankowców najniższy od 2 miesięcy podtrzymuje ropę Brent powyżej 100 USD.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "orlen_wzrost_cen_hurtowy",
+   "label": "Wzrost cen w hurcie Orlenu",
+   "note": "Środowe spadki wyhamowały, a czwartkowa podwyżka hurtowa podnosi krajowe ceny paliw.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
-   "pl": 0.015
+   "pl": 0.02
   },
   {
-   "id": "spadek_eksportu_rosja_in",
-   "label": "Spadek eksportu rosyjskiej ropy do Indii",
-   "note": "Drastyczny spadek dostaw do 310 tys. bpd zmusza azjatyckie rafinerie do poszukiwania ropy z innych źródeł.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
-   "brent": 0.015
+   "id": "deficyt_gazu_magazyny_ue",
+   "label": "Niedobory gazu w UE przed zimą",
+   "note": "Kryzys w Ormuz ogranicza LNG dla UE, wzmacniając popyt substytucyjny na diesla i opał.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Crisis-Leaves-EU-Gas-Storage-Short-Heading-Into-Winter.html",
+   "brent": 0.01,
+   "crack": 0.03
   }
  ]
 }
