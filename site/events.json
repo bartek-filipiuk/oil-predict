@@ -1,10 +1,15 @@
 {
- "generated": "2026-10-08 22:16 UTC",
+ "generated": "2026-10-09 00:00 UTC",
  "headlines": [
   {
    "title": "West of Suez: Brent, LSGO surge on latest Mideast attacks - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
-   "published": "2026-10-08 16:42"
+   "published": "2026-10-08 19:44"
+  },
+  {
+   "title": "World’s Top Crude Trader Isn’t Ruling Out $200 Oil Just Yet",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Worlds-Top-Crude-Trader-Isnt-Ruling-Out-200-Oil-Just-Yet.html",
+   "published": "2026-10-08 19:00"
   },
   {
    "title": "Iran War Energy Shock Puts Hydrogen Back on the Table",
@@ -47,11 +52,6 @@
    "published": "2026-10-08 09:30"
   },
   {
-   "title": "Supertanker Rates Hit Record $1.4 Million a Day",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
-   "published": "2026-10-08 08:30"
-  },
-  {
    "title": "Ceny paliw od 08.10.2026: Środowe obniżki wyhamowane. Czwartkowy hurt w Orlenie idzie w górę - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "published": "2026-10-07 22:59"
@@ -61,56 +61,45 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atakbliskiwschod",
-   "label": "Ataki na Bliskim Wschodzie",
-   "note": "Wzrost cen Brent i oleju napędowego po nowych atakach w regionie Bliskiego Wschodu.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
-   "brent": 0.035,
-   "crack": 0.025,
-   "fx": 0.005
-  },
-  {
-   "id": "trumpbrakuderzeniairan",
-   "label": "Brak uderzenia USA na Iran",
-   "note": "Wykluczenie ataków na Iran przed wyborami w USA obniża premię geopolityczną za ryzyko.",
+   "id": "ataki_bliski_wschod",
+   "label": "Nowe ataki na Bliskim Wschodzie",
+   "note": "Wzrost napięć i ataki windują ceny ropy Brent oraz marże na europejskim oleju napędowym (LSGO).",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
-   "brent": -0.04,
-   "crack": -0.01
-  },
-  {
-   "id": "huraganisaiaszatoka",
-   "label": "Huragan Isaias w USA",
-   "note": "Wstrzymanie 1,28 mln baryłek dziennie wydobycia w Zatoce Meksykańskiej ogranicza bieżącą podaż.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hurricane-Isaias-Shuts-In-128-Million-Bpd-of-Gulf-Oil-Production.html",
-   "brent": 0.02
-  },
-  {
-   "id": "rekordowestawkisupertank",
-   "label": "Rekordowe stawki frachtu VLCC",
-   "note": "Wzrost stawek supertankowców do 1,4 mln USD/dzień podbija koszty transportu ropy i marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Hit-Record-14-Million-a-Day.html",
-   "brent": 0.015,
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
+   "brent": 0.04,
    "crack": 0.02
   },
   {
-   "id": "spadekeksporturosjaindie",
-   "label": "Spadek dostaw ropy z Rosji do Indii",
-   "note": "Zmniejszenie wolumenów do 310 tys. bpd wymusza popyt na alternatywne źródła ropy na rynku spot.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
-   "brent": 0.01
+   "id": "huragan_isaias",
+   "label": "Huragan Isaias ogranicza wydobycie w USA",
+   "note": "Wstrzymanie 1,28 mln baryłek dziennie wydobycia w Zatoce Meksykańskiej ogranicza bieżącą podaż surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Hurricane-Isaias-Shuts-In-128-Million-Bpd-of-Gulf-Oil-Production.html",
+   "brent": 0.025
   },
   {
-   "id": "wzrosthurtuorlen",
-   "label": "Wzrost cen hurtowych w Orlenie",
-   "note": "Wyhamowanie spadków i czwartkowy wzrost hurtu w Orlenie podnosi presję na krajowe marże.",
+   "id": "trump_iran_midterms",
+   "label": "Brak uderzenia USA na Iran przed wyborami",
+   "note": "Wykluczenie natychmiastowego ataku na Iran łagodzi premię geopolityczną, wywołując korektę cen ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.html",
+   "brent": -0.04
+  },
+  {
+   "id": "podwyzka_hurtu_orlen",
+   "label": "Podwyżka cen w hurcie Orlenu",
+   "note": "Wyhamowanie wcześniejszych obniżek i podniesienie krajowych cen hurtowych przez PKN Orlen.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "pl": 0.015
+  },
+  {
+   "id": "spadek_eksportu_rosja_in",
+   "label": "Spadek eksportu rosyjskiej ropy do Indii",
+   "note": "Drastyczny spadek dostaw do 310 tys. bpd zmusza azjatyckie rafinerie do poszukiwania ropy z innych źródeł.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Oil-Flows-to-India-Plunge-to-310000-Bpd.html",
+   "brent": 0.015
   }
  ]
 }
