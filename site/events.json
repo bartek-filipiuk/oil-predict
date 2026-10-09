@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-09 15:28 UTC",
+ "generated": "2026-10-09 17:29 UTC",
  "headlines": [
+  {
+   "title": "Trump Puts Iran Strikes on Hold as Hurricane Threatens Oil Supply",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
+   "published": "2026-10-09 11:35"
+  },
   {
    "title": "Canada’s New Oil Pipeline Challenged by Cold Lake First Nations",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-New-Oil-Pipeline-Challenged-by-Cold-Lake-First-Nations.html",
@@ -42,11 +47,6 @@
    "published": "2026-10-08 19:00"
   },
   {
-   "title": "Iran War Energy Shock Puts Hydrogen Back on the Table",
-   "url": "https://oilprice.com/Energy/Energy-General/Iran-War-Energy-Shock-Puts-Hydrogen-Back-on-the-Table.html",
-   "published": "2026-10-08 16:00"
-  },
-  {
    "title": "10 wrześnie: ceny paliw. Ropa Brent powyżej 100 dol. - MotoGuru.pl",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJVdzN2bmJPZDV4YXFJSGZ5ZFhGdVdKQnR1Q1NKcUFvTkllczI4SkV5MzVVbWgtRVpGTnFFVm9rMHFKLW95RlgyaWdfUk5UUnc5Q3BmbDlqTVlDZ3dDalR4X0dDVm5GelkzVmNmMmYyTmhjV3VHMzRjTE1hcjZseFBpQS1WVHM?oc=5",
    "published": "2026-10-08 13:35"
@@ -61,56 +61,57 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "mideast_attacks_lsgo",
-   "label": "Ataki na Bliskim Wschodzie windowały ceny",
-   "note": "Nowe ataki na Bliskim Wschodzie wywołały skok cen ropy Brent oraz marż na dieslu (LSGO).",
+   "id": "kryzys_ciesnina_ormuz",
+   "label": "Spadek ruchu tankowców w cieśninie Ormuz",
+   "note": "Ograniczenie przepływu ropy przez cieśninę Ormuz winduje ceny surowca i marże diesla.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html",
+   "brent": 0.04,
+   "crack": 0.02,
+   "fx": 0.01
+  },
+  {
+   "id": "ataki_bliski_wschod_lsgo",
+   "label": "Ataki na Bliskim Wschodzie i skok diesla",
+   "note": "Nowa fala ataków winduje notowania ropy Brent oraz marże europejskiego diesla LSGO.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZkhTN0d0aFJtLU9zcnZJcmtsS2NfcFJRUTZJVmZsdl9lRjM2Zm9BZ2s2blVFSGdBQUFrVVAwWVFMcHVzLTg1YjZuMHB4QWg0bHFHZlotRmdZcHB6TWMyOU5KenFvOHBCV0g3cmc5QVp4U0F2NnhFT2loczNGQ0FCamNTV3RLend0VTUzZXRpcldnOG5vNzdzMUZrNDN1d2s?oc=5",
-   "brent": 0.04,
+   "brent": 0.03,
    "crack": 0.03
   },
   {
-   "id": "hormuz_tanker_traffic_lo",
-   "label": "Spadek ruchu tankowców w cieśninie Ormuz",
-   "note": "Ruch tankowców przez Ormuz na 2-miesięcznym dnie utrzymuje ropę Brent powyżej 100 USD.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Holds-Above-100-as-Hormuz-Tanker-Traffic-Hits-Two-Month-Low.html",
-   "brent": 0.03,
+   "id": "trump_iran_huragan",
+   "label": "Wstrzymanie ataków na Iran i huragan w USA",
+   "note": "Odrocznie odwetu na Iranie łagodzi napięcia, lecz huragan zagraża wydobyciu w USA.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
+   "brent": -0.02
+  },
+  {
+   "id": "kryzys_gazu_magazyny_ue",
+   "label": "Niedobory gazu w UE przed zimą",
+   "note": "Kryzys w Ormuz ogranicza LNG dla UE, wzmagając popyt na olej opałowy i napędowy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Crisis-Leaves-EU-Gas-Storage-Short-Heading-Into-Winter.html",
+   "crack": 0.03,
    "fx": 0.01
   },
   {
-   "id": "hormuz_eu_gas_shortage",
-   "label": "Kryzys w Ormuz uderza w zapasy gazu w UE",
-   "note": "Niedobory LNG z Ormuz przed zimą w UE zwiększają popyt na paliwa zastępcze, windowując diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Crisis-Leaves-EU-Gas-Storage-Short-Heading-Into-Winter.html",
-   "brent": 0.015,
-   "crack": 0.025
-  },
-  {
-   "id": "tanker_rates_surge",
+   "id": "rekordowy_fracht_tankowc",
    "label": "Rekordowe stawki frachtu supertankowców",
-   "note": "Ekstremalny koszt frachtu zmusza Azję do kupna ropy bliżej, zwiększając premię na lokalne gatunki.",
+   "note": "Astronomiczne koszty transportu morskiego podbijają lokalne premie na ropę i paliwa.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Refiners-Ditch-US-Oil-as-Supertanker-Rates-Hit-82-Million.html",
-   "brent": 0.02
+   "brent": 0.02,
+   "crack": 0.01
   },
   {
-   "id": "orlen_hurt_wzrost",
-   "label": "Podwyżki w hurcie PKN Orlen",
-   "note": "Czwartkowy wzrost hurtowych cen paliw w Orlenie po wyhamowaniu wcześniejszych spadków.",
+   "id": "podwyzki_hurt_orlen",
+   "label": "Wzrost hurtowych cen paliw w Orlenie",
+   "note": "Krajowy koncern podnosi ceny hurtowe, reagując z opóźnieniem na globalne zawirowania.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMl9RQ3ZqUU1GMUxnZkJtamVzZE5qQTVyZGpaX0l5OTAyam1QWUxyT3dlOWwyU2wyaDk4U1lIelVnSk42Qjd1eVVfcnVVTkhNUGVMRUlwbVRtM3Fta3RHYUZNREt5Ty1uTDJlcHQ1LVNUZUlrME91VGtwSG00QnZqcmQ3OVk4ajRyUi1SYjJ3?oc=5",
    "pl": 0.02
-  },
-  {
-   "id": "trader_oil_200_usd",
-   "label": "Prognozy 200 USD podsycają spekulację",
-   "note": "Najwięksi handlarze nie wykluczają scenariusza 200 USD przy wojnie z Iranem, budząc nerwowość rynków.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Worlds-Top-Crude-Trader-Isnt-Ruling-Out-200-Oil-Just-Yet.html",
-   "brent": 0.015,
-   "fx": 0.01
   }
  ]
 }
