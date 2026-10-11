@@ -1,6 +1,26 @@
 {
- "generated": "2026-10-10 22:59 UTC",
+ "generated": "2026-10-11 11:24 UTC",
  "headlines": [
+  {
+   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
+   "published": "2026-10-10 21:21"
+  },
+  {
+   "title": "Tanker Rates Soar to Record as Oil Crisis Becomes Shipping Crisis",
+   "url": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html",
+   "published": "2026-10-10 18:00"
+  },
+  {
+   "title": "Emergency Oil Releases Risk Draining the World’s Last Supply Cushion",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html",
+   "published": "2026-10-10 18:00"
+  },
+  {
+   "title": "10 wrześnie: ceny paliw. Ropa Brent powyżej 100 dol. - MotoGuru.pl",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJVdzN2bmJPZDV4YXFJSGZ5ZFhGdVdKQnR1Q1NKcUFvTkllczI4SkV5MzVVbWgtRVpGTnFFVm9rMHFKLW95RlgyaWdfUk5UUnc5Q3BmbDlqTVlDZ3dDalR4X0dDVm5GelkzVmNmMmYyTmhjV3VHMzRjTE1hcjZseFBpQS1WVHM?oc=5",
+   "published": "2026-10-10 10:02"
+  },
   {
    "title": "The Iran War Is Fueling a Boom in Clean Energy",
    "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Is-Fueling-a-Boom-in-Clean-Energy.html",
@@ -35,69 +55,67 @@
    "title": "Trump Puts Iran Strikes on Hold as Hurricane Threatens Oil Supply",
    "url": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
    "published": "2026-10-09 11:35"
-  },
-  {
-   "title": "10 wrześnie: ceny paliw. Ropa Brent powyżej 100 dol. - MotoGuru.pl",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJVdzN2bmJPZDV4YXFJSGZ5ZFhGdVdKQnR1Q1NKcUFvTkllczI4SkV5MzVVbWgtRVpGTnFFVm9rMHFKLW95RlgyaWdfUk5UUnc5Q3BmbDlqTVlDZ3dDalR4X0dDVm5GelkzVmNmMmYyTmhjV3VHMzRjTE1hcjZseFBpQS1WVHM?oc=5",
-   "published": "2026-10-09 10:04"
-  },
-  {
-   "title": "Canada’s New Oil Pipeline Challenged by Cold Lake First Nations",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-New-Oil-Pipeline-Challenged-by-Cold-Lake-First-Nations.html",
-   "published": "2026-10-09 09:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "huragan_isaias_zatoka",
-   "label": "Huragan Isaias odcina wydobycie w USA",
-   "note": "Wstrzymanie 71% wydobycia w Zatoce Meksykańskiej gwałtownie ogranicza podaż surowca na rynku.",
+   "id": "huraganisaiaszatoka",
+   "label": "Huragan paraliżuje wydobycie w USA",
+   "note": "Wstrzymanie 71% wydobycia w Zatoce Meksykańskiej gwałtownie ogranicza bieżącą podaż surowca.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Hurricane-Isaias-Shuts-In-71-of-US-Gulf-Oil-Production.html",
-   "brent": 0.04,
-   "crack": 0.02
+   "brent": 0.04
   },
   {
-   "id": "wstrzymanie_uderzen_iran",
-   "label": "Wstrzymanie planów uderzenia na Iran",
-   "note": "Odłożenie nalotów przez USA tymczasowo redukuje premię geopolityczną na rynku ropy.",
+   "id": "rekordowyfrachttankowcow",
+   "label": "Rekordowe stawki frachtu tankowców",
+   "note": "Gwałtowny wzrost kosztów transportu morskiego podbija marże rafineryjne i koszty importu paliw.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
-   "brent": -0.03
-  },
-  {
-   "id": "dostawy_diesla_rosja_nie",
-   "label": "Dodatkowa podaż diesla w Europie",
-   "note": "Zwiększenie dostaw z Rosji i Niemiec może lekko złagodzić presję na europejskie marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html",
-   "crack": -0.03
-  },
-  {
-   "id": "kryzys_diesla_usa",
-   "label": "Nierozwiązany kryzys podaży diesla w USA",
-   "note": "Wąskie gardła rafineryjne utrzymują wysokie marże na średnich destylatach mimo wydobycia ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html",
+   "brent": 0.02,
    "crack": 0.03
   },
   {
-   "id": "wzrost_wiertnictwa_usa",
-   "label": "Wzrost aktywności wiertniczej w USA",
-   "note": "Stopniowy wzrost liczby odwiertów zapowiada wyższą podaż surowca w kolejnych miesiącach.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Drilling-Continues-to-Inch-Upward.html",
-   "brent": -0.01
+   "id": "odroczenieatakownairan",
+   "label": "Wstrzymanie uderzeń USA na Iran",
+   "note": "Odroczenie ataków przez USA z powodu huraganu chwilowo studzi premię za ryzyko geopolityczne.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Crude-Oil/Trump-Puts-Iran-Strikes-on-Hold-as-Hurricane-Threatens-Oil-Supply.html",
+   "brent": -0.025
   },
   {
-   "id": "spis_rurociag_kanada",
-   "label": "Sprzeciw wobec rurociągu w Kanadzie",
-   "note": "Pozew First Nations grozi opóźnieniami w eksporcie kanadyjskiej ropy na rynki globalne.",
+   "id": "dodatkowapodazdiesla",
+   "label": "Zwiększenie podaży diesla w Europie",
+   "note": "Dodatkowe wolumeny oleju napędowego w Niemczech i Rosji lekko łagodzą presję na marże diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html",
+   "crack": -0.02
+  },
+  {
+   "id": "wyczerpywanierezerwropy",
+   "label": "Spadek rezerw strategicznych ropy",
+   "note": "Uwalnianie zapasów awaryjnych grozi brakiem bufora w razie wystąpienia kolejnych szoków.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-New-Oil-Pipeline-Challenged-by-Cold-Lake-First-Nations.html",
-   "brent": 0.01
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html",
+   "brent": 0.03
+  },
+  {
+   "id": "kryzysrafineryjnydiesla",
+   "label": "Strukturalne niedobory diesla",
+   "note": "Rekordowe wydobycie ropy w USA nie eliminuje deficytu mocy rafineryjnych dla diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
+   "crack": 0.025
+  },
+  {
+   "id": "presjahurtpolska",
+   "label": "Presja na krajowy hurt paliw w Polsce",
+   "note": "Ropa powyżej 100 dol. wywiera silną presję na dalsze podwyżki w polskich rafineriach.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
+   "pl": 0.02
   }
  ]
 }
