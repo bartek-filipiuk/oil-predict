@@ -1,15 +1,45 @@
 {
- "generated": "2026-10-11 23:14 UTC",
+ "generated": "2026-10-12 13:10 UTC",
  "headlines": [
+  {
+   "title": "Pakistan Looks to Import Crude Oil from Libya to Diversify Supply",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Looks-to-Import-Crude-Oil-from-Libya-to-Diversify-Supply.html",
+   "published": "2026-10-12 07:30"
+  },
+  {
+   "title": "Oil Stuck Between Middle East Escalation and Russia-Ukraine Energy Truce",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Stuck-Between-Middle-East-Escalation-and-Russia-Ukraine-Energy-Truce.html",
+   "published": "2026-10-12 06:30"
+  },
+  {
+   "title": "BMI Predicts Brent Crude Will Remain Above $100 for Months",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/BMI-Predicts-Brent-Crude-Will-Remain-Above-100-for-Months.html",
+   "published": "2026-10-12 05:30"
+  },
+  {
+   "title": "Japan Urges Asia to Build Up Oil Reserves as Middle East Risks Mount",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Urges-Asia-to-Build-Up-Oil-Reserves-as-Middle-East-Risks-Mount.html",
+   "published": "2026-10-12 03:15"
+  },
+  {
+   "title": "Supertanker Rates Slip From Record Highs",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Slip-From-Record-Highs.html",
+   "published": "2026-10-12 02:00"
+  },
+  {
+   "title": "Two More Oil Tankers Attacked Near Strait of Hormuz",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Two-More-Oil-Tankers-Attacked-Near-Strait-of-Hormuz.html",
+   "published": "2026-10-12 00:30"
+  },
+  {
+   "title": "Trump's Russia-Ukraine Energy Ceasefire May Only Cover Oil Refineries",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trumps-Russia-Ukraine-Energy-Ceasefire-May-Only-Cover-Oil-Refineries.html",
+   "published": "2026-10-11 20:01"
+  },
   {
    "title": "North Sea Oil Producers Push Burnham to Scrap Windfall Tax",
    "url": "https://oilprice.com/Energy/Crude-Oil/North-Sea-Oil-Producers-Push-Burnham-to-Scrap-Windfall-Tax.html",
    "published": "2026-10-11 10:00"
-  },
-  {
-   "title": "Ceny paliw pod presją. Hurt rośnie, a ropa jest najdroższa od lipca - AgroNews - Wiadomości rolnicze - Ceny rolne",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
-   "published": "2026-10-10 21:21"
   },
   {
    "title": "Tanker Rates Soar to Record as Oil Crisis Becomes Shipping Crisis",
@@ -20,49 +50,53 @@
    "title": "Emergency Oil Releases Risk Draining the World’s Last Supply Cushion",
    "url": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html",
    "published": "2026-10-10 18:00"
-  },
-  {
-   "title": "The Iran War Is Fueling a Boom in Clean Energy",
-   "url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Is-Fueling-a-Boom-in-Clean-Energy.html",
-   "published": "2026-10-10 10:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "wojna_z_iranem",
-   "label": "Wojna z Iranem i premia geopolityczna",
-   "note": "Trwający konflikt podbija ryzyko podażowe na Bliskim Wschodzie i umacnia dolara.",
+   "id": "atakitankowcehormuz",
+   "label": "Ataki na tankowce w Cieśninie Ormuz",
+   "note": "Nowe incydenty w Cieśninie Ormuz podbijają premię geopolityczną za ryzyko zakłóceń dostaw ropy.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/The-Iran-War-Is-Fueling-a-Boom-in-Clean-Energy.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Two-More-Oil-Tankers-Attacked-Near-Strait-of-Hormuz.html",
    "brent": 0.04,
-   "fx": 0.015
+   "crack": 0.02,
+   "fx": 0.01
   },
   {
-   "id": "kryzys_frachtu_tankowcow",
-   "label": "Rekordowe stawki frachtu tankowców",
-   "note": "Wzrost kosztów logistyki morskiej winduje marże rafineryjne diesla i koszty dostaw.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html",
-   "brent": 0.02,
-   "crack": 0.03
+   "id": "rozejmrafineryjnyrosjauk",
+   "label": "Plan ochrony rafinerii Rosja-Ukraina",
+   "note": "Wstrzymanie nalotów na instalacje rafineryjne może złagodzić deficyt paliw i obniżyć marże diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trumps-Russia-Ukraine-Energy-Ceasefire-May-Only-Cover-Oil-Refineries.html",
+   "brent": -0.015,
+   "crack": -0.03
   },
   {
-   "id": "wyczerpywanie_rezerw_spr",
-   "label": "Wyczerpywanie się rezerw ropy (SPR)",
-   "note": "Spadek poduszki bezpieczeństwa w rezerwach strategicznych potęguje obawy o podaż.",
+   "id": "drenazrezerwstrategiczny",
+   "label": "Ryzyko wyczerpania rezerw ropy",
+   "note": "Szybkie tempo uwalniania rezerw awaryjnych pozbawia rynek bufora, wywierając presję na wzrost cen ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html",
-   "brent": 0.025
+   "brent": 0.02
   },
   {
-   "id": "presja_na_krajowy_hurt",
-   "label": "Presja na krajowy hurt paliw w Polsce",
-   "note": "Wzrost cen ropy do poziomów z lipca przekłada się na dalsze podwyżki w hurcie.",
+   "id": "budowarezerwwazji",
+   "label": "Azja gromadzi zapasy surowca",
+   "note": "Apel Japonii może wywołać falę zakupów interwencyjnych w Azji, windując popyt na fizyczne ładunki.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Urges-Asia-to-Build-Up-Oil-Reserves-as-Middle-East-Risks-Mount.html",
+   "brent": 0.015
+  },
+  {
+   "id": "korektastaweksupertankow",
+   "label": "Korekta stawek frachtu supertankowców",
+   "note": "Spadek stawek VLCC z historycznych szczytów lekko redukuje koszty transportu morskiego surowca.",
    "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEJkQlduN1dlX09PY05BN3RvdXljbHdxb3RGUno3cmUwMjRTMUY2WG1VVHl6aU1zRnpxT3FKVnBVWjdVMlBkbW42RDBvNmJZQnE1eU9FQ2I1SjNCcmdlSE5mdUs0ZklwZVVlZGJEYjg0R3lrODF4SndkWTdKVWFoUndJa0lhWDY3YU5LR1VhNjRGdzFsYklOLTJYdTlrRzg?oc=5",
-   "pl": 0.02
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Supertanker-Rates-Slip-From-Record-Highs.html",
+   "brent": -0.01
   }
  ]
 }
