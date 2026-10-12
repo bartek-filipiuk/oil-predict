@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12 22:11 UTC",
+ "generated": "2026-10-12 23:43 UTC",
  "headlines": [
   {
    "title": "Black Sea Oil Shipping Insurance Costs Surge to $2.5 Million",
@@ -31,38 +31,39 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_hormuz_strikes",
-   "label": "Ataki na infrastrukturę i tankowce w Ormuz",
-   "note": "Eskalacja w Zatoce Perskiej podbija premię geopolityczną i grozi zakłóceniem dostaw ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strikes-Revive-Hormuz-Fears.html",
+   "id": "saudiattackshormuz",
+   "label": "Ataki na infrastrukturę Arabii i Ormuz",
+   "note": "Wzrost premii geopolitycznej po atakach na tankowce i infrastrukturę saudyjską podbija notowania ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Saudi-Attacks-and-Tanker-Strirevive-Hormuz-Fears.html",
    "brent": 0.035,
-   "fx": 0.01
+   "fx": 0.008
   },
   {
-   "id": "black_sea_insurance_surg",
-   "label": "Skok stawek ubezpieczeń na Morzu Czarnym",
-   "note": "Droższy transport i ryzyko żeglugi w rejonie Morza Czarnego podnoszą koszty dostaw surowca i paliw.",
-   "confidence": "high",
+   "id": "blackseainsurancesurge",
+   "label": "Droższe ubezpieczenia na Morzu Czarnym",
+   "note": "Wzrost stawek ubezpieczeń do 2,5 mln USD utrudnia logistykę ropy i paliw z regionu Morza Czarnego.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Black-Sea-Oil-Shipping-Insurance-Costs-Surge-to-25-Million.html",
    "brent": 0.015,
-   "crack": 0.02
+   "crack": 0.015
   },
   {
-   "id": "us_block_russian_diesel",
+   "id": "usblockrussiandiesel",
    "label": "Blokada umowy na rosyjski diesel w USA",
-   "note": "Sprzeciw w Kongresie wobec rosyjskich paliw ogranicza podaż diesla i podbija marże rafineryjne.",
+   "note": "Kongres blokuje porozumienie ws. diesla z Rosji, co ogranicza podaż średnich destylatów na rynkach.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/North-America/House-Republicans-Move-to-Block-Trumps-Russian-Diesel-Deal.html",
+   "brent": 0.01,
    "crack": 0.03
   },
   {
-   "id": "opec_demand_rebound",
+   "id": "opecdemandrebound",
    "label": "OPEC prognozuje odbicie popytu na ropę",
-   "note": "Optymistyczne prognozy OPEC dotyczące konsumpcji wspierają stronę popytową na rynku naftowym.",
-   "confidence": "low",
+   "note": "Optymistyczne prognozy popytowe OPEC wspierają fundamenty cenowe surowca w horyzoncie tygodniowym.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-2-on-Saudi-Attacks-as-OPEC-Sees-Demand-Rebound.html",
-   "brent": 0.015
+   "brent": 0.02
   }
  ]
 }
