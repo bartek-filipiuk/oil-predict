@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-13 16:14 UTC",
+ "generated": "2026-10-13 18:23 UTC",
  "headlines": [
+  {
+   "title": "Trump's Middle Corridor Plans Face Russian and Iranian Roadblocks",
+   "url": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
+   "published": "2026-10-13 13:00"
+  },
+  {
+   "title": "Argentina Takes Falklands Oil Fight to International Tribunal",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Takes-Falklands-Oil-Fight-to-International-Tribunal.html",
+   "published": "2026-10-13 12:30"
+  },
   {
    "title": "Why Diesel Prices Are So Much Higher Than Gasoline",
    "url": "https://oilprice.com/Energy/Energy-General/Why-Diesel-Prices-Are-So-Much-Higher-Than-Gasoline.html",
@@ -30,56 +40,52 @@
    "title": "Saudi Arabia Plans Massive Expansion of Oil Pipeline to Bypass Hormuz",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Plans-Massive-Expansion-of-Oil-Pipeline-to-Bypass-Hormuz.html",
    "published": "2026-10-13 04:20"
-  },
-  {
-   "title": "Oil Prices Retreat as Saudi Arabia Pledges to Keep Exports Flowing",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Retreat-as-Saudi-Arabia-Pledges-to-Keep-Exports-Flowing.html",
-   "published": "2026-10-13 00:38"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "saudi_export_pledge",
-   "label": "Zapewnienie Saudyjczyków o eksporcie",
-   "note": "Deklaracja utrzymania dostaw ropy przez Rijad wywiera presję spadkową na ceny surowca.",
+   "id": "saudi_arabia_wild_card",
+   "label": "Niepewność polityki wydobycia Arabii Saud.",
+   "note": "Zmienność strategii wydobycia Rijadu zwiększa niepewność podaży i podbija premię za ryzyko na ropie Brent.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Retreat-as-Saudi-Arabia-Pledges-to-Keep-Exports-Flowing.html",
-   "brent": -0.025
-  },
-  {
-   "id": "diesel_deal_tensions",
-   "label": "Spór wokół dostaw rosyjskiego diesla",
-   "note": "Załamanie porozumień energetycznych i spory handlowe zwiększają premię za ryzyko na dieslu.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
-   "brent": 0.015,
-   "crack": 0.03
-  },
-  {
-   "id": "diesel_structural_tightn",
-   "label": "Strukturalny deficyt diesla na rynku",
-   "note": "Utrzymujący się deficyt mocy rafineryjnych podbija marże crack na europejskim oleju napędowym.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Diesel-Prices-Are-So-Much-Higher-Than-Gasoline.html",
-   "crack": 0.025
-  },
-  {
-   "id": "saudi_policy_uncertainty",
-   "label": "Niepewność polityki wydobycia OPEC+",
-   "note": "Niejasna strategia Arabii Saudyjskiej podbija zmienność i premię za ryzyko cen ropy naftowej.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabia-Becomes-the-Oil-Markets-Biggest-Wild-Card.html",
    "brent": 0.02
   },
   {
+   "id": "trump_russian_diesel",
+   "label": "Kontrowersje wokół dostaw rosyjskiego diesla",
+   "note": "Spory o porozumienie ws. rosyjskiego diesla mogą zachwiać rynkiem paliw i podbić europejskie marże crack.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
+   "brent": 0.01,
+   "crack": 0.03
+  },
+  {
+   "id": "diesel_gasoline_spread",
+   "label": "Utrzymujący się wysoki spread na dieslu",
+   "note": "Napięcia podażowe na rynku średnich destylatów utrzymują wysokie marże rafineryjne na europejski ON.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Diesel-Prices-Are-So-Much-Higher-Than-Gasoline.html",
+   "crack": 0.02
+  },
+  {
    "id": "saudi_pipeline_bypass",
-   "label": "Ominięcie cieśniny Ormuz przez Saudi",
-   "note": "Plany rozbudowy rurociągu łagodzą obawy o ewentualne blokady szlaków morskich na Bliskim Wschodzie.",
+   "label": "Rozbudowa rurociągu omijającego Ormuz",
+   "note": "Plany obejścia cieśniny Ormuz zmniejszają ryzyko transportowe, lekko tonując premię geopolityczną.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Plans-Massive-Expansion-of-Oil-Pipeline-to-Bypass-Hormuz.html",
    "brent": -0.01
+  },
+  {
+   "id": "middle_corridor_roadbloc",
+   "label": "Blokada Korytarza Środkowego: Rosja i Iran",
+   "note": "Opór wobec szlaków przez Azję Centralną podsyca napięcia geopolityczne wokół tranzytu surowców.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
+   "brent": 0.01,
+   "fx": 0.005
   }
  ]
 }
