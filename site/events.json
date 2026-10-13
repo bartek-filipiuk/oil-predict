@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-13 20:17 UTC",
+ "generated": "2026-10-13 21:55 UTC",
  "headlines": [
+  {
+   "title": "OPEC Sees Oil Demand Growth Surging to 2.6 Million Bpd in 2027",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html",
+   "published": "2026-10-13 16:30"
+  },
   {
    "title": "Guyana Oil Exports Set to Surpass 1 Million Barrels per Day for First Time",
    "url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
@@ -35,57 +40,51 @@
    "title": "Trump Defends Russian Diesel Deal as Energy Ceasefire Claims Unravel",
    "url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
    "published": "2026-10-13 09:00"
-  },
-  {
-   "title": "Japan to Compensate Oil Importers for High Shipping Costs",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Compensate-Oil-Importers-for-High-Shipping-Costs.html",
-   "published": "2026-10-13 06:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "guyana_export_surge",
-   "label": "Eksport Gujany przekracza 1 mln bpd",
-   "note": "Wzrost podaży surowca poza OPEC+ może lekko obniżyć presję cenową na ropę Brent.",
+   "id": "opec_prognoza_popytu",
+   "label": "Optymistyczny raport OPEC o popycie",
+   "note": "Prognoza silnego wzrostu popytu do 2027 r. poprawia średnioterminowy sentyment inwestorów.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html",
+   "brent": 0.01
+  },
+  {
+   "id": "guyana_rekord_eksportu",
+   "label": "Rekordowy eksport ropy z Gujany",
+   "note": "Eksport przekraczający 1 mln bpd zwiększa podaż spoza OPEC i wywiera presję zniżkową na Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
    "brent": -0.015
   },
   {
-   "id": "trump_middle_corridor",
-   "label": "Blokada szlaków przez Rosję i Iran",
-   "note": "Napięcia geopolityczne wokół Korytarza Środkowego zwiększają ryzyko tranzytowe w Eurazji.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
-   "brent": 0.015,
-   "fx": 0.005
-  },
-  {
-   "id": "saudi_wild_card",
-   "label": "Niepewność co do polityki Arabii Saud.",
-   "note": "Rada polityki wydobycia Rijadu tworzy ryzyko nagłych zmian podaży w ramach OPEC+.",
+   "id": "arabia_saudyjska_niepewn",
+   "label": "Niepewność wokół polityki Arabii Saudyjskiej",
+   "note": "Obawy o odejście Saudów od obrony cen i możliwą walkę o udział w rynku ciążą wycenie surowca.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabia-Becomes-the-Oil-Markets-Biggest-Wild-Card.html",
-   "brent": 0.025
+   "brent": -0.02
   },
   {
-   "id": "trump_russian_diesel",
-   "label": "Spór o dostawy rosyjskiego diesla",
-   "note": "Polityczne tarcia i załamanie rozejmu energetycznego mogą podbić marże na dieslu.",
+   "id": "trump_rosyjski_diesel",
+   "label": "Kontrowersje wokół rosyjskiego diesla",
+   "note": "Wznowienie wątku dostaw rosyjskich paliw może wywołać spadkową korektę marż diesla w Europie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
    "brent": 0.01,
-   "crack": 0.03
+   "crack": -0.025
   },
   {
-   "id": "japan_shipping_subsidies",
-   "label": "Dopłaty Japonii do kosztów frachtu",
-   "note": "Wysokie koszty frachtu i operacje STS wskazują na logistyczne wąskie gardła w Azji.",
+   "id": "korytarz_sr_geopolityka",
+   "label": "Ryzyka tranzytowe w Korytarzu Środkowym",
+   "note": "Opór Rosji i Iranu wobec korytarza transportowego podbija premię geopolityczną na rynku ropy.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Compensate-Oil-Importers-for-High-Shipping-Costs.html",
-   "brent": 0.01
+   "source_url": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
+   "brent": 0.015
   }
  ]
 }
