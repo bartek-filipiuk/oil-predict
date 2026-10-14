@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-14 10:13 UTC",
+ "generated": "2026-10-14 13:55 UTC",
  "headlines": [
+  {
+   "title": "Russian Strikes Cut Power to 600,000 Ukrainians Days After U.S. Diesel Deal",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
+   "published": "2026-10-14 08:30"
+  },
+  {
+   "title": "Aramco’s New Chinese JV Refinery Gets First Saudi Crude Cargo",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Aramcos-New-Chinese-JV-Refinery-Gets-First-Saudi-Crude-Cargo.html",
+   "published": "2026-10-14 07:30"
+  },
+  {
+   "title": "Trump Announces “Massive” Greenland Oil Exploration Plans",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-Massive-Greenland-Oil-Exploration-Plans.html",
+   "published": "2026-10-14 05:30"
+  },
   {
    "title": "Rising Gasoline Prices Fuel Fresh Inflation Fears in the U.S.",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
@@ -30,62 +45,59 @@
    "title": "Guyana Oil Exports Set to Surpass 1 Million Barrels per Day for First Time",
    "url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
    "published": "2026-10-13 14:00"
-  },
-  {
-   "title": "Trump's Middle Corridor Plans Face Russian and Iranian Roadblocks",
-   "url": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
-   "published": "2026-10-13 13:00"
-  },
-  {
-   "title": "Argentina Takes Falklands Oil Fight to International Tribunal",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Takes-Falklands-Oil-Fight-to-International-Tribunal.html",
-   "published": "2026-10-13 12:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_tanker_threats",
+   "id": "irantankerthreats",
    "label": "Groźby Iranu wobec tankowców",
-   "note": "Groźby ataków na tankowce windowały ropę powyżej 106 USD, podbijając premię za ryzyko podaży.",
+   "note": "Groźby ataków w Zatoce Perskiej windują premię geopolityczną i cenę surowca powyżej 106 USD.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
-   "brent": 0.06,
-   "crack": 0.02,
+   "brent": 0.05,
    "fx": 0.01
   },
   {
-   "id": "record_tanker_rates",
+   "id": "ukrainepowergriddiesel",
+   "label": "Ataki na sieć Ukrainy a popyt na diesla",
+   "note": "Zniszczenie infrastruktury wymusi użycie generatorów, podbijając regionalny popyt i crack na dieslu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
+   "crack": 0.03
+  },
+  {
+   "id": "tankerratesstrandedcrude",
    "label": "Rekordowe stawki frachtu tankowców",
-   "note": "Paraliż transportu ciężkiej ropy w Amerykach ogranicza dostępność surowca i winduje marże paliw.",
+   "note": "Drogie tankowce blokują dostawy ciężkiej ropy w Amerykach, ograniczając podaż dla części rafinerii.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
    "brent": 0.015,
-   "crack": 0.025
+   "crack": 0.02
   },
   {
-   "id": "us_gasoline_inflation",
-   "label": "Obawy o inflację w USA przez paliwa",
-   "note": "Drożejąca benzyna w USA rozbudza obawy inflacyjne, sprzyjając jastrzębiej polityce Fed i mocnemu USD.",
+   "id": "guyanaexportsrecord",
+   "label": "Rekordowy eksport ropy z Gujany",
+   "note": "Eksport przekraczający 1 mln b/d zwiększa globalną podaż surowca, wywierając presję spadkową na Brent.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
+   "brent": -0.015
+  },
+  {
+   "id": "usgasolineinflation",
+   "label": "Obawy inflacyjne w USA a kurs dolara",
+   "note": "Wyższe ceny paliw podsycają inflację w USA, co umacnia dolara i zwiększa presję na kurs USD/PLN.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
    "fx": 0.015
   },
   {
-   "id": "guyana_oil_exports",
-   "label": "Rekordowy eksport ropy z Gujany",
-   "note": "Eksport przekraczający 1 mln baryłek dziennie zwiększa globalną podaż lekkiej ropy.",
+   "id": "aramcochinajvrefinery",
+   "label": "Uruchomienie nowej rafinerii w Chinach",
+   "note": "Pierwsza dostawa ropy do nowego JV Aramco w Chinach sygnalizuje bieżący wzrost popytu na surowiec.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
-   "brent": -0.01
-  },
-  {
-   "id": "opec_demand_surge",
-   "label": "Optymistyczna prognoza popytu OPEC",
-   "note": "Szacunek wzrostu popytu o 2,6 mln b/d w 2027 r. poprawia rynkowy sentyment i wspiera ceny surowca.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramcos-New-Chinese-JV-Refinery-Gets-First-Saudi-Crude-Cargo.html",
    "brent": 0.01
   }
  ]
