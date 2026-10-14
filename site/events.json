@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-14 13:55 UTC",
+ "generated": "2026-10-14 15:52 UTC",
  "headlines": [
+  {
+   "title": "India’s Gas Demand Drops as Iran War Hikes LNG Spot Prices",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-Spot-Prices.html",
+   "published": "2026-10-14 09:30"
+  },
   {
    "title": "Russian Strikes Cut Power to 600,000 Ukrainians Days After U.S. Diesel Deal",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
@@ -35,70 +40,53 @@
    "title": "Record Tanker Rates Leave Heavy Crude Stranded in the Americas",
    "url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
    "published": "2026-10-13 18:00"
-  },
-  {
-   "title": "OPEC Sees Oil Demand Growth Surging to 2.6 Million Bpd in 2027",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html",
-   "published": "2026-10-13 16:30"
-  },
-  {
-   "title": "Guyana Oil Exports Set to Surpass 1 Million Barrels per Day for First Time",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
-   "published": "2026-10-13 14:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "irantankerthreats",
+   "id": "iran_tanker_attacks",
    "label": "Groźby Iranu wobec tankowców",
-   "note": "Groźby ataków w Zatoce Perskiej windują premię geopolityczną i cenę surowca powyżej 106 USD.",
+   "note": "Groźby ataków w cieśninie Ormuz windują premię geopolityczną i podbijają wycenę ropy Brent.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
    "brent": 0.05,
-   "fx": 0.01
+   "fx": 0.015
   },
   {
-   "id": "ukrainepowergriddiesel",
-   "label": "Ataki na sieć Ukrainy a popyt na diesla",
-   "note": "Zniszczenie infrastruktury wymusi użycie generatorów, podbijając regionalny popyt i crack na dieslu.",
+   "id": "ukraine_grid_diesel_dema",
+   "label": "Ataki na sieć energetyczną Ukrainy",
+   "note": "Zniszczenia infrastruktury zwiększają regionalny popyt na olej napędowy do zasilania generatorów.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
    "crack": 0.03
   },
   {
-   "id": "tankerratesstrandedcrude",
-   "label": "Rekordowe stawki frachtu tankowców",
-   "note": "Drogie tankowce blokują dostawy ciężkiej ropy w Amerykach, ograniczając podaż dla części rafinerii.",
+   "id": "lng_spike_gas_to_oil",
+   "label": "Drogi LNG wymusza zmianę na paliwa płynne",
+   "note": "Skok cen LNG w wyniku konfliktu z Iranem skłania azjatycki przemysł do substytucji gazu ropą i dieslem.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
-   "brent": 0.015,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-Spot-Prices.html",
+   "brent": 0.02,
    "crack": 0.02
   },
   {
-   "id": "guyanaexportsrecord",
-   "label": "Rekordowy eksport ropy z Gujany",
-   "note": "Eksport przekraczający 1 mln b/d zwiększa globalną podaż surowca, wywierając presję spadkową na Brent.",
+   "id": "record_tanker_freight_ra",
+   "label": "Rekordowe stawki frachtu tankowców",
+   "note": "Utrudnienia w transporcie surowca windować mogą marże rafineryjne na produktach gotowych w Europie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
-   "brent": -0.015
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
+   "brent": 0.015,
+   "crack": 0.025
   },
   {
-   "id": "usgasolineinflation",
-   "label": "Obawy inflacyjne w USA a kurs dolara",
-   "note": "Wyższe ceny paliw podsycają inflację w USA, co umacnia dolara i zwiększa presję na kurs USD/PLN.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
-   "fx": 0.015
-  },
-  {
-   "id": "aramcochinajvrefinery",
-   "label": "Uruchomienie nowej rafinerii w Chinach",
-   "note": "Pierwsza dostawa ropy do nowego JV Aramco w Chinach sygnalizuje bieżący wzrost popytu na surowiec.",
+   "id": "us_inflation_fears_usd",
+   "label": "Wzrost obaw o inflację w USA",
+   "note": "Wyższe ceny paliw podsycają obawy o jastrzębią politykę Fed, co wspiera dolara kosztem złotego.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramcos-New-Chinese-JV-Refinery-Gets-First-Saudi-Crude-Cargo.html",
-   "brent": 0.01
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
+   "fx": 0.01
   }
  ]
 }
