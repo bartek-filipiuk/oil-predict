@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-13 23:28 UTC",
+ "generated": "2026-10-14 10:13 UTC",
  "headlines": [
+  {
+   "title": "Rising Gasoline Prices Fuel Fresh Inflation Fears in the U.S.",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
+   "published": "2026-10-14 01:45"
+  },
+  {
+   "title": "Oil Prices Climb Above $106 as Iran Threatens More Tanker Attacks",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
+   "published": "2026-10-14 00:31"
+  },
+  {
+   "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+   "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+   "published": "2026-10-13 19:00"
+  },
   {
    "title": "Record Tanker Rates Leave Heavy Crude Stranded in the Americas",
    "url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
@@ -25,77 +40,50 @@
    "title": "Argentina Takes Falklands Oil Fight to International Tribunal",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Argentina-Takes-Falklands-Oil-Fight-to-International-Tribunal.html",
    "published": "2026-10-13 12:30"
-  },
-  {
-   "title": "Why Diesel Prices Are So Much Higher Than Gasoline",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Diesel-Prices-Are-So-Much-Higher-Than-Gasoline.html",
-   "published": "2026-10-13 11:00"
-  },
-  {
-   "title": "Saudi Arabia Becomes the Oil Market’s Biggest Wild Card",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabia-Becomes-the-Oil-Markets-Biggest-Wild-Card.html",
-   "published": "2026-10-13 10:00"
-  },
-  {
-   "title": "Japanese Refiners Buy Middle East Crude Through Ship-to-Ship Transfers",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Buy-Middle-East-Crude-Through-Ship-to-Ship-Transfers.html",
-   "published": "2026-10-13 09:30"
-  },
-  {
-   "title": "Trump Defends Russian Diesel Deal as Energy Ceasefire Claims Unravel",
-   "url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
-   "published": "2026-10-13 09:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rekordowe_stawki_tankowc",
-   "label": "Rekordowe stawki tankowców w Amerykach",
-   "note": "Wysokie koszty frachtu blokują ciężką ropę, podbijając ceny surowca i marże rafinerii.",
+   "id": "iran_tanker_threats",
+   "label": "Groźby Iranu wobec tankowców",
+   "note": "Groźby ataków na tankowce windowały ropę powyżej 106 USD, podbijając premię za ryzyko podaży.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
+   "brent": 0.06,
+   "crack": 0.02,
+   "fx": 0.01
+  },
+  {
+   "id": "record_tanker_rates",
+   "label": "Rekordowe stawki frachtu tankowców",
+   "note": "Paraliż transportu ciężkiej ropy w Amerykach ogranicza dostępność surowca i winduje marże paliw.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
    "brent": 0.015,
-   "crack": 0.01
-  },
-  {
-   "id": "rekord_eksportu_gujany",
-   "label": "Eksport ropy z Gujany przekracza 1 mln bpd",
-   "note": "Wzrost podaży lekkiej ropy z Gujany wywiera presję spadkową na globalne ceny surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
-   "brent": -0.015
-  },
-  {
-   "id": "niepewnosc_saudyjska_pol",
-   "label": "Arabia Saudyjska niewiadomą na rynku ropy",
-   "note": "Niepewność co do decyzji wydobywczych Rijadu zwiększa premię za ryzyko na ropie Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabia-Becomes-the-Oil-Markets-Biggest-Wild-Card.html",
-   "brent": 0.02
-  },
-  {
-   "id": "spor_o_rosyjski_diesel",
-   "label": "Spór o rosyjski diesel i rozejm w energii",
-   "note": "Spory wokół dostaw rosyjskiego diesla i rozejmu energetycznego mogą podbić marże diesla.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
    "crack": 0.025
   },
   {
-   "id": "trudnosci_korytarza_srod",
-   "label": "Blokada Korytarza Środkowego: Rosja i Iran",
-   "note": "Napięcia geopolityczne wokół szlaków tranzytowych lekko podbijają ryzyko i kurs USD.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/Asia/Trumps-Middle-Corridor-Plans-Face-Russian-and-Iranian-Roadblocks.html",
-   "brent": 0.01,
-   "fx": 0.005
+   "id": "us_gasoline_inflation",
+   "label": "Obawy o inflację w USA przez paliwa",
+   "note": "Drożejąca benzyna w USA rozbudza obawy inflacyjne, sprzyjając jastrzębiej polityce Fed i mocnemu USD.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
+   "fx": 0.015
   },
   {
-   "id": "prognoza_popytu_opec",
-   "label": "OPEC prognozuje skok popytu na ropę",
-   "note": "Optymistyczne prognozy kartelu wspierają nastroje bycze na rynku ropy naftowej.",
+   "id": "guyana_oil_exports",
+   "label": "Rekordowy eksport ropy z Gujany",
+   "note": "Eksport przekraczający 1 mln baryłek dziennie zwiększa globalną podaż lekkiej ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Guyana-Oil-Exports-Set-to-Surpass-1-Million-Barrels-per-Day-for-First-Time.html",
+   "brent": -0.01
+  },
+  {
+   "id": "opec_demand_surge",
+   "label": "Optymistyczna prognoza popytu OPEC",
+   "note": "Szacunek wzrostu popytu o 2,6 mln b/d w 2027 r. poprawia rynkowy sentyment i wspiera ceny surowca.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Sees-Oil-Demand-Growth-Surging-to-26-Million-Bpd-in-2027.html",
    "brent": 0.01
