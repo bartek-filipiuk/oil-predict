@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-14 15:52 UTC",
+ "generated": "2026-10-14 18:45 UTC",
  "headlines": [
+  {
+   "title": "Novak Calls U.S. Diesel Deal a 'Positive Signal' for Russia's Economy",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
+   "published": "2026-10-14 11:30"
+  },
   {
    "title": "India’s Gas Demand Drops as Iran War Hikes LNG Spot Prices",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-Spot-Prices.html",
@@ -20,73 +25,53 @@
    "title": "Trump Announces “Massive” Greenland Oil Exploration Plans",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-Massive-Greenland-Oil-Exploration-Plans.html",
    "published": "2026-10-14 05:30"
-  },
-  {
-   "title": "Rising Gasoline Prices Fuel Fresh Inflation Fears in the U.S.",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
-   "published": "2026-10-14 01:45"
-  },
-  {
-   "title": "Oil Prices Climb Above $106 as Iran Threatens More Tanker Attacks",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
-   "published": "2026-10-14 00:31"
-  },
-  {
-   "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
-   "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
-   "published": "2026-10-13 19:00"
-  },
-  {
-   "title": "Record Tanker Rates Leave Heavy Crude Stranded in the Americas",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
-   "published": "2026-10-13 18:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_tanker_attacks",
-   "label": "Groźby Iranu wobec tankowców",
-   "note": "Groźby ataków w cieśninie Ormuz windują premię geopolityczną i podbijają wycenę ropy Brent.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html",
-   "brent": 0.05,
+   "id": "iran_war_energy_risk",
+   "label": "Wojna z Iranem podbija ceny surowców",
+   "note": "Konflikt z Iranem winduje premie za ryzyko na ropie i wspiera kurs dolara jako bezpiecznej przystani.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-SpotPrices.html",
+   "brent": 0.035,
    "fx": 0.015
   },
   {
-   "id": "ukraine_grid_diesel_dema",
-   "label": "Ataki na sieć energetyczną Ukrainy",
-   "note": "Zniszczenia infrastruktury zwiększają regionalny popyt na olej napędowy do zasilania generatorów.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
-   "crack": 0.03
-  },
-  {
-   "id": "lng_spike_gas_to_oil",
-   "label": "Drogi LNG wymusza zmianę na paliwa płynne",
-   "note": "Skok cen LNG w wyniku konfliktu z Iranem skłania azjatycki przemysł do substytucji gazu ropą i dieslem.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-Spot-Prices.html",
-   "brent": 0.02,
-   "crack": 0.02
-  },
-  {
-   "id": "record_tanker_freight_ra",
-   "label": "Rekordowe stawki frachtu tankowców",
-   "note": "Utrudnienia w transporcie surowca windować mogą marże rafineryjne na produktach gotowych w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Leave-Heavy-Crude-Stranded-in-the-Americas.html",
-   "brent": 0.015,
-   "crack": 0.025
-  },
-  {
-   "id": "us_inflation_fears_usd",
-   "label": "Wzrost obaw o inflację w USA",
-   "note": "Wyższe ceny paliw podsycają obawy o jastrzębią politykę Fed, co wspiera dolara kosztem złotego.",
+   "id": "us_diesel_deal_russia",
+   "label": "Porozumienie ws. diesla z USA i Rosją",
+   "note": "Nowy układ łagodzi napięcia podażowe na dieslu, wywierając presję spadkową na crack spread.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Gasoline-Prices-Fuel-Fresh-Inflation-Fears-in-the-US.html",
-   "fx": 0.01
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
+   "crack": -0.03
+  },
+  {
+   "id": "russian_strikes_ukraine_",
+   "label": "Ataki na infrastrukturę Ukrainy",
+   "note": "Zniszczenia sieci energetycznej podbijają zapotrzebowanie Ukrainy na importowany olej napędowy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
+   "crack": 0.02,
+   "fx": 0.005
+  },
+  {
+   "id": "aramco_china_jv_refinery",
+   "label": "Start nowej rafinerii Aramco w Chinach",
+   "note": "Uruchomienie nowego kompleksu zwiększa popyt na ropę, lecz zwiększa podaż gotowych paliw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramcos-New-Chinese-JV-Refinery-Gets-First-Saudi-Crude-Cargo.html",
+   "brent": 0.01,
+   "crack": -0.015
+  },
+  {
+   "id": "trump_greenland_explorat",
+   "label": "Plany wydobycia ropy na Grenlandii",
+   "note": "Zapowiedzi Trumpa mają wymiar odległy, tworząc jedynie lekki negatywny sentyment dla cen ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-Massive-Greenland-Oil-Exploration-Plans.html",
+   "brent": -0.01
   }
  ]
 }
