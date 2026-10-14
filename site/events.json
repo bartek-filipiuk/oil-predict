@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-14 18:45 UTC",
+ "generated": "2026-10-14 20:52 UTC",
  "headlines": [
+  {
+   "title": "Britain's $47 Billion North Sea Oil Decision Hangs in the Balance",
+   "url": "https://oilprice.com/Energy/Energy-General/Britains-47-Billion-North-Sea-Oil-Decision-Hangs-in-the-Balance.html",
+   "published": "2026-10-14 15:00"
+  },
+  {
+   "title": "Ship Sinks in Strait of Hormuz as Iran Escalates Maritime Attacks",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
+   "published": "2026-10-14 14:00"
+  },
   {
    "title": "Novak Calls U.S. Diesel Deal a 'Positive Signal' for Russia's Economy",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
@@ -31,47 +41,57 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_war_energy_risk",
-   "label": "Wojna z Iranem podbija ceny surowców",
-   "note": "Konflikt z Iranem winduje premie za ryzyko na ropie i wspiera kurs dolara jako bezpiecznej przystani.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-SpotPrices.html",
-   "brent": 0.035,
+   "id": "atakiranuormuz",
+   "label": "Atak Iranu w Cieśninie Ormuz",
+   "note": "Zatopienie statku w Cieśninie Ormuz grozi przerwaniem szlaku transportu 20% światowej ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
+   "brent": 0.07,
+   "crack": 0.03,
    "fx": 0.015
   },
   {
-   "id": "us_diesel_deal_russia",
-   "label": "Porozumienie ws. diesla z USA i Rosją",
-   "note": "Nowy układ łagodzi napięcia podażowe na dieslu, wywierając presję spadkową na crack spread.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
-   "crack": -0.03
-  },
-  {
-   "id": "russian_strikes_ukraine_",
-   "label": "Ataki na infrastrukturę Ukrainy",
-   "note": "Zniszczenia sieci energetycznej podbijają zapotrzebowanie Ukrainy na importowany olej napędowy.",
-   "confidence": "low",
+   "id": "atakiukrainadiesel",
+   "label": "Ataki na ukraińską sieć energetyczną",
+   "note": "Zniszczenie elektrowni wymusza masowy import diesla do agregatów, zacieśniając rynek w regionie CEE.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
    "crack": 0.02,
-   "fx": 0.005
+   "pl": 0.015
   },
   {
-   "id": "aramco_china_jv_refinery",
+   "id": "porozumieniedieselrosja",
+   "label": "Porozumienie ws. diesla z Rosją",
+   "note": "Sygnały o porozumieniu z USA mogą zapowiadać powrót większych wolumenów rosyjskiego paliwa na rynek.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
+   "crack": -0.02
+  },
+  {
+   "id": "drogielngsubstytucja",
+   "label": "Wzrost cen LNG przez konflikt z Iranem",
+   "note": "Wysokie ceny spotowe LNG skłaniają energetykę i przemysł w Azji do substytucji gazu olejem napędowym.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-Spot-Prices.html",
+   "brent": 0.02,
+   "crack": 0.02
+  },
+  {
+   "id": "rafineriaaramcochiny",
    "label": "Start nowej rafinerii Aramco w Chinach",
-   "note": "Uruchomienie nowego kompleksu zwiększa popyt na ropę, lecz zwiększa podaż gotowych paliw.",
+   "note": "Uruchomienie mocy przerobowych zwiększa globalną podaż gotowych paliw, osłabiając marże rafineryjne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Aramcos-New-Chinese-JV-Refinery-Gets-First-Saudi-Crude-Cargo.html",
    "brent": 0.01,
    "crack": -0.015
   },
   {
-   "id": "trump_greenland_explorat",
-   "label": "Plany wydobycia ropy na Grenlandii",
-   "note": "Zapowiedzi Trumpa mają wymiar odległy, tworząc jedynie lekki negatywny sentyment dla cen ropy.",
+   "id": "morzepolnocneinwestycje",
+   "label": "Niepewność inwestycji na Morzu Północnym",
+   "note": "Wahania rządu UK co do projektów wartych 47 mld USD pogłębiają obawy o długoterminową podaż Brent.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-Massive-Greenland-Oil-Exploration-Plans.html",
-   "brent": -0.01
+   "source_url": "https://oilprice.com/Energy/Energy-General/Britains-47-Billion-North-Sea-Oil-Decision-Hangs-in-the-Balance.html",
+   "brent": 0.01
   }
  ]
 }
