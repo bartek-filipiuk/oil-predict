@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-15 18:26 UTC",
+ "generated": "2026-10-15 20:27 UTC",
  "headlines": [
+  {
+   "title": "Ukraine Strikes Major Russian Oil Refinery",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
+   "published": "2026-10-15 14:30"
+  },
+  {
+   "title": "IEA Speeds Emergency Oil Release",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
+   "published": "2026-10-15 14:00"
+  },
   {
    "title": "Venezuela's Oil Recovery Gains Momentum as New Drilling Rigs Arrive",
    "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
@@ -40,66 +50,69 @@
    "title": "Ship-to-Ship Oil Transfers Surge Off India’s West Coast",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Ship-to-Ship-Oil-Transfers-Surge-Off-Indias-West-Coast.html",
    "published": "2026-10-15 07:30"
-  },
-  {
-   "title": "Ukraine to Resume Russian Oil Refinery Strikes After Failed Energy Ceasefire",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
-   "published": "2026-10-15 04:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_iran_tankowce",
-   "label": "Ataki Iranu na tankowce w Cieśninie Ormuz",
-   "note": "Ataki na statki w cieśninie Ormuz ograniczają eksport ropy, windując premie za ryzyko geopolityczne.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
-   "brent": 0.05,
-   "fx": 0.01
-  },
-  {
-   "id": "ukraina_uderzenia_rafine",
-   "label": "Wznowienie ataków na rosyjskie rafinerie",
-   "note": "Wznowienie ataków na rosyjskie rafinerie uderzy w podaż paliw, windując marże na europejskim dieslu.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
-   "brent": 0.015,
-   "crack": 0.04
-  },
-  {
-   "id": "spadek_zapasow_usa_eia",
-   "label": "Mocny spadek zapasów ropy w USA (EIA)",
-   "note": "Spadek zapasów ropy w USA o niemal 9 mln baryłek wskazuje na mocne zacieśnienie bilansu surowca.",
+   "id": "iranskie_ataki_tankowce",
+   "label": "Irańskie ataki na tankowce w Zatoce",
+   "note": "Zagrożenie szlaków morskich i spowolnienie ruchu tankowców winduje premię geopolityczną i osłabia PLN.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
+   "brent": 0.045,
+   "fx": 0.015
+  },
+  {
+   "id": "iea_uwolnienie_rezerw",
+   "label": "IEA przyspiesza uwolnienie rezerw ropy",
+   "note": "Interwencja MAE zwiększa natychmiastową podaż ropy na rynku, ograniczając presję na wzrost cen surowca.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
+   "brent": -0.03
+  },
+  {
+   "id": "eia_spadek_zapasow_usa",
+   "label": "Duży spadek zapasów ropy w USA",
+   "note": "Spadek zapasów w USA o niemal 9 mln baryłek wskazuje na mocny popyt i wspiera notowania surowca.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
    "brent": 0.025
   },
   {
-   "id": "kryzys_lng_europa_gaz",
-   "label": "Drogi gaz w Europie przez blokadę LNG",
-   "note": "Wysokie ceny gazu podnoszą koszty europejskich rafinerii i wymuszają substytucję olejem napędowym.",
+   "id": "ukraina_atak_rafineria",
+   "label": "Atak Ukrainy na rosyjską rafinerię",
+   "note": "Uszkodzenie mocy przerobowych w Rosji zacieśnia bilans diesla i podbija marże rafineryjne w Europie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
-   "brent": 0.01,
-   "crack": 0.025
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
+   "brent": 0.02,
+   "crack": 0.04
   },
   {
-   "id": "wzrost_wydobycia_wenezue",
-   "label": "Odbudowa wydobycia ropy w Wenezueli",
-   "note": "Napływ nowych platform do Wenezueli sygnalizuje wzrost podaży ciężkiej ropy w średnim terminie.",
+   "id": "kryzys_lng_ceny_gazu_ue",
+   "label": "Skok cen gazu w Europie przez Hormuz",
+   "note": "Wysokie ceny gazu zmuszają przemysł do substytucji dieslem, windując europejskie marże crack.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
+   "brent": 0.015,
+   "crack": 0.035
+  },
+  {
+   "id": "bulgaria_wylam_diesel_ue",
+   "label": "Rozłam w UE ws. importu diesla",
+   "note": "Import taniego diesla przez Bułgarię wprowadza presję spadkową na regionalne marże rafineryjne.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
+   "crack": -0.02
+  },
+  {
+   "id": "wenezuela_wzrost_wydobyc",
+   "label": "Wzrost wydobycia ropy w Wenezueli",
+   "note": "Napływ platform wiertniczych do Wenezueli zapowiada stopniowy wzrost podaży surowca na rynku.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
    "brent": -0.01
-  },
-  {
-   "id": "wylom_bulgarii_diesel",
-   "label": "Wyłom Bułgarii ws. importu diesla",
-   "note": "Brak jednomyślności UE ws. diesla może lokalnie zwiększyć podaż paliwa i obniżyć marże crack.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
-   "crack": -0.015
   }
  ]
 }
