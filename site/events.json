@@ -1,6 +1,26 @@
 {
- "generated": "2026-10-15 13:36 UTC",
+ "generated": "2026-10-15 15:39 UTC",
  "headlines": [
+  {
+   "title": "Pakistan Faces Winter Gas Shortages if Hormuz LNG Remains Choked",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-Winter-Gas-Shortages-if-Hormuz-LNG-Remains-Choked.html",
+   "published": "2026-10-15 10:30"
+  },
+  {
+   "title": "Bulgaria Breaks Ranks With EU Over Trump-Putin Diesel Deal",
+   "url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
+   "published": "2026-10-15 10:00"
+  },
+  {
+   "title": "Europe’s Gas Prices Close to 2022 High as Hormuz LNG Flows Remain Limited",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
+   "published": "2026-10-15 09:30"
+  },
+  {
+   "title": "Iranian Ship Attacks Threaten Middle East Oil Exports as Tanker Traffic Slows",
+   "url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
+   "published": "2026-10-15 09:00"
+  },
   {
    "title": "U.S. Wants World Bank to Drop Ban on Upstream Oil and Gas Funding",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Wants-World-Bank-to-Drop-Ban-on-Upstream-Oil-and-Gas-Funding.html",
@@ -30,68 +50,63 @@
    "title": "White House Turns to Korean War-Era Law as Diesel Prices Stay Above $6",
    "url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
    "published": "2026-10-14 17:00"
-  },
-  {
-   "title": "US Crude Oil Inventories See Massive Drop Off",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Massive-Drop-Off.html",
-   "published": "2026-10-14 16:43"
-  },
-  {
-   "title": "Britain's $47 Billion North Sea Oil Decision Hangs in the Balance",
-   "url": "https://oilprice.com/Energy/Energy-General/Britains-47-Billion-North-Sea-Oil-Decision-Hangs-in-the-Balance.html",
-   "published": "2026-10-14 15:00"
-  },
-  {
-   "title": "Ship Sinks in Strait of Hormuz as Iran Escalates Maritime Attacks",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
-   "published": "2026-10-14 14:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuzatakzatopienie",
-   "label": "Eskalacja w Cieśninie Ormuz",
-   "note": "Zatopienie statku w Cieśninie Ormuz grozi zakłóceniem dostaw ropy i podbija premię geopolityczną.",
+   "id": "ukraina_rafinerie",
+   "label": "Wznowienie ataków Ukrainy na rafinerie",
+   "note": "Ataki na rosyjskie rafinerie ograniczą podaż gotowych paliw, podbijając marże diesla i ceny surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
+   "brent": 0.03,
+   "crack": 0.05
+  },
+  {
+   "id": "iranskie_ataki_tankowce",
+   "label": "Irańskie ataki na tankowce w Zatoce",
+   "note": "Zagrożenie eksportu z Bliskiego Wschodu podbija premię za ryzyko oraz osłabia waluty rynków wschodzących.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
-   "brent": 0.05,
+   "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
+   "brent": 0.04,
    "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "ukrainaatakirafinerie",
-   "label": "Wznowienie ataków na rosyjskie rafinerie",
-   "note": "Uderzenia w rosyjską infrastrukturę ograniczają podaż paliw gotowych, windując marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
-   "brent": 0.015,
-   "crack": 0.04
-  },
-  {
-   "id": "trumplagodzeniesankcji",
-   "label": "Możliwe złagodzenie sankcji na tankowce",
-   "note": "Zapowiedź poluzowania restrykcji wobec floty cienia może zwiększyć podaż rosyjskiej ropy i zbić ceny.",
+   "id": "lagodzenie_sankcji_flota",
+   "label": "Plany złagodzenia sankcji na tankowce",
+   "note": "Potencjalne uwolnienie transportu ropy przez USA zwiększa podaż na rynku i wywiera presję na spadek cen.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
-   "brent": -0.035
+   "brent": -0.03
   },
   {
-   "id": "usakryzysdieslaspecustaw",
-   "label": "Działania USA wobec drogiego diesla",
-   "note": "Wykorzystanie nadzwyczajnego prawa w USA potwierdza kryzys podażowy diesla i podtrzymuje wysokie marże.",
+   "id": "usa_kryzys_diesla",
+   "label": "Nadzwyczajne działania USA na rynku diesla",
+   "note": "Uruchomienie przepisów z czasów wojny koreańskiej potwierdza głęboki globalny deficyt destylatów.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
    "crack": 0.03
   },
   {
-   "id": "usaspadekzapasowropy",
-   "label": "Gwałtowny spadek zapasów ropy w USA",
-   "note": "Mocny spadek zapasów w USA wskazuje na napięty bilans surowca, co krótkoterminowo wspiera notowania Brent.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Massive-Drop-Off.html",
-   "brent": 0.025
+   "id": "kryzys_lng_europa",
+   "label": "Skok cen gazu w Europie przez Hormuz",
+   "note": "Drogi gaz podnosi koszty pracy rafinerii oraz wymusza substytucję gazu olejem napędowym w przemyśle.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
+   "brent": 0.01,
+   "crack": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "bulgaria_rosyjski_diesel",
+   "label": "Wyłom Bułgarii w sprawie importu diesla",
+   "note": "Potencjalny napływ rosyjskiego diesla do Europy Wschodniej może lokalnie obniżyć napięcie podażowe.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
+   "crack": -0.02
   }
  ]
 }
