@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-15 15:39 UTC",
+ "generated": "2026-10-15 18:26 UTC",
  "headlines": [
+  {
+   "title": "Venezuela's Oil Recovery Gains Momentum as New Drilling Rigs Arrive",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
+   "published": "2026-10-15 12:00"
+  },
+  {
+   "title": "EIA Says US Crude Inventories Down Nearly 9 Million Barrels",
+   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
+   "published": "2026-10-15 11:09"
+  },
   {
    "title": "Pakistan Faces Winter Gas Shortages if Hormuz LNG Remains Choked",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-Winter-Gas-Shortages-if-Hormuz-LNG-Remains-Choked.html",
@@ -35,78 +45,61 @@
    "title": "Ukraine to Resume Russian Oil Refinery Strikes After Failed Energy Ceasefire",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
    "published": "2026-10-15 04:30"
-  },
-  {
-   "title": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
-   "published": "2026-10-15 00:19"
-  },
-  {
-   "title": "Oil Market Tightens as Tanker Attacks and Inventory Draws Mount",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Tightens-as-Tanker-Attacks-and-Inventory-Draws-Mount.html",
-   "published": "2026-10-14 18:00"
-  },
-  {
-   "title": "White House Turns to Korean War-Era Law as Diesel Prices Stay Above $6",
-   "url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
-   "published": "2026-10-14 17:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ukraina_rafinerie",
-   "label": "Wznowienie ataków Ukrainy na rafinerie",
-   "note": "Ataki na rosyjskie rafinerie ograniczą podaż gotowych paliw, podbijając marże diesla i ceny surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
-   "brent": 0.03,
-   "crack": 0.05
-  },
-  {
-   "id": "iranskie_ataki_tankowce",
-   "label": "Irańskie ataki na tankowce w Zatoce",
-   "note": "Zagrożenie eksportu z Bliskiego Wschodu podbija premię za ryzyko oraz osłabia waluty rynków wschodzących.",
+   "id": "ataki_iran_tankowce",
+   "label": "Ataki Iranu na tankowce w Cieśninie Ormuz",
+   "note": "Ataki na statki w cieśninie Ormuz ograniczają eksport ropy, windując premie za ryzyko geopolityczne.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
-   "brent": 0.04,
-   "crack": 0.02,
+   "brent": 0.05,
    "fx": 0.01
   },
   {
-   "id": "lagodzenie_sankcji_flota",
-   "label": "Plany złagodzenia sankcji na tankowce",
-   "note": "Potencjalne uwolnienie transportu ropy przez USA zwiększa podaż na rynku i wywiera presję na spadek cen.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
-   "brent": -0.03
+   "id": "ukraina_uderzenia_rafine",
+   "label": "Wznowienie ataków na rosyjskie rafinerie",
+   "note": "Wznowienie ataków na rosyjskie rafinerie uderzy w podaż paliw, windując marże na europejskim dieslu.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
+   "brent": 0.015,
+   "crack": 0.04
   },
   {
-   "id": "usa_kryzys_diesla",
-   "label": "Nadzwyczajne działania USA na rynku diesla",
-   "note": "Uruchomienie przepisów z czasów wojny koreańskiej potwierdza głęboki globalny deficyt destylatów.",
+   "id": "spadek_zapasow_usa_eia",
+   "label": "Mocny spadek zapasów ropy w USA (EIA)",
+   "note": "Spadek zapasów ropy w USA o niemal 9 mln baryłek wskazuje na mocne zacieśnienie bilansu surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
-   "crack": 0.03
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
+   "brent": 0.025
   },
   {
-   "id": "kryzys_lng_europa",
-   "label": "Skok cen gazu w Europie przez Hormuz",
-   "note": "Drogi gaz podnosi koszty pracy rafinerii oraz wymusza substytucję gazu olejem napędowym w przemyśle.",
+   "id": "kryzys_lng_europa_gaz",
+   "label": "Drogi gaz w Europie przez blokadę LNG",
+   "note": "Wysokie ceny gazu podnoszą koszty europejskich rafinerii i wymuszają substytucję olejem napędowym.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
    "brent": 0.01,
-   "crack": 0.03,
-   "fx": 0.01
+   "crack": 0.025
   },
   {
-   "id": "bulgaria_rosyjski_diesel",
-   "label": "Wyłom Bułgarii w sprawie importu diesla",
-   "note": "Potencjalny napływ rosyjskiego diesla do Europy Wschodniej może lokalnie obniżyć napięcie podażowe.",
+   "id": "wzrost_wydobycia_wenezue",
+   "label": "Odbudowa wydobycia ropy w Wenezueli",
+   "note": "Napływ nowych platform do Wenezueli sygnalizuje wzrost podaży ciężkiej ropy w średnim terminie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
+   "brent": -0.01
+  },
+  {
+   "id": "wylom_bulgarii_diesel",
+   "label": "Wyłom Bułgarii ws. importu diesla",
+   "note": "Brak jednomyślności UE ws. diesla może lokalnie zwiększyć podaż paliwa i obniżyć marże crack.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
-   "crack": -0.02
+   "crack": -0.015
   }
  ]
 }
