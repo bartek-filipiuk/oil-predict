@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-15 20:27 UTC",
+ "generated": "2026-10-15 22:42 UTC",
  "headlines": [
+  {
+   "title": "Exxon’s Oil Boom Could Keep Guyana’s Gas at Home",
+   "url": "https://oilprice.com/Energy/Natural-Gas/Exxons-Oil-Boom-Could-Keep-Guyanas-Gas-at-Home.html",
+   "published": "2026-10-15 17:00"
+  },
   {
    "title": "Ukraine Strikes Major Russian Oil Refinery",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
@@ -45,71 +50,67 @@
    "title": "U.S. Wants World Bank to Drop Ban on Upstream Oil and Gas Funding",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Wants-World-Bank-to-Drop-Ban-on-Upstream-Oil-and-Gas-Funding.html",
    "published": "2026-10-15 08:30"
-  },
-  {
-   "title": "Ship-to-Ship Oil Transfers Surge Off India’s West Coast",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ship-to-Ship-Oil-Transfers-Surge-Off-Indias-West-Coast.html",
-   "published": "2026-10-15 07:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iranskie_ataki_tankowce",
-   "label": "Irańskie ataki na tankowce w Zatoce",
-   "note": "Zagrożenie szlaków morskich i spowolnienie ruchu tankowców winduje premię geopolityczną i osłabia PLN.",
-   "confidence": "medium",
+   "id": "ataki_iranskie_tankowce",
+   "label": "Zagrożenie dla eksportu ropy przez Iran",
+   "note": "Ataki na tankowce w Zatoce Perskiej podbijają premię geopolityczną i umacniają dolara.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
-   "brent": 0.045,
+   "brent": 0.05,
    "fx": 0.015
   },
   {
-   "id": "iea_uwolnienie_rezerw",
-   "label": "IEA przyspiesza uwolnienie rezerw ropy",
-   "note": "Interwencja MAE zwiększa natychmiastową podaż ropy na rynku, ograniczając presję na wzrost cen surowca.",
-   "confidence": "high",
+   "id": "uwolnienie_rezerw_iea",
+   "label": "Przyspieszone uwolnienie rezerw IEA",
+   "note": "Rzucenie rezerw na rynek łagodzi deficyt ropy i obniża krótkoterminowe notowania Brent.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
-   "brent": -0.03
+   "brent": -0.04
   },
   {
-   "id": "eia_spadek_zapasow_usa",
-   "label": "Duży spadek zapasów ropy w USA",
-   "note": "Spadek zapasów w USA o niemal 9 mln baryłek wskazuje na mocny popyt i wspiera notowania surowca.",
+   "id": "atak_rafineria_rosja",
+   "label": "Atak Ukrainy na rosyjską rafinerię",
+   "note": "Uderzenie w moce przerobowe Rosji zwiększa marże rafineryjne i presję na ceny diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
+   "brent": 0.015,
+   "crack": 0.035
+  },
+  {
+   "id": "spadek_zapasow_usa",
+   "label": "Spadek zapasów ropy w USA o 9 mln baryłek",
+   "note": "Znaczny ubytek w magazynach w USA sygnalizuje ciasny bilans i winduje wycenę ropy.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
    "brent": 0.025
   },
   {
-   "id": "ukraina_atak_rafineria",
-   "label": "Atak Ukrainy na rosyjską rafinerię",
-   "note": "Uszkodzenie mocy przerobowych w Rosji zacieśnia bilans diesla i podbija marże rafineryjne w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
-   "brent": 0.02,
-   "crack": 0.04
-  },
-  {
-   "id": "kryzys_lng_ceny_gazu_ue",
+   "id": "kryzys_lng_europa",
    "label": "Skok cen gazu w Europie przez Hormuz",
-   "note": "Wysokie ceny gazu zmuszają przemysł do substytucji dieslem, windując europejskie marże crack.",
+   "note": "Drogi gaz winduje koszty rafinacji i wspiera popyt na diesla jako paliwo alternatywne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
    "brent": 0.015,
-   "crack": 0.035
+   "crack": 0.025,
+   "fx": 0.01
   },
   {
-   "id": "bulgaria_wylam_diesel_ue",
-   "label": "Rozłam w UE ws. importu diesla",
-   "note": "Import taniego diesla przez Bułgarię wprowadza presję spadkową na regionalne marże rafineryjne.",
+   "id": "bulgaria_diesel_deal",
+   "label": "Wyłom Bułgarii w imporcie diesla",
+   "note": "Potencjalny napływ tańszego diesla do regionu może wywrzeć presję na europejski crack.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
    "crack": -0.02
   },
   {
-   "id": "wenezuela_wzrost_wydobyc",
+   "id": "powrot_ropy_wenezuela",
    "label": "Wzrost wydobycia ropy w Wenezueli",
-   "note": "Napływ platform wiertniczych do Wenezueli zapowiada stopniowy wzrost podaży surowca na rynku.",
+   "note": "Nowe wieże wiertnicze zwiastują wyższą podaż ciężkiej ropy na rynku międzynarodowym.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
    "brent": -0.01
