@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-14 22:44 UTC",
+ "generated": "2026-10-15 09:54 UTC",
  "headlines": [
+  {
+   "title": "Ukraine to Resume Russian Oil Refinery Strikes After Failed Energy Ceasefire",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
+   "published": "2026-10-15 04:30"
+  },
+  {
+   "title": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
+   "published": "2026-10-15 00:19"
+  },
+  {
+   "title": "Oil Market Tightens as Tanker Attacks and Inventory Draws Mount",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Tightens-as-Tanker-Attacks-and-Inventory-Draws-Mount.html",
+   "published": "2026-10-14 18:00"
+  },
   {
    "title": "White House Turns to Korean War-Era Law as Diesel Prices Stay Above $6",
    "url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
@@ -25,60 +40,57 @@
    "title": "Novak Calls U.S. Diesel Deal a 'Positive Signal' for Russia's Economy",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
    "published": "2026-10-14 11:30"
-  },
-  {
-   "title": "India’s Gas Demand Drops as Iran War Hikes LNG Spot Prices",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Gas-Demand-Drops-as-Iran-War-Hikes-LNG-Spot-Prices.html",
-   "published": "2026-10-14 09:30"
-  },
-  {
-   "title": "Russian Strikes Cut Power to 600,000 Ukrainians Days After U.S. Diesel Deal",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
-   "published": "2026-10-14 08:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ormuz_atak_iran",
-   "label": "Eskalacja w Cieśninie Ormuz",
-   "note": "Zatopienie statku grozi przerwaniem dostaw z Zatoki, podbijając ropę i dolara.",
+   "id": "atakciesninahormuz",
+   "label": "Eskalacja ataków w Cieśninie Ormuz",
+   "note": "Zatopienie statku w kluczowym przesmyku podbija premię geopolityczną i wywołuje ucieczkę do dolara.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Geopolitics/Middle-East/Ship-Sinks-in-Strait-of-Hormuz-as-Iran-Escalates-Maritime-Attacks.html",
-   "brent": 0.06,
-   "crack": 0.02,
-   "fx": 0.02
+   "brent": 0.05,
+   "fx": 0.015
   },
   {
-   "id": "usa_kryzys_diesla",
-   "label": "Nadzwyczajne kroki USA ws. diesla",
-   "note": "Uruchomienie przepisów wojennych wskazuje na głęboki globalny deficyt diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
+   "id": "ukrainaatakirafinerie",
+   "label": "Wznowienie ataków na rosyjskie rafinerie",
+   "note": "Uderzenia w przetwórstwo ropy w Rosji ograniczą podaż paliw, wyraźnie podbijając marże diesla.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
+   "brent": 0.02,
    "crack": 0.04
   },
   {
-   "id": "spadek_zapasow_usa",
-   "label": "Duży spadek zapasów ropy w USA",
-   "note": "Gwałtowny spadek zapasów w USA ogranicza podaż surowca i wspiera ceny Brent.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Massive-Drop-Off.html",
-   "brent": 0.025
-  },
-  {
-   "id": "ataki_ukraina_paliwa",
-   "label": "Ataki na infrastrukturę Ukrainy",
-   "note": "Braki prądu wymuszają pracę generatorów, podbijając popyt na diesel w regionie.",
+   "id": "trumpflotacienisankcje",
+   "label": "Możliwe zniesienie sankcji na flotę cieni",
+   "note": "Złagodzenie sankcji zwiększy dostępność surowca na rynku, wywierając presję na spadek cen Brent.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Strikes-Cut-Power-to-600000-Ukrainians-Days-After-US-Diesel-Deal.html",
-   "crack": 0.015,
-   "pl": 0.01
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Considers-Easing-Sanctions-on-Shadow-Fleet-Tankers.html",
+   "brent": -0.03
   },
   {
-   "id": "rosja_usa_diesel_deal",
-   "label": "Sygnał umowy USA-Rosja ws. diesla",
-   "note": "Potencjalne poluzowanie przepływu rosyjskich paliw może ograniczyć crack spread.",
+   "id": "usaspadekzapasowropy",
+   "label": "Gwałtowny spadek zapasów ropy w USA",
+   "note": "Znaczny ubytek zapasów w USA zacieśnia bilans naftowy, wspierając krótkoterminowy wzrost cen.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Massive-Drop-Off.html",
+   "brent": 0.02
+  },
+  {
+   "id": "usaustawakryzysdiesla",
+   "label": "Interwencja USA w rynek drogiego diesla",
+   "note": "Uruchomienie przepisów wojennych w USA potwierdza deficyt diesla i podbija europejski crack spread.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html",
+   "crack": 0.03
+  },
+  {
+   "id": "porozumieniedieselrosja",
+   "label": "Doniesienia o umowie naftowej USA-Rosja",
+   "note": "Sygnały porozumienia handlowego z Rosją mogą złagodzić presję na rynkach gotowych paliw.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Novak-Calls-US-Diesel-Deal-a-Positive-Signal-for-Russias-Economy.html",
    "crack": -0.02
