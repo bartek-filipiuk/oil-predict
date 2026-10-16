@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-16 09:49 UTC",
+ "generated": "2026-10-16 13:24 UTC",
  "headlines": [
+  {
+   "title": "Trump's Oil Price Strategy Faces Two Major Tests This Weekend",
+   "url": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
+   "published": "2026-10-16 07:30"
+  },
   {
    "title": "India Slashes Diesel Export Tax as Global Fuel Crunch Deepens",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
@@ -40,83 +45,61 @@
    "title": "Exxon’s Oil Boom Could Keep Guyana’s Gas at Home",
    "url": "https://oilprice.com/Energy/Natural-Gas/Exxons-Oil-Boom-Could-Keep-Guyanas-Gas-at-Home.html",
    "published": "2026-10-15 17:00"
-  },
-  {
-   "title": "Ukraine Strikes Major Russian Oil Refinery",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
-   "published": "2026-10-15 14:30"
-  },
-  {
-   "title": "IEA Speeds Emergency Oil Release",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
-   "published": "2026-10-15 14:00"
-  },
-  {
-   "title": "Venezuela's Oil Recovery Gains Momentum as New Drilling Rigs Arrive",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
-   "published": "2026-10-15 12:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "hormuz_attacks",
+   "id": "ataki_ormuz",
    "label": "Ataki w cieśninie Ormuz",
-   "note": "Zagrożenie szlaków morskich w Zatoce Perskiej podbija premię geopolityczną za ryzyko.",
+   "note": "Ryzyko blokady szlaku transportowego podbija premię geopolityczną na ropie Brent.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
-   "brent": 0.04,
+   "brent": 0.045,
    "fx": 0.01
   },
   {
-   "id": "iea_emergency_release",
-   "label": "Przyspieszone uwolnienie rezerw MAE",
-   "note": "Uwolnienie rezerw przez agencję zwiększa bieżącą podaż i wywiera presję na spadek cen.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
-   "brent": -0.03
-  },
-  {
-   "id": "ukraine_refinery_strike",
-   "label": "Ukraina uderza w rosyjską rafinerię",
-   "note": "Uszkodzenia rosyjskich mocy rafineryjnych windują europejskie marże na dieslu.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
-   "brent": 0.01,
-   "crack": 0.03
-  },
-  {
-   "id": "india_diesel_tax_cut",
-   "label": "Indie znoszą podatek od diesla",
-   "note": "Większy eksport indyjskiego diesla może złagodzić napięcia podażowe i marże diesla.",
+   "id": "indie_eksport_diesla",
+   "label": "Indie obniżają cło na eksport diesla",
+   "note": "Zwiększenie podaży indyjskiego paliwa może lekko obniżyć europejskie marże diesla.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
    "crack": -0.02
   },
   {
-   "id": "us_crude_draw",
-   "label": "Wyraźny spadek zapasów ropy w USA",
-   "note": "Mocny spadek zapasów w USA napędza zakupy funduszy i wspiera wyceny ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
-   "brent": 0.015
-  },
-  {
-   "id": "fuel_oil_shortage",
-   "label": "Niedobór paliw ciężkich na świecie",
-   "note": "Spadek podaży z Rosji i Bliskiego Wschodu zacieśnia bilans rafineryjny paliw.",
+   "id": "kryzys_podazy_paliw",
+   "label": "Niedobór paliw z Rosji i Bliskiego Wschodu",
+   "note": "Załamanie podaży ciężkich frakcji zacieśnia bilans produktów naftowych i wspiera marże.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Fuel-Oil-Shortage-Deepens-as-Middle-East-and-Russia-Supplies-Collapse.html",
-   "crack": 0.02
+   "brent": 0.015,
+   "crack": 0.03
   },
   {
-   "id": "venezuela_oil_recovery",
-   "label": "Odbicie wydobycia ropy w Wenezueli",
-   "note": "Nowe wiertnie w Wenezueli sygnalizują wyższą podaż surowca w perspektywie tygodni.",
+   "id": "spadek_zapasow_usa",
+   "label": "Duży spadek zapasów ropy w USA",
+   "note": "Silny spadek zapasów w USA ogranicza dostępność surowca, wspierając ceny ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
+   "brent": 0.02
+  },
+  {
+   "id": "krytyka_atakow_rafinerie",
+   "label": "Naciski USA ws. ataków na rafinerie",
+   "note": "Ograniczenie ukraińskich uderzeń w rosyjskie rafinerie może zmniejszyć premię za ryzyko.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
-   "brent": -0.01
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Condemns-Ukraines-Russian-Refinery-Strikes-as-a-Disgrace.html",
+   "brent": -0.01,
+   "crack": -0.02
+  },
+  {
+   "id": "strukturalny_deficyt_die",
+   "label": "Utrzymujący się deficyt diesla",
+   "note": "Brak nowej podaży ropy i paliw z Rosji podtrzymuje wysokie marże na europejskim dieslu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crunch-Will-Persist-Well-into-2027.html",
+   "crack": 0.025
   }
  ]
 }
