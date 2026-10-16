@@ -1,6 +1,41 @@
 {
- "generated": "2026-10-15 22:42 UTC",
+ "generated": "2026-10-16 09:49 UTC",
  "headlines": [
+  {
+   "title": "India Slashes Diesel Export Tax as Global Fuel Crunch Deepens",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
+   "published": "2026-10-16 04:30"
+  },
+  {
+   "title": "Trump Condemns Ukraine’s Russian Refinery Strikes as a “Disgrace”",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Condemns-Ukraines-Russian-Refinery-Strikes-as-a-Disgrace.html",
+   "published": "2026-10-16 03:15"
+  },
+  {
+   "title": "Global Fuel Oil Shortage Deepens as Middle East and Russia Supplies Collapse",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Fuel-Oil-Shortage-Deepens-as-Middle-East-and-Russia-Supplies-Collapse.html",
+   "published": "2026-10-16 02:00"
+  },
+  {
+   "title": "Oil Prices Head for Weekly Gain as Hormuz Attacks Rattle Markets",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
+   "published": "2026-10-16 00:30"
+  },
+  {
+   "title": "WTI Outpaces Brent as U.S. Crude Draw Ignites Fresh Buying",
+   "url": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
+   "published": "2026-10-15 22:10"
+  },
+  {
+   "title": "Standard Chartered: Trump's Russian Diesel Won't Add New Supply",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Standard-Chartered-Trumps-Russian-Diesel-Wont-Add-New-Supply.html",
+   "published": "2026-10-15 19:00"
+  },
+  {
+   "title": "The Diesel Crunch Will Persist Well into 2027",
+   "url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crunch-Will-Persist-Well-into-2027.html",
+   "published": "2026-10-15 18:00"
+  },
   {
    "title": "Exxon’s Oil Boom Could Keep Guyana’s Gas at Home",
    "url": "https://oilprice.com/Energy/Natural-Gas/Exxons-Oil-Boom-Could-Keep-Guyanas-Gas-at-Home.html",
@@ -20,97 +55,65 @@
    "title": "Venezuela's Oil Recovery Gains Momentum as New Drilling Rigs Arrive",
    "url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
    "published": "2026-10-15 12:00"
-  },
-  {
-   "title": "EIA Says US Crude Inventories Down Nearly 9 Million Barrels",
-   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
-   "published": "2026-10-15 11:09"
-  },
-  {
-   "title": "Pakistan Faces Winter Gas Shortages if Hormuz LNG Remains Choked",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-Winter-Gas-Shortages-if-Hormuz-LNG-Remains-Choked.html",
-   "published": "2026-10-15 10:30"
-  },
-  {
-   "title": "Bulgaria Breaks Ranks With EU Over Trump-Putin Diesel Deal",
-   "url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
-   "published": "2026-10-15 10:00"
-  },
-  {
-   "title": "Europe’s Gas Prices Close to 2022 High as Hormuz LNG Flows Remain Limited",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
-   "published": "2026-10-15 09:30"
-  },
-  {
-   "title": "Iranian Ship Attacks Threaten Middle East Oil Exports as Tanker Traffic Slows",
-   "url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
-   "published": "2026-10-15 09:00"
-  },
-  {
-   "title": "U.S. Wants World Bank to Drop Ban on Upstream Oil and Gas Funding",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Wants-World-Bank-to-Drop-Ban-on-Upstream-Oil-and-Gas-Funding.html",
-   "published": "2026-10-15 08:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_iranskie_tankowce",
-   "label": "Zagrożenie dla eksportu ropy przez Iran",
-   "note": "Ataki na tankowce w Zatoce Perskiej podbijają premię geopolityczną i umacniają dolara.",
+   "id": "hormuz_attacks",
+   "label": "Ataki w cieśninie Ormuz",
+   "note": "Zagrożenie szlaków morskich w Zatoce Perskiej podbija premię geopolityczną za ryzyko.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Iranian-Ship-Attacks-Threaten-Middle-East-Oil-Exports-as-Tanker-Traffic-Slows.html",
-   "brent": 0.05,
-   "fx": 0.015
-  },
-  {
-   "id": "uwolnienie_rezerw_iea",
-   "label": "Przyspieszone uwolnienie rezerw IEA",
-   "note": "Rzucenie rezerw na rynek łagodzi deficyt ropy i obniża krótkoterminowe notowania Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
-   "brent": -0.04
-  },
-  {
-   "id": "atak_rafineria_rosja",
-   "label": "Atak Ukrainy na rosyjską rafinerię",
-   "note": "Uderzenie w moce przerobowe Rosji zwiększa marże rafineryjne i presję na ceny diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
-   "brent": 0.015,
-   "crack": 0.035
-  },
-  {
-   "id": "spadek_zapasow_usa",
-   "label": "Spadek zapasów ropy w USA o 9 mln baryłek",
-   "note": "Znaczny ubytek w magazynach w USA sygnalizuje ciasny bilans i winduje wycenę ropy.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Down-Nearly-9-Million-Barrels.html",
-   "brent": 0.025
-  },
-  {
-   "id": "kryzys_lng_europa",
-   "label": "Skok cen gazu w Europie przez Hormuz",
-   "note": "Drogi gaz winduje koszty rafinacji i wspiera popyt na diesla jako paliwo alternatywne.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Gas-Prices-Close-to-2022-High-as-Hormuz-LNG-Flows-Remain-Limited.html",
-   "brent": 0.015,
-   "crack": 0.025,
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
+   "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "bulgaria_diesel_deal",
-   "label": "Wyłom Bułgarii w imporcie diesla",
-   "note": "Potencjalny napływ tańszego diesla do regionu może wywrzeć presję na europejski crack.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html",
+   "id": "iea_emergency_release",
+   "label": "Przyspieszone uwolnienie rezerw MAE",
+   "note": "Uwolnienie rezerw przez agencję zwiększa bieżącą podaż i wywiera presję na spadek cen.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Speeds-Emergency-Oil-Release.html",
+   "brent": -0.03
+  },
+  {
+   "id": "ukraine_refinery_strike",
+   "label": "Ukraina uderza w rosyjską rafinerię",
+   "note": "Uszkodzenia rosyjskich mocy rafineryjnych windują europejskie marże na dieslu.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Strikes-Major-Russian-Oil-Refinery.html",
+   "brent": 0.01,
+   "crack": 0.03
+  },
+  {
+   "id": "india_diesel_tax_cut",
+   "label": "Indie znoszą podatek od diesla",
+   "note": "Większy eksport indyjskiego diesla może złagodzić napięcia podażowe i marże diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
    "crack": -0.02
   },
   {
-   "id": "powrot_ropy_wenezuela",
-   "label": "Wzrost wydobycia ropy w Wenezueli",
-   "note": "Nowe wieże wiertnicze zwiastują wyższą podaż ciężkiej ropy na rynku międzynarodowym.",
+   "id": "us_crude_draw",
+   "label": "Wyraźny spadek zapasów ropy w USA",
+   "note": "Mocny spadek zapasów w USA napędza zakupy funduszy i wspiera wyceny ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
+   "brent": 0.015
+  },
+  {
+   "id": "fuel_oil_shortage",
+   "label": "Niedobór paliw ciężkich na świecie",
+   "note": "Spadek podaży z Rosji i Bliskiego Wschodu zacieśnia bilans rafineryjny paliw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Fuel-Oil-Shortage-Deepens-as-Middle-East-and-Russia-Supplies-Collapse.html",
+   "crack": 0.02
+  },
+  {
+   "id": "venezuela_oil_recovery",
+   "label": "Odbicie wydobycia ropy w Wenezueli",
+   "note": "Nowe wiertnie w Wenezueli sygnalizują wyższą podaż surowca w perspektywie tygodni.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Recovery-Gains-Momentum-as-New-Drilling-Rigs-Arrive.html",
    "brent": -0.01
