@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-16 15:25 UTC",
+ "generated": "2026-10-16 18:13 UTC",
  "headlines": [
+  {
+   "title": "U.S. Oil Drillers Back Off Even As Prices Soar",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+   "published": "2026-10-16 12:29"
+  },
+  {
+   "title": "Equatorial Guinea Rewrites Oil Law After Production Collapses 85%",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Equatorial-Guinea-Rewrites-Oil-Law-After-Production-Collapses-85.html",
+   "published": "2026-10-16 11:30"
+  },
+  {
+   "title": "Oil Prices Are Stuck at $105 as Geopolitical Risks Mount",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
+   "published": "2026-10-16 11:13"
+  },
   {
    "title": "Ukraine Defies Trump With Renewed Attacks on Russian Oil Infrastructure",
    "url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
@@ -22,89 +37,64 @@
    "published": "2026-10-16 04:30"
   },
   {
-   "title": "Trump Condemns Ukraine’s Russian Refinery Strikes as a “Disgrace”",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Condemns-Ukraines-Russian-Refinery-Strikes-as-a-Disgrace.html",
-   "published": "2026-10-16 03:15"
-  },
-  {
-   "title": "Global Fuel Oil Shortage Deepens as Middle East and Russia Supplies Collapse",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Fuel-Oil-Shortage-Deepens-as-Middle-East-and-Russia-Supplies-Collapse.html",
-   "published": "2026-10-16 02:00"
-  },
-  {
-   "title": "Oil Prices Head for Weekly Gain as Hormuz Attacks Rattle Markets",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
-   "published": "2026-10-16 00:30"
-  },
-  {
-   "title": "WTI Outpaces Brent as U.S. Crude Draw Ignites Fresh Buying",
-   "url": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
-   "published": "2026-10-15 22:10"
-  },
-  {
-   "title": "Standard Chartered: Trump's Russian Diesel Won't Add New Supply",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Standard-Chartered-Trumps-Russian-Diesel-Wont-Add-New-Supply.html",
-   "published": "2026-10-15 19:00"
-  },
-  {
-   "title": "The Diesel Crunch Will Persist Well into 2027",
-   "url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crunch-Will-Persist-Well-into-2027.html",
-   "published": "2026-10-15 18:00"
+   "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "published": "2026-10-15 23:19"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "atakirosyjskierafinerie",
-   "label": "Ataki Ukrainy na rosyjskie rafinerie",
-   "note": "Wznowienie uderzeń ogranicza rosyjski przerób ropy i eksport paliw, windując marże diesla.",
-   "confidence": "medium",
+   "id": "ukraine_attacks_russian_",
+   "label": "Ukraińskie ataki na rosyjską naftę",
+   "note": "Wznowienie uderzeń w rosyjską infrastrukturę ogranicza podaż paliw i podbija marże diesla w Europie.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
    "brent": 0.03,
-   "crack": 0.04
-  },
-  {
-   "id": "napieciaciesninaormuz",
-   "label": "Ataki na żeglugę w Cieśninie Ormuz",
-   "note": "Zagrożenie dla tranzytu surowca z Bliskiego Wschodu podbija premię geopolityczną ropy i osłabia PLN.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Weekly-Gain-as-Hormuz-Attacks-Rattle-Markets.html",
-   "brent": 0.04,
-   "fx": 0.015
-  },
-  {
-   "id": "indiecieciecladiesel",
-   "label": "Indie obniżają cło eksportowe na diesel",
-   "note": "Zwiększenie podaży indyjskiego diesla na rynkach morskich może lekko złagodzić presję na marże crack.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
-   "crack": -0.02
-  },
-  {
-   "id": "niedoborpaliwciezkich",
-   "label": "Spadek podaży paliw z Rosji i Bl. Wschodu",
-   "note": "Załamanie dostaw z kluczowych regionów zacieśnia globalny bilans produktów naftowych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Global-Fuel-Oil-Shortage-Deepens-as-Middle-East-and-Russia-Supplies-Collapse.html",
-   "brent": 0.02,
    "crack": 0.02
   },
   {
-   "id": "spadekzapasowusa",
-   "label": "Mocny spadek zapasów ropy w USA",
-   "note": "Większy od oczekiwań spadek zapasów surowca w USA wspiera wyceny ropy na światowych giełdach.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/WTI-Outpaces-Brent-as-US-Crude-Draw-Ignites-Fresh-Buying.html",
-   "brent": 0.015
+   "id": "iran_war_escalation",
+   "label": "Ryzyko wojny z Iranem i drożejąca ropa",
+   "note": "Napięcia wojenne wokół Iranu windują ceny surowca oraz umacniają dolara kosztem walut rynków wschodzących.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-To-Push-PetroChinas-Trading-Profit-to-Record-3-Billion.html",
+   "brent": 0.04,
+   "fx": 0.01
   },
   {
-   "id": "deficytdiesla2027",
-   "label": "Trwały deficyt diesla na świecie",
-   "note": "Utrzymujący się niedobór średnich destylatów generuje stałą presję na wzrost marż rafineryjnych.",
+   "id": "us_drillers_slowdown",
+   "label": "Spadek aktywności wiertniczej w USA",
+   "note": "Wstrzemięźliwość amerykańskich wydobywców mimo wysokich cen ogranicza perspektywę wzrostu podaży surowca.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crunch-Will-Persist-Well-into-2027.html",
-   "crack": 0.025
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+   "brent": 0.02
+  },
+  {
+   "id": "india_diesel_tax_cut",
+   "label": "Indie tną podatek od eksportu diesla",
+   "note": "Większy eksport paliw z Indii może częściowo złagodzić globalny deficyt i obniżyć marże rafineryjne.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
+   "crack": -0.03
+  },
+  {
+   "id": "oil_prices_above_105",
+   "label": "Utrwalenie ropy na poziomie 105 USD",
+   "note": "Kumulacja ryzyk geopolitycznych cementuje wysokie wyceny surowca i wywiera presję na osłabienie złotego.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
+   "brent": 0.02,
+   "fx": 0.01
+  },
+  {
+   "id": "pl_diesel_pressure",
+   "label": "Presja cenowa na polskim rynku diesla",
+   "note": "Wzrost cen oleju napędowego w stronę 8 zł przy tańszej benzynie odzwierciedla napiętą sytuację podażową.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "pl": 0.02
   }
  ]
 }
