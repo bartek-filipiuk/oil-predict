@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-16 18:13 UTC",
+ "generated": "2026-10-16 20:01 UTC",
  "headlines": [
+  {
+   "title": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
+   "published": "2026-10-16 14:00"
+  },
   {
    "title": "U.S. Oil Drillers Back Off Even As Prices Soar",
    "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
@@ -32,11 +37,6 @@
    "published": "2026-10-16 07:30"
   },
   {
-   "title": "India Slashes Diesel Export Tax as Global Fuel Crunch Deepens",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
-   "published": "2026-10-16 04:30"
-  },
-  {
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "published": "2026-10-15 23:19"
@@ -46,55 +46,56 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ukraine_attacks_russian_",
-   "label": "Ukraińskie ataki na rosyjską naftę",
-   "note": "Wznowienie uderzeń w rosyjską infrastrukturę ogranicza podaż paliw i podbija marże diesla w Europie.",
+   "id": "ukrainaatakirosjarafiner",
+   "label": "Ataki Ukrainy na rosyjskie rafinerie",
+   "note": "Wznowione ataki na infrastrukturę paliwową Rosji grożą ograniczeniem podaży diesla i wzrostem marż crack.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
-   "brent": 0.03,
-   "crack": 0.02
+   "brent": 0.025,
+   "crack": 0.035
   },
   {
-   "id": "iran_war_escalation",
-   "label": "Ryzyko wojny z Iranem i drożejąca ropa",
-   "note": "Napięcia wojenne wokół Iranu windują ceny surowca oraz umacniają dolara kosztem walut rynków wschodzących.",
-   "confidence": "high",
+   "id": "wojnairanryzykopodazy",
+   "label": "Ryzyko eskalacji wokół Iranu",
+   "note": "Konflikt w Zatoce podbija premię geopolityczną na ropie oraz umacnia dolara wobec złotego.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-To-Push-PetroChinas-Trading-Profit-to-Record-3-Billion.html",
-   "brent": 0.04,
-   "fx": 0.01
+   "brent": 0.035,
+   "fx": 0.015
   },
   {
-   "id": "us_drillers_slowdown",
-   "label": "Spadek aktywności wiertniczej w USA",
-   "note": "Wstrzemięźliwość amerykańskich wydobywców mimo wysokich cen ogranicza perspektywę wzrostu podaży surowca.",
+   "id": "ograniczeniawiercenusa",
+   "label": "Brak wzrostu wierceń łupkowych w USA",
+   "note": "Ograniczenie prac wiertniczych w USA mimo wysokich cen cementuje deficyt nowej podaży ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
    "brent": 0.02
   },
   {
-   "id": "india_diesel_tax_cut",
-   "label": "Indie tną podatek od eksportu diesla",
-   "note": "Większy eksport paliw z Indii może częściowo złagodzić globalny deficyt i obniżyć marże rafineryjne.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/India-Slashes-Diesel-Export-Tax-as-Global-Fuel-Crunch-Deepens.html",
-   "crack": -0.03
-  },
-  {
-   "id": "oil_prices_above_105",
-   "label": "Utrwalenie ropy na poziomie 105 USD",
-   "note": "Kumulacja ryzyk geopolitycznych cementuje wysokie wyceny surowca i wywiera presję na osłabienie złotego.",
+   "id": "ropapo105ryzyka",
+   "label": "Ropa Brent zablokowana przy 105 USD",
+   "note": "Nawis ryzyk geopolitycznych utrzymuje ropę na wysokich poziomach i wywiera presję na osłabienie PLN.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
-   "brent": 0.02,
+   "brent": 0.015,
    "fx": 0.01
   },
   {
-   "id": "pl_diesel_pressure",
-   "label": "Presja cenowa na polskim rynku diesla",
-   "note": "Wzrost cen oleju napędowego w stronę 8 zł przy tańszej benzynie odzwierciedla napiętą sytuację podażową.",
+   "id": "testpolitykitrumpa",
+   "label": "Testy strategii cenowej Trumpa",
+   "note": "Weekendowe rozstrzygnięcia wokół planu naftowego USA mogą przynieść podwyższoną zmienność notowań Brent.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
+   "brent": -0.015
+  },
+  {
+   "id": "cenypaliwpolskaon8zl",
+   "label": "Skok cen oleju napędowego w Polsce",
+   "note": "Wzrost cen ON do 8 zł przy spadku Pb95 pogłębia presję marżową na dieslu w krajowej dystrybucji.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "pl": 0.02
+   "crack": 0.025,
+   "pl": 0.01
   }
  ]
 }
