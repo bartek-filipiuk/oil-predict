@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16 20:01 UTC",
+ "generated": "2026-10-16 22:15 UTC",
  "headlines": [
   {
    "title": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
@@ -40,62 +40,59 @@
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "published": "2026-10-15 23:19"
+  },
+  {
+   "title": "Aramco HQ Strike and Hormuz Incident Push Oil to US$107 - Investing News Network",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnOGM4ZUwzdlBYb091UTFoNFVvWnRiSDVhZllHa0lGOUNPT1Zpd3M4b2hzOVFOM3NUMEFKbTlOeXh6TkNweVhqMV92T2dVLTc3VXEwUGFyS0U1d0Y3?oc=5",
+   "published": "2026-10-15 14:13"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ukrainaatakirosjarafiner",
-   "label": "Ataki Ukrainy na rosyjskie rafinerie",
-   "note": "Wznowione ataki na infrastrukturę paliwową Rosji grożą ograniczeniem podaży diesla i wzrostem marż crack.",
+   "id": "aramco_hormuz_strike",
+   "label": "Atak na Aramco i incydent w Ormuz",
+   "note": "Eskalacja w Zatoce Perskiej podbija premię geopolityczną i grozi przerwami w dostawach ropy.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
-   "brent": 0.025,
-   "crack": 0.035
-  },
-  {
-   "id": "wojnairanryzykopodazy",
-   "label": "Ryzyko eskalacji wokół Iranu",
-   "note": "Konflikt w Zatoce podbija premię geopolityczną na ropie oraz umacnia dolara wobec złotego.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-To-Push-PetroChinas-Trading-Profit-to-Record-3-Billion.html",
-   "brent": 0.035,
+   "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnOGM4ZUwzdlBYb091UTFoNFVvWnRiSDVhZllHa0lGOUNPT1Zpd3M4b2hzOVFOM3NUMEFKbTlOeXh6TkNweVhqMV92T2dVLTc3VXEwUGFyS0U1d0Y3?oc=5",
+   "brent": 0.05,
+   "crack": 0.02,
    "fx": 0.015
   },
   {
-   "id": "ograniczeniawiercenusa",
-   "label": "Brak wzrostu wierceń łupkowych w USA",
-   "note": "Ograniczenie prac wiertniczych w USA mimo wysokich cen cementuje deficyt nowej podaży ropy.",
+   "id": "ukraine_russia_refinery_",
+   "label": "Uderzenia w rosyjską infrastrukturę ropy",
+   "note": "Ponowne ataki dronów na rosyjskie rafinerie zacieśniają europejski bilans paliw gotowych.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
+   "brent": 0.02,
+   "crack": 0.04
+  },
+  {
+   "id": "us_shale_slowdown",
+   "label": "Spadek aktywności łupkowej w USA",
+   "note": "Mniejsza liczba wierteł w USA ogranicza elastyczność podaży mimo cen ropy powyżej 100 USD.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
    "brent": 0.02
   },
   {
-   "id": "ropapo105ryzyka",
-   "label": "Ropa Brent zablokowana przy 105 USD",
-   "note": "Nawis ryzyk geopolitycznych utrzymuje ropę na wysokich poziomach i wywiera presję na osłabienie PLN.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
-   "brent": 0.015,
-   "fx": 0.01
-  },
-  {
-   "id": "testpolitykitrumpa",
-   "label": "Testy strategii cenowej Trumpa",
-   "note": "Weekendowe rozstrzygnięcia wokół planu naftowego USA mogą przynieść podwyższoną zmienność notowań Brent.",
+   "id": "trump_oil_strategy_test",
+   "label": "Test strategii naftowej USA w weekend",
+   "note": "Działania administracji USA mogą zaważyć na egzekwowaniu sankcji i presji na kraje OPEC.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
-   "brent": -0.015
+   "brent": -0.02
   },
   {
-   "id": "cenypaliwpolskaon8zl",
-   "label": "Skok cen oleju napędowego w Polsce",
-   "note": "Wzrost cen ON do 8 zł przy spadku Pb95 pogłębia presję marżową na dieslu w krajowej dystrybucji.",
-   "confidence": "medium",
+   "id": "polska_diesel_8zl",
+   "label": "Diesel w Polsce dochodzi do 8 zł",
+   "note": "Wzrost cen ON na rynku krajowym wymusza dostosowanie marż i cenników hurtowych w Polsce.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "crack": 0.025,
-   "pl": 0.01
+   "crack": 0.01,
+   "pl": 0.02
   }
  ]
 }
