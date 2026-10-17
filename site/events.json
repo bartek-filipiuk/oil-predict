@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16 22:15 UTC",
+ "generated": "2026-10-17 09:21 UTC",
  "headlines": [
   {
    "title": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
@@ -52,18 +52,18 @@
  "events": [
   {
    "id": "aramco_hormuz_strike",
-   "label": "Atak na Aramco i incydent w Ormuz",
-   "note": "Eskalacja w Zatoce Perskiej podbija premię geopolityczną i grozi przerwami w dostawach ropy.",
+   "label": "Atak na Aramco i incydent w cieśninie Ormuz",
+   "note": "Eskalacja na Bliskim Wschodzie grozi przerwaniem dostaw, windując ceny ropy oraz kurs dolara.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnOGM4ZUwzdlBYb091UTFoNFVvWnRiSDVhZllHa0lGOUNPT1Zpd3M4b2hzOVFOM3NUMEFKbTlOeXh6TkNweVhqMV92T2dVLTc3VXEwUGFyS0U1d0Y3?oc=5",
-   "brent": 0.05,
-   "crack": 0.02,
+   "brent": 0.06,
+   "crack": 0.03,
    "fx": 0.015
   },
   {
-   "id": "ukraine_russia_refinery_",
-   "label": "Uderzenia w rosyjską infrastrukturę ropy",
-   "note": "Ponowne ataki dronów na rosyjskie rafinerie zacieśniają europejski bilans paliw gotowych.",
+   "id": "ukraine_russian_refineri",
+   "label": "Ataki Ukrainy na rosyjskie rafinerie",
+   "note": "Kolejne uderzenia w rosyjską infrastrukturę ograniczają podaż diesla w Europie i windują marże.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
    "brent": 0.02,
@@ -71,28 +71,29 @@
   },
   {
    "id": "us_shale_slowdown",
-   "label": "Spadek aktywności łupkowej w USA",
-   "note": "Mniejsza liczba wierteł w USA ogranicza elastyczność podaży mimo cen ropy powyżej 100 USD.",
+   "label": "Spadek aktywności wiertniczej w USA",
+   "note": "Brak wzrostu wydobycia w USA mimo wysokich cen cementuje deficyt surowca na rynku globalnym.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
-   "brent": 0.02
+   "brent": 0.025
   },
   {
-   "id": "trump_oil_strategy_test",
-   "label": "Test strategii naftowej USA w weekend",
-   "note": "Działania administracji USA mogą zaważyć na egzekwowaniu sankcji i presji na kraje OPEC.",
-   "confidence": "low",
+   "id": "trump_oil_tests",
+   "label": "Testy strategii naftowej Trumpa w weekend",
+   "note": "Kluczowe decyzje polityczne USA mogą zaważyć na sankcjach i kierunku notowań ropy naftowej.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
-   "brent": -0.02
+   "brent": 0.02,
+   "fx": 0.01
   },
   {
-   "id": "polska_diesel_8zl",
-   "label": "Diesel w Polsce dochodzi do 8 zł",
-   "note": "Wzrost cen ON na rynku krajowym wymusza dostosowanie marż i cenników hurtowych w Polsce.",
-   "confidence": "high",
+   "id": "krajowy_rynek_paliw_spad",
+   "label": "Korekta cen paliw na stacjach w Polsce",
+   "note": "Spadek cen benzyny i relatywnie drogi diesel sygnalizują przesunięcia w polityce marżowej hurtu.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "crack": 0.01,
-   "pl": 0.02
+   "pl": -0.015
   }
  ]
 }
