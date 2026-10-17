@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-17 09:21 UTC",
+ "generated": "2026-10-17 21:47 UTC",
  "headlines": [
+  {
+   "title": "Middle East Chemicals Keep Their Cost Edge Despite Hormuz Crisis",
+   "url": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
+   "published": "2026-10-17 16:00"
+  },
+  {
+   "title": "Hurtowe ceny paliw znów w górę. Diesel drożeje najmocniej - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZlBTbWp3bDQ3QmNMRE13U0Jud0Yyc2lZWlZoR1FQbkUyMTFrQ3JPTlkzTG1Ec2NqM3YxWVNRRkVBVldHX0wyNjBtM29NZlVMb2xPcVQ1MzVkMGNVdnVreXY0RzE2bkgzZXdJV0tDbkpHZ1pkQUt2bEZCWmg1VmVnTmtVdXFvdFRhUHIzck5rYU5neXM?oc=5",
+   "published": "2026-10-16 23:04"
+  },
   {
    "title": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
    "url": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
@@ -27,73 +37,66 @@
    "published": "2026-10-16 09:00"
   },
   {
-   "title": "Iran War Set To Push PetroChina’s Trading Profit to Record $3 Billion",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-War-Set-To-Push-PetroChinas-Trading-Profit-to-Record-3-Billion.html",
-   "published": "2026-10-16 08:30"
-  },
-  {
-   "title": "Trump's Oil Price Strategy Faces Two Major Tests This Weekend",
-   "url": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
-   "published": "2026-10-16 07:30"
-  },
-  {
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "published": "2026-10-15 23:19"
-  },
-  {
-   "title": "Aramco HQ Strike and Hormuz Incident Push Oil to US$107 - Investing News Network",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnOGM4ZUwzdlBYb091UTFoNFVvWnRiSDVhZllHa0lGOUNPT1Zpd3M4b2hzOVFOM3NUMEFKbTlOeXh6TkNweVhqMV92T2dVLTc3VXEwUGFyS0U1d0Y3?oc=5",
-   "published": "2026-10-15 14:13"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "aramco_hormuz_strike",
-   "label": "Atak na Aramco i incydent w cieśninie Ormuz",
-   "note": "Eskalacja na Bliskim Wschodzie grozi przerwaniem dostaw, windując ceny ropy oraz kurs dolara.",
+   "id": "atak_ukrainy_rafinerie",
+   "label": "Ataki na rosyjską infrastrukturę naftową",
+   "note": "Ukraińskie uderzenia w rafinerie w Rosji ograniczają podaż paliw i windują marże diesla.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnOGM4ZUwzdlBYb091UTFoNFVvWnRiSDVhZllHa0lGOUNPT1Zpd3M4b2hzOVFOM3NUMEFKbTlOeXh6TkNweVhqMV92T2dVLTc3VXEwUGFyS0U1d0Y3?oc=5",
-   "brent": 0.06,
-   "crack": 0.03,
-   "fx": 0.015
-  },
-  {
-   "id": "ukraine_russian_refineri",
-   "label": "Ataki Ukrainy na rosyjskie rafinerie",
-   "note": "Kolejne uderzenia w rosyjską infrastrukturę ograniczają podaż diesla w Europie i windują marże.",
-   "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Defies-Trump-With-Renewed-Attacks-on-Russian-Oil-Infrastructure.html",
-   "brent": 0.02,
+   "brent": 0.03,
    "crack": 0.04
   },
   {
-   "id": "us_shale_slowdown",
-   "label": "Spadek aktywności wiertniczej w USA",
-   "note": "Brak wzrostu wydobycia w USA mimo wysokich cen cementuje deficyt surowca na rynku globalnym.",
+   "id": "kryzys_ciesniny_hormuz",
+   "label": "Napięcia żeglugowe w Cieśninie Ormuz",
+   "note": "Trwający kryzys wokół Ormuz podbija premię geopolityczną ropy oraz osłabia złotego.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
-   "brent": 0.025
-  },
-  {
-   "id": "trump_oil_tests",
-   "label": "Testy strategii naftowej Trumpa w weekend",
-   "note": "Kluczowe decyzje polityczne USA mogą zaważyć na sankcjach i kierunku notowań ropy naftowej.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Trumps-Oil-Price-Strategy-Faces-Two-Major-Tests-This-Weekend.html",
+   "source_url": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
    "brent": 0.02,
    "fx": 0.01
   },
   {
-   "id": "krajowy_rynek_paliw_spad",
-   "label": "Korekta cen paliw na stacjach w Polsce",
-   "note": "Spadek cen benzyny i relatywnie drogi diesel sygnalizują przesunięcia w polityce marżowej hurtu.",
+   "id": "spadek_wiertni_usa",
+   "label": "Ograniczenie wierceń naftowych w USA",
+   "note": "Wycofanie wiertni mimo wysokich cen ogranicza przyszły wzrost podaży surowca z USA.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+   "brent": 0.02
+  },
+  {
+   "id": "ropa_105_ryzyko_geopolit",
+   "label": "Presja geopolityczna trzyma ropę na $105",
+   "note": "Utrwalenie cen ropy powyżej 100 USD podbija presję kosztową na rynkach wschodzących.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
+   "brent": 0.015,
+   "fx": 0.005
+  },
+  {
+   "id": "wzrost_cen_hurtowych_die",
+   "label": "Podwyżki diesla w polskim hurcie",
+   "note": "Krajowy hurt reaguje silnymi wzrostami cen oleju napędowego w ślad za europejskim rynkiem.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZlBTbWp3bDQ3QmNMRE13U0Jud0Yyc2lZWlZoR1FQbkUyMTFrQ3JPTlkzTG1Ec2NqM3YxWVNRRkVBVldHX0wyNjBtM29NZlVMb2xPcVQ1MzVkMGNVdnVreXY0RzE2bkgzZXdJV0tDbkpHZ1pkQUt2bEZCWmg1VmVnTmtVdXFvdFRhUHIzck5rYU5neXM?oc=5",
+   "crack": 0.02,
+   "pl": 0.02
+  },
+  {
+   "id": "rozjazd_cen_detal_on_pb",
+   "label": "Rozjazd cen Pb95 i ON na stacjach",
+   "note": "Cena diesla sięga 8 zł przy spadku Pb95, co odzwierciedla deficyt średnich destylatów.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "crack": 0.01,
-   "pl": -0.015
+   "crack": 0.015,
+   "pl": 0.01
   }
  ]
 }
