@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-18 09:38 UTC",
+ "generated": "2026-10-18 21:57 UTC",
  "headlines": [
+  {
+   "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "published": "2026-10-18 16:11"
+  },
+  {
+   "title": "Hormuz Is Turning Shipping’s Fuel Bill Into a Supply Crisis",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
+   "published": "2026-10-18 16:00"
+  },
+  {
+   "title": "Iran Faces Rising Threat From Within as Baluch Insurgency Escalates",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
+   "published": "2026-10-18 12:00"
+  },
   {
    "title": "Oil Prices Stay High as War Keeps Supply Tight Into 2027",
    "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
@@ -10,79 +25,45 @@
    "title": "Middle East Chemicals Keep Their Cost Edge Despite Hormuz Crisis",
    "url": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
    "published": "2026-10-17 16:00"
-  },
-  {
-   "title": "Hurtowe ceny paliw znów w górę. Diesel drożeje najmocniej - AgroNews - Wiadomości rolnicze - Ceny rolne",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZlBTbWp3bDQ3QmNMRE13U0Jud0Yyc2lZWlZoR1FQbkUyMTFrQ3JPTlkzTG1Ec2NqM3YxWVNRRkVBVldHX0wyNjBtM29NZlVMb2xPcVQ1MzVkMGNVdnVreXY0RzE2bkgzZXdJV0tDbkpHZ1pkQUt2bEZCWmg1VmVnTmtVdXFvdFRhUHIzck5rYU5neXM?oc=5",
-   "published": "2026-10-16 23:04"
-  },
-  {
-   "title": "Norway's Untapped Oil and Gas Frontier Is Drawing Renewed Interest",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Norways-Untapped-Oil-and-Gas-Frontier-Is-Drawing-Renewed-Interest.html",
-   "published": "2026-10-16 14:00"
-  },
-  {
-   "title": "U.S. Oil Drillers Back Off Even As Prices Soar",
-   "url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
-   "published": "2026-10-16 12:29"
-  },
-  {
-   "title": "Equatorial Guinea Rewrites Oil Law After Production Collapses 85%",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Equatorial-Guinea-Rewrites-Oil-Law-After-Production-Collapses-85.html",
-   "published": "2026-10-16 11:30"
-  },
-  {
-   "title": "Oil Prices Are Stuck at $105 as Geopolitical Risks Mount",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
-   "published": "2026-10-16 11:13"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "wojna_podaz_2027",
-   "label": "Wojna ogranicza podaż ropy do 2027 r.",
-   "note": "Utrzymujący się konflikt zacieśnia bilans naftowy na świecie, podtrzymując presję na wzrost cen.",
+   "id": "kryzys_ormuz_paliwa",
+   "label": "Kryzys żeglugowy w cieśninie Ormuz",
+   "note": "Ryzyko w cieśninie Ormuz winduje ceny paliw bunkrowych i destylatów, zagrażając łańcuchom dostaw.",
    "confidence": "high",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
+   "brent": 0.04,
+   "crack": 0.05,
+   "fx": 0.01
+  },
+  {
+   "id": "wojna_napiecie_podazy_20",
+   "label": "Napięta podaż ropy przez wojny do 2027",
+   "note": "Trwające konflikty zbrojne ograniczają globalną podaż ropy, podtrzymując wysokie premie za ryzyko.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
-   "brent": 0.035,
-   "fx": 0.008
+   "brent": 0.03
   },
   {
-   "id": "kryzys_ciesnina_ormuz",
-   "label": "Napięcia w Cieśninie Ormuz",
-   "note": "Zagrożenie transportu surowca przez Bliski Wschód zwiększa premię geopolityczną i marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
-   "brent": 0.03,
-   "crack": 0.015
-  },
-  {
-   "id": "skok_cen_hurt_diesel_pl",
-   "label": "Wyraźny wzrost cen hurtowych diesla w PL",
-   "note": "Krajowy rynek hurtowy silnie przerzuca koszty importu gotowych paliw na odbiorców w Polsce.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZlBTbWp3bDQ3QmNMRE13U0Jud0Yyc2lZWlZoR1FQbkUyMTFrQ3JPTlkzTG1Ec2NqM3YxWVNRRkVBVldHX0wyNjBtM29NZlVMb2xPcVQ1MzVkMGNVdnVreXY0RzE2bkgzZXdJV0tDbkpHZ1pkQUt2bEZCWmg1VmVnTmtVdXFvdFRhUHIzck5rYU5neXM?oc=5",
-   "crack": 0.02,
-   "pl": 0.025
-  },
-  {
-   "id": "spadek_wiercen_usa",
-   "label": "Wycofanie wiertni w USA mimo drogiej ropy",
-   "note": "Brak elastyczności podażowej ze strony amerykańskich łupków ogranicza podaż w ujęciu tygodniowym.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Back-Off-Even-As-Prices-Soar.html",
+   "id": "niepokoje_wewnetrzne_ira",
+   "label": "Eskalacja rebelii Beludżów w Iranie",
+   "note": "Nasilenie walk wewnętrznych w Iranie stwarza ryzyko zakłóceń w infrastrukturze naftowej regionu.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
    "brent": 0.02
   },
   {
-   "id": "brent_105_geopolityka",
-   "label": "Ropa Brent uwięziona przy 105 USD",
-   "note": "Wysokie ryzyka geopolityczne utrwalają wysoki poziom cen i umacniają dolara wobec złotego.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Are-Stuck-at-105-as-Geopolitical-Risks-Mount.html",
-   "brent": 0.025,
-   "fx": 0.01
+   "id": "drogi_diesel_polska",
+   "label": "Wysoka premia cenowa na dieslu w Polsce",
+   "note": "Cena ON osiąga 8 zł przy tańszej Pb95, co wywiera presję na marże i krajowe cenniki hurtowe.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "crack": 0.02,
+   "pl": 0.01
   }
  ]
 }
