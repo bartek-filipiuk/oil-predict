@@ -1,10 +1,20 @@
 {
- "generated": "2026-10-19 17:36 UTC",
+ "generated": "2026-10-19 20:01 UTC",
  "headlines": [
+  {
+   "title": "New Oil Fields Should Have to Build the Carbon Storage Market",
+   "url": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
+   "published": "2026-10-19 15:00"
+  },
   {
    "title": "Pakistan’s Growth Slows  as Hormuz Crisis Hits Industry",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
    "published": "2026-10-19 12:30"
+  },
+  {
+   "title": "Why Canadian Oil Is Lagging Even As Global Crude Soars",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Why-Canadian-Oil-Is-Lagging-Even-As-Global-Crude-Soars.html",
+   "published": "2026-10-19 12:00"
   },
   {
    "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
@@ -32,64 +42,64 @@
    "published": "2026-10-19 08:30"
   },
   {
-   "title": "India's Crude Oil Import Bill Soars 46% as Middle East Crisis Drives Up Prices",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-46-as-Middle-East-Crisis-Drives-Up-Prices.html",
-   "published": "2026-10-19 03:35"
-  },
-  {
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "published": "2026-10-19 00:34"
-  },
-  {
-   "title": "Oil Prices Slip as Trump-Putin Diesel Deal Raises Supply Hopes",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
-   "published": "2026-10-19 00:25"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "diesel_deal_us_ru",
-   "label": "Porozumienie USA-Rosja ws. diesla",
-   "note": "Nadzieje na dostawy rosyjskiego diesla obniżają marże crack oraz studzą ceny ropy.",
+   "id": "trump_diesel_deal",
+   "label": "Plan porozumienia ws. rosyjskiego diesla",
+   "note": "Ewentualny powrót rosyjskiego diesla na rynki złagodziłby globalny deficyt średnich destylatów.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
-   "brent": -0.02,
-   "crack": -0.05
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
+   "brent": -0.015,
+   "crack": -0.04
   },
   {
-   "id": "iraq_exports_rise",
-   "label": "Wzrost eksportu ropy z Iraku",
-   "note": "Eksport Iraku na poziomie 3,4 mln bpd poprawia bilans podaży ropy na rynkach.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
-   "brent": -0.015
-  },
-  {
-   "id": "hormuz_crisis",
-   "label": "Kryzys żeglugowy w Cieśninie Ormuz",
-   "note": "Utrzymujące się zakłócenia wokół Ormuz podbijają premię geopolityczną na ropie Brent.",
+   "id": "hormuz_crisis_persists",
+   "label": "Kryzys w cieśninie Ormuz ogranicza podaż",
+   "note": "Utrzymujące się zakłócenia w transporcie przez Ormuz podbijają premię geopolityczną dla Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
    "brent": 0.03,
-   "fx": 0.005
+   "fx": 0.01
   },
   {
-   "id": "us_sanctions_waiver",
-   "label": "Złagodzenie sankcji USA na Rosję",
-   "note": "Wyłączenia sankcyjne mogą odblokować przepływ produktów naftowych, osłabiając marże diesla.",
+   "id": "iraq_export_surge",
+   "label": "Wzrost eksportu ropy z Iraku do 3,4 mln bpd",
+   "note": "Wyższy eksport z Iraku zbliża się do poziomów przedwojennych, wywierając presję spadkową na ropę.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
+   "brent": -0.025
+  },
+  {
+   "id": "trump_russia_waiver",
+   "label": "Ulgi w sankcjach na rosyjski sektor naftowy",
+   "note": "Wprowadzenie ulg sankcyjnych przez USA zwiększa podaż z Rosji, obniżając światowe ceny ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
-   "crack": -0.03
+   "brent": -0.02,
+   "crack": -0.02
   },
   {
-   "id": "pl_retail_drop",
-   "label": "Korekta cen paliw na polskim rynku",
-   "note": "Wyraźny spadek cen Pb95 i diesla na stacjach wywiera presję na obniżki w krajowym hurcie.",
+   "id": "heating_oil_shock",
+   "label": "Wysoki popyt i drożejący olej opałowy",
+   "note": "Skok cen oleju opałowego o 58% wskazuje na głęboki deficyt średnich destylatów przed sezonem grzewczym.",
    "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html",
+   "crack": 0.035
+  },
+  {
+   "id": "pl_retail_diesel_spread",
+   "label": "Dysparytet cen benzyny i diesla w Polsce",
+   "note": "ON osiąga 8 zł przy tańszej benzynie, odzwierciedlając presję na krajowe marże i deficyt diesla.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "crack": 0.02,
    "pl": -0.01
   }
  ]
