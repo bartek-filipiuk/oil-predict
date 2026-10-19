@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-19 20:01 UTC",
+ "generated": "2026-10-19 21:39 UTC",
  "headlines": [
+  {
+   "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
+   "url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
+   "published": "2026-10-19 16:00"
+  },
   {
    "title": "New Oil Fields Should Have to Build the Carbon Storage Market",
    "url": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
@@ -51,56 +56,57 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "trump_diesel_deal",
-   "label": "Plan porozumienia ws. rosyjskiego diesla",
-   "note": "Ewentualny powrót rosyjskiego diesla na rynki złagodziłby globalny deficyt średnich destylatów.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
-   "brent": -0.015,
-   "crack": -0.04
+   "id": "kryzys_ormuz",
+   "label": "Kryzys żeglugowy w Cieśninie Ormuz",
+   "note": "Zaburzenia dostaw przez cieśninę podbijają ceny surowca i marże paliw.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
+   "brent": 0.04,
+   "crack": 0.02,
+   "fx": 0.01
   },
   {
-   "id": "hormuz_crisis_persists",
-   "label": "Kryzys w cieśninie Ormuz ogranicza podaż",
-   "note": "Utrzymujące się zakłócenia w transporcie przez Ormuz podbijają premię geopolityczną dla Brent.",
+   "id": "ryzyko_ataku_iran",
+   "label": "Ryzyko eskalacji konfliktu USA z Iranem",
+   "note": "Groźba rozszerzenia działań wojennych generuje wysoką premię za ryzyko na ropie.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
    "brent": 0.03,
    "fx": 0.01
   },
   {
-   "id": "iraq_export_surge",
-   "label": "Wzrost eksportu ropy z Iraku do 3,4 mln bpd",
-   "note": "Wyższy eksport z Iraku zbliża się do poziomów przedwojennych, wywierając presję spadkową na ropę.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
-   "brent": -0.025
+   "id": "trump_diesel_rosja",
+   "label": "Projekt umowy dieslowej USA z Rosją",
+   "note": "Potencjalny napływ rosyjskiego diesla może obniżyć marże rafineryjne w Europie.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
+   "brent": -0.01,
+   "crack": -0.04
   },
   {
-   "id": "trump_russia_waiver",
-   "label": "Ulgi w sankcjach na rosyjski sektor naftowy",
-   "note": "Wprowadzenie ulg sankcyjnych przez USA zwiększa podaż z Rosji, obniżając światowe ceny ropy.",
+   "id": "trump_waiver_rosja",
+   "label": "Wyłączenia z sankcji na ropę z Rosji",
+   "note": "Utrzymanie ulg sankcyjnych ułatwia podaż rosyjskiej ropy i studzi rynek.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
    "brent": -0.02,
-   "crack": -0.02
+   "crack": -0.01
   },
   {
-   "id": "heating_oil_shock",
-   "label": "Wysoki popyt i drożejący olej opałowy",
-   "note": "Skok cen oleju opałowego o 58% wskazuje na głęboki deficyt średnich destylatów przed sezonem grzewczym.",
+   "id": "irak_eksport_wzrost",
+   "label": "Wzrost eksportu ropy z Iraku",
+   "note": "Wyższa podaż surowca z Iraku łagodzi presję deficytową na rynku globalnym.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html",
-   "crack": 0.035
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
+   "brent": -0.02
   },
   {
-   "id": "pl_retail_diesel_spread",
-   "label": "Dysparytet cen benzyny i diesla w Polsce",
-   "note": "ON osiąga 8 zł przy tańszej benzynie, odzwierciedlając presję na krajowe marże i deficyt diesla.",
-   "confidence": "medium",
+   "id": "korekta_cen_polska",
+   "label": "Korekta cen paliw w Polsce",
+   "note": "Obniżki na stacjach i w hurcie przynoszą chwilową ulgę odbiorcom w kraju.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "crack": 0.02,
-   "pl": -0.01
+   "pl": -0.02
   }
  ]
 }
