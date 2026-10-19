@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-19 10:46 UTC",
+ "generated": "2026-10-19 15:47 UTC",
  "headlines": [
+  {
+   "title": "Iraq's October Oil Exports Top 3.4 Million Bpd, Nearing Pre-War Levels",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
+   "published": "2026-10-19 10:30"
+  },
+  {
+   "title": "Wright Says Gas Prices Peaked As Brent Holds Above $108",
+   "url": "https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.html",
+   "published": "2026-10-19 10:00"
+  },
+  {
+   "title": "Trump Defends Russia Sanctions Waiver as Rift With Ukraine Deepens",
+   "url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
+   "published": "2026-10-19 08:30"
+  },
   {
    "title": "India's Crude Oil Import Bill Soars 46% as Middle East Crisis Drives Up Prices",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-46-as-Middle-East-Crisis-Drives-Up-Prices.html",
@@ -25,76 +40,53 @@
    "title": "Hormuz Is Turning Shipping’s Fuel Bill Into a Supply Crisis",
    "url": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
    "published": "2026-10-18 16:00"
-  },
-  {
-   "title": "Iran Faces Rising Threat From Within as Baluch Insurgency Escalates",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
-   "published": "2026-10-18 12:00"
-  },
-  {
-   "title": "Oil Prices Stay High as War Keeps Supply Tight Into 2027",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
-   "published": "2026-10-17 18:00"
-  },
-  {
-   "title": "Middle East Chemicals Keep Their Cost Edge Despite Hormuz Crisis",
-   "url": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
-   "published": "2026-10-17 16:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "trump_putin_diesel_deal",
+   "id": "trump_putin_diesel",
    "label": "Porozumienie Trump-Putin ws. diesla",
-   "note": "Nadzieje na podaż rosyjskiego diesla obniżają presję na marże rafineryjne i ropę.",
+   "note": "Nadzieje na dostawy rosyjskiego diesla obniżają presję na marże rafineryjne i ropę.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
-   "brent": -0.02,
-   "crack": -0.04
+   "brent": -0.03,
+   "crack": -0.05
   },
   {
-   "id": "hormuz_shipping_crisis",
-   "label": "Kryzys żeglugi w Cieśninie Ormuz",
-   "note": "Zagrożenie szlaków w Ormuz podbija premie za ryzyko i ceny paliw żeglugowych.",
+   "id": "kryzys_ciesnina_hormuz",
+   "label": "Kryzys żeglugowy w cieśninie Ormuz",
+   "note": "Napięcia w cieśninie Ormuz podbijają koszty paliw morskich i premię za ryzyko podażowe.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
-   "brent": 0.03,
+   "brent": 0.035,
    "crack": 0.02
   },
   {
-   "id": "war_supply_tightness",
-   "label": "Premia wojenna na rynku ropy",
-   "note": "Przedłużający się konflikt na Bliskim Wschodzie ogranicza globalną podaż surowca.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
-   "brent": 0.025,
-   "fx": 0.01
+   "id": "eksport_ropy_irak",
+   "label": "Wzrost eksportu ropy z Iraku",
+   "note": "Eksport Iraku powyżej 3,4 mln b/d łagodzi obawy o globalną podaż surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
+   "brent": -0.02
   },
   {
-   "id": "record_shipping_costs",
-   "label": "Rekordowe stawki frachtu ropy",
-   "note": "Wysokie koszty transportu morskiego zmuszają producentów surowca do cięcia cen.",
+   "id": "trump_sankcje_rosja",
+   "label": "Utrzymanie ulg sankcyjnych na Rosję",
+   "note": "Łagodniejszy kurs USA wobec eksportu z Rosji zwiększa dostępność surowca na rynku.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
+   "brent": -0.02,
+   "crack": -0.02
+  },
+  {
+   "id": "rekordowe_stawki_frachtu",
+   "label": "Rekordowe koszty transportu morskiego",
+   "note": "Drogie tankowce zmuszają producentów do obniżania cen surowca u źródła.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Shipping-Costs-Force-Oil-Producers-to-Slash-Prices.html",
    "brent": -0.015
-  },
-  {
-   "id": "iran_internal_unrest",
-   "label": "Napięcia wewnętrzne w Iranie",
-   "note": "Niestabilność w Iranie rodzi obawy o zakłócenia wydobycia i transportu surowca.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
-   "brent": 0.015
-  },
-  {
-   "id": "poland_fuel_price_drop",
-   "label": "Korekta cen paliw w Polsce",
-   "note": "Spadek cen detalicznych Pb95 i ON wskazuje na presję na obniżki marż w polskim hurcie.",
-   "confidence": "low",
-   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "pl": -0.01
   }
  ]
 }
