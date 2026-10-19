@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19 21:39 UTC",
+ "generated": "2026-10-19 23:10 UTC",
  "headlines": [
   {
    "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
@@ -58,52 +58,50 @@
   {
    "id": "kryzys_ormuz",
    "label": "Kryzys żeglugowy w Cieśninie Ormuz",
-   "note": "Zaburzenia dostaw przez cieśninę podbijają ceny surowca i marże paliw.",
-   "confidence": "high",
+   "note": "Napięcia i blokady w Cieśninie Ormuz ograniczają podaż ropy, windując globalne ceny surowca.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
    "brent": 0.04,
-   "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "ryzyko_ataku_iran",
-   "label": "Ryzyko eskalacji konfliktu USA z Iranem",
-   "note": "Groźba rozszerzenia działań wojennych generuje wysoką premię za ryzyko na ropie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "trump_diesel_rosja",
-   "label": "Projekt umowy dieslowej USA z Rosją",
-   "note": "Potencjalny napływ rosyjskiego diesla może obniżyć marże rafineryjne w Europie.",
-   "confidence": "medium",
+   "id": "diesel_deal_trump",
+   "label": "Umowa Trumpa z Rosją ws. diesla",
+   "note": "Potencjalne porozumienie ws. rosyjskiego diesla może złagodzić presję na europejskie marże rafineryjne.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
-   "brent": -0.01,
-   "crack": -0.04
+   "crack": -0.05
   },
   {
-   "id": "trump_waiver_rosja",
-   "label": "Wyłączenia z sankcji na ropę z Rosji",
-   "note": "Utrzymanie ulg sankcyjnych ułatwia podaż rosyjskiej ropy i studzi rynek.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
-   "brent": -0.02,
-   "crack": -0.01
-  },
-  {
-   "id": "irak_eksport_wzrost",
+   "id": "eksport_ropy_irak",
    "label": "Wzrost eksportu ropy z Iraku",
-   "note": "Wyższa podaż surowca z Iraku łagodzi presję deficytową na rynku globalnym.",
-   "confidence": "high",
+   "note": "Eksport ropy z Iraku powraca w okolice poziomów przedwojennych, co zwiększa podaż na rynku.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
    "brent": -0.02
   },
   {
+   "id": "sankcje_rosja_waiver",
+   "label": "Wyłączenia z sankcji na ropę z Rosji",
+   "note": "Utrzymanie zwolnień sankcyjnych przez USA umożliwia dalszy napływ rosyjskiego surowca na rynek.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
+   "brent": -0.03,
+   "crack": -0.02
+  },
+  {
+   "id": "ryzyko_konfliktu_iran",
+   "label": "Ryzyko interwencji militarnej w Iranie",
+   "note": "Dyskusje o możliwej inwazji USA na Iran budzą obawy o drastyczny szok podażowy na Bliskim Wschodzie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
+   "brent": 0.05,
+   "fx": 0.01
+  },
+  {
    "id": "korekta_cen_polska",
-   "label": "Korekta cen paliw w Polsce",
-   "note": "Obniżki na stacjach i w hurcie przynoszą chwilową ulgę odbiorcom w kraju.",
+   "label": "Spadek cen detalicznych paliw w Polsce",
+   "note": "Weekendowy spadek cen na stacjach odzwierciedla wcześniejsze obniżki w hurcie i stabilizację marż.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "pl": -0.02
