@@ -1,10 +1,25 @@
 {
- "generated": "2026-10-18 21:57 UTC",
+ "generated": "2026-10-19 10:46 UTC",
  "headlines": [
+  {
+   "title": "India's Crude Oil Import Bill Soars 46% as Middle East Crisis Drives Up Prices",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-46-as-Middle-East-Crisis-Drives-Up-Prices.html",
+   "published": "2026-10-19 03:35"
+  },
   {
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "published": "2026-10-18 16:11"
+   "published": "2026-10-19 00:34"
+  },
+  {
+   "title": "Oil Prices Slip as Trump-Putin Diesel Deal Raises Supply Hopes",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
+   "published": "2026-10-19 00:25"
+  },
+  {
+   "title": "Record Shipping Costs Force Oil Producers to Slash Prices",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Record-Shipping-Costs-Force-Oil-Producers-to-Slash-Prices.html",
+   "published": "2026-10-18 18:00"
   },
   {
    "title": "Hormuz Is Turning Shipping’s Fuel Bill Into a Supply Crisis",
@@ -31,39 +46,55 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "kryzys_ormuz_paliwa",
-   "label": "Kryzys żeglugowy w cieśninie Ormuz",
-   "note": "Ryzyko w cieśninie Ormuz winduje ceny paliw bunkrowych i destylatów, zagrażając łańcuchom dostaw.",
+   "id": "trump_putin_diesel_deal",
+   "label": "Porozumienie Trump-Putin ws. diesla",
+   "note": "Nadzieje na podaż rosyjskiego diesla obniżają presję na marże rafineryjne i ropę.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
+   "brent": -0.02,
+   "crack": -0.04
+  },
+  {
+   "id": "hormuz_shipping_crisis",
+   "label": "Kryzys żeglugi w Cieśninie Ormuz",
+   "note": "Zagrożenie szlaków w Ormuz podbija premie za ryzyko i ceny paliw żeglugowych.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
-   "brent": 0.04,
-   "crack": 0.05,
+   "brent": 0.03,
+   "crack": 0.02
+  },
+  {
+   "id": "war_supply_tightness",
+   "label": "Premia wojenna na rynku ropy",
+   "note": "Przedłużający się konflikt na Bliskim Wschodzie ogranicza globalną podaż surowca.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
+   "brent": 0.025,
    "fx": 0.01
   },
   {
-   "id": "wojna_napiecie_podazy_20",
-   "label": "Napięta podaż ropy przez wojny do 2027",
-   "note": "Trwające konflikty zbrojne ograniczają globalną podaż ropy, podtrzymując wysokie premie za ryzyko.",
+   "id": "record_shipping_costs",
+   "label": "Rekordowe stawki frachtu ropy",
+   "note": "Wysokie koszty transportu morskiego zmuszają producentów surowca do cięcia cen.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
-   "brent": 0.03
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Shipping-Costs-Force-Oil-Producers-to-Slash-Prices.html",
+   "brent": -0.015
   },
   {
-   "id": "niepokoje_wewnetrzne_ira",
-   "label": "Eskalacja rebelii Beludżów w Iranie",
-   "note": "Nasilenie walk wewnętrznych w Iranie stwarza ryzyko zakłóceń w infrastrukturze naftowej regionu.",
+   "id": "iran_internal_unrest",
+   "label": "Napięcia wewnętrzne w Iranie",
+   "note": "Niestabilność w Iranie rodzi obawy o zakłócenia wydobycia i transportu surowca.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Geopolitics/Middle-East/Iran-Faces-Rising-Threat-From-Within-as-Baluch-Insurgency-Escalates.html",
-   "brent": 0.02
+   "brent": 0.015
   },
   {
-   "id": "drogi_diesel_polska",
-   "label": "Wysoka premia cenowa na dieslu w Polsce",
-   "note": "Cena ON osiąga 8 zł przy tańszej Pb95, co wywiera presję na marże i krajowe cenniki hurtowe.",
-   "confidence": "medium",
+   "id": "poland_fuel_price_drop",
+   "label": "Korekta cen paliw w Polsce",
+   "note": "Spadek cen detalicznych Pb95 i ON wskazuje na presję na obniżki marż w polskim hurcie.",
+   "confidence": "low",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "crack": 0.02,
-   "pl": 0.01
+   "pl": -0.01
   }
  ]
 }
