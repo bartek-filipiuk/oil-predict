@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-20 10:05 UTC",
+ "generated": "2026-10-20 13:45 UTC",
  "headlines": [
+  {
+   "title": "HSBC Sees Hormuz Becoming Redundant in Five Years",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/HSBC-Sees-Hormuz-Becoming-Redundant-in-Five-Years.html",
+   "published": "2026-10-20 08:30"
+  },
   {
    "title": "Oil-Rich Alberta Votes to Stay in Canada in Historic Referendum",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
@@ -30,82 +35,44 @@
    "title": "New Oil Fields Should Have to Build the Carbon Storage Market",
    "url": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
    "published": "2026-10-19 15:00"
-  },
-  {
-   "title": "Pakistan’s Growth Slows  as Hormuz Crisis Hits Industry",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
-   "published": "2026-10-19 12:30"
-  },
-  {
-   "title": "Why Canadian Oil Is Lagging Even As Global Crude Soars",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Why-Canadian-Oil-Is-Lagging-Even-As-Global-Crude-Soars.html",
-   "published": "2026-10-19 12:00"
-  },
-  {
-   "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58%",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html",
-   "published": "2026-10-19 11:30"
-  },
-  {
-   "title": "What’s Trump’s Thinking Behind The ‘Diesel Deal’ With Russia?",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
-   "published": "2026-10-19 11:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_tankowce_zatoka_pe",
+   "id": "ataki_tankowce_zatoka",
    "label": "Ataki na tankowce w Zatoce Perskiej",
-   "note": "Zagrożenie podaży surowca z Zatoki Perskiej winduje cenę Brent i zwiększa globalną awersję do ryzyka.",
+   "note": "Zagrożenie dostaw ropy przez Zatokę Perską podbija Brent powyżej 110 USD i osłabia złotego.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
-   "brent": 0.06,
-   "crack": 0.03,
-   "fx": 0.015
+   "brent": 0.08,
+   "fx": 0.02
   },
   {
-   "id": "ryzyko_konfliktu_iran",
-   "label": "Ryzyko eskalacji zbrojnej z Iranem",
-   "note": "Widmo konfliktu USA z Iranem podbija premię geopolityczną za potencjalną blokadę Cieśniny Ormuz.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "porozumienie_diesel_usa_",
-   "label": "Potencjalna umowa na rosyjski diesel",
-   "note": "Ewentualny powrót rosyjskiego diesla na rynki mógłby skokowo obniżyć napiętą marżę diesla w Europie.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
-   "crack": -0.04
-  },
-  {
-   "id": "wsparcie_diesla_rolnicy_",
-   "label": "8 mld USD dopłat do diesla w USA",
-   "note": "Program osłonowy w USA podtrzymuje popyt na średnie destylaty, zaostrzając globalny bilans diesla.",
+   "id": "usa_doplaty_diesel",
+   "label": "Dopłaty do diesla dla rolników w USA",
+   "note": "Wsparcie 8 mld USD podbije popyt na diesla, zwiększając marże rafineryjne crack na rynku.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
-   "crack": 0.02
+   "crack": 0.03
   },
   {
-   "id": "referendum_alberta_kanad",
-   "label": "Alberta pozostaje w Kanadzie",
-   "note": "Zażegnanie ryzyka secesji roponośnej prowincji zdejmuje lokalną premię polityczną z kanadyjskiej ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
-   "brent": -0.01
-  },
-  {
-   "id": "rozjazd_cen_on_pb95_pols",
-   "label": "Skokowa dysproporcja cen ON i Pb w PL",
-   "note": "ON osiąga 8 zł przy spadku Pb95, sygnalizując presję podażową na diesla w krajowym hurcie.",
+   "id": "krajowy_skok_cen_on",
+   "label": "Skok cen ON do 8 zł na rynku w Polsce",
+   "note": "Rozjazd cen Pb95 i diesla w Polsce wskazuje na presję na marże i ceny hurtowe diesla w kraju.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "crack": 0.02,
    "pl": 0.02
+  },
+  {
+   "id": "referendum_alberta_kanad",
+   "label": "Alberta pozostaje w Kanadzie",
+   "note": "Oddalenie ryzyka dezintegracji Kanady stabilizuje podaż ropy na rynku Ameryki Północnej.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
+   "brent": -0.01
   }
  ]
 }
