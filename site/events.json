@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-20 18:34 UTC",
+ "generated": "2026-10-20 20:47 UTC",
  "headlines": [
+  {
+   "title": "The Middle East's Next Energy Boom Has Nothing to Do With Oil",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Middle-Easts-Next-Energy-Boom-Has-Nothing-to-Do-With-Oil.html",
+   "published": "2026-10-20 15:00"
+  },
   {
    "title": "EU Stands Firm Against Arctic Oil and Gas Drilling Despite Energy Crisis",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Stands-Firm-Against-Arctic-Oil-and-Gas-Drilling-Despite-Energy-Crisis.html",
@@ -42,11 +47,6 @@
    "published": "2026-10-20 08:30"
   },
   {
-   "title": "Oil-Rich Alberta Votes to Stay in Canada in Historic Referendum",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
-   "published": "2026-10-20 04:30"
-  },
-  {
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "published": "2026-10-20 03:52"
@@ -56,53 +56,55 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "russia_production_declin",
-   "label": "Spadek wydobycia ropy w Rosji",
-   "note": "Mniejsza produkcja w Rosji ogranicza globalną podaż surowca na rynku.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Revenue-Slides-as-Production-Declines.html",
-   "brent": 0.015
-  },
-  {
-   "id": "saudi_supply_shock_risk",
-   "label": "Ryzyko szoku podaży z Arabii Saud.",
-   "note": "Ostrzeżenia przed ograniczeniem dostaw z Arabii Saudyjskiej windują wyceny ropy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/The-Next-Major-Oil-Supply-Shock-Could-Come-From-Saudi-Arabia.html",
-   "brent": 0.02
-  },
-  {
-   "id": "shipping_crisis_tankers",
-   "label": "Kryzys żeglugowy i mniejsze tankowce",
-   "note": "Wzrost kosztów logistyki i mniejsza dostępność tankowców podbijają marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
-   "brent": 0.01,
-   "crack": 0.02
-  },
-  {
-   "id": "russia_iran_war_scrutiny",
-   "label": "Napięcia wokół Iranu i roli Rosji",
-   "note": "Rosnąca premia geopolityczna na Bliskim Wschodzie osłabia PLN i podbija ropę.",
+   "id": "iran_wojna_rola_rosji",
+   "label": "Eskalacja wojny z Iranem i rola Rosji",
+   "note": "Śledztwo ws. Rosji w wojnie w Iranie podbija premię geopolityczną za ryzyko w Cieśninie Ormuz.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Geopolitics/Middle-East/Russias-Shadow-Role-in-Iran-War-Comes-Under-Fresh-Scrutiny.html",
    "brent": 0.025,
    "fx": 0.005
   },
   {
-   "id": "chevron_iraq_oilfield",
-   "label": "Chevron przejmuje złoże w Iraku",
-   "note": "Zwiększenie stabilności dostaw z Iraku może lekko schłodzić notowania ropy.",
+   "id": "saudi_szok_podazowy",
+   "label": "Ryzyko szoku podażowego w Arabii Saudyjskiej",
+   "note": "Obawy o ograniczenia wydobycia w Arabii Saudyjskiej podsycają presję wzrostową na notowania ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/The-Next-Major-Oil-Supply-Shock-Could-Come-From-Saudi-Arabia.html",
+   "brent": 0.02
+  },
+  {
+   "id": "spadek_produkcji_ropy_ro",
+   "label": "Spadek wydobycia i eksportu ropy z Rosji",
+   "note": "Spadek wydobycia ropy w Rosji zacieśnia globalną podaż surowca na rynku w krótkim terminie.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Revenue-Slides-as-Production-Declines.html",
+   "brent": 0.015,
+   "crack": 0.01
+  },
+  {
+   "id": "kryzys_tankowcow_azja",
+   "label": "Kryzys logistyki morskiej tankowców w Azji",
+   "note": "Brak dużych tankowców i droższy fracht podbijają koszty dostaw oraz marże rafineryjne diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
+   "brent": 0.01,
+   "crack": 0.02
+  },
+  {
+   "id": "chevron_irak_pole_naftow",
+   "label": "Chevron przejmuje złoże Lukoilu w Iraku",
+   "note": "Przejęcie irackiego złoża przez Chevron stabilizuje perspektywę podaży, ograniczając wzrosty cen.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Chevron-Moves-to-Take-Over-Russias-Most-Prized-Iraqi-Oil-Field.html",
    "brent": -0.01
   },
   {
-   "id": "krajowe_ceny_paliw_spade",
-   "label": "Korekta cen paliw na stacjach w Polsce",
-   "note": "Spadek cen detalicznych Pb95 wywiera presję na obniżki w polskim hurcie.",
-   "confidence": "medium",
+   "id": "krajowy_rynek_paliw_pols",
+   "label": "Drogi diesel i spadek Pb95 na stacjach w PL",
+   "note": "Wysokie ceny ON (8 zł) wywierają presję na krajowe marże i korektę cen hurtowych Orlenu.",
+   "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "crack": 0.015,
    "pl": -0.015
   }
  ]
