@@ -1,6 +1,26 @@
 {
- "generated": "2026-10-19 23:10 UTC",
+ "generated": "2026-10-20 10:05 UTC",
  "headlines": [
+  {
+   "title": "Oil-Rich Alberta Votes to Stay in Canada in Historic Referendum",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
+   "published": "2026-10-20 04:30"
+  },
+  {
+   "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "published": "2026-10-20 03:52"
+  },
+  {
+   "title": "Trump Announces $8 Billion in Emergency Diesel Relief for U.S. Farmers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
+   "published": "2026-10-20 03:15"
+  },
+  {
+   "title": "Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
+   "published": "2026-10-19 23:56"
+  },
   {
    "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
    "url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
@@ -30,81 +50,62 @@
    "title": "What’s Trump’s Thinking Behind The ‘Diesel Deal’ With Russia?",
    "url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
    "published": "2026-10-19 11:00"
-  },
-  {
-   "title": "Iraq's October Oil Exports Top 3.4 Million Bpd, Nearing Pre-War Levels",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
-   "published": "2026-10-19 10:30"
-  },
-  {
-   "title": "Wright Says Gas Prices Peaked As Brent Holds Above $108",
-   "url": "https://oilprice.com/Energy/Gas-Prices/Wright-Says-Gas-Prices-Peaked-As-Brent-Holds-Above-108.html",
-   "published": "2026-10-19 10:00"
-  },
-  {
-   "title": "Trump Defends Russia Sanctions Waiver as Rift With Ukraine Deepens",
-   "url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
-   "published": "2026-10-19 08:30"
-  },
-  {
-   "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "published": "2026-10-19 00:34"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "kryzys_ormuz",
-   "label": "Kryzys żeglugowy w Cieśninie Ormuz",
-   "note": "Napięcia i blokady w Cieśninie Ormuz ograniczają podaż ropy, windując globalne ceny surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Growth-Slows-as-Hormuz-Crisis-Hits-Industry.html",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "diesel_deal_trump",
-   "label": "Umowa Trumpa z Rosją ws. diesla",
-   "note": "Potencjalne porozumienie ws. rosyjskiego diesla może złagodzić presję na europejskie marże rafineryjne.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
-   "crack": -0.05
-  },
-  {
-   "id": "eksport_ropy_irak",
-   "label": "Wzrost eksportu ropy z Iraku",
-   "note": "Eksport ropy z Iraku powraca w okolice poziomów przedwojennych, co zwiększa podaż na rynku.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-October-Oil-Exports-Top-34-Million-Bpd-Nearing-Pre-War-Levels.html",
-   "brent": -0.02
-  },
-  {
-   "id": "sankcje_rosja_waiver",
-   "label": "Wyłączenia z sankcji na ropę z Rosji",
-   "note": "Utrzymanie zwolnień sankcyjnych przez USA umożliwia dalszy napływ rosyjskiego surowca na rynek.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Europe/Trump-Defends-Russia-Sanctions-Waiver-as-Rift-With-Ukraine-Deepens.html",
-   "brent": -0.03,
-   "crack": -0.02
+   "id": "ataki_tankowce_zatoka_pe",
+   "label": "Ataki na tankowce w Zatoce Perskiej",
+   "note": "Zagrożenie podaży surowca z Zatoki Perskiej winduje cenę Brent i zwiększa globalną awersję do ryzyka.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
+   "brent": 0.06,
+   "crack": 0.03,
+   "fx": 0.015
   },
   {
    "id": "ryzyko_konfliktu_iran",
-   "label": "Ryzyko interwencji militarnej w Iranie",
-   "note": "Dyskusje o możliwej inwazji USA na Iran budzą obawy o drastyczny szok podażowy na Bliskim Wschodzie.",
-   "confidence": "low",
+   "label": "Ryzyko eskalacji zbrojnej z Iranem",
+   "note": "Widmo konfliktu USA z Iranem podbija premię geopolityczną za potencjalną blokadę Cieśniny Ormuz.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
-   "brent": 0.05,
+   "brent": 0.03,
    "fx": 0.01
   },
   {
-   "id": "korekta_cen_polska",
-   "label": "Spadek cen detalicznych paliw w Polsce",
-   "note": "Weekendowy spadek cen na stacjach odzwierciedla wcześniejsze obniżki w hurcie i stabilizację marż.",
-   "confidence": "high",
+   "id": "porozumienie_diesel_usa_",
+   "label": "Potencjalna umowa na rosyjski diesel",
+   "note": "Ewentualny powrót rosyjskiego diesla na rynki mógłby skokowo obniżyć napiętą marżę diesla w Europie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Whats-Trumps-Thinking-Behind-The-Diesel-Deal-With-Russia.html",
+   "crack": -0.04
+  },
+  {
+   "id": "wsparcie_diesla_rolnicy_",
+   "label": "8 mld USD dopłat do diesla w USA",
+   "note": "Program osłonowy w USA podtrzymuje popyt na średnie destylaty, zaostrzając globalny bilans diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
+   "crack": 0.02
+  },
+  {
+   "id": "referendum_alberta_kanad",
+   "label": "Alberta pozostaje w Kanadzie",
+   "note": "Zażegnanie ryzyka secesji roponośnej prowincji zdejmuje lokalną premię polityczną z kanadyjskiej ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
+   "brent": -0.01
+  },
+  {
+   "id": "rozjazd_cen_on_pb95_pols",
+   "label": "Skokowa dysproporcja cen ON i Pb w PL",
+   "note": "ON osiąga 8 zł przy spadku Pb95, sygnalizując presję podażową na diesla w krajowym hurcie.",
+   "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "pl": -0.02
+   "crack": 0.02,
+   "pl": 0.02
   }
  ]
 }
