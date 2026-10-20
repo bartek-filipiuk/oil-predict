@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-20 13:45 UTC",
+ "generated": "2026-10-20 15:42 UTC",
  "headlines": [
+  {
+   "title": "Saudi Arabia and Asia Locked In Dispute Over 2027 Term Oil Deals",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-and-Asia-Locked-In-Dispute-Over-2027-Term-Oil-Deals.html",
+   "published": "2026-10-20 10:30"
+  },
+  {
+   "title": "Shipping Crisis Forces Asian Crude Buyers to Use Smaller Tankers",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
+   "published": "2026-10-20 09:30"
+  },
+  {
+   "title": "Russia’s Shadow Role in Iran War Comes Under Fresh Scrutiny",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/Russias-Shadow-Role-in-Iran-War-Comes-Under-Fresh-Scrutiny.html",
+   "published": "2026-10-20 09:00"
+  },
   {
    "title": "HSBC Sees Hormuz Becoming Redundant in Five Years",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/HSBC-Sees-Hormuz-Becoming-Redundant-in-Five-Years.html",
@@ -30,11 +45,6 @@
    "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
    "url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
    "published": "2026-10-19 16:00"
-  },
-  {
-   "title": "New Oil Fields Should Have to Build the Carbon Storage Market",
-   "url": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
-   "published": "2026-10-19 15:00"
   }
  ],
  "source": "ai",
@@ -43,34 +53,51 @@
   {
    "id": "ataki_tankowce_zatoka",
    "label": "Ataki na tankowce w Zatoce Perskiej",
-   "note": "Zagrożenie dostaw ropy przez Zatokę Perską podbija Brent powyżej 110 USD i osłabia złotego.",
+   "note": "Ataki na tankowce zagrażają podaży ropy z Zatoki Perskiej, windując ceny Brent.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
-   "brent": 0.08,
-   "fx": 0.02
+   "brent": 0.06,
+   "crack": 0.02,
+   "fx": 0.015
   },
   {
-   "id": "usa_doplaty_diesel",
-   "label": "Dopłaty do diesla dla rolników w USA",
-   "note": "Wsparcie 8 mld USD podbije popyt na diesla, zwiększając marże rafineryjne crack na rynku.",
+   "id": "eskalacja_wojna_iran",
+   "label": "Ryzyko eskalacji konfliktu z Iranem",
+   "note": "Rola Rosji w konflikcie z Iranem zwiększa ryzyko dalszych zakłóceń dostaw surowca.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Russias-Shadow-Role-in-Iran-War-Comes-Under-Fresh-Scrutiny.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "kryzys_logistyczny_tanko",
+   "label": "Kryzys żeglugowy i brak tankowców",
+   "note": "Problemy z frachtem wymuszają mniejsze tankowce, podbijając koszty transportu ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
+   "brent": 0.02
+  },
+  {
+   "id": "pakiet_diesel_usa",
+   "label": "Wsparcie zakupu diesla w USA",
+   "note": "Pakiet 8 mld USD dla rolników podbija popyt na olej napędowy i marże rafineryjne.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
-   "crack": 0.03
+   "crack": 0.02
   },
   {
-   "id": "krajowy_skok_cen_on",
-   "label": "Skok cen ON do 8 zł na rynku w Polsce",
-   "note": "Rozjazd cen Pb95 i diesla w Polsce wskazuje na presję na marże i ceny hurtowe diesla w kraju.",
+   "id": "rozjazd_cen_on_pb_polska",
+   "label": "Presja na krajowe ceny diesla w Polsce",
+   "note": "Drogi diesel (8 zł) przy spadku Pb95 wymusza korektę marż i cen w polskim hurcie.",
    "confidence": "medium",
    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "crack": 0.02,
    "pl": 0.02
   },
   {
-   "id": "referendum_alberta_kanad",
+   "id": "referendum_alberta_stabi",
    "label": "Alberta pozostaje w Kanadzie",
-   "note": "Oddalenie ryzyka dezintegracji Kanady stabilizuje podaż ropy na rynku Ameryki Północnej.",
-   "confidence": "low",
+   "note": "Brak secesji Alberty stabilizuje podaż kanadyjskiego surowca i obniża premię za ryzyko.",
+   "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
    "brent": -0.01
   }
