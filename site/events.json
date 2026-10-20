@@ -1,6 +1,26 @@
 {
- "generated": "2026-10-20 15:42 UTC",
+ "generated": "2026-10-20 18:34 UTC",
  "headlines": [
+  {
+   "title": "EU Stands Firm Against Arctic Oil and Gas Drilling Despite Energy Crisis",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Stands-Firm-Against-Arctic-Oil-and-Gas-Drilling-Despite-Energy-Crisis.html",
+   "published": "2026-10-20 12:45"
+  },
+  {
+   "title": "Chevron Moves to Take Over Russia's Most Prized Iraqi Oil Field",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Chevron-Moves-to-Take-Over-Russias-Most-Prized-Iraqi-Oil-Field.html",
+   "published": "2026-10-20 12:00"
+  },
+  {
+   "title": "Russia’s Oil Export Revenue Slides as Production Declines",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Revenue-Slides-as-Production-Declines.html",
+   "published": "2026-10-20 11:30"
+  },
+  {
+   "title": "The Next Major Oil Supply Shock Could Come From Saudi Arabia",
+   "url": "https://oilprice.com/Energy/Crude-Oil/The-Next-Major-Oil-Supply-Shock-Could-Come-From-Saudi-Arabia.html",
+   "published": "2026-10-20 11:11"
+  },
   {
    "title": "Saudi Arabia and Asia Locked In Dispute Over 2027 Term Oil Deals",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-and-Asia-Locked-In-Dispute-Over-2027-Term-Oil-Deals.html",
@@ -30,76 +50,60 @@
    "title": "Ceny paliw na weekend 17-19.10.2026: Pb95 spada do 6,89 zł, ON do 8 zł! - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
    "published": "2026-10-20 03:52"
-  },
-  {
-   "title": "Trump Announces $8 Billion in Emergency Diesel Relief for U.S. Farmers",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
-   "published": "2026-10-20 03:15"
-  },
-  {
-   "title": "Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
-   "published": "2026-10-19 23:56"
-  },
-  {
-   "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
-   "published": "2026-10-19 16:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "ataki_tankowce_zatoka",
-   "label": "Ataki na tankowce w Zatoce Perskiej",
-   "note": "Ataki na tankowce zagrażają podaży ropy z Zatoki Perskiej, windując ceny Brent.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
-   "brent": 0.06,
-   "crack": 0.02,
-   "fx": 0.015
+   "id": "russia_production_declin",
+   "label": "Spadek wydobycia ropy w Rosji",
+   "note": "Mniejsza produkcja w Rosji ogranicza globalną podaż surowca na rynku.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Revenue-Slides-as-Production-Declines.html",
+   "brent": 0.015
   },
   {
-   "id": "eskalacja_wojna_iran",
-   "label": "Ryzyko eskalacji konfliktu z Iranem",
-   "note": "Rola Rosji w konflikcie z Iranem zwiększa ryzyko dalszych zakłóceń dostaw surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Russias-Shadow-Role-in-Iran-War-Comes-Under-Fresh-Scrutiny.html",
-   "brent": 0.03,
-   "fx": 0.01
-  },
-  {
-   "id": "kryzys_logistyczny_tanko",
-   "label": "Kryzys żeglugowy i brak tankowców",
-   "note": "Problemy z frachtem wymuszają mniejsze tankowce, podbijając koszty transportu ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
+   "id": "saudi_supply_shock_risk",
+   "label": "Ryzyko szoku podaży z Arabii Saud.",
+   "note": "Ostrzeżenia przed ograniczeniem dostaw z Arabii Saudyjskiej windują wyceny ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/The-Next-Major-Oil-Supply-Shock-Could-Come-From-Saudi-Arabia.html",
    "brent": 0.02
   },
   {
-   "id": "pakiet_diesel_usa",
-   "label": "Wsparcie zakupu diesla w USA",
-   "note": "Pakiet 8 mld USD dla rolników podbija popyt na olej napędowy i marże rafineryjne.",
+   "id": "shipping_crisis_tankers",
+   "label": "Kryzys żeglugowy i mniejsze tankowce",
+   "note": "Wzrost kosztów logistyki i mniejsza dostępność tankowców podbijają marże diesla.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Announces-8-Billion-in-Emergency-Diesel-Relief-for-US-Farmers.html",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Shipping-Crisis-Forces-Asian-Crude-Buyers-to-Use-Smaller-Tankers.html",
+   "brent": 0.01,
    "crack": 0.02
   },
   {
-   "id": "rozjazd_cen_on_pb_polska",
-   "label": "Presja na krajowe ceny diesla w Polsce",
-   "note": "Drogi diesel (8 zł) przy spadku Pb95 wymusza korektę marż i cen w polskim hurcie.",
+   "id": "russia_iran_war_scrutiny",
+   "label": "Napięcia wokół Iranu i roli Rosji",
+   "note": "Rosnąca premia geopolityczna na Bliskim Wschodzie osłabia PLN i podbija ropę.",
    "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
-   "pl": 0.02
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Russias-Shadow-Role-in-Iran-War-Comes-Under-Fresh-Scrutiny.html",
+   "brent": 0.025,
+   "fx": 0.005
   },
   {
-   "id": "referendum_alberta_stabi",
-   "label": "Alberta pozostaje w Kanadzie",
-   "note": "Brak secesji Alberty stabilizuje podaż kanadyjskiego surowca i obniża premię za ryzyko.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Rich-Alberta-Votes-to-Stay-in-Canada-in-Historic-Referendum.html",
+   "id": "chevron_iraq_oilfield",
+   "label": "Chevron przejmuje złoże w Iraku",
+   "note": "Zwiększenie stabilności dostaw z Iraku może lekko schłodzić notowania ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Chevron-Moves-to-Take-Over-Russias-Most-Prized-Iraqi-Oil-Field.html",
    "brent": -0.01
+  },
+  {
+   "id": "krajowe_ceny_paliw_spade",
+   "label": "Korekta cen paliw na stacjach w Polsce",
+   "note": "Spadek cen detalicznych Pb95 wywiera presję na obniżki w polskim hurcie.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGJhTEJULXJEeUtla05HWElQcmh2d0FtdDRtdXc4U2Rjd25MV2NSREpYMV9wX1hxMzBrMFMyUWYyMWVEREMyZzRJczJNcXY4OEl4eVhabW02WGJxWG42NlVQdlNxNERwMFhsMEdKWHE5Y1ZNdEZSNVRFSVFjV2xhTUYxNi14b25jLThUWTdYdl9Gd3o0WjFBVw?oc=5",
+   "pl": -0.015
   }
  ]
 }
