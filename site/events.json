@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-21 10:08 UTC",
+ "generated": "2026-10-21 14:00 UTC",
  "headlines": [
+  {
+   "title": "Japan’s Trade Deficit Doubles as Hormuz Crisis Hikes Energy Import Costs",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
+   "published": "2026-10-21 08:30"
+  },
+  {
+   "title": "Russia to Send First Diesel Tanker to U.S. on Thursday",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+   "published": "2026-10-21 07:30"
+  },
   {
    "title": "Goldman Sachs Warns of New Oil Price Shock as Tanker Rates Soar",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
@@ -20,55 +30,62 @@
    "title": "API: Crude, Product Inventories Continue to Draw",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
    "published": "2026-10-20 15:56"
-  },
-  {
-   "title": "The Middle East's Next Energy Boom Has Nothing to Do With Oil",
-   "url": "https://oilprice.com/Energy/Energy-General/The-Middle-Easts-Next-Energy-Boom-Has-Nothing-to-Do-With-Oil.html",
-   "published": "2026-10-20 15:00"
-  },
-  {
-   "title": "EU Stands Firm Against Arctic Oil and Gas Drilling Despite Energy Crisis",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Stands-Firm-Against-Arctic-Oil-and-Gas-Drilling-Despite-Energy-Crisis.html",
-   "published": "2026-10-20 12:45"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "brent_powyzej_110_usd",
-   "label": "Brent powyżej 110 USD przez Bliski Wschód",
-   "note": "Napięcia na Bliskim Wschodzie windują ceny ropy i wywołują ucieczkę od walut rynków wschodzących.",
+   "id": "bliskiwschodropa110",
+   "label": "Napięcia na Bliskim Wschodzie i ropa >110$",
+   "note": "Obawy o dostawy ropy z Zatoki Perskiej podsycają premie za ryzyko i osłabiają złotego.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
    "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "skok_stawek_frachtu",
-   "label": "Skok stawek frachtu tankowców",
-   "note": "Goldman Sachs ostrzega przed szokiem cenowym w wyniku gwałtownego wzrostu kosztów transportu morskiego.",
+   "id": "stawkitankowcowgoldman",
+   "label": "Wzrost stawek frachtu tankowców",
+   "note": "Skok kosztów transportu morskiego podbija ceny ropy oraz marże na produktach gotowych.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
    "brent": 0.03,
    "crack": 0.02
   },
   {
-   "id": "presja_usa_na_diesla",
-   "label": "Naciski USA na wzrost produkcji diesla",
-   "note": "Biały Dom naciska na rafinerie ws. podaży diesla, co może nieco obniżyć marże rafineryjne.",
+   "id": "kryzysciesninahormuz",
+   "label": "Kryzys w cieśninie Ormuz uderza w import",
+   "note": "Problemy z żeglugą windowują koszty energii w Azji i wywołują ucieczkę kapitału do dolara.",
    "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
+   "brent": 0.03,
+   "fx": 0.015
+  },
+  {
+   "id": "naciskusaprodukcjadiesla",
+   "label": "Presja USA na produkcję diesla",
+   "note": "Wzrost przerobu w rafineriach USA może obniżyć marże diesla, lecz wesprzeć popyt na surowiec.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Pushes-Refiners-to-Boost-Diesel-Output-as-Prices-Soar.html",
+   "brent": 0.01,
    "crack": -0.02
   },
   {
-   "id": "spadek_zapasow_api",
-   "label": "Kolejny spadek zapasów wg API",
-   "note": "Kurczące się zapasy ropy i produktów w USA zacieśniają bilans popytowo-podażowy na rynku.",
+   "id": "rosyjskidieseldousa",
+   "label": "Wysyłka rosyjskiego diesla do USA",
+   "note": "Niespodziewany ładunek diesla z Rosji do USA może krótkoterminowo schłodzić marże pęknięcia.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+   "crack": -0.02
+  },
+  {
+   "id": "spadekzapasowapi",
+   "label": "Kolejny spadek zapasów w USA wg API",
+   "note": "Mocniejszy spadek zapasów surowca i paliw wspiera krótkoterminowe notowania ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
-   "brent": 0.015,
-   "crack": 0.01
+   "brent": 0.015
   }
  ]
 }
