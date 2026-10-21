@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-21 16:00 UTC",
+ "generated": "2026-10-21 18:47 UTC",
  "headlines": [
+  {
+   "title": "Saudi Crude Exports Hit Five-Month High as Production Falls to Record Low",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
+   "published": "2026-10-21 12:30"
+  },
+  {
+   "title": "GM to Add Hybrids as U.S. Gasoline Holds Above $4",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/GM-to-Add-Hybrids-as-US-Gasoline-Holds-Above-4.html",
+   "published": "2026-10-21 11:30"
+  },
   {
    "title": "India’s Top State Refiner to Reduce Middle East Term Oil Purchases",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Top-State-Refiner-to-Reduce-Middle-East-Term-Oil-Purchases.html",
@@ -30,78 +40,58 @@
    "title": "Goldman Sachs Warns of New Oil Price Shock as Tanker Rates Soar",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
    "published": "2026-10-21 04:30"
-  },
-  {
-   "title": "Trump Administration Pushes Refiners to Boost Diesel Output as Prices Soar",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Pushes-Refiners-to-Boost-Diesel-Output-as-Prices-Soar.html",
-   "published": "2026-10-21 02:00"
-  },
-  {
-   "title": "Oil Prices Climb Above $110 as Middle East Supply Fears Persist",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
-   "published": "2026-10-21 00:11"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "brent_above_110_mideast",
-   "label": "Ropa powyżej 110 USD przez Bliski Wschód",
-   "note": "Obawy o podaż w Zatoce Perskiej windują notowania ropy i osłabiają waluty rynków wschodzących.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
-   "brent": 0.04,
-   "fx": 0.015
+   "id": "kryzyscieplinahormuz",
+   "label": "Kryzys w Cieśninie Ormuz podbija koszty",
+   "note": "Napięcia w rejonie Ormuz windowią koszty transportu ropy i zwiększają premię za ryzyko geopolityczne.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
+   "brent": 0.035,
+   "fx": 0.01
   },
   {
-   "id": "goldman_tanker_shock",
-   "label": "Skok stawek frachtu tankowców",
-   "note": "Ostrzeżenie GS przed szokiem cenowym z powodu eksplozji kosztów transportu morskiego podbija marże.",
+   "id": "goldmanszoktankowce",
+   "label": "Goldman ostrzega przed szokiem cenowym",
+   "note": "Gwałtowny wzrost stawek frachtu tankowców grozi ograniczeniem podaży i podbiciem cen ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
-   "brent": 0.03,
-   "crack": 0.04
+   "brent": 0.04
   },
   {
-   "id": "eia_us_inventories_sink",
-   "label": "Kolejny spadek zapasów ropy w USA",
-   "note": "Dalsze kurczenie się amerykańskich rezerw ropy potęguje obawy o deficyt surowca na rynku.",
+   "id": "spadekzapasowusa",
+   "label": "Dalszy spadek zapasów ropy w USA",
+   "note": "Raport EIA o kurczących się rezerwach w USA wskazuje na utrzymujące się zacieśnienie bilansu surowca.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Sink-Further.html",
    "brent": 0.02
   },
   {
-   "id": "trump_diesel_push",
-   "label": "Nacisk USA na wzrost produkcji diesla",
-   "note": "Presja Waszyngtonu na rafinerie ma obniżyć marże dieslowskie, ale zwiększy popyt na ropę.",
+   "id": "dostepnoscropybliskiwsch",
+   "label": "Presja na ceny ropy z Bliskiego Wschodu",
+   "note": "Większa dostępność baryłek w Zatoce Perskiej osłabia regionalne premie i wywiera presję na Brent.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Pushes-Refiners-to-Boost-Diesel-Output-as-Prices-Soar.html",
-   "brent": 0.01,
-   "crack": -0.03
-  },
-  {
-   "id": "russia_us_diesel_tanker",
-   "label": "Dostawa rosyjskiego diesla do USA",
-   "note": "Nietypowy ładunek diesla z Rosji do USA może krótkoterminowo złagodzić presję na marże paliwowe.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
-   "crack": -0.02
-  },
-  {
-   "id": "hormuz_japan_deficit",
-   "label": "Kryzys w Ormuz bije w bilans Japonii",
-   "note": "Rosnące koszty importu przez kryzys w cieśninie Hormuz umacniają dolara w ujęciu globalnym.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
-   "fx": 0.01
-  },
-  {
-   "id": "mideast_crude_availabili",
-   "label": "Wyższa dostępność ropy z Bliskiego Wschodu",
-   "note": "Lokalny wzrost podaży fizycznej ropy z Zatoki wywiera presję spadkową na regionalne benchmarki.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.html",
+   "brent": -0.015
+  },
+  {
+   "id": "rosyjskidieselusa",
+   "label": "Eksport rosyjskiego diesla do USA",
+   "note": "Dostawa rosyjskiego diesla do USA może krótkoterminowo złagodzić napięcia podażowe na rynku paliw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+   "crack": -0.025
+  },
+  {
+   "id": "saudyjskieksportwzrost",
+   "label": "Wzrost eksportu ropy z Arabii Saudyjskiej",
+   "note": "5-miesięczny szczyt eksportu z Arabii Saudyjskiej zwiększa bieżącą podaż surowca trafiającego na rynek.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
    "brent": -0.015
   }
  ]
