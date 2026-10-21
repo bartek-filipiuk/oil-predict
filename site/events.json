@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-21 14:00 UTC",
+ "generated": "2026-10-21 16:00 UTC",
  "headlines": [
+  {
+   "title": "India’s Top State Refiner to Reduce Middle East Term Oil Purchases",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Top-State-Refiner-to-Reduce-Middle-East-Term-Oil-Purchases.html",
+   "published": "2026-10-21 10:30"
+  },
+  {
+   "title": "EIA Says US Crude Inventories Sink Further",
+   "url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Sink-Further.html",
+   "published": "2026-10-21 09:39"
+  },
+  {
+   "title": "Higher Oil Availability Pressures Middle East Crude Benchmarks",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.html",
+   "published": "2026-10-21 09:30"
+  },
   {
    "title": "Japan’s Trade Deficit Doubles as Hormuz Crisis Hikes Energy Import Costs",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
@@ -25,67 +40,69 @@
    "title": "Oil Prices Climb Above $110 as Middle East Supply Fears Persist",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
    "published": "2026-10-21 00:11"
-  },
-  {
-   "title": "API: Crude, Product Inventories Continue to Draw",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
-   "published": "2026-10-20 15:56"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "bliskiwschodropa110",
-   "label": "Napięcia na Bliskim Wschodzie i ropa >110$",
-   "note": "Obawy o dostawy ropy z Zatoki Perskiej podsycają premie za ryzyko i osłabiają złotego.",
+   "id": "brent_above_110_mideast",
+   "label": "Ropa powyżej 110 USD przez Bliski Wschód",
+   "note": "Obawy o podaż w Zatoce Perskiej windują notowania ropy i osłabiają waluty rynków wschodzących.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html",
    "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "stawkitankowcowgoldman",
-   "label": "Wzrost stawek frachtu tankowców",
-   "note": "Skok kosztów transportu morskiego podbija ceny ropy oraz marże na produktach gotowych.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
-   "brent": 0.03,
-   "crack": 0.02
-  },
-  {
-   "id": "kryzysciesninahormuz",
-   "label": "Kryzys w cieśninie Ormuz uderza w import",
-   "note": "Problemy z żeglugą windowują koszty energii w Azji i wywołują ucieczkę kapitału do dolara.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
-   "brent": 0.03,
    "fx": 0.015
   },
   {
-   "id": "naciskusaprodukcjadiesla",
-   "label": "Presja USA na produkcję diesla",
-   "note": "Wzrost przerobu w rafineriach USA może obniżyć marże diesla, lecz wesprzeć popyt na surowiec.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Pushes-Refiners-to-Boost-Diesel-Output-as-Prices-Soar.html",
-   "brent": 0.01,
-   "crack": -0.02
+   "id": "goldman_tanker_shock",
+   "label": "Skok stawek frachtu tankowców",
+   "note": "Ostrzeżenie GS przed szokiem cenowym z powodu eksplozji kosztów transportu morskiego podbija marże.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Warns-of-New-Oil-Price-Shock-as-Tanker-Rates-Soar.html",
+   "brent": 0.03,
+   "crack": 0.04
   },
   {
-   "id": "rosyjskidieseldousa",
-   "label": "Wysyłka rosyjskiego diesla do USA",
-   "note": "Niespodziewany ładunek diesla z Rosji do USA może krótkoterminowo schłodzić marże pęknięcia.",
+   "id": "eia_us_inventories_sink",
+   "label": "Kolejny spadek zapasów ropy w USA",
+   "note": "Dalsze kurczenie się amerykańskich rezerw ropy potęguje obawy o deficyt surowca na rynku.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Sink-Further.html",
+   "brent": 0.02
+  },
+  {
+   "id": "trump_diesel_push",
+   "label": "Nacisk USA na wzrost produkcji diesla",
+   "note": "Presja Waszyngtonu na rafinerie ma obniżyć marże dieslowskie, ale zwiększy popyt na ropę.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Pushes-Refiners-to-Boost-Diesel-Output-as-Prices-Soar.html",
+   "brent": 0.01,
+   "crack": -0.03
+  },
+  {
+   "id": "russia_us_diesel_tanker",
+   "label": "Dostawa rosyjskiego diesla do USA",
+   "note": "Nietypowy ładunek diesla z Rosji do USA może krótkoterminowo złagodzić presję na marże paliwowe.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
    "crack": -0.02
   },
   {
-   "id": "spadekzapasowapi",
-   "label": "Kolejny spadek zapasów w USA wg API",
-   "note": "Mocniejszy spadek zapasów surowca i paliw wspiera krótkoterminowe notowania ropy.",
+   "id": "hormuz_japan_deficit",
+   "label": "Kryzys w Ormuz bije w bilans Japonii",
+   "note": "Rosnące koszty importu przez kryzys w cieśninie Hormuz umacniają dolara w ujęciu globalnym.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/API-Crude-Products-Continu-eto-Draw.html",
-   "brent": 0.015
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
+   "fx": 0.01
+  },
+  {
+   "id": "mideast_crude_availabili",
+   "label": "Wyższa dostępność ropy z Bliskiego Wschodu",
+   "note": "Lokalny wzrost podaży fizycznej ropy z Zatoki wywiera presję spadkową na regionalne benchmarki.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.html",
+   "brent": -0.015
   }
  ]
 }
