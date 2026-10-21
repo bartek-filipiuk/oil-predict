@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-21 20:47 UTC",
+ "generated": "2026-10-21 22:49 UTC",
  "headlines": [
+  {
+   "title": "S&P Global Warns Hormuz Energy Shock Could Become a Global Food Crisis",
+   "url": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
+   "published": "2026-10-21 16:00"
+  },
   {
    "title": "Saudi Crude Exports Hit Five-Month High as Production Falls to Record Low",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
@@ -41,52 +46,52 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "kryzys_ormuz_koszty_ener",
-   "label": "Kryzys w cieśninie Ormuz",
-   "note": "Ryzyko geopolityczne w cieśninie Ormuz podbija koszty transportu ropy i umacnia dolara.",
+   "id": "kryzys_hormuz_sp",
+   "label": "Szok podażowy w cieśninie Ormuz",
+   "note": "Eskalacja w Ormuz podbija premię geopolityczną na ropie oraz umacnia bezpiecznego dolara.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Trade-Deficit-Doubles-as-Hormuz-Crisis-Hikes-Energy-Import-Costs.html",
-   "brent": 0.03,
+   "source_url": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
+   "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "spadek_zapasow_ropy_usa",
-   "label": "Kolejny spadek zapasów ropy w USA",
-   "note": "Kurczące się zapasy surowca według danych EIA stwarzają presję na wzrost cen ropy.",
-   "confidence": "high",
+   "id": "spadek_zapasow_usa",
+   "label": "Spadek zapasów ropy w USA wg EIA",
+   "note": "Dalszy spadek zapasów w USA pogłębia deficyt na rynku fizycznym, podbijając wyceny ropy.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/EIA-Says-US-Crude-Inventories-Sink-Further.html",
+   "brent": 0.025
+  },
+  {
+   "id": "tankowiec_diesla_z_rosji",
+   "label": "Dostawa rosyjskiego diesla do USA",
+   "note": "Nowy ładunek diesla łagodzi napięcia podażowe w basenie atlantyckim, obniżając marże crack.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
+   "crack": -0.03
+  },
+  {
+   "id": "niska_produkcja_saudyjsk",
+   "label": "Spadek wydobycia ropy w Arabii",
+   "note": "Rekordowo niska produkcja ogranicza podaż surowca w skali globalnej, windując wyceny Brent.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
    "brent": 0.02
   },
   {
-   "id": "rosyjski_diesel_do_usa",
-   "label": "Rosyjski tankowiec z dieslem do USA",
-   "note": "Dodatkowa podaż paliwa na rynku atlantyckim wywiera presję spadkową na marże diesla.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russia-to-Send-First-Diesel-Tanker-to-US-on-Thursday.html",
-   "crack": -0.025
-  },
-  {
-   "id": "wieksza_podaz_ropy_blisk",
-   "label": "Presja na ceny ropy z Bliskiego Wschodu",
-   "note": "Większa dostępność surowca w regionie osłabia fizyczne benchmarki i notowania ropy.",
+   "id": "presja_na_benchmarki_bli",
+   "label": "Wyższa podaż ropy na Bliskim Wschodzie",
+   "note": "Zwiększona dostępność surowca wywiera presję spadkową na regionalne benchmarki i ropę Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Higher-Oil-Availability-Pressures-Middle-East-Crude-Benchmarks.html",
    "brent": -0.015
   },
   {
-   "id": "indie_redukuja_zakupy_ro",
-   "label": "Indie tną zakupy ropy z Zatoki Perskiej",
-   "note": "Redukcja zakupów terminowych przez rafinerię w Indiach ogranicza popyt na surowiec.",
+   "id": "spadek_poboru_ropy_przez",
+   "label": "Indie tną zakupy ropy na Bliskim Wschodzie",
+   "note": "Ograniczenie zakupów kontraktowych przez indyjskie rafinerie zmniejsza presję popytową na Brent.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Top-State-Refiner-to-Reduce-Middle-East-Term-Oil-Purchases.html",
-   "brent": -0.01
-  },
-  {
-   "id": "wzrost_eksportu_arabia_s",
-   "label": "Wzrost eksportu z Arabii Saudyjskiej",
-   "note": "5-miesięczny szczyt eksportu saudyjskiej ropy łagodzi krótkoterminowe obawy podażowe.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
    "brent": -0.01
   }
  ]
