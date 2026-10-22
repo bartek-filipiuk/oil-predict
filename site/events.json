@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-22 13:59 UTC",
+ "generated": "2026-10-22 15:56 UTC",
  "headlines": [
+  {
+   "title": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On",
+   "url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
+   "published": "2026-10-22 10:00"
+  },
   {
    "title": "Oil Prices Rise After U.S. Orders Diplomats to Leave Saudi Arabia - Jordan News",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWC1BWjJINlplNUVOeGlmUEhLMUo4aU5ULUtkZTVuODc3RmNMSjgweGJBR1Utb1otNTF3SlVFTWptc2N3czNQQUpZTFBKTUgta1E1UFBqVURXNlQ3NWREbUc1bGNrTGxQaUR1Sk0ySzZsUHExVkpzYVZoNUFSZUIzaHVlZnR4UWpFOE1MWFI1MHFXQy1yMFRZUmpETi00VTJ1dnBNMVZMdWRRTmp6WjliNDBHdDNBbWs?oc=5",
@@ -40,69 +45,65 @@
    "title": "S&P Global Warns Hormuz Energy Shock Could Become a Global Food Crisis",
    "url": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
    "published": "2026-10-21 16:00"
-  },
-  {
-   "title": "Saudi Crude Exports Hit Five-Month High as Production Falls to Record Low",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
-   "published": "2026-10-21 12:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "huti_atak_saudi",
+   "id": "houthi_saudi_strike",
    "label": "Ataki Huti na cele w Arabii Saudyjskiej",
-   "note": "Uderzenia w saudyjską infrastrukturę wywindowały ropę powyżej 111 USD.",
+   "note": "Uderzenia w saudyjską infrastrukturę wywindowały ropę powyżej 111 USD, windując premię za ryzyko.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-Above-111-as-Houthis-Strike-Saudi-Targets.html",
-   "brent": 0.07,
+   "brent": 0.05,
    "crack": 0.02,
    "fx": 0.01
   },
   {
-   "id": "iran_statki_zatoka",
-   "label": "Iran atakuje statki w Zatoce Perskiej",
-   "note": "Trafienie siedmiu jednostek nasila ryzyko militarnego paraliżu żeglugi.",
-   "confidence": "high",
+   "id": "persian_gulf_ship_strike",
+   "label": "Iran: ataki na statki w Zatoce Perskiej",
+   "note": "Trafienie 7 jednostek zagraża żegludze tankowców, podbijając ryzyko dostaw ropy i marże diesla.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
    "brent": 0.06,
    "crack": 0.03,
-   "fx": 0.015
-  },
-  {
-   "id": "ewakuacja_dyplomatow_usa",
-   "label": "Ewakuacja dyplomatów USA z Arabii Saud.",
-   "note": "Nakaz wyjazdu personelu USA podbija premię geopolityczną za eskalację wojny.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWC1BWjJINlplNUVOeGlmUEhLMUo4aU5ULUtkZTVuODc3RmNMSjgweGJBR1Utb1otNTF3SlVFTWptc2N3czNQQUpZTFBKTUgta1E1UFBqVURXNlQ3NWREbUc1bGNrTGxQaUR1Sk0ySzZsUHExVkpzYVZoNUFSZUIzaHVlZnR4UWpFOE1MWFI1MHFXQy1yMFRZUmpETi00VTJ1dnBNMVZMdWRRTmp6WjliNDBHdDNBbWs?oc=5",
-   "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "blokada_morska_iranu",
-   "label": "Blokada morska USA i brak rezerw Iranu",
-   "note": "Zaostrzenie blokady przez marynarkę USA odcina podaż irańskiej ropy.",
+   "id": "us_diplomats_saudi_evac",
+   "label": "Ewakuacja dyplomatów USA z Arabii Saud.",
+   "note": "Rozkaz wyjazdu dyplomatów sygnalizuje groźbę eskalacji regionalnej i ucieczkę kapitału do dolara.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWC1BWjJINlplNUVOeGlmUEhLMUo4aU5ULUtkZTVuODc3RmNMSjgweGJBR1Utb1otNTF3SlVFTWptc2N3czNQQUpZTFBKTUgta1E1UFBqVURXNlQ3NWREbUc1bGNrTGxQaUR1Sk0ySzZsUHExVkpzYVZoNUFSZUIzaHVlZnR4UWpFOE1MWFI1MHFXQy1yMFRZUmpETi00VTJ1dnBNMVZMdWRRTmp6WjliNDBHdDNBbWs?oc=5",
+   "brent": 0.04,
+   "fx": 0.015
+  },
+  {
+   "id": "us_iran_naval_blockade",
+   "label": "Zaostrzenie blokady morskiej Iranu",
+   "note": "Wyczerpywanie irańskich rezerw i skuteczna blokada USA trwale odcinają irański eksport ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Reserves-Run-Dry-as-US-Naval-Blockade-Tightens.html",
    "brent": 0.03
   },
   {
-   "id": "sp_szok_cieznina_hormuz",
-   "label": "Ostrzeżenie przed szokiem w cieśninie Ormuz",
-   "note": "Ryzyko kryzysu paliwowo-żywnościowego podbija marże rafineryjne diesla.",
+   "id": "sp_hormuz_shock_warning",
+   "label": "Ostrzeżenie przed szokiem w cieśn. Ormuz",
+   "note": "Ryzyko paraliżu Ormuz zagraża dostawom paliw i winduje marże rafineryjne na europejskim dieslu.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
    "brent": 0.03,
-   "crack": 0.04
+   "crack": 0.02
   },
   {
-   "id": "spadek_produkcji_saudi",
-   "label": "Rekordowo niska produkcja ropy w Arabii",
-   "note": "Maksymalne ograniczenie wydobycia zacieśnia globalny bilans surowca.",
+   "id": "iran_nuclear_escalation",
+   "label": "Irańscy jastrzębie za bronią jądrową",
+   "note": "Presja na program atomowy w trakcie wojny z USA zwiększa prawdopodobieństwo długiej eskalacji.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Exports-Hit-Five-Month-High-as-Production-Falls-to-Record-Low.html",
-   "brent": 0.02
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
+   "brent": 0.02,
+   "fx": 0.01
   }
  ]
 }
