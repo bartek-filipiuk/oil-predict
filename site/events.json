@@ -1,10 +1,15 @@
 {
- "generated": "2026-10-22 18:40 UTC",
+ "generated": "2026-10-22 20:42 UTC",
  "headlines": [
   {
    "title": "West of Suez: Brent at 5-mth high on Mideast escalation risk - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
    "published": "2026-10-22 17:37"
+  },
+  {
+   "title": "Strathcona Pitches 250,000-Bpd Oil Export Route to Asia",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Strathcona-Pitches-250000-Bpd-Oil-Export-Route-to-Asia.html",
+   "published": "2026-10-22 14:00"
   },
   {
    "title": "EU’s Proposed Shipping Subsidies Could Make BioLNG Cheaper Than Fuel Oil",
@@ -32,72 +37,40 @@
    "published": "2026-10-22 10:00"
   },
   {
-   "title": "Oil Prices Rise After U.S. Orders Diplomats to Leave Saudi Arabia - Jordan News",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWC1BWjJINlplNUVOeGlmUEhLMUo4aU5ULUtkZTVuODc3RmNMSjgweGJBR1Utb1otNTF3SlVFTWptc2N3czNQQUpZTFBKTUgta1E1UFBqVURXNlQ3NWREbUc1bGNrTGxQaUR1Sk0ySzZsUHExVkpzYVZoNUFSZUIzaHVlZnR4UWpFOE1MWFI1MHFXQy1yMFRZUmpETi00VTJ1dnBNMVZMdWRRTmp6WjliNDBHdDNBbWs?oc=5",
-   "published": "2026-10-22 06:53"
-  },
-  {
    "title": "India's Middle East Oil Imports Jumped 32% in September",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Middle-East-Oil-Imports-Jumped-32-in-September.html",
    "published": "2026-10-22 06:00"
-  },
-  {
-   "title": "Iran Claims Seven Ships Hit in Persian Gulf as Oil Prices Surge",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
-   "published": "2026-10-22 04:30"
-  },
-  {
-   "title": "Iran’s Oil Reserves Run Dry as U.S. Naval Blockade Tightens",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Reserves-Run-Dry-as-US-Naval-Blockade-Tightens.html",
-   "published": "2026-10-22 02:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_atak_statki",
-   "label": "Ataki na tankowce w Zatoce Perskiej",
-   "note": "Iran twierdzi o trafieniu 7 statków, potęgując ryzyko paraliżu żeglugi w cieśninie Ormuz.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
-   "brent": 0.05,
-   "crack": 0.02,
-   "fx": 0.01
-  },
-  {
-   "id": "ewakuacja_dyplomatow_usa",
-   "label": "Ewakuacja dyplomatów USA z Arabii",
-   "note": "Rozkaz opuszczenia Arabii Saudyjskiej zwiastuje bezpośrednie zagrożenie infrastrukturze naftowej.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWC1BWjJINlplNUVOeGlmUEhLMUo4aU5ULUtkZTVuODc3RmNMSjgweGJBR1Utb1otNTF3SlVFTWptc2N3czNQQUpZTFBKTUgta1E1UFBqVURXNlQ3NWREbUc1bGNrTGxQaUR1Sk0ySzZsUHExVkpzYVZoNUFSZUIzaHVlZnR4UWpFOE1MWFI1MHFXQy1yMFRZUmpETi00VTJ1dnBNMVZMdWRRTmp6WjliNDBHdDNBbWs?oc=5",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "blokada_morska_iranu",
-   "label": "Zaostrzenie blokady morskiej Iranu",
-   "note": "Blokada marynarki USA odcina irański eksport i drenuje rezerwy, pogłębiając deficyt podaży.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Reserves-Run-Dry-as-US-Naval-Blockade-Tightens.html",
-   "brent": 0.03
-  },
-  {
-   "id": "iran_bron_jadrowa",
-   "label": "Groźba eskalacji nuklearnej w Iranie",
-   "note": "Naciski irańskich radykałów na broń atomową w trakcie wojny zwiększają premię geopolityczną.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
-   "brent": 0.02,
-   "fx": 0.01
-  },
-  {
-   "id": "brent_szczyt_bliski_wsch",
-   "label": "Brent na 5-miesięcznych maksimach",
-   "note": "Ceny ropy rosną w rejonie West of Suez z powodu obaw o dalszą eskalację konfliktu na Bliskim Wschodzie.",
+   "id": "mideast_escalation",
+   "label": "Wzrost ryzyka na Bliskim Wschodzie",
+   "note": "Ryzyko eskalacji w regionie winduje ropę na 5-miesięczne maksima, zwiększając premię za ryzyko podaży.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
-   "brent": 0.02
+   "brent": 0.03,
+   "crack": 0.01,
+   "fx": 0.005
+  },
+  {
+   "id": "iran_nuclear_escalation",
+   "label": "Napięcia nuklearne wokół Iranu",
+   "note": "Dążenie do broni jądrowej w Teheranie grozi zaostrzeniem konfliktu z USA i przerwaniem eksportu ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
+   "brent": 0.04,
+   "fx": 0.008
+  },
+  {
+   "id": "india_crude_imports_jump",
+   "label": "Wzrost popytu na ropę w Indiach",
+   "note": "Skok importu ropy z Bliskiego Wschodu o 32% potwierdza mocny popyt fizyczny w Azji i zacieśnia rynek.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Middle-East-Oil-Imports-Jumped-32-in-September.html",
+   "brent": 0.015
   }
  ]
 }
