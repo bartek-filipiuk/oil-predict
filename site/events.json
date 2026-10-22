@@ -1,10 +1,15 @@
 {
- "generated": "2026-10-22 20:42 UTC",
+ "generated": "2026-10-22 22:48 UTC",
  "headlines": [
   {
    "title": "West of Suez: Brent at 5-mth high on Mideast escalation risk - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
    "published": "2026-10-22 17:37"
+  },
+  {
+   "title": "EU’s Arctic Strategy Excludes Oil and Gas",
+   "url": "https://oilprice.com/Energy/Natural-Gas/EUs-Arctic-Strategy-Excludes-Oil-and-Gas.html",
+   "published": "2026-10-22 17:00"
   },
   {
    "title": "Strathcona Pitches 250,000-Bpd Oil Export Route to Asia",
@@ -35,42 +40,37 @@
    "title": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On",
    "url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
    "published": "2026-10-22 10:00"
-  },
-  {
-   "title": "India's Middle East Oil Imports Jumped 32% in September",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Middle-East-Oil-Imports-Jumped-32-in-September.html",
-   "published": "2026-10-22 06:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "mideast_escalation",
-   "label": "Wzrost ryzyka na Bliskim Wschodzie",
-   "note": "Ryzyko eskalacji w regionie winduje ropę na 5-miesięczne maksima, zwiększając premię za ryzyko podaży.",
+   "id": "eskalacjabliskiwschod",
+   "label": "Ryzyko eskalacji na Bliskim Wschodzie",
+   "note": "Napięcia na Bliskim Wschodzie wywindowały Brent na 5-miesięczne szczyty, podsycając obawy o podaż.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
-   "brent": 0.03,
-   "crack": 0.01,
-   "fx": 0.005
-  },
-  {
-   "id": "iran_nuclear_escalation",
-   "label": "Napięcia nuklearne wokół Iranu",
-   "note": "Dążenie do broni jądrowej w Teheranie grozi zaostrzeniem konfliktu z USA i przerwaniem eksportu ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
-   "brent": 0.04,
+   "brent": 0.035,
    "fx": 0.008
   },
   {
-   "id": "india_crude_imports_jump",
-   "label": "Wzrost popytu na ropę w Indiach",
-   "note": "Skok importu ropy z Bliskiego Wschodu o 32% potwierdza mocny popyt fizyczny w Azji i zacieśnia rynek.",
+   "id": "iranprogramatomowykonfli",
+   "label": "Dążenie Iranu do broni jądrowej",
+   "note": "Zaostrzenie konfliktu z USA i retoryka nuklearna Iranu zwiększają premię za ryzyko geopolityczne.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Middle-East-Oil-Imports-Jumped-32-in-September.html",
-   "brent": 0.015
+   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
+   "brent": 0.04,
+   "crack": 0.01,
+   "fx": 0.01
+  },
+  {
+   "id": "brent112dolarowmomentum",
+   "label": "Rajd ropy Brent do 112 USD",
+   "note": "Wysoki poziom cen neguje niedźwiedzie prognozy banków, wymuszając domykanie krótkich pozycji.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html",
+   "brent": 0.02
   }
  ]
 }
