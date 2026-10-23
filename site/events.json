@@ -1,10 +1,20 @@
 {
- "generated": "2026-10-23 15:48 UTC",
+ "generated": "2026-10-23 18:32 UTC",
  "headlines": [
   {
    "title": "What price oil? Q3 2026 in review - Fuel Oil News",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zczI2SnJCR3F1NXRibnpXcEM0SFowREgtcFhtMmFlX29nYVdxS1RRV256eW9QN2tUS04yUnZxUWhKZkI5ajlUa2xfb0FTSG8tc3ZOTm5pTTd3VmpMVWxLdE5QUUxBU3RyT2FiTEdtcy1zdl9lVWc?oc=5",
    "published": "2026-10-23 12:56"
+  },
+  {
+   "title": "U.S. Rig Count Holds Steady as Oil Prices Surge",
+   "url": "https://oilprice.com/Energy/Energy-General/US-Rig-Count-Holds-Steady-as-Oil-Prices-Surge.html",
+   "published": "2026-10-23 12:16"
+  },
+  {
+   "title": "$120 Oil Is Almost Here, and Trump Has Few Good Options",
+   "url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+   "published": "2026-10-23 11:30"
   },
   {
    "title": "Middle East Physical Crude Slides While Brent Hits Five-Month High",
@@ -50,62 +60,60 @@
    "title": "Egypt Moves to Defend Saudi Arabia as Iran War Threatens to Widen",
    "url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
    "published": "2026-10-23 06:30"
-  },
-  {
-   "title": "Japan Weighs Gasoline Subsidy Cuts as Energy Costs Soar",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Gasoline-Subsidy-Cuts-as-Energy-Costs-Soar.html",
-   "published": "2026-10-23 02:00"
-  },
-  {
-   "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
-   "published": "2026-10-23 00:33"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "huti_ataki_saudi",
-   "label": "Ataki Huti na saudyjską infrastrukturę",
-   "note": "Zagrożenie kluczowych instalacji ropy windować może notowania Brent i osłabiać złotego.",
+   "id": "polska_interwencja_cenow",
+   "label": "Rządowa obniżka cen paliw w Polsce",
+   "note": "Minister energii wymusza obniżki cen hurtowych w Polsce wbrew globalnym trendom.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
-   "brent": 0.07,
+   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
+   "pl": -0.035
+  },
+  {
+   "id": "eskalacja_bliski_wschod_",
+   "label": "Eskalacja konfliktu z Iranem w Zatoce",
+   "note": "Zaangażowanie Egiptu w obronę Arabii Saudyjskiej zwiększa ryzyko zakłóceń dostaw ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
+   "brent": 0.045,
    "fx": 0.015
   },
   {
-   "id": "obnizka_cen_paliw_pl",
-   "label": "Krajowa interwencja w ceny paliw",
-   "note": "Decyzja rządu o obniżeniu cen paliw przeciwdziała trendom na rynkach międzynarodowych.",
+   "id": "niedobor_diesla_usa",
+   "label": "Globalny deficyt i skok cen diesla",
+   "note": "Rekordowe ceny diesla w USA do 6,30 USD napędzają europejskie marże rafineryjne.",
    "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
-   "pl": -0.04
-  },
-  {
-   "id": "eskalacja_iran_egipt_sau",
-   "label": "Eskalacja konfliktu z Iranem",
-   "note": "Zaangażowanie Egiptu w obronę Arabii Saudyjskiej zwiększa premię geopolityczną na ropie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
-   "brent": 0.04,
-   "fx": 0.01
-  },
-  {
-   "id": "rekordowe_ceny_diesla_us",
-   "label": "Wzrost cen diesla i braki podaży",
-   "note": "Wysokie ceny i deficyt diesla mogą podbijać marże rafineryjne (crack) na rynku paliw.",
-   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
-   "crack": 0.035
+   "crack": 0.04
   },
   {
-   "id": "wenezuela_wzrost_wydobyc",
-   "label": "Plany wzrostu podaży z Wenezueli",
-   "note": "Zwiększenie wydobycia przez partnera z USA może umiarkowanie ograniczać presję popytową.",
+   "id": "presja_cenowa_120_usd",
+   "label": "Presja rynkowa na ropę po 120 USD",
+   "note": "Ryzyko zbliżenia się notowań do 120 USD za baryłkę przy braku skutecznych działań USA.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+   "brent": 0.025
+  },
+  {
+   "id": "wzrost_wydobycia_wenezue",
+   "label": "Wzrost wydobycia ropy w Wenezueli",
+   "note": "Amerykański partner szykuje wzrost wydobycia, co może lekko zwiększyć podaż surowca.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
-   "brent": -0.02
+   "brent": -0.01
+  },
+  {
+   "id": "ukryte_koszty_frachtu_ro",
+   "label": "Wysokie koszty frachtu i ubezpieczeń",
+   "note": "Ukryte koszty transportu morskiego dodają presji na wzrost cen fizycznych baryłek ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
+   "brent": 0.02,
+   "crack": 0.01
   }
  ]
 }
