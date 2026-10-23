@@ -1,10 +1,25 @@
 {
- "generated": "2026-10-22 22:48 UTC",
+ "generated": "2026-10-23 10:03 UTC",
  "headlines": [
+  {
+   "title": "Japan Weighs Gasoline Subsidy Cuts as Energy Costs Soar",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Gasoline-Subsidy-Cuts-as-Energy-Costs-Soar.html",
+   "published": "2026-10-23 02:00"
+  },
+  {
+   "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+   "published": "2026-10-23 00:33"
+  },
   {
    "title": "West of Suez: Brent at 5-mth high on Mideast escalation risk - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
-   "published": "2026-10-22 17:37"
+   "published": "2026-10-22 20:37"
+  },
+  {
+   "title": "Rising Crude Oil Imports Reduce China’s Need to Draw from Stocks",
+   "url": "https://oilprice.com/Energy/Energy-General/Rising-Crude-Oil-Imports-Reduce-Chinas-Need-to-Draw-from-Stocks.html",
+   "published": "2026-10-22 18:00"
   },
   {
    "title": "EU’s Arctic Strategy Excludes Oil and Gas",
@@ -25,52 +40,69 @@
    "title": "Citi’s $60 Oil Call Meets $112 Brent",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html",
    "published": "2026-10-22 12:30"
-  },
-  {
-   "title": "Norway's $2.3 Trillion Oil Fund Loses $30 Billion in Third Quarter",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Norways-23-Trillion-Oil-Fund-Loses-30-Billion-in-Third-Quarter.html",
-   "published": "2026-10-22 11:30"
-  },
-  {
-   "title": "Britain Finally Creates an Oil Wealth Fund—50 Years Too Late",
-   "url": "https://oilprice.com/Energy/Energy-General/Britain-Finally-Creates-an-Oil-Wealth-Fund50-Years-Too-Late.html",
-   "published": "2026-10-22 11:00"
-  },
-  {
-   "title": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On",
-   "url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
-   "published": "2026-10-22 10:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "eskalacjabliskiwschod",
-   "label": "Ryzyko eskalacji na Bliskim Wschodzie",
-   "note": "Napięcia na Bliskim Wschodzie wywindowały Brent na 5-miesięczne szczyty, podsycając obawy o podaż.",
+   "id": "houthisaudithreat",
+   "label": "Ataki Huti na infrastrukturę naftową",
+   "note": "Zagrożenie saudyjskich instalacji winduje premie za ryzyko i grozi przerwami w dostawach.",
    "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
-   "brent": 0.035,
-   "fx": 0.008
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
+   "brent": 0.06,
+   "crack": 0.02,
+   "fx": 0.015
   },
   {
-   "id": "iranprogramatomowykonfli",
-   "label": "Dążenie Iranu do broni jądrowej",
-   "note": "Zaostrzenie konfliktu z USA i retoryka nuklearna Iranu zwiększają premię za ryzyko geopolityczne.",
+   "id": "mideastriskescalation",
+   "label": "Eskalacja ryzyka na Bliskim Wschodzie",
+   "note": "Ryzyko rozlania konfliktu winduje ceny ropy w basenie atlantyckim do wielomiesięcznych maksimów.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
-   "brent": 0.04,
-   "crack": 0.01,
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
+   "brent": 0.03,
    "fx": 0.01
   },
   {
-   "id": "brent112dolarowmomentum",
-   "label": "Rajd ropy Brent do 112 USD",
-   "note": "Wysoki poziom cen neguje niedźwiedzie prognozy banków, wymuszając domykanie krótkich pozycji.",
+   "id": "chinacrudeimportsrise",
+   "label": "Wzrost importu ropy do Chin",
+   "note": "Wyższy import ropy do Chin wzmacnia popyt fizyczny i stabilizuje bilans rynkowy bez ruszania rezerw.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Rising-Crude-Oil-Imports-Reduce-Chinas-Need-to-Draw-from-Stocks.html",
+   "brent": 0.02
+  },
+  {
+   "id": "citishortsqueeze",
+   "label": "Zamykanie krótkich pozycji na ropie",
+   "note": "Niedźwiedzie prognozy Citi zderzają się z realiami Brent >112 USD, wywołując rynkowy short squeeze.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html",
-   "brent": 0.02
+   "brent": 0.025
+  },
+  {
+   "id": "eushippingbiolngsubsidie",
+   "label": "Dopłaty UE do czystych paliw morskich",
+   "note": "Promowanie BioLNG w żegludze może zmniejszyć europejskie zapotrzebowanie na ciężki olej i diesla.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/EUs-Proposed-Shipping-Subsidies-Could-Make-BioLNG-Cheaper-Than-Fuel-Oil.html",
+   "crack": -0.015
+  },
+  {
+   "id": "japansubsidycut",
+   "label": "Japonia rozważa cięcie dopłat do paliw",
+   "note": "Ograniczenie dopłat w Japonii może w krótkim terminie lekko schłodzić popyt na produkty naftowe.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Gasoline-Subsidy-Cuts-as-Energy-Costs-Soar.html",
+   "brent": -0.01
+  },
+  {
+   "id": "euarcticoilban",
+   "label": "Wykluczenie ropy ze strategii UE w Arktyce",
+   "note": "Ograniczenie unijnego zaangażowania w Arktyce uszczupla perspektywy nowych dostaw surowca do Europy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Natural-Gas/EUs-Arctic-Strategy-Excludes-Oil-and-Gas.html",
+   "brent": 0.01
   }
  ]
 }
