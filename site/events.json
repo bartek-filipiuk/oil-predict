@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23 18:32 UTC",
+ "generated": "2026-10-23 20:34 UTC",
  "headlines": [
   {
    "title": "What price oil? Q3 2026 in review - Fuel Oil News",
@@ -66,54 +66,55 @@
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "polska_interwencja_cenow",
-   "label": "Rządowa obniżka cen paliw w Polsce",
-   "note": "Minister energii wymusza obniżki cen hurtowych w Polsce wbrew globalnym trendom.",
+   "id": "egipt_saudi_iran",
+   "label": "Ryzyko rozszerzenia wojny z Iranem",
+   "note": "Egipt wspiera Arabię Saudyjską, co grozi zakłóceniami transportu ropy przez Zatokę i Kanał Sueski.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
+   "brent": 0.045,
+   "fx": 0.01
+  },
+  {
+   "id": "rzadowa_obnizka_cen_pl",
+   "label": "Rządowa interwencja na rynku paliw w Polsce",
+   "note": "Minister energii wymusza obniżki cen hurtowych mimo drożejącego surowca na światowych giełdach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
    "pl": -0.035
   },
   {
-   "id": "eskalacja_bliski_wschod_",
-   "label": "Eskalacja konfliktu z Iranem w Zatoce",
-   "note": "Zaangażowanie Egiptu w obronę Arabii Saudyjskiej zwiększa ryzyko zakłóceń dostaw ropy.",
+   "id": "skok_cen_diesla_usa",
+   "label": "Kryzys podaży oleju napędowego w USA",
+   "note": "Cena diesla w USA osiąga 6,30 USD za galon, co silnie podbija europejski crack spread na dieslu.",
    "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
-   "brent": 0.045,
-   "fx": 0.015
-  },
-  {
-   "id": "niedobor_diesla_usa",
-   "label": "Globalny deficyt i skok cen diesla",
-   "note": "Rekordowe ceny diesla w USA do 6,30 USD napędzają europejskie marże rafineryjne.",
-   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
+   "brent": 0.015,
    "crack": 0.04
   },
   {
-   "id": "presja_cenowa_120_usd",
-   "label": "Presja rynkowa na ropę po 120 USD",
-   "note": "Ryzyko zbliżenia się notowań do 120 USD za baryłkę przy braku skutecznych działań USA.",
+   "id": "prognoza_brent_120",
+   "label": "Ryzyko rajdu ropy w kierunku 120 USD",
+   "note": "Brak skutecznych narzędzi interwencji w USA potęguje spekulacje o szybkim wzroście Brent do 120 USD.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
-   "brent": 0.025
+   "brent": 0.03,
+   "fx": 0.01
   },
   {
-   "id": "wzrost_wydobycia_wenezue",
-   "label": "Wzrost wydobycia ropy w Wenezueli",
-   "note": "Amerykański partner szykuje wzrost wydobycia, co może lekko zwiększyć podaż surowca.",
+   "id": "wenezuela_wzrost_wydobyc",
+   "label": "Wzrost wydobycia surowca w Wenezueli",
+   "note": "Zwiększenie wydobycia w Wenezueli może częściowo osłabić globalne napięcia podażowe na ropie.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
-   "brent": -0.01
+   "brent": -0.015
   },
   {
-   "id": "ukryte_koszty_frachtu_ro",
-   "label": "Wysokie koszty frachtu i ubezpieczeń",
-   "note": "Ukryte koszty transportu morskiego dodają presji na wzrost cen fizycznych baryłek ropy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
-   "brent": 0.02,
-   "crack": 0.01
+   "id": "stagnacja_wiertni_usa",
+   "label": "Stagnacja liczby wiertni łupkowych w USA",
+   "note": "Brak wzrostu liczby platform mimo drogiej ropy wyklucza szybką reakcję podażową producentów z USA.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Energy-General/US-Rig-Count-Holds-Steady-as-Oil-Prices-Surge.html",
+   "brent": 0.015
   }
  ]
 }
