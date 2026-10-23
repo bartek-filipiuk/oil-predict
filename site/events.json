@@ -1,6 +1,31 @@
 {
- "generated": "2026-10-23 13:41 UTC",
+ "generated": "2026-10-23 15:48 UTC",
  "headlines": [
+  {
+   "title": "What price oil? Q3 2026 in review - Fuel Oil News",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zczI2SnJCR3F1NXRibnpXcEM0SFowREgtcFhtMmFlX29nYVdxS1RRV256eW9QN2tUS04yUnZxUWhKZkI5ajlUa2xfb0FTSG8tc3ZOTm5pTTd3VmpMVWxLdE5QUUxBU3RyT2FiTEdtcy1zdl9lVWc?oc=5",
+   "published": "2026-10-23 12:56"
+  },
+  {
+   "title": "Middle East Physical Crude Slides While Brent Hits Five-Month High",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Physical-Crude-Slides-While-Brent-Hits-Five-Month-High.html",
+   "published": "2026-10-23 10:30"
+  },
+  {
+   "title": "Minister energii obniża ceny paliw mimo wzrostu na świecie. Kierowcy mile zaskoczeni - Business Insider Polska",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
+   "published": "2026-10-23 10:26"
+  },
+  {
+   "title": "Oil India Strikes Natural Gas in Shallow Offshore Basin",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-India-Strikes-Natural-Gas-in-Shallow-Offshore-Basin.html",
+   "published": "2026-10-23 09:30"
+  },
+  {
+   "title": "The Hidden $40-Per-Barrel Cost Driving Oil Prices Higher",
+   "url": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
+   "published": "2026-10-23 09:00"
+  },
   {
    "title": "U.S. Diesel at $6.30 a Gallon as First Russian Cargo Sets Sail for New York",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
@@ -35,64 +60,52 @@
    "title": "Brent Hits $114 as Houthi Attacks Threaten Saudi Energy Infrastructure",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
    "published": "2026-10-23 00:33"
-  },
-  {
-   "title": "West of Suez: Brent at 5-mth high on Mideast escalation risk - Quantum Commodity Intelligence",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
-   "published": "2026-10-22 20:37"
-  },
-  {
-   "title": "Rising Crude Oil Imports Reduce China’s Need to Draw from Stocks",
-   "url": "https://oilprice.com/Energy/Energy-General/Rising-Crude-Oil-Imports-Reduce-Chinas-Need-to-Draw-from-Stocks.html",
-   "published": "2026-10-22 18:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "houthi_saudi_attack",
+   "id": "huti_ataki_saudi",
    "label": "Ataki Huti na saudyjską infrastrukturę",
-   "note": "Eskalacja ataków na saudyjską infrastrukturę winduje ceny ropy i premię geopolityczną.",
+   "note": "Zagrożenie kluczowych instalacji ropy windować może notowania Brent i osłabiać złotego.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-114-as-Houthi-Attacks-Threaten-Saudi-Energy-Infrastructure.html",
    "brent": 0.07,
-   "crack": 0.02,
    "fx": 0.015
   },
   {
-   "id": "egipt_saudi_iran_war",
-   "label": "Egipt wspiera Arabię przeciw Iranowi",
-   "note": "Rozszerzenie konfliktu regionalnego zwiększa ryzyko przerw w dostawach z Zatoki Perskiej.",
+   "id": "obnizka_cen_paliw_pl",
+   "label": "Krajowa interwencja w ceny paliw",
+   "note": "Decyzja rządu o obniżeniu cen paliw przeciwdziała trendom na rynkach międzynarodowych.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
+   "pl": -0.04
+  },
+  {
+   "id": "eskalacja_iran_egipt_sau",
+   "label": "Eskalacja konfliktu z Iranem",
+   "note": "Zaangażowanie Egiptu w obronę Arabii Saudyjskiej zwiększa premię geopolityczną na ropie.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
    "brent": 0.04,
    "fx": 0.01
   },
   {
-   "id": "us_diesel_crunch",
-   "label": "Rekordowe ceny diesla w USA",
-   "note": "Niedobory destylatów na świecie windują marże rafineryjne także w Europie.",
-   "confidence": "medium",
+   "id": "rekordowe_ceny_diesla_us",
+   "label": "Wzrost cen diesla i braki podaży",
+   "note": "Wysokie ceny i deficyt diesla mogą podbijać marże rafineryjne (crack) na rynku paliw.",
+   "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
-   "brent": 0.01,
-   "crack": 0.04
+   "crack": 0.035
   },
   {
    "id": "wenezuela_wzrost_wydobyc",
-   "label": "Plany wzrostu wydobycia w Wenezueli",
-   "note": "Perspektywa większych dostaw z Wenezueli może lekko hamować presję na wzrost cen ropy.",
+   "label": "Plany wzrostu podaży z Wenezueli",
+   "note": "Zwiększenie wydobycia przez partnera z USA może umiarkowanie ograniczać presję popytową.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
-   "brent": -0.015
-  },
-  {
-   "id": "chiny_wzrost_importu_rop",
-   "label": "Wzrost importu ropy przez Chiny",
-   "note": "Wysoki popyt ze strony Chin wspiera notowania surowca i ogranicza spadek zapasów.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Rising-Crude-Oil-Imports-Reduce-Chinas-Need-to-Draw-from-Stocks.html",
-   "brent": 0.015
+   "brent": -0.02
   }
  ]
 }
