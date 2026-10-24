@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-24 09:32 UTC",
+ "generated": "2026-10-24 22:00 UTC",
  "headlines": [
+  {
+   "title": "Fuel Oil Becomes Asia’s Next Cost Shock",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Fuel-Oil-Becomes-Asias-Next-Cost-Shock.html",
+   "published": "2026-10-24 16:00"
+  },
+  {
+   "title": "Syria's Energy Comeback Could Reshape Middle East Oil and Gas",
+   "url": "https://oilprice.com/Energy/Energy-General/Syrias-Energy-Comeback-Could-Reshape-Middle-East-Oil-and-Gas.html",
+   "published": "2026-10-24 14:00"
+  },
   {
    "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
@@ -40,71 +50,60 @@
    "title": "The Hidden $40-Per-Barrel Cost Driving Oil Prices Higher",
    "url": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
    "published": "2026-10-23 09:00"
-  },
-  {
-   "title": "U.S. Diesel at $6.30 a Gallon as First Russian Cargo Sets Sail for New York",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
-   "published": "2026-10-23 08:30"
-  },
-  {
-   "title": "U.S. Partner in Venezuela Oil Deal Looks to Hike Crude Production",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
-   "published": "2026-10-23 07:30"
-  },
-  {
-   "title": "Oil Prices Hold Near $100 as Middle East Risks Offset Peace Hopes",
-   "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Hold-Near-100-as-Middle-East-Risks-Offset-Peace-Hopes.html",
-   "published": "2026-10-23 06:30"
-  },
-  {
-   "title": "Why Smart Investors Are Selling Oil Stocks and Buying MLPs",
-   "url": "https://oilprice.com/Energy/Energy-General/Why-Smart-Investors-Are-Selling-Oil-Stocks-and-Buying-MLPs.html",
-   "published": "2026-10-23 06:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "krajowa_obnizka_cen",
-   "label": "Krajowa obniżka cen paliw",
-   "note": "Minister energii obniża ceny w hurcie mimo wzrostów na rynkach światowych.",
+   "id": "minister_energii_obnizka",
+   "label": "Rządowa obniżka cen paliw w Polsce",
+   "note": "Działania rządu i Orlenu obniżają krajowe ceny hurtowe pomimo wzrostów na rynkach światowych.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
-   "pl": -0.03
-  },
-  {
-   "id": "eskalacja_bliski_wschod",
-   "label": "Ryzyko eskalacji na Bliskim Wschodzie",
-   "note": "Napięcia na Bliskim Wschodzie windują cenę ropy Brent do 5-miesięcznych szczytów.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
-   "brent": 0.035,
-   "fx": 0.01
+   "pl": -0.04
   },
   {
    "id": "usa_spr_uwolnienie",
-   "label": "Uruchomienie rezerw SPR w USA",
-   "note": "USA sięgają po rezerwy strategiczne, by złagodzić zakłócenia podaży ropy.",
+   "label": "Kolejne uwolnienie rezerw SPR przez USA",
+   "note": "Wykorzystanie rezerw strategicznych w USA łagodzi bieżące niedobory i studzi wzrost cen ropy.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
    "brent": -0.02
   },
   {
-   "id": "drozejacy_diesel",
-   "label": "Drożejący diesel na rynku globalnym",
-   "note": "Deficyt podaży winduje ceny oleju napędowego, powiększając marże rafineryjne.",
+   "id": "ryzyko_ropy_120usd",
+   "label": "Presja na wzrost cen ropy do 120 USD",
+   "note": "Ograniczone pole manewru USA wobec deficytu podaży może wywindować notowania ropy i umocnić USD.",
    "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
+   "source_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "brent_szczyty_fizyczna_r",
+   "label": "Brent na pięciomiesięcznym szczycie",
+   "note": "Wzrost cen kontraktów Brent ciągnie w górę rynki paliw, choć rynek fizyczny wykazuje słabość.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Physical-Crude-Slides-While-Brent-Hits-Five-Month-High.html",
+   "brent": 0.02
+  },
+  {
+   "id": "szok_paliwowy_azja",
+   "label": "Szok podażowy na paliwach w Azji",
+   "note": "Niedobory paliw w Azji zwiększają konkurencję o ładunki i mogą podbić europejskie marże diesla.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Fuel-Oil-Becomes-Asias-Next-Cost-Shock.html",
    "crack": 0.03
   },
   {
-   "id": "wenezuela_wzrost_wydobyc",
-   "label": "Plany wzrostu wydobycia w Wenezueli",
-   "note": "Partner z USA planuje zwiększyć wydobycie w Wenezueli, wspierając podaż surowca.",
+   "id": "ukryte_koszty_ropy",
+   "label": "Wzrost ukrytych kosztów transportu ropy",
+   "note": "Wyższe koszty frachtu i ubezpieczeń trwale podwyższają koszt dostawy surowca do rafinerii.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
-   "brent": -0.01
+   "source_url": "https://oilprice.com/Energy/Energy-General/The-Hidden-40-Per-Barrel-Cost-Driving-Oil-Prices-Higher.html",
+   "brent": 0.01,
+   "crack": 0.01
   }
  ]
 }
