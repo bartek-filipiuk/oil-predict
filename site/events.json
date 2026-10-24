@@ -1,6 +1,11 @@
 {
- "generated": "2026-10-23 22:41 UTC",
+ "generated": "2026-10-24 09:32 UTC",
  "headlines": [
+  {
+   "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
+   "published": "2026-10-23 17:30"
+  },
   {
    "title": "What price oil? Q3 2026 in review - Fuel Oil News",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zczI2SnJCR3F1NXRibnpXcEM0SFowREgtcFhtMmFlX29nYVdxS1RRV256eW9QN2tUS04yUnZxUWhKZkI5ajlUa2xfb0FTSG8tc3ZOTm5pTTd3VmpMVWxLdE5QUUxBU3RyT2FiTEdtcy1zdl9lVWc?oc=5",
@@ -55,55 +60,48 @@
    "title": "Why Smart Investors Are Selling Oil Stocks and Buying MLPs",
    "url": "https://oilprice.com/Energy/Energy-General/Why-Smart-Investors-Are-Selling-Oil-Stocks-and-Buying-MLPs.html",
    "published": "2026-10-23 06:30"
-  },
-  {
-   "title": "Egypt Moves to Defend Saudi Arabia as Iran War Threatens to Widen",
-   "url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
-   "published": "2026-10-23 06:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "obnizka_cen_ministerstwo",
-   "label": "Rządowa obniżka cen paliw w Polsce",
-   "note": "Ministerstwo energii sztucznie obniża ceny paliw krajowych mimo globalnych wzrostów notowań ropy naftowej.",
+   "id": "krajowa_obnizka_cen",
+   "label": "Krajowa obniżka cen paliw",
+   "note": "Minister energii obniża ceny w hurcie mimo wzrostów na rynkach światowych.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
-   "pl": -0.04
+   "pl": -0.03
   },
   {
-   "id": "wojna_iran_egipt_saudi",
-   "label": "Eskalacja wojny z Iranem i sojusz Egiptu",
-   "note": "Włączenie się Egiptu w obronę Arabii Saudyjskiej podbija premię za ryzyko podaży surowca na Bliskim Wschodzie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Egypt-Moves-to-Defend-Saudi-Arabia-as-Iran-War-Threatens-to-Widen.html",
-   "brent": 0.05,
-   "fx": 0.015
-  },
-  {
-   "id": "kryzys_podazy_diesla",
-   "label": "Napięcia na globalnym rynku diesla",
-   "note": "Cena diesla w USA sięga 6,30 USD/galon, co generuje presję na wzrost marż rafineryjnych także w Europie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
-   "brent": 0.015,
-   "crack": 0.04
-  },
-  {
-   "id": "rajd_brent_120_usd",
-   "label": "Spekulacje wokół ropy po 120 USD",
-   "note": "Brent testuje kolejne wielomiesięczne maksima, a ograniczone opcje USA wzmagają presję popytową funduszy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
+   "id": "eskalacja_bliski_wschod",
+   "label": "Ryzyko eskalacji na Bliskim Wschodzie",
+   "note": "Napięcia na Bliskim Wschodzie windują cenę ropy Brent do 5-miesięcznych szczytów.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelFwajc3cWJ2SjVkTjNLM2l6NjRuT0U4clFpV2pPcWpEUFdnSldFMXR2THVfM193TmFEVmh1aldCbl9YZ1Q3dnRuWEo1Y3haOEhqZ0VTZlhzNzZDZ3RKR1lDbTJEYkJ1T2xWejFFZ2NONzE4RDlaYTBESkNhbzZoSkN4b0RFWEVtU1VleG1FX0cxQTJCaUp2OFpQUVNmaFVKdVc4Qg?oc=5",
    "brent": 0.035,
    "fx": 0.01
   },
   {
+   "id": "usa_spr_uwolnienie",
+   "label": "Uruchomienie rezerw SPR w USA",
+   "note": "USA sięgają po rezerwy strategiczne, by złagodzić zakłócenia podaży ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
+   "brent": -0.02
+  },
+  {
+   "id": "drozejacy_diesel",
+   "label": "Drożejący diesel na rynku globalnym",
+   "note": "Deficyt podaży winduje ceny oleju napędowego, powiększając marże rafineryjne.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
+   "crack": 0.03
+  },
+  {
    "id": "wenezuela_wzrost_wydobyc",
-   "label": "Wzrost wydobycia ropy w Wenezueli",
-   "note": "Plany partnera z USA dotyczące zwiększenia produkcji w Wenezueli mogą lekko studzić deficyt na rynku.",
+   "label": "Plany wzrostu wydobycia w Wenezueli",
+   "note": "Partner z USA planuje zwiększyć wydobycie w Wenezueli, wspierając podaż surowca.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Partner-in-Venezuela-Oil-Deal-Looks-to-Hike-Crude-Production.html",
    "brent": -0.01
