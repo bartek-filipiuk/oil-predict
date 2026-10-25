@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25 09:49 UTC",
+ "generated": "2026-10-25 22:07 UTC",
  "headlines": [
   {
    "title": "Record Tanker Rates Cripple U.S. Crude Oil Flows to Asia",
@@ -15,97 +15,35 @@
    "title": "Syria's Energy Comeback Could Reshape Middle East Oil and Gas",
    "url": "https://oilprice.com/Energy/Energy-General/Syrias-Energy-Comeback-Could-Reshape-Middle-East-Oil-and-Gas.html",
    "published": "2026-10-24 14:00"
-  },
-  {
-   "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply-Disruptions.html",
-   "published": "2026-10-23 17:30"
-  },
-  {
-   "title": "What price oil? Q3 2026 in review - Fuel Oil News",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zczI2SnJCR3F1NXRibnpXcEM0SFowREgtcFhtMmFlX29nYVdxS1RRV256eW9QN2tUS04yUnZxUWhKZkI5ajlUa2xfb0FTSG8tc3ZOTm5pTTd3VmpMVWxLdE5QUUxBU3RyT2FiTEdtcy1zdl9lVWc?oc=5",
-   "published": "2026-10-23 12:56"
-  },
-  {
-   "title": "U.S. Rig Count Holds Steady as Oil Prices Surge",
-   "url": "https://oilprice.com/Energy/Energy-General/US-Rig-Count-Holds-Steady-as-Oil-Prices-Surge.html",
-   "published": "2026-10-23 12:16"
-  },
-  {
-   "title": "$120 Oil Is Almost Here, and Trump Has Few Good Options",
-   "url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
-   "published": "2026-10-23 11:30"
-  },
-  {
-   "title": "Middle East Physical Crude Slides While Brent Hits Five-Month High",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Physical-Crude-Slides-While-Brent-Hits-Five-Month-High.html",
-   "published": "2026-10-23 10:30"
-  },
-  {
-   "title": "Minister energii obniża ceny paliw mimo wzrostu na świecie. Kierowcy mile zaskoczeni - Business Insider Polska",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
-   "published": "2026-10-23 10:26"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "rekordowy_fracht_tankowc",
-   "label": "Rekordowe stawki frachtu tankowców z USA",
-   "note": "Droższy fracht blokuje eksport z USA do Azji, co zwiększa presję popytową na ropę Brent.",
+   "id": "rekordowe_stawki_tankowc",
+   "label": "Rekordowe stawki frachtu tankowców",
+   "note": "Wysokie koszty frachtu z USA do Azji zwiększają popyt na ropę powiązaną z indeksem Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Record-Tanker-Rates-Cripple-US-Crude-Oil-Flows-to-Asia.html",
-   "brent": 0.02
-  },
-  {
-   "id": "uwolnienie_rezerw_spr_us",
-   "label": "Kolejne uwolnienie rezerw SPR w USA",
-   "note": "Rząd USA sięga po rezerwy strategiczne, aby ograniczyć globalne braki podaży ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/US-Dips-Into-Strategic-Oil-Reserve-Again-Amid-Supply Disruptions.html",
-   "brent": -0.025
-  },
-  {
-   "id": "widmo_ropy_po_120_usd",
-   "label": "Rosnące ryzyko ropy po 120 USD",
-   "note": "Spekulacje o deficycie podaży pchają notowania ropy w górę i umacniają dolara.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Energy-General/120-Oil-Is-Almost-Here-and-Trump-Has-Few-Good-Options.html",
-   "brent": 0.035,
-   "fx": 0.01
-  },
-  {
-   "id": "szczyty_notowan_brent",
-   "label": "Brent na 5-miesięcznych maksimach",
-   "note": "Mocne momentum na rynkach terminowych winduje cenę referencyjnej ropy Brent.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Physical-Crude-Slides-While-Brent-Hits-Five-Month-High.html",
-   "brent": 0.02
-  },
-  {
-   "id": "rzadowa_obnizka_cen_pali",
-   "label": "Rządowa presja na obniżkę cen w Polsce",
-   "note": "Ministerstwo obniża krajowe ceny paliw pomimo globalnych wzrostów na rynku naftowym.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2FWQm4wVERaOWUwbEIybzlTV285b0JqcVNyX1BRUzBYTlBkYXpvYzdjQ2s1X01RUnNzdFpjcjhoT253Njc1cWdHOWhsS0dlVUVzUEpVVnFzdzlJWEhHb2tDTGs3ZWM2ZUR2SUV2aXJqYklFWjJuMHdmd29zaHJuQmQxY0JtemFFZS1xZGxXU204QXV1NWdReUpvb2VyYXNQZjhkZ29GaTV0UFY4TGFVMlF1TVVuWDhKMUlVUTZmTnZ",
-   "pl": -0.035
-  },
-  {
-   "id": "stagnacja_aktywnosci_lup",
-   "label": "Brak wzrostu liczby wież w USA",
-   "note": "Stabilna liczba wiertni w USA ogranicza perspektywy szybkiego wzrostu wydobycia ropy.",
-   "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/US-Rig-Count-Holds-Steady-as-Oil-Prices-Surge.html",
    "brent": 0.015
   },
   {
-   "id": "szok_cenowy_oleju_azja",
-   "label": "Wzrost cen ciężkich paliw w Azji",
-   "note": "Napięcia podażowe w Azji wywołują skok cen paliw i mogą podbić marże diesla.",
+   "id": "skok_cen_oleju_opalowego",
+   "label": "Skok cen oleju opałowego w Azji",
+   "note": "Drożejący olej opałowy w Azji zacieśnia bilans destylatów i może lekko podbić marże diesla.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Fuel-Oil-Becomes-Asias-Next-Cost-Shock.html",
-   "crack": 0.02
+   "brent": 0.005,
+   "crack": 0.01
+  },
+  {
+   "id": "powrot_syrii_na_rynek_ro",
+   "label": "Powrót Syrii na rynek ropy i gazu",
+   "note": "Perspektywa wzrostu podaży z Syrii łagodzi obawy o bilans surowcowy na Bliskim Wschodzie.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Energy-General/Syrias-Energy-Comeback-Could-Reshape-Middle-East-Oil-and-Gas.html",
+   "brent": -0.005
   }
  ]
 }
