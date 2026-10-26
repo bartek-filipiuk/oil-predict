@@ -1,10 +1,15 @@
 {
- "generated": "2026-10-26 21:45 UTC",
+ "generated": "2026-10-26 23:24 UTC",
  "headlines": [
   {
    "title": "West of Suez: Crude, diesel higher as EBOB gasoline tumbles - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTktJQ0FzR21Bcmo4SjcxT2VCcWp3YU5CeWk1a2JZcUdxU215RlpsSXE3OF84LU1UX2lfbHdIR3daR09FTkwtUGc1WnpHcU5lb2thLWJUcmJOeXhWXzJWbDhBNldNbFpBc09QTHJnV2x3Ui1heFo3TmdNQndzTkItbUdqQzRrVDJRUVRVSXJQc3BmN3dLOW5rRV9rQU5VdDZUTFE?oc=5",
    "published": "2026-10-26 18:36"
+  },
+  {
+   "title": "Beijing Pushes Domestic Oil Production as Iranian Supply Dries Up",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Beijing-Pushes-Domestic-Oil-Production-as-Iranian-Supply-Dries-Up.html",
+   "published": "2026-10-26 18:00"
   },
   {
    "title": "Iran War Pushes Trump's Average Gasoline Prices Above Biden's",
@@ -45,59 +50,66 @@
    "title": "Ceny paliw: Z tankowaniem nie czekamy do jutra! W hurcie ceny diesla dużo wyższe od soboty - Agro Profil",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
    "published": "2026-10-26 08:16"
-  },
-  {
-   "title": "Russia's Arctic Oil Shortcut Runs Into a Wall of Ice",
-   "url": "https://oilprice.com/Energy/Energy-General/Russias-Arctic-Oil-Shortcut-Runs-Into-a-Wall-of-Ice.html",
-   "published": "2026-10-26 08:00"
-  },
-  {
-   "title": "Saudi Oil Output Jumps 12.2% to 8 Million Bpd in September",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
-   "published": "2026-10-26 07:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "wojna_iran_ceny",
-   "label": "Wojna z Iranem podbija ceny ropy",
-   "note": "Ryzyko geopolityczne na Bliskim Wschodzie winduje notowania surowca oraz umacnia dolara.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Pushes-Trumps-Average-Gasoline-Prices-Above-Bidens.html",
-   "brent": 0.035,
-   "fx": 0.01
-  },
-  {
-   "id": "wzrost_wydobycia_saudi",
-   "label": "Skok wydobycia w Arabii Saudyjskiej",
-   "note": "Wzrost produkcji Saudów o 12,2% zwiększa globalną podaż surowca i chłodzi rynek.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
-   "brent": -0.03
-  },
-  {
-   "id": "rosja_poda_diesla",
-   "label": "Wzrost produkcji diesla w Rosji",
-   "note": "Zwiększona podaż rosyjskiego oleju napędowego wywiera presję spadkową na crack spread.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.html",
-   "crack": -0.025
-  },
-  {
-   "id": "skok_cen_hurtu_polska",
+   "id": "skok_cen_diesla_hurt_pl",
    "label": "Skok cen diesla w polskim hurcie",
-   "note": "Wyższe ceny hurtowe od weekendu podnoszą koszty zaopatrzenia na polskim rynku.",
+   "note": "Wyraźny wzrost cen hurtowych diesla od weekendu bezpośrednio podbija koszty na stacjach w Polsce.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
-   "pl": 0.02
+   "pl": 0.025
+  },
+  {
+   "id": "wojna_iran_eskalacja_cen",
+   "label": "Eskalacja wojny z Iranem i drogie paliwa",
+   "note": "Wojna w Zatoce winduje ceny ropy i LNG, zwiększając globalną premię za ryzyko oraz kurs dolara.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Pushes-Trumps-Average-Gasoline-Prices-Above-Bidens.html",
+   "brent": 0.045,
+   "fx": 0.015
+  },
+  {
+   "id": "west_of_suez_diesel_up",
+   "label": "Droższy diesel w basenie atlantyckim",
+   "note": "Rosnące notowania ropy i diesla na rynkach zachodnich wspierają europejskie marże na średnich destylatach.",
+   "confidence": "medium",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTktJQ0FzR21Bcmo4SjcxT2VCcWp3YU5CeWk1a2JZcUdxU215RlpsSXE3OF84LU1UX2lfbHdIR3daR09FTkwtUGc1WnpHcU5lb2thLWJUcmJOeXhWXzJWbDhBNldNbFpBc09QTHJnV2x3Ui1heFo3TmdNQndzTkItbUdqQzRrVDJRUVRVSXJQc3BmN3dLOW5rRV9rQU5VdDZUTFE?oc=5",
+   "brent": 0.015,
+   "crack": 0.025
+  },
+  {
+   "id": "chiny_brak_ropy_iran",
+   "label": "Spadek dostaw ropy z Iranu do Chin",
+   "note": "Zanik irańskich dostaw zmusza Chiny do zastępowania baryłek, zacieśniając globalny bilans ropy.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Beijing-Pushes-Domestic-Oil-Production-as-Iranian-Supply-Dries-Up.html",
+   "brent": 0.02
+  },
+  {
+   "id": "rosja_zwieksza_produkcje",
+   "label": "Wzrost produkcji diesla w Rosji",
+   "note": "Zwiększenie przerobu w rosyjskich rafineriach może częściowo obniżyć napięcie podażowe na dieslu.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.html",
+   "crack": -0.02
+  },
+  {
+   "id": "saudi_zmiana_reguly_ropy",
+   "label": "Arabia Saudyjska porzuca regułę wydobycia",
+   "note": "Nieoczekiwana korekta strategii wydobywczej Saudyjczyków może wprowadzić presję podażową na ceny ropy.",
+   "confidence": "low",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Why-Saudi-Just-Abandoned-Its-Core-Oil-Rule.html",
+   "brent": -0.025
   },
   {
    "id": "indie_ciecie_importu_ros",
-   "label": "Indie ograniczają zakupy ropy z Rosji",
-   "note": "Przekierowanie popytu BPCL na inne źródła zwiększa konkurencję o ładunki typu Brent.",
-   "confidence": "low",
+   "label": "Indie ograniczają import rosyjskiej ropy",
+   "note": "Rezygnacja BPCL z drożejącej ropy z Rosji kieruje popyt ku benchmarkom światowym, wspierając Brent.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-BPCL-to-Cut-Russian-Oil-Imports-Due-to-Higher-Prices.html",
    "brent": 0.015
   }
