@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-26 15:21 UTC",
+ "generated": "2026-10-26 17:29 UTC",
  "headlines": [
+  {
+   "title": "Kazakhstan Faces $12 Billion Oil Setback as New Investment Plans Take Shape",
+   "url": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Faces-12-Billion-Oil-Setback-as-New-Investment-Plans-Take-Shape.html",
+   "published": "2026-10-26 12:00"
+  },
+  {
+   "title": "Why Saudi Just Abandoned Its Core Oil Rule",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Why-Saudi-Just-Abandoned-Its-Core-Oil-Rule.html",
+   "published": "2026-10-26 11:00"
+  },
+  {
+   "title": "Russian Refiners Ramp Up Diesel Output to Supply Trump Deal",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.html",
+   "published": "2026-10-26 10:30"
+  },
   {
    "title": "Is Wall Street Getting It All Wrong About AI, Oil, and Bonds?",
    "url": "https://oilprice.com/Energy/Energy-General/Is-Wall-Street-Getting-It-All-Wrong-About-AI-Oil-and-Bonds.html",
@@ -45,62 +60,58 @@
    "title": "Saudi Arabia Turns to Singapore for Oil Storage",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Turns-to-Singapore-for-Oil-Storage.html",
    "published": "2026-10-26 02:15"
-  },
-  {
-   "title": "Oil Prices Dip but Hold Above $100 as Middle East Supply Threats Mount",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Dip-but-Hold-Above-100-as-Middle-East-Supply-Threats-Mount.html",
-   "published": "2026-10-26 01:03"
-  },
-  {
-   "title": "Oil Prices Rise Despite Middle East Export Recovery",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Rise-Despite-Middle-East-Export-Recovery.html",
-   "published": "2026-10-25 18:00"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "houthi_pipeline_attack",
+   "id": "atak_huti_rurociag_saudi",
    "label": "Atak Huti na saudyjski rurociąg",
-   "note": "Zagrożenie infrastruktury przesyłowej w Arabii Saudyjskiej zwiększa premię geopolityczną.",
+   "note": "Ryzyko zakłóceń przesyłu ropy w Arabii Saudyjskiej podbija premię geopolityczną.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
-   "brent": 0.03,
-   "fx": 0.005
+   "brent": 0.035
   },
   {
-   "id": "pl_diesel_wholesale_spik",
-   "label": "Skokowy wzrost cen diesla w hurcie",
-   "note": "Wzrost stawek diesla w polskim hurcie bezpośrednio podbija marże i ceny na stacjach.",
+   "id": "wzrost_wydobycia_saudi",
+   "label": "Wyższe wydobycie ropy w Arabii Saudyjskiej",
+   "note": "Wyższa podaż surowca z Arabii Saudyjskiej wywiera presję spadkową na notowania ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
+   "brent": -0.025
+  },
+  {
+   "id": "wzrost_produkcji_diesla_",
+   "label": "Wzrost produkcji diesla w Rosji",
+   "note": "Zwiększona podaż rosyjskiego diesla na rynkach obniża marże rafineryjne crack na dieslu.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.html",
+   "crack": -0.03
+  },
+  {
+   "id": "skok_cen_diesla_polska_h",
+   "label": "Skok cen diesla w polskim hurcie",
+   "note": "Lokalny wzrost cen hurtowych ON w Polsce przenosi się bezpośrednio na stawki na stacjach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
-   "crack": 0.015,
    "pl": 0.02
   },
   {
-   "id": "saudi_output_increase",
-   "label": "Wzrost wydobycia w Arabii Saudyjskiej",
-   "note": "Wyższe wydobycie do 8 mln bpd łagodzi obawy o globalny deficyt podaży surowca.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
-   "brent": -0.02
-  },
-  {
-   "id": "india_bpcl_cuts_russian_",
+   "id": "indie_redukuja_import_z_",
    "label": "BPCL ogranicza import ropy z Rosji",
-   "note": "Przekierowanie popytu Indii na alternatywne kierunki zwiększa presję popytową na Brent.",
+   "note": "Przekierowanie popytu indyjskiego na surowiec spoza Rosji zwiększa presję na ceny Brent.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-BPCL-to-Cut-Russian-Oil-Imports-Due-to-Higher-Prices.html",
-   "brent": 0.015
+   "brent": 0.02
   },
   {
-   "id": "russia_arctic_shipping_i",
-   "label": "Blokada arktycznego szlaku Rosji",
-   "note": "Trudności żeglugowe w Arktyce utrudniają logistykę i wydłużają czas dostaw ropy do Azji.",
+   "id": "problemy_inwestycji_kaza",
+   "label": "Problemy sektora naftowego Kazachstanu",
+   "note": "Potencjalne opóźnienia i straty inwestycyjne ograniczają przyszłą podaż surowca w regionie.",
    "confidence": "low",
-   "source_url": "https://oilprice.com/Energy/Energy-General/Russias-Arctic-Oil-Shortcut-Runs-Into-a-Wall-of-Ice.html",
-   "brent": 0.01
+   "source_url": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Faces-12-Billion-Oil-Setback-as-New-Investment-Plans-Take-Shape.html",
+   "brent": 0.015
   }
  ]
 }
