@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26 20:02 UTC",
+ "generated": "2026-10-26 21:45 UTC",
  "headlines": [
   {
    "title": "West of Suez: Crude, diesel higher as EBOB gasoline tumbles - Quantum Commodity Intelligence",
@@ -55,69 +55,48 @@
    "title": "Saudi Oil Output Jumps 12.2% to 8 Million Bpd in September",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
    "published": "2026-10-26 07:30"
-  },
-  {
-   "title": "Houthis Claim Attacks on Saudi Arabia’s East-West Oil Pipeline",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
-   "published": "2026-10-26 06:30"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "huti_atak_rurociag_saudi",
-   "label": "Atak Huti na saudyjski rurociąg",
-   "note": "Ryzyko zakłóceń w eksporcie saudyjskiej ropy omijającej cieśninę Ormuz podbija premię geopolityczną.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Attacks-on-Saudi-Arabias-East-West-Oil-Pipeline.html",
-   "brent": 0.035
-  },
-  {
-   "id": "skok_cen_diesla_polska",
-   "label": "Skok hurtowych cen diesla w Polsce",
-   "note": "Krajowe rafinerie podnoszą marże i ceny hurtowe ON niezależnie od bieżących notowań surowca.",
-   "confidence": "high",
-   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
-   "pl": 0.025
-  },
-  {
-   "id": "wojna_z_iranem_ryzyko",
-   "label": "Eskalacja wojny z Iranem",
-   "note": "Trwający konflikt podbija globalne koszty energii i umacnia dolara z uwagi na awersję do ryzyka.",
+   "id": "wojna_iran_ceny",
+   "label": "Wojna z Iranem podbija ceny ropy",
+   "note": "Ryzyko geopolityczne na Bliskim Wschodzie winduje notowania surowca oraz umacnia dolara.",
    "confidence": "high",
    "source_url": "https://oilprice.com/Energy/Crude-Oil/Iran-War-Pushes-Trumps-Average-Gasoline-Prices-Above-Bidens.html",
-   "brent": 0.04,
-   "fx": 0.015
+   "brent": 0.035,
+   "fx": 0.01
   },
   {
    "id": "wzrost_wydobycia_saudi",
-   "label": "Skok wydobycia ropy w Arabii Saudyjskiej",
-   "note": "Wzrost podaży ze strony Rijadu wywiera presję spadkową na światowe notowania ropy naftowej.",
+   "label": "Skok wydobycia w Arabii Saudyjskiej",
+   "note": "Wzrost produkcji Saudów o 12,2% zwiększa globalną podaż surowca i chłodzi rynek.",
    "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Output-Jumps-122-to-8-Million-Bpd-in-September.html",
-   "brent": -0.025
+   "brent": -0.03
   },
   {
-   "id": "wzrost_marz_diesla_europ",
-   "label": "Wzrost marż diesla na zachód od Suezu",
-   "note": "Wzrost popytu na olej napędowy w Europie winduje marże rafineryjne kosztem benzyn.",
-   "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTktJQ0FzR21Bcmo4SjcxT2VCcWp3YU5CeWk1a2JZcUdxU215RlpsSXE3OF84LU1UX2lfbHdIR3daR09FTkwtUGc1WnpHcU5lb2thLWJUcmJOeXhWXzJWbDhBNldNbFpBc09QTHJnV2x3Ui1heFo3TmdNQndzTkItbUdqQzRrVDJRUVRVSXJQc3BmN3dLOW5rRV9rQU5VdDZUTFE?oc=5",
-   "crack": 0.025
-  },
-  {
-   "id": "rosja_podbija_eksport_di",
+   "id": "rosja_poda_diesla",
    "label": "Wzrost produkcji diesla w Rosji",
-   "note": "Zwiększona podaż rosyjskiego oleju napędowego może osłabić europejskie marże crack spread.",
-   "confidence": "low",
+   "note": "Zwiększona podaż rosyjskiego oleju napędowego wywiera presję spadkową na crack spread.",
+   "confidence": "medium",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russian-Refiners-Ramp-Up-Diesel-Output-to-Supply-Trump-Deal.html",
-   "crack": -0.02
+   "crack": -0.025
+  },
+  {
+   "id": "skok_cen_hurtu_polska",
+   "label": "Skok cen diesla w polskim hurcie",
+   "note": "Wyższe ceny hurtowe od weekendu podnoszą koszty zaopatrzenia na polskim rynku.",
+   "confidence": "high",
+   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
+   "pl": 0.02
   },
   {
    "id": "indie_ciecie_importu_ros",
-   "label": "Indie ograniczają import z Rosji",
-   "note": "Przeniesienie popytu Indii na ropę z Bliskiego Wschodu zacieśnia bilans rynku ropy Brent.",
+   "label": "Indie ograniczają zakupy ropy z Rosji",
+   "note": "Przekierowanie popytu BPCL na inne źródła zwiększa konkurencję o ładunki typu Brent.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-BPCL-to-Cut-Russian-Oil-Imports-Due-to-Higher-Prices.html",
    "brent": 0.015
