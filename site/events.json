@@ -1,6 +1,21 @@
 {
- "generated": "2026-10-27 16:45 UTC",
+ "generated": "2026-10-27 19:31 UTC",
  "headlines": [
+  {
+   "title": "The Diesel Crisis Is Here To Stay",
+   "url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crisis-Is-Here-To-Stay.html",
+   "published": "2026-10-27 14:00"
+  },
+  {
+   "title": "Russia’s Crude Exports Set to Fall as Diesel Production Rises",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html",
+   "published": "2026-10-27 13:30"
+  },
+  {
+   "title": "Saudi Aramco Offers Discounted Oil to Europe as Exports Recover",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Offers-Discounted-Oil-to-Europe-as-Exports-Recover.html",
+   "published": "2026-10-27 12:40"
+  },
   {
    "title": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms",
    "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Brace-for-a-New-Iran-Escalation-After-US-Midterms.html",
@@ -37,88 +52,73 @@
    "published": "2026-10-27 04:35"
   },
   {
-   "title": "India’s Oil Buyers Squeezed by $123 Crude and Weak Rupee",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Oil-Buyers-Squeezed-by-123-Crude-and-Weak-Rupee.html",
-   "published": "2026-10-27 02:30"
-  },
-  {
-   "title": "Oil Prices Drop Despite Threat of New U.S. Strikes on Iran",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Threat-of-New-US-Strikes-on-Iran.html",
-   "published": "2026-10-27 01:15"
-  },
-  {
    "title": "West of Suez: Crude, diesel higher as EBOB gasoline tumbles - Quantum Commodity Intelligence",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTktJQ0FzR21Bcmo4SjcxT2VCcWp3YU5CeWk1a2JZcUdxU215RlpsSXE3OF84LU1UX2lfbHdIR3daR09FTkwtUGc1WnpHcU5lb2thLWJUcmJOeXhWXzJWbDhBNldNbFpBc09QTHJnV2x3Ui1heFo3TmdNQndzTkItbUdqQzRrVDJRUVRVSXJQc3BmN3dLOW5rRV9rQU5VdDZUTFE?oc=5",
    "published": "2026-10-26 20:43"
   },
   {
-   "title": "UK Weighs Scrapping Its Largest Untapped Oilfield With Oil Over $100",
-   "url": "https://oilprice.com/Energy/Crude-Oil/UK-Weighs-Scrapping-Its-Largest-Untapped-Oilfield-With-Oil-Over-100.html",
-   "published": "2026-10-26 19:00"
-  },
-  {
-   "title": "Beijing Pushes Domestic Oil Production as Iranian Supply Dries Up",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Beijing-Pushes-Domestic-Oil-Production-as-Iranian-Supply-Dries-Up.html",
-   "published": "2026-10-26 18:00"
+   "title": "Ceny paliw: Z tankowaniem nie czekamy do jutra! W hurcie ceny diesla dużo wyższe od soboty - Agro Profil",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
+   "published": "2026-10-26 08:16"
   }
  ],
  "source": "ai",
  "model": "google/gemini-3.8-flash",
  "events": [
   {
-   "id": "iran_eskalacja",
-   "label": "Ryzyko eskalacji wokół Iranu",
-   "note": "Groźba uderzeń USA i napięć w Zatoce Perskiej podnosi premię za ryzyko podażowe ropy.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Brace-for-a-New-Iran-Escalation-After-US-Midterms.html",
-   "brent": 0.035,
-   "fx": 0.005
-  },
-  {
-   "id": "opec_utrzymanie_kwot",
-   "label": "Brak zmian w limitach OPEC+",
-   "note": "Utrzymanie ograniczeń wydobycia podtrzymuje napięty bilans surowca na rynku globalnym.",
-   "confidence": "high",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Set-to-Keep-Oil-Quotas-Unchanged.html",
-   "brent": 0.015
-  },
-  {
-   "id": "wzrost_hurtu_on_polska",
-   "label": "Skok hurtowych cen diesla w Polsce",
-   "note": "Gwałtowna podwyżka cen diesla w krajowych rafineriach natychmiast podbija ceny dla stacji.",
+   "id": "pl_diesel_hurt_wzrost",
+   "label": "Skok cen diesla w polskim hurcie",
+   "note": "Wyraźny wzrost cen hurtowych ON w Polsce bezpośrednio przekłada się na podwyżki na stacjach.",
    "confidence": "high",
    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW9Ib1pTdGpoRzVMaXF6NXM1c0M5dDJNZzVBMlJTdS1Hd2NwWXBoSEJQWHNiOUtaa3hJVlNFU19Ubzc1Wk5sWFM4UTZDVUNBaUE3VXBBUUt1Smx2bF9ocVJ3WjBidzRSX0l1QWlnT1YtdzhHVG9hLVhBQzYxTy1GREtlS0lucUR0TzhSa1duTEM5NDdmTjZmWjY1T2RIQWVKRmdGMDdYTWVDNGs?oc=5",
    "pl": 0.025
   },
   {
-   "id": "diesel_rosnie_europa",
-   "label": "Wzrost cen diesla na zachód od Suezu",
-   "note": "Drożejący europejski diesel i rosnący crack spread przy jednoczesnym osłabieniu marż benzyn.",
+   "id": "iran_eskalacja_ryzyko",
+   "label": "Ryzyko eskalacji konfliktu z Iranem",
+   "note": "Oczekiwanie na zaostrzenie sankcji lub konflikt podbija premię geopolityczną za baryłkę ropy.",
    "confidence": "medium",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTktJQ0FzR21Bcmo4SjcxT2VCcWp3YU5CeWk1a2JZcUdxU215RlpsSXE3OF84LU1UX2lfbHdIR3daR09FTkwtUGc1WnpHcU5lb2thLWJUcmJOeXhWXzJWbDhBNldNbFpBc09QTHJnV2x3Ui1heFo3TmdNQndzTkItbUdqQzRrVDJRUVRVSXJQc3BmN3dLOW5rRV9rQU5VdDZUTFE?oc=5",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Brace-for-a-New-Iran-Escalation-After-US-Midterms.html",
+   "brent": 0.03,
+   "fx": 0.01
+  },
+  {
+   "id": "saudi_aramco_rabat_europ",
+   "label": "Rabaty Saudi Aramco dla Europy",
+   "note": "Tańsza ropa z Arabii Saudyjskiej zwiększa podaż w Europie i łagodzi presję na notowania Brent.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Offers-Discounted-Oil-to-Europe-as-Exports-Recover.html",
+   "brent": -0.02
+  },
+  {
+   "id": "diesel_kryzys_marze",
+   "label": "Długotrwały deficyt diesla",
+   "note": "Strukturalne braki podaży oleju napędowego windują marże rafineryjne crack na europejskim rynku.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/The-Diesel-Crisis-Is-Here-To-Stay.html",
+   "crack": 0.035
+  },
+  {
+   "id": "opec_kwoty_bez_zmian",
+   "label": "OPEC+ utrzymuje kwoty wydobycia",
+   "note": "Brak poluzowania wydobycia przez kartel cementuje ograniczoną podaż i stabilizuje ceny ropy.",
+   "confidence": "high",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Set-to-Keep-Oil-Quotas-Unchanged.html",
+   "brent": 0.015
+  },
+  {
+   "id": "rosja_eksport_ropy_spade",
+   "label": "Mniejszy eksport ropy z Rosji",
+   "note": "Wzrost przerobu w rosyjskich rafineriach ogranicza podaż surowca, lecz lekko chłodzi crack diesla.",
+   "confidence": "medium",
+   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Crude-Exports-Set-to-Fall-as-Diesel-Production-Rises.html",
    "brent": 0.015,
-   "crack": 0.03
+   "crack": -0.01
   },
   {
-   "id": "chiny_spadek_iran",
-   "label": "Spadek dostaw irańskiej ropy do Chin",
-   "note": "Kurczenie się taniego surowca z Iranu zmusza Chiny do szukania droższych alternatyw na rynku.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Energy/Crude-Oil/Beijing-Pushes-Domestic-Oil-Production-as-Iranian-Supply-Dries-Up.html",
-   "brent": 0.02
-  },
-  {
-   "id": "eksport_diesla_indie",
-   "label": "Wysoki eksport diesla z Indii",
-   "note": "Duża podaż indyjskiego oleju napędowego z rosyjskiej ropy łagodzi deficyt diesla na Zachodzie.",
-   "confidence": "medium",
-   "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Drives-Indias-Fuel-Export-Windfall-as-Earnings-Reach-126-Billion.html",
-   "crack": -0.02
-  },
-  {
-   "id": "usa_lagodzenie_regulacji",
-   "label": "Łagodzenie przepisów dla wydobycia w USA",
-   "note": "Zapowiedź ułatwień regulacyjnych w USA wywiera presję na długoterminowe ceny surowca.",
+   "id": "usa_deregulacja_metan",
+   "label": "Ułatwienia regulacyjne w USA",
+   "note": "Złagodzenie przepisów środowiskowych może obniżyć koszty i stymulować amerykańskie wydobycie.",
    "confidence": "low",
    "source_url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Moves-to-Ease-Methane-Regulations-for-US-Oil-Producers.html",
    "brent": -0.01
