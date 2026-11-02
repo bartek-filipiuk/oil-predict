@@ -1,6 +1,27 @@
 {
- "generated": "2026-11-01 23:09 UTC",
- "headlines": [],
+ "generated": "2026-11-02 13:29 UTC",
+ "headlines": [
+  {
+   "title": "Iraq's Oil Exports via Turkey Surge to 500,000 Bpd",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Exports-via-Turkey-Surge-to-500000-Bpd.html",
+   "published": "2026-11-02 04:00"
+  },
+  {
+   "title": "Goldman Sachs Raises December Brent Oil Price Forecast to $105",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Raises-Brent-Oil-Price-Forecast-to-105.html",
+   "published": "2026-11-02 03:00"
+  },
+  {
+   "title": "Oil Prices Slide 3% as Hopes for Iran Peace Deal Grow",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-3-as-Hopes-for-Iran-Peace-Deal-Grow.html",
+   "published": "2026-11-02 00:30"
+  },
+  {
+   "title": "Oil Prices No Longer Follow Headlines",
+   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-No-Longer-Follow-Headlines.html",
+   "published": "2026-11-01 18:00"
+  }
+ ],
  "source": "static",
  "model": null,
  "events": [
