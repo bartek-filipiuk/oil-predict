@@ -1,6 +1,11 @@
 {
- "generated": "2026-11-02 18:40 UTC",
+ "generated": "2026-11-02 20:50 UTC",
  "headlines": [
+  {
+   "title": "Sanctioned Iranian Tanker Slips Past U.S. Blockade, Delivers Cargo to China",
+   "url": "https://oilprice.com/Energy/Energy-General/Sanctioned-Iranian-Tanker-Slips-Past-US-Blockade-Delivers-Cargo-to-China.html",
+   "published": "2026-11-02 14:00"
+  },
   {
    "title": "Rare Iranian Strike On Vessel Hundreds Of Miles From Strait Of Hormuz",
    "url": "https://oilprice.com/Energy/Energy-General/Rare-Iranian-Strike-On-Vessel-Hundreds-Of-Miles-From-Strait-Of-Hormuz.html",
@@ -35,11 +40,6 @@
    "title": "Iraq's Oil Exports via Turkey Surge to 500,000 Bpd",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Exports-via-Turkey-Surge-to-500000-Bpd.html",
    "published": "2026-11-02 04:00"
-  },
-  {
-   "title": "Goldman Sachs Raises December Brent Oil Price Forecast to $105",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Raises-Brent-Oil-Price-Forecast-to-105.html",
-   "published": "2026-11-02 03:00"
   }
  ],
  "source": "static",
