@@ -1,6 +1,11 @@
 {
- "generated": "2026-11-02 20:50 UTC",
+ "generated": "2026-11-02 22:49 UTC",
  "headlines": [
+  {
+   "title": "Trump’s Trillion-Dollar Oil Play: A Trap For Big Oil?",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Trumps-Trillion-Dollar-Oil-Play-A-Trap-For-Big-Oil.html",
+   "published": "2026-11-02 15:00"
+  },
   {
    "title": "Sanctioned Iranian Tanker Slips Past U.S. Blockade, Delivers Cargo to China",
    "url": "https://oilprice.com/Energy/Energy-General/Sanctioned-Iranian-Tanker-Slips-Past-US-Blockade-Delivers-Cargo-to-China.html",
@@ -35,11 +40,6 @@
    "title": "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html",
    "published": "2026-11-02 08:30"
-  },
-  {
-   "title": "Iraq's Oil Exports via Turkey Surge to 500,000 Bpd",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Exports-via-Turkey-Surge-to-500000-Bpd.html",
-   "published": "2026-11-02 04:00"
   }
  ],
  "source": "static",
