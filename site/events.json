@@ -1,6 +1,11 @@
 {
- "generated": "2026-11-03 20:33 UTC",
+ "generated": "2026-11-03 22:26 UTC",
  "headlines": [
+  {
+   "title": "US Crude Oil Inventories Still in Freefall",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Still-in-Freefall.html",
+   "published": "2026-11-03 16:00"
+  },
   {
    "title": "Why Higher Oil Prices Aren't Solving Saudi Aramco's Biggest Problems",
    "url": "https://oilprice.com/Energy/Crude-Oil/Why-Higher-Oil-Prices-Arent-Solving-Saudi-Aramcos-Biggest-Problems.html",
@@ -35,11 +40,6 @@
    "title": "Indian Refiner BPCL Buys U.S. WTI Crude Oil Cargo",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Indian-Refiner-BPCL-Buys-US-WTI-Crude-Oil-Cargo.html",
    "published": "2026-11-03 07:30"
-  },
-  {
-   "title": "Saudi Aramco Profit Beats Expectations as Oil Prices Soar",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Profit-Beats-Expectations-as-Oil-Prices-Soar.html",
-   "published": "2026-11-03 03:45"
   }
  ],
  "source": "static",
