@@ -1,6 +1,26 @@
 {
- "generated": "2026-11-04 12:59 UTC",
+ "generated": "2026-11-04 16:28 UTC",
  "headlines": [
+  {
+   "title": "US Oil Inventories Fall Further As Demand Holds",
+   "url": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Inventories-Fall-Further-As-Demand-Holds.html",
+   "published": "2026-11-04 09:37"
+  },
+  {
+   "title": "Brent Falls to $100 as Traders Bet on a U.S.-Iran Deal",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Falls-to-100-as-Traders-Bet-on-a-US-Iran-Deal.html",
+   "published": "2026-11-04 09:30"
+  },
+  {
+   "title": "Democrats Win Texas Oil Regulator Seat for First Time Since 1990",
+   "url": "https://oilprice.com/Energy/Crude-Oil/Democrats-Win-Texas-Oil-Regulator-Seat-for-First-Time-Since-1990.html",
+   "published": "2026-11-04 08:00"
+  },
+  {
+   "title": "European Gas Prices Fall 2% as Traders Wait on Trump’s Next Move in Iran",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Fall-2-as-Traders-Wait-on-Trumps-Next-Move-in-Iran.html",
+   "published": "2026-11-04 07:30"
+  },
   {
    "title": "Nigeria's Oil and Gas Output Rises to 3.04 Million Boepd",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-and-Gas-Output-Rises-to-304-Million-Boepd.html",
@@ -25,21 +45,6 @@
    "title": "Global Diesel Crunch Set to Last Well Into 2027",
    "url": "https://oilprice.com/Energy/Crude-Oil/Global-Diesel-Crunch-Set-to-Last-Well-Into-2027.html",
    "published": "2026-11-03 18:00"
-  },
-  {
-   "title": "Big Oil Puts Debt Reduction Ahead of New Investments",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Puts-Debt-Reduction-Ahead-of-New-Investments.html",
-   "published": "2026-11-03 17:00"
-  },
-  {
-   "title": "US Crude Oil Inventories Still in Freefall",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Still-in-Freefall.html",
-   "published": "2026-11-03 16:00"
-  },
-  {
-   "title": "Why Higher Oil Prices Aren't Solving Saudi Aramco's Biggest Problems",
-   "url": "https://oilprice.com/Energy/Crude-Oil/Why-Higher-Oil-Prices-Arent-Solving-Saudi-Aramcos-Biggest-Problems.html",
-   "published": "2026-11-03 13:00"
   }
  ],
  "source": "static",
