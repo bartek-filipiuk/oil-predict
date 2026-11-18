@@ -5,7 +5,7 @@ COPY build.py .
 COPY site/ site/
 RUN python build.py
 
-FROM nginx:1.29-alpine
+FROM nginx:1.30.7-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /src/dist/index.html /src/dist/api.json /usr/share/nginx/html/
 EXPOSE 80
